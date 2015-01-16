@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms"
+	xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>ValidationTextFieldUsignNumberOfCharacter</h:title>
+		<model>
+			<instance>
+				<data apos="'">
+					<id>26_AAABQM5jirY</id>
+					<date_0 />
+					<enumerator_1 />
+					<des_version_2 />
+					<client_version_3 />
+					<v1_5 />
+					<v2_6 />
+				</data>
+			</instance>
+			<bind nodeset="/data/date_0" required="true()" type="date" />
+			<bind nodeset="/data/enumerator_1" required="true()" type="string" />
+			<bind nodeset="/data/des_version_2" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/client_version_3" readonly="true()"
+				required="true()" type="string" />
+			<bind constraint="string-length(.) &lt; 5" nodeset="/data/v1_5"
+				required="true()" type="string" />
+			<bind constraint="string-length(.) &gt; 4" nodeset="/data/v2_6"
+				required="true()" type="string" />
+		</model>
+	</h:head>
+	<h:body>
+		<group appearance="field-list">
+			<input ref="date_0">
+				<label>Date</label>
+			</input>
+			<input ref="enumerator_1">
+				<label>Enumerator ID</label>
+			</input>
+			<input ref="des_version_2">
+				<label>Designer version</label>
+			</input>
+			<input ref="client_version_3">
+				<label>Client version</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="v1_5">
+				<label>
+				</label>
+			</input>
+			<input ref="v2_6">
+				<label>
+				</label>
+			</input>
+		</group>
+	</h:body>
+</h:html>

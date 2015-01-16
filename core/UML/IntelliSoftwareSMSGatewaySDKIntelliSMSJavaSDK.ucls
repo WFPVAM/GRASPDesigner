@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="IntelliSoftware.SMSGateway.SDK.IntelliSMSJavaSDK.SendStatusCollection" 
+    project="core" file="/core/src/main/java/IntelliSoftware/SMSGateway/SDK/IntelliSMSJavaSDK/SendStatusCollection.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="233" x="757" y="-38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="IntelliSoftware.SMSGateway.SDK.IntelliSMSJavaSDK.ResultCodes" project="core" 
+    file="/core/src/main/java/IntelliSoftware/SMSGateway/SDK/IntelliSMSJavaSDK/ResultCodes.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="423" width="233" x="1030" y="407"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" name="IntelliSoftware.SMSGateway.SDK.IntelliSMSJavaSDK.IntelliSMS" project="core" 
+    file="/core/src/main/java/IntelliSoftware/SMSGateway/SDK/IntelliSMSJavaSDK/IntelliSMS.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="416" x="28" y="-38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="IntelliSoftware.SMSGateway.SDK.IntelliSMSJavaSDK.SendStatus" project="core" 
+    file="/core/src/main/java/IntelliSoftware/SMSGateway/SDK/IntelliSMSJavaSDK/SendStatus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="233" x="1030" y="-38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="IntelliSoftware.SMSGateway.SDK.IntelliSMSJavaSDK.MessageStatus" 
+    project="core" file="/core/src/main/java/IntelliSoftware/SMSGateway/SDK/IntelliSMSJavaSDK/MessageStatus.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="233" x="484" y="-38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="6" language="java" name="IntelliSoftware.SMSGateway.SDK.IntelliSMSJavaSDK.IntelliSMSException" 
+    project="core" file="/core/src/main/java/IntelliSoftware/SMSGateway/SDK/IntelliSMSJavaSDK/IntelliSMSException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="268" x="1303" y="-38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="8" name="resultCode"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="10">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="11" name="ResultCode"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="14" name="OverallResultCode"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="net.frontlinesms.ui.handler.help.ContributeDialog" project="core" 
+    file="/core/src/main/java/net/frontlinesms/ui/handler/help/ContributeDialog.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="351" width="226" x="101" y="-49"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="net.frontlinesms.ui.handler.help.AboutDialog" project="core" 
+    file="/core/src/main/java/net/frontlinesms/ui/handler/help/AboutDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="196" x="367" y="-49"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

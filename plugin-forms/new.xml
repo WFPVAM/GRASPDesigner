@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml"
+	xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jr="http://openrosa.org/javarosa">
+	<h:head>
+		<h:title>pezzo_pdm</h:title>
+		<model>
+			<instance>
+				<data apos="'">
+					<id>4_AAABQg9i9Ss</id>
+					<date_0 />
+					<enumerator_1 />
+					<des_version_2 />
+					<client_version_3 />
+					<numero_5 />
+					<number_7 />
+					<radio_8 />
+					<dropdown_9 />
+					<numero2_10 />
+				</data>
+			</instance>
+			<bind nodeset="/data/date_0" type="date" required="true()" />
+			<bind nodeset="/data/enumerator_1" type="string" required="true()" />
+			<bind nodeset="/data/des_version_2" type="string" required="true()"
+				readonly="true()" />
+			<bind nodeset="/data/client_version_3" type="string" required="true()"
+				readonly="true()" />
+			<bind nodeset="/data/numero_5" type="decimal" required="true()" />
+			<bind nodeset="/data/number_7" type="decimal" required="true()" />
+			<bind nodeset="/data/radio_8" type="select1" required="true()" />
+			<bind nodeset="/data/dropdown_9" type="select1" required="true()" />
+			<bind nodeset="/data/numero2_10" type="decimal" required="true()" />
+		</model>
+	</h:head>
+	<h:body>
+		<group appearance="field-list">
+			<input ref="date_0">
+				<label>Date</label>
+			</input>
+			<input ref="enumerator_1">
+				<label>Enumerator ID</label>
+			</input>
+			<input ref="des_version_2">
+				<label>Designer version</label>
+			</input>
+			<input ref="client_version_3">
+				<label>Client version</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="numero_5">
+				<label>numero 1° schermata</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="number_7">
+				<label>numero obbligatorio</label>
+			</input>
+			<select1 appearance="full" reflist="ditance.copy" ref="radio_8">
+				<label>radio obbligatoria</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Short</label>
+					<value>Short</value>
+				</item>
+				<item>
+					<label>Middle</label>
+					<value>Middle</value>
+				</item>
+				<item>
+					<label>Long</label>
+					<value>Long</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" reflist="waiting.copy" ref="dropdown_9">
+				<label>lista obbligatoria</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Less than 1 hour</label>
+					<value>Less than 1 hour</value>
+				</item>
+				<item>
+					<label>More than 1 hour</label>
+					<value>More than 1 hour</value>
+				</item>
+			</select1>
+			<input ref="numero2_10">
+				<label>numero 2 obbligatorio</label>
+			</input>
+		</group>
+	</h:body>
+</h:html>
+</group>
+<group appearance="field-list">
+	<input ref="telefono_12">
+		<label>Telefono</label>
+	</input>
+</group>
+</h:body>
+</h:html>

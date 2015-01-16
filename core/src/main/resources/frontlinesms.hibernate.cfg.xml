@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <mapping class="net.frontlinesms.data.domain.Contact"/>
+  <mapping class="net.frontlinesms.data.domain.Email"/>
+  <mapping class="net.frontlinesms.data.domain.EmailAccount"/>
+  <mapping class="net.frontlinesms.data.domain.Group"/>
+  <mapping class="net.frontlinesms.data.domain.GroupMembership"/>
+  <mapping class="net.frontlinesms.data.domain.Keyword"/>
+  <mapping class="net.frontlinesms.data.domain.KeywordAction"/>
+  <mapping class="net.frontlinesms.data.domain.FrontlineMessage"/>
+  <mapping class="net.frontlinesms.data.domain.FrontlineMultimediaMessage"/>
+  <mapping class="net.frontlinesms.data.domain.FrontlineMultimediaMessagePart"/>
+  <mapping class="net.frontlinesms.data.domain.SmsInternetServiceSettings"/>
+  <mapping class="net.frontlinesms.data.domain.SmsInternetServiceSettingValue"/>
+  <mapping class="net.frontlinesms.data.domain.SmsModemSettings"/>
+  <!-- Added by Fabaris_Raji -->
+<!--  <mapping class="net.frontlinesms.data.domain.User_Credential"/>
+  <mapping class="net.frontlinesms.data.domain.Roles"/>
+  <mapping class="net.frontlinesms.data.domain.DataTransfer"/>-->
+  <!-- Added by Fabaris_a.zanchi 
+  <mapping class="net.frontlinesms.plugins.forms.data.repository.hibernate.HibernateFormDao" />
+		<mapping class="net.frontlinesms.plugins.forms.data.repository.hibernate.HibernateFormResponseDao" /> -->
+ </session-factory>
+</hibernate-configuration>

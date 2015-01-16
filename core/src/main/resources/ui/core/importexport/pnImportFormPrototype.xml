@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  GRASP(Geo-referential Real-time Acquisition Statistics Platform) Designer Tool <http://www.fabaris.it>
+   Copyright © 2012 ,Fabaris s.r.l
+   This file is part of GRASP Designer Tool.  
+    GRASP Designer Tool is free software: you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or (at
+    your option) any later version.  
+    GRASP Designer Tool is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser  General Public License for more details.  
+    You should have received a copy of the GNU Lesser General Public License
+    along with GRASP Designer Tool. 
+    If not, see <http://www.gnu.org/licenses/-->    
+<!-- created by Fabaris_a.zanchi -->
+<dialog closable="true" close="removeDialog(this)" bottom="5" columns="1" font="bold" gap="5" icon="/icons/export.png" left="5"
+	modal="true" name="formImportDialog" right="5" text="i18n.message.importing.forms.prototype" top="5">
+
+	<panel bottom="3" gap="5" top="3">
+		<label text="i18n.common.filename" />
+		<textfield columns="45" name="tfFilename" weightx="1" action="filenameModified(this.text)" editable="false" />
+		<button action="showOpenModeFileChooser" icon="/icons/browse.png" text="i18n.action.browse" weightx="1" />
+	</panel>
+	<!-- Sezione contatti e ricerca contatti -->
+	<!--  <panel border="true" bottom="4" columns="2" gap="8" icon="/icons/user.png" left="4" name="pnContactsFormImport" right="5"
+		text="i18n.common.contacts" top="4" weightx="1" weighty="1"> 
+		<textfield action="setContactFilter(contactManager_contactFilter.text)" name="contactManager_contactFilter" tooltip="i18n.tooltip.search.here"
+			weightx="1" perform="filterContacts" />
+		<button icon="/icons/search.png" text="i18n.common.search" action="filterContacts" />-->
+
+		<!--<table name="formImport_contactList" weightx="1" weighty="1" colspan="2"> <header> <column icon="/icons/status.png" text="i18n.common.active" 
+			width="52" /> <column icon="/icons/user.png" text="i18n.common.name" width="150" /> <column icon="/icons/phone.png" text="i18n.common.phone.number" 
+			width="120" /> <column icon="/icons/email.png" text="i18n.common.email.address" width="120" /> </header> </table> -->
+		<!--  <list name="formImport_contactList" action="validateSelection"></list> -->
+	<!--  </panel>  -->
+	<!--  <panel left="5">
+ 		<label icon="/icons/about.png" text="i18n.importexport.messages.contact.required"/>
+	</panel> -->
+	<panel gap="5" halign="center">
+		<button type="default" action="doImport(tfFilename.text)" icon="/icons/import.png" text="i18n.common.import" name="btDoImport"
+			enabled="false" />
+		<button type="cancel" action="removeDialog(formImportDialog)" icon="/icons/cross.png" text="i18n.action.cancel" />
+	</panel>
+	
+</dialog>

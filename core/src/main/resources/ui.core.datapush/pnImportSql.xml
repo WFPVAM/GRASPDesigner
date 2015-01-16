@@ -1,0 +1,17 @@
+<!-- created by Fabaris_Raji -->
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog closable="true" close="removeDialog(this)" bottom="5" columns="1" font="bold" gap="5" icon="/icons/export.png" left="5"
+	modal="true" name="formImportDialog" right="5" text="i18n.message.importing.sql" top="5">
+
+	<panel bottom="3" gap="5" top="3">
+		<label text="i18n.common.filename" />
+		<textfield columns="45" name="tfFilename" weightx="1" action="filenameModified(this.text)" editable="false" />
+		<button action="showOpenModeFileChooser" icon="/icons/browse.png" text="i18n.action.browse" weightx="1" />
+	</panel>
+	<panel gap="5" halign="center">
+		<button type="default" action="doImport(tfFilename.text)" icon="/icons/import.png" text="i18n.common.import" name="btDoImport"
+			enabled="false" />
+		<button type="cancel" action="removeDialog(formImportDialog)" icon="/icons/cross.png" text="i18n.action.cancel" />
+	</panel>
+	
+</dialog>

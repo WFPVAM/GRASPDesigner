@@ -1,0 +1,14 @@
+# Operating system files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Maven temporary files
+target/
+
+# Eclipse Project files
+.classpath
+.project
+.settings/
+bin/

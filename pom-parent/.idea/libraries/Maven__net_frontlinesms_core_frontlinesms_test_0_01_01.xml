@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.frontlinesms.core:frontlinesms-test:0.01.01">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/frontlinesms/core/frontlinesms-test/0.01.01/frontlinesms-test-0.01.01.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/frontlinesms/core/frontlinesms-test/0.01.01/frontlinesms-test-0.01.01-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/frontlinesms/core/frontlinesms-test/0.01.01/frontlinesms-test-0.01.01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

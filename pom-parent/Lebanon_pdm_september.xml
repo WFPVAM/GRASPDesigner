@@ -1,0 +1,4010 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms"
+	xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>lebanon_pdm_september</h:title>
+		<model>
+			<instance>
+				<data apos="'">
+					<id>10_AAABQQbkEhQ</id>
+					<data_0 />
+					<enumerator_1 />
+					<des_version_2 />
+					<client_version_3 />
+					<q1_5>1. GENERAL INFORMATION</q1_5>
+					<q11_6 />
+					<q12_7 />
+					<q13_8 />
+					<q14_9 />
+					<q15_10 />
+					<q16_11 />
+					<q17_12 />
+					<q18_13 />
+					<Definitions_15> Definitions: • A household is defined as a group
+						of people who routinely eat out of same pot and live on the same
+						compound (or physical location). It is possible that they may live
+						in different structures. Sharing the pot is the unifying factor
+						for households. • Definition of HH head: is member of the family
+						who manages the family resources and decisions (He/she is the
+						final decision maker on most of the decision related to income
+						allocation and major family activities).</Definitions_15>
+					<q2_16>2. INFORMATION ON THE HOUSEHOLD</q2_16>
+					<q21_17 />
+					<q21other_18 />
+					<q22_19 />
+					<q22other_20 />
+					<q231_21 />
+					<q232_22 />
+					<q24_23 />
+					<q25_24 />
+					<q261_25 />
+					<q262_26 />
+					<q27_28>When did the members of your HH arrive from Syria? (number
+						of months)</q27_28>
+					<q271_29 />
+					<q272_30 />
+					<q281_31 />
+					<q282_33 />
+					<q283_34 />
+					<q284_35 />
+					<q285_36 />
+					<q286_37 />
+					<q29_38 />
+					<q3_40> 3. FOOD CONSUPTION AND FOOD SOURCES</q3_40>
+					<q31_41 />
+					<text_42>Consider only meals consumed at home or in public kitchen
+						but not in private restautrants or street food. DO NOT count food
+						consumed in very small amounts; ie less than a teaspoon per person
+						or consumed by only one member of HH (list below to be adjusted to
+						context)</text_42>
+					<q32_43>CONSUMPTION PATTERN Over the last 7 days, how many days
+						did you consume the following foods? ( 0 = Not eaten, 1 = 1 day, 2
+						= 2 days, 3 = 3 days, 4 = 4 days, 5 = 5 days, 6 = 6 days, 7 =
+						Everyday</q32_43>
+					<q321_44 />
+					<q322_45 />
+					<q323_46 />
+					<q324_47 />
+					<q325_48 />
+					<q326_49 />
+					<q327_50 />
+					<q328_51 />
+					<q329_52 />
+					<q3210_53 />
+					<q3211_54 />
+					<q3212_55 />
+					<q33_57>FOOD SOURCES What was the main source of the food in the
+						past 7 days? (0= Not consumed, 1 = Own production, 2 = Bought with
+						cash, 3 = Bought on credit, 4 = Exchanged/borrowed, 5 = Received
+						as gift, 6 =WFP food assistance, 7 = Non WFP official food
+						assistance, 8= Hunting/gathering/fishing)</q33_57>
+					<q331_58 />
+					<q332_59 />
+					<q333_60 />
+					<q334_61 />
+					<q335_62 />
+					<q336_63 />
+					<q337_64 />
+					<q338_65 />
+					<q339_66 />
+					<q3310_67 />
+					<q3311_68 />
+					<q3312_69 />
+					<q4_71>4. HOUSEHOLD COPING STRATEGIES</q4_71>
+					<q41_72>During the last 7 days, how many times (in days) did your
+						household had to employ one of the following strategies to cope
+						with a lack of food or money to buy it? 0 = Not applied, 1 = 1
+						day, 2 = 2 days, 3 = 3 days, 4 = 4 days, 5 = 5 days, 6 = 6 days, 7
+						= Everyday</q41_72>
+					<q411_73 />
+					<q412_74 />
+					<q413_75 />
+					<q414_76 />
+					<q415_77 />
+					<q416_78 />
+					<q42_80>In the past 30 days, has your household applied any of the
+						below strategies to meet basic food needs? 0 = No, 1 = Yes, 2 =
+						No, because I have exhausted this strategy already and cannot do
+						it anymore</q42_80>
+					<q421_81 />
+					<q422_82 />
+					<q423_83 />
+					<q424_84 />
+					<q425_85 />
+					<q426_86 />
+					<q5_88> 5. INCOME AND MAIN NEEDS</q5_88>
+					<q51_89>For the past month, what are the 3 main sources of
+						cash/income to sustain your household? (Use the codes below)
+					</q51_89>
+					<q511_90 />
+					<q511other_91 />
+					<q512_92 />
+					<q512other_93 />
+					<q513_94 />
+					<q513other_95 />
+					<q52_97>What are the Household's 3 main needs at this moment; in
+						order of importance (Use the codes below)</q52_97>
+					<q521_98 />
+					<q521other_99 />
+					<q522_100 />
+					<q522other_101 />
+					<q523_102 />
+					<q523other_103 />
+					<q6_105>6. WFP ASSISTANCE: ENTITLEMENT &amp; PROBLEMS</q6_105>
+					<q61_106 />
+					<q62_108>Is the food e-voucher programme and its key components
+						clearly understood by the HH?; (Yes = 1, No = 0)</q62_108>
+					<q621_109 />
+					<q622_110 />
+					
+					
+					<q623_111 />
+					<q624_112 />
+					<q625_113 />
+					<q626_114 />
+					<q63_116 />
+					<q64_117 />
+					<q65_118 />
+					<q66_120>Have you heard of any of the following problems
+						concerning WFP assistance over this past cycle?</q66_120>
+					<q661_121 />
+					<q662_122 />
+					<q663_123 />
+					<q664_124 />
+					<q665_125 />
+					<q666_126 />
+					<q666other_127 />
+					<q67_128 />
+					<q67bis_129 />
+					<q68_130>If you exchanged/sold their food/voucher, which needs did
+						they need to cover: 3 main needs in order of importance (Use the
+						codes below)</q68_130>
+					<q681_131 />
+					<q682_132 />
+					<q683_133 />
+					<q69_134 />
+					<q610_135 />
+					<q7_137>7. WFP DISTRIBUTION &amp; REDEEMING PROCESS</q7_137>
+					<q71_138 />
+					<q72_139 />
+					<q73bis_140 />
+					<q74_141 />
+					<q75_142 />
+					<q76_143>Why do you go to this shop? (answer Yes = 1, No = 0 to
+						the following options)</q76_143>
+					<q761_144 />
+					<q762_145 />
+					<q763_146 />
+					<q764_147 />
+					<q765_148 />
+					<q766_149 />
+					<q766other_150 />
+					<q77_152>Did you face any of the following problems while
+						redeeming the e-vouchers in the shop? (Yes = 1, No = 0)</q77_152>
+					<q771_153 />
+					<q772_154 />
+					<q773_155 />
+					<q774_156 />
+					<q775_157 />
+					<q776_158 />
+					<q777_159 />
+					<q778_160 />
+					<q779_161 />
+					<q7710_162 />
+					<q78_163 />
+					<q78other_164 />
+					<q8_166>8. E-VOUCHER USE &amp; PREFERENCE</q8_166>
+					<q81_167 />
+					<q82_168>What type of foods did you exchange most of your
+						e-voucher for (list 3 most important food groups in order of
+						quantity exchanged)</q82_168>
+					<q821_169 />
+					<q822_170 />
+					<q823_171 />
+					<q83_173 />
+					<q84_174 />
+					<q85_175 />
+					<q85other_176 />
+					<q86_177 />
+					<q87_178 />
+					<q871_179 />
+					<q88_180 />
+					<q89_181 />
+					<q9_183>9. NUTRITION</q9_183>
+					<q91_184 />
+					<q921_185>Child 1</q921_185>
+					<q9211_186 />
+					<q9212_187 />
+					<q9213_188 />
+					<q9214_189 />
+					<q9215_190 />
+					<q9216_191 />
+					<q922_193>Child 2</q922_193>
+					<q9221_194 />
+					<q9222_195 />
+					<q9223_196 />
+					<q9224_197 />
+					<q9225_198 />
+					<q9226_199 />
+					<q923_201>Child 3</q923_201>
+					<q9231_202 />
+					<q9232_203 />
+					<q9233_204 />
+					<q9234_205 />
+					<q9235_206 />
+					<q9236_207 />
+					<q924_209>Child 4</q924_209>
+					<q9241_210 />
+					<q9242_211 />
+					<q9243_212 />
+					<q9244_213 />
+					<q9245_214 />
+					<q9246_215 />
+					<q925_217>Child 5</q925_217>
+					<q9251_218 />
+					<q9252_219 />
+					<q9253_220 />
+					<q9254_221 />
+					<q9255_222 />
+					<q9256_224 />
+					<q93_225>Yesterday, during the day or night, did the child eat or
+						drink any of the following food items? (Yes = 1, No = 0)
+					</q93_225>
+					<q931_226>Child 1</q931_226>
+					<q9311_227 />
+					<q9312_228 />
+					<q9313_229 />
+					<q9314_230 />
+					<q9315_231 />
+					<q9316_232 />
+					<q9317_233 />
+					<q932_235>Child 2</q932_235>
+					<q9321_236 />
+					<q9322_237 />
+					<q9323_238 />
+					<q9324_239 />
+					<q9325_240 />
+					<q9326_241 />
+					<q9327_242 />
+					<children3_244 />
+					<q933_245>Child 3</q933_245>
+					<q9331_246 />
+					<q9332_247 />
+					<q9333_248 />
+					<q9334_249 />
+					<q9335_250 />
+					<q9336_251 />
+					<q9337_252 />
+					<child4_254 />
+					<q934_255>Child 4</q934_255>
+					<q9341_256 />
+					<q9342_257 />
+					<q9343_258 />
+					<q9344_259 />
+					<q9345_260 />
+					<q9346_261 />
+					<q9347_262 />
+					<child5_264 />
+					<q935_265>Child 5</q935_265>
+					<q9351_266 />
+					<q9352_267 />
+					<q9353_268 />
+					<q9354_269 />
+					<q9355_270 />
+					<q9356_271 />
+					<q9357_272 />
+					<q10_274>10. QUALITATIVE, EXPLANATORY &amp; CONTEXTUAL COMMENTS
+					</q10_274>
+					<q101_275 />
+					<q1021_276 />
+					<q1022_277 />
+				</data>
+			</instance>
+			<bind nodeset="/data/data_0" required="true()" type="date" />
+			<bind nodeset="/data/enumerator_1" required="true()" type="string" />
+			<bind nodeset="/data/des_version_2" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/client_version_3" readonly="true()"
+				required="true()" type="string" />
+			<bind nodeset="/data/q1_5" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q11_6" required="true()" type="string" />
+			<bind nodeset="/data/q12_7" type="date" />
+			<bind nodeset="/data/q13_8" required="true()" type="decimal" />
+			<bind nodeset="/data/q14_9" type="string" />
+			<bind nodeset="/data/q15_10" type="string" />
+			<bind nodeset="/data/q16_11" type="string" />
+			<bind nodeset="/data/q17_12" type="string" />
+			<bind nodeset="/data/q18_13" required="true()" type="select1" />
+			<bind nodeset="/data/Definitions_15" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q2_16" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q21_17" type="select1" />
+			<bind nodeset="/data/q21other_18" relevant="  /data/q21_17 = 'Other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q22_19" type="select1" />
+			<bind nodeset="/data/q22other_20" relevant="  /data/q22_19 = 'other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q231_21" required="true()" type="string" />
+			<bind nodeset="/data/q232_22" type="string" />
+			<bind nodeset="/data/q24_23" required="true()" type="select1" />
+			<bind constraint=". &gt;= 16 and . &lt;= 100" nodeset="/data/q25_24"
+				type="decimal" />
+			<bind nodeset="/data/q261_25" required="true()" type="select1" />
+			<bind nodeset="/data/q262_26" required="true()" type="select1" />
+			<bind nodeset="/data/q27_28" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q271_29" required="true()" type="decimal" />
+			<bind nodeset="/data/q272_30" required="true()" type="decimal" />
+			<bind nodeset="/data/q281_31" required="true()" type="decimal" />
+			<bind nodeset="/data/q282_33" required="true()" type="decimal" />
+			<bind nodeset="/data/q283_34" required="true()" type="decimal" />
+			<bind nodeset="/data/q284_35" required="true()" type="decimal" />
+			<bind nodeset="/data/q285_36" required="true()" type="decimal" />
+			<bind nodeset="/data/q286_37" required="true()" type="decimal" />
+			<bind nodeset="/data/q29_38" required="true()" type="decimal" />
+			<bind nodeset="/data/q3_40" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q31_41" required="true()" type="decimal" />
+			<bind nodeset="/data/text_42" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q32_43" readonly="true()" required="true()"
+				type="string" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q321_44"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q322_45"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q323_46"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q324_47"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q325_48"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q326_49" required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q327_50"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q328_51"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q329_52"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q3210_53"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q3211_54"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q3212_55"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q33_57" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q331_58" required="true()" type="select1" />
+			<bind nodeset="/data/q332_59" required="true()" type="select1" />
+			<bind nodeset="/data/q333_60" required="true()" type="select1" />
+			<bind nodeset="/data/q334_61" required="true()" type="select1" />
+			<bind nodeset="/data/q335_62" required="true()" type="select1" />
+			<bind nodeset="/data/q336_63" required="true()" type="select1" />
+			<bind nodeset="/data/q337_64" required="true()" type="select1" />
+			<bind nodeset="/data/q338_65" required="true()" type="select1" />
+			<bind nodeset="/data/q339_66" required="true()" type="select1" />
+			<bind nodeset="/data/q3310_67" required="true()" type="select1" />
+			<bind nodeset="/data/q3311_68" required="true()" type="select1" />
+			<bind nodeset="/data/q3312_69" required="true()" type="select1" />
+			<bind nodeset="/data/q4_71" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q41_72" readonly="true()" required="true()"
+				type="string" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q411_73"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q412_74"
+				required="true()" type="decimal" />
+			<bind constraint=". &lt;= 7 and . &gt;= 0" nodeset="/data/q413_75"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q414_76"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q415_77"
+				required="true()" type="decimal" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/q416_78"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q42_80" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q421_81" required="true()" type="select1" />
+			<bind nodeset="/data/q422_82" required="true()" type="select1" />
+			<bind nodeset="/data/q423_83" required="true()" type="select1" />
+			<bind nodeset="/data/q424_84" required="true()" type="select1" />
+			<bind nodeset="/data/q425_85" required="true()" type="select1" />
+			<bind nodeset="/data/q426_86" required="true()" type="select1" />
+			<bind nodeset="/data/q5_88" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q51_89" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q511_90" required="true()" type="select1" />
+			<bind nodeset="/data/q511other_91" relevant="  /data/q511_90 = 'Other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q512_92" required="true()" type="select1" />
+			<bind nodeset="/data/q512other_93" relevant="  /data/q512_92 = 'Other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q513_94" required="true()" type="select1" />
+			<bind nodeset="/data/q513other_95" relevant="  /data/q513_94 = 'Other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q52_97" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q521_98" required="true()" type="select1" />
+			<bind nodeset="/data/q521other_99" relevant="  /data/q521_98 = 'Other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q522_100" required="true()" type="select1" />
+			<bind nodeset="/data/q522other_101" relevant="  /data/q522_100 = 'Other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q523_102" required="true()" type="select1" />
+			<bind nodeset="/data/q523other_103" relevant="  /data/q523_102 = 'Other'"
+				required="true()" type="string" />
+			<bind nodeset="/data/q6_105" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q61_106" type="decimal" />
+			<bind nodeset="/data/q62_108" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q621_109" required="true()" type="select1" />
+			<bind nodeset="/data/q622_110" required="true()" type="select1" />
+			<bind nodeset="/data/q623_111" required="true()" type="select1" />
+			<bind nodeset="/data/q624_112" required="true()" type="select1" />
+			<bind nodeset="/data/q625_113" required="true()" type="select1" />
+			<bind nodeset="/data/q626_114" required="true()" type="select1" />
+			<bind nodeset="/data/q63_116" required="true()" type="decimal" />
+			<bind nodeset="/data/q64_117" required="true()" type="decimal" />
+			<bind nodeset="/data/q65_118" required="true()" type="decimal" />
+			<bind nodeset="/data/q66_120" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q661_121" required="true()" type="select1" />
+			<bind nodeset="/data/q662_122" required="true()" type="select1" />
+			<bind nodeset="/data/q663_123" required="true()" type="select1" />
+			<bind nodeset="/data/q664_124" required="true()" type="select1" />
+			<bind nodeset="/data/q665_125" required="true()" type="select1" />
+			<bind nodeset="/data/q666_126" required="true()" type="select1" />
+			<bind nodeset="/data/q666other_127" readonly="false()"
+				relevant="  /data/q666_126 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q67_128" required="true()" type="string" />
+			<bind nodeset="/data/q67bis_129" required="true()" type="select1" />
+			<bind nodeset="/data/q68_130" readonly="true()"
+				relevant="  /data/q67bis_129 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q681_131" required="true()" type="select1" />
+			<bind nodeset="/data/q682_132" required="true()" type="select1" />
+			<bind nodeset="/data/q683_133" required="true()" type="select1" />
+			<bind constraint=". &lt;= 100 and . &gt;= 1" nodeset="/data/q69_134"
+				relevant="  /data/q67bis_129 = 'Yes'" required="true()" type="decimal" />
+			<bind constraint=". &gt;= 1 and . &lt;= 10" nodeset="/data/q610_135"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q7_137" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q71_138" required="true()" type="decimal" />
+			<bind nodeset="/data/q72_139" required="true()" type="decimal" />
+			<bind nodeset="/data/q73bis_140" required="true()" type="string" />
+			<bind nodeset="/data/q74_141" required="true()" type="decimal" />
+			<bind nodeset="/data/q75_142" required="true()" type="decimal" />
+			<bind nodeset="/data/q76_143" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q761_144" type="select" />
+			<bind nodeset="/data/q762_145" required="true()" type="select1" />
+			<bind nodeset="/data/q763_146" required="true()" type="select1" />
+			<bind nodeset="/data/q764_147" required="true()" type="select1" />
+			<bind nodeset="/data/q765_148" required="true()" type="select1" />
+			<bind nodeset="/data/q766_149" required="true()" type="select1" />
+			<bind nodeset="/data/q766other_150" readonly="false()"
+				relevant="  /data/q766_149 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q77_152" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q771_153" required="true()" type="select1" />
+			<bind nodeset="/data/q772_154" required="true()" type="select1" />
+			<bind nodeset="/data/q773_155" required="true()" type="select1" />
+			<bind nodeset="/data/q774_156" required="true()" type="select1" />
+			<bind nodeset="/data/q775_157" required="true()" type="select1" />
+			<bind nodeset="/data/q776_158" required="true()" type="select1" />
+			<bind nodeset="/data/q777_159" required="true()" type="select1" />
+			<bind nodeset="/data/q778_160" required="true()" type="select1" />
+			<bind nodeset="/data/q779_161" required="true()" type="select1" />
+			<bind nodeset="/data/q7710_162" required="true()" type="select1" />
+			<bind nodeset="/data/q78_163" relevant="  /data/q779_161 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q78other_164" readonly="false()"
+				relevant="  /data/q779_161 = 'Yes' and /data/q78_163 = 6"
+				required="true()" type="string" />
+			<bind nodeset="/data/q8_166" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q81_167" required="true()" type="decimal" />
+			<bind nodeset="/data/q82_168" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q821_169" required="true()" type="select1" />
+			<bind nodeset="/data/q822_170" required="true()" type="select1" />
+			<bind nodeset="/data/q823_171" required="true()" type="select1" />
+			<bind constraint=". &lt;= 4 and . &gt;= 1" nodeset="/data/q83_173"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q84_174" required="true()" type="select1" />
+			<bind nodeset="/data/q85_175" relevant="  /data/q84_174 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q85other_176" relevant="  /data/q85_175 = 5 and /data/q84_174 = 'Yes'"
+				required="true()" type="string" />
+			<bind constraint=". &lt;= 100" nodeset="/data/q86_177"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q87_178" required="true()" type="decimal" />
+			<bind nodeset="/data/q871_179" required="true()" type="select1" />
+			<bind constraint=". &gt;= 1 and . &lt;= 4" nodeset="/data/q88_180"
+				relevant="  /data/q871_179 = 'No'" required="true()" type="decimal" />
+			<bind constraint=". &lt;= 4 and . &gt;= 0" nodeset="/data/q89_181"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9_183" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q91_184" required="true()" type="select1" />
+			<bind nodeset="/data/q921_185" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9211_186" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9212_187" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9213_188" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9214_189" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9215_190" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9216_191" required="true()" type="select1" />
+			<bind nodeset="/data/q922_193" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9221_194" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9222_195" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9223_196" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9224_197" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9225_198" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9226_199" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q923_201" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9231_202" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9232_203" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9233_204" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9234_205" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9235_206" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9236_207" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q924_209" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9241_210" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9242_211" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9243_212" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9244_213" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9245_214" relevant="  /data/q84_174 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9246_215" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q925_217" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9251_218" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9252_219" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9253_220" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9254_221" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9255_222" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q9256_224" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/q93_225" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q931_226" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9311_227" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9312_228" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9313_229" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9314_230" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9315_231" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9316_232" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9317_233" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q932_235" readonly="true()"
+				relevant="  /data/q91_184 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9321_236" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9322_237" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9323_238" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9324_239" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9325_240" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9326_241" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9327_242" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/children3_244" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q933_245" readonly="true()"
+				relevant="  /data/children3_244 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9331_246" relevant="  /data/children3_244 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9332_247" relevant="  /data/children3_244 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9333_248" relevant="  /data/children3_244 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9334_249" relevant="  /data/children3_244 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9335_250" relevant="  /data/children3_244 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9336_251" relevant="  /data/children3_244 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9337_252" relevant="  /data/children3_244 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/child4_254" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q934_255" readonly="true()"
+				relevant="  /data/child4_254 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9341_256" relevant="  /data/child4_254 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9342_257" relevant="  /data/child4_254 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9343_258" relevant="  /data/child4_254 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9344_259" relevant="  /data/child4_254 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9345_260" relevant="  /data/child4_254 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9346_261" relevant="  /data/child4_254 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9347_262" relevant="  /data/child4_254 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/child5_264" relevant="  /data/q91_184 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q935_265" readonly="true()"
+				relevant="  /data/child5_264 = 'Yes'" required="true()" type="string" />
+			<bind nodeset="/data/q9351_266" relevant="  /data/child5_264 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9352_267" relevant="  /data/child5_264 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9353_268" relevant="  /data/child5_264 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9354_269" relevant="  /data/child5_264 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9355_270" relevant="  /data/child5_264 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9356_271" relevant="  /data/child5_264 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q9357_272" relevant="  /data/child5_264 = 'Yes'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/q10_274" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/q101_275" readonly="false()" type="string" />
+			<bind nodeset="/data/q1021_276" required="true()" type="select1" />
+			<bind constraint="regex(.,'^(\+?[0-9]+)$')" jr:constraintMsg="this isn't a valid phonenumber "
+				jr:preload="property" jr:preloadParams="phonenumber" nodeset="/data/q1022_277"
+				relevant="  /data/q1021_276 = 'Yes'" type="string" />
+		</model>
+	</h:head>
+	<h:body>
+		<group appearance="field-list">
+			<input ref="data_0">
+				<label>Data</label>
+			</input>
+			<input ref="enumerator_1">
+				<label>Enumerator ID</label>
+			</input>
+			<input ref="des_version_2">
+				<label>Designer version</label>
+			</input>
+			<input ref="client_version_3">
+				<label>Client version</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q1_5" type="label">
+				<label />
+			</input>
+			<input ref="q11_6">
+				<label>Name of interviewer</label>
+			</input>
+			<input ref="q12_7">
+				<label>Date</label>
+			</input>
+			<input ref="q13_8">
+				<label>Questionnaire Number</label>
+			</input>
+			<input ref="q14_9">
+				<label>Region/District</label>
+			</input>
+			<input ref="q15_10">
+				<label>Municipality</label>
+			</input>
+			<input ref="q16_11">
+				<label>Town/Village/Camp</label>
+			</input>
+			<input ref="q17_12">
+				<label>Name of implementing Partner</label>
+			</input>
+			<select1 appearance="full" ref="q18_13" reflist="urban/rural/na">
+				<label> Please select one option:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Urban</label>
+					<value>Urban</value>
+				</item>
+				<item>
+					<label>Rural</label>
+					<value>Rural</value>
+				</item>
+				<item>
+					<label>NA</label>
+					<value>NA</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="Definitions_15" type="multi-label">
+				<label />
+			</input>
+			<input ref="q2_16" type="label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="q21_17" reflist="type of resident">
+				<label>Type of residence of HH in host country</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Host</label>
+					<value>Host</value>
+				</item>
+				<item>
+					<label>Rent</label>
+					<value>Rent</value>
+				</item>
+				<item>
+					<label>Collective shelter</label>
+					<value>Collective shelter</value>
+				</item>
+				<item>
+					<label>Unofficial camp</label>
+					<value>Unofficial camp</value>
+				</item>
+				<item>
+					<label>Tented settlements</label>
+					<value>Tented settlements</value>
+				</item>
+				<item>
+					<label>Transit centre</label>
+					<value>Transit centre</value>
+				</item>
+				<item>
+					<label>Owned</label>
+					<value>Owned</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q21other_18">
+				<label>other,please specify</label>
+			</input>
+			<select1 appearance="minimal" ref="q22_19" reflist="Type of assistance">
+				<label>Type of WFP assistance that the HH currently benefits from
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>in-kind food</label>
+					<value>in-kind food</value>
+				</item>
+				<item>
+					<label>paper voucher</label>
+					<value>paper voucher</value>
+				</item>
+				<item>
+					<label>electronic food card</label>
+					<value>electronic food card</value>
+				</item>
+				<item>
+					<label>cash</label>
+					<value>cash</value>
+				</item>
+				<item>
+					<label>other</label>
+					<value>other</value>
+				</item>
+			</select1>
+			<input ref="q22other_20">
+				<label>Other: please specify</label>
+			</input>
+			<input ref="q231_21">
+				<label>Name of Respondant </label>
+			</input>
+			<input ref="q232_22">
+				<label> Household UNHCR number (if registered)</label>
+			</input>
+			<select1 appearance="full" ref="q24_23" reflist="sex">
+				<label>What is the sex of the interviewee?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Male</label>
+					<value>Male</value>
+				</item>
+				<item>
+					<label>Female</label>
+					<value>Female</value>
+				</item>
+			</select1>
+			<input ref="q25_24">
+				<label>What is the age of the interviewee? (in years)</label>
+			</input>
+			<select1 appearance="minimal" ref="q261_25" reflist="martial status">
+				<label>What is the marital status and gender of the registered
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Single</label>
+					<value>Single</value>
+				</item>
+				<item>
+					<label>Married</label>
+					<value>Married</value>
+				</item>
+				<item>
+					<label>Divorced/Seperated</label>
+					<value>Divorced/Seperated</value>
+				</item>
+				<item>
+					<label>Widowed</label>
+					<value>Widowed</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q262_26" reflist="sex">
+				<label>What is the gender of the registered head of household of the
+					respondant? </label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Male</label>
+					<value>Male</value>
+				</item>
+				<item>
+					<label>Female</label>
+					<value>Female</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q27_28" type="label">
+				<label />
+			</input>
+			<input ref="q271_29">
+				<label>First Arrival</label>
+			</input>
+			<input ref="q272_30">
+				<label>Last Arrival</label>
+			</input>
+			<input ref="q281_31">
+				<label>What is the size your HH? (WFP HH definition)</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q282_33">
+				<label>How many members of your HH are female?</label>
+			</input>
+			<input ref="q283_34">
+				<label>How many under 5 year olds are there in the HH?</label>
+			</input>
+			<input ref="q284_35">
+				<label>How many members of your HH are over 60 years old?</label>
+			</input>
+			<input ref="q285_36">
+				<label>How many school age children are in the HH (6 to 15 years
+					old)</label>
+			</input>
+			<input ref="q286_37">
+				<label>How many of these school age children go to school?</label>
+			</input>
+			<input ref="q29_38">
+				<label>How many of the 16 to 60 year olds in the HH are economically
+					dependant? (people with disabilities, chronically ill, temporary
+					functional limitation, etc..)</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q3_40" type="label">
+				<label />
+			</input>
+			<input ref="q31_41">
+				<label>Yesterday, how many meals were eaten by your family? (meals
+					comparable to breakfast lunch, dinner)</label>
+			</input>
+			<input ref="text_42" type="multi-label">
+				<label />
+			</input>
+			<input ref="q32_43" type="multi-label">
+				<label />
+			</input>
+			<input ref="q321_44">
+				<label>CEREALS (bread, pasta, wheat flour, bulghur)</label>
+			</input>
+			<input ref="q322_45">
+				<label>WHITE TUBERS AND ROOTS (potato, sweet patato)</label>
+			</input>
+			<input ref="q323_46">
+				<label>VEGETABLES, YELLOW TUBERS, LEAVES</label>
+			</input>
+			<input ref="q324_47">
+				<label>FRUITS</label>
+			</input>
+			<input ref="q325_48">
+				<label>MEAT (organ and flesh meat - Includes chicken)</label>
+			</input>
+			<input ref="q326_49">
+				<label>EGGS</label>
+			</input>
+			<input ref="q327_50">
+				<label>FISH AND OTHER SEAFOOD</label>
+			</input>
+			<input ref="q328_51">
+				<label>PULSES, NUTS AND SEEDS (beans, chickpeas, etc)</label>
+			</input>
+			<input ref="q329_52">
+				<label>MILK AND DAIRY PRODUCTS</label>
+			</input>
+			<input ref="q3210_53">
+				<label>OIL AND FATS</label>
+			</input>
+			<input ref="q3211_54">
+				<label>SWEETS (Sugar, honey, jam, cakes, candy, etc)</label>
+			</input>
+			<input ref="q3212_55">
+				<label>SPICES AND CONDIMENTS</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q33_57" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="q331_58" reflist="foodsources">
+				<label>CEREALS (bread, pasta, wheat flour, bulghur)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q332_59" reflist="foodsources">
+				<label>WHITE TUBERS AND ROOTS (potato, sweet patato)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q333_60" reflist="foodsources">
+				<label>VEGETABLES, YELLOW TUBERS, LEAVES</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q334_61" reflist="foodsources">
+				<label>FRUITS</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q335_62" reflist="foodsources">
+				<label>MEAT (organ and flesh meat - Includes chicken)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q336_63" reflist="foodsources">
+				<label>EGGS</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q337_64" reflist="foodsources">
+				<label>FISH AND OTHER SEAFOOD</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q338_65" reflist="foodsources">
+				<label>PULSES, NUTS AND SEEDS (beans, chickpeas, etc)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q339_66" reflist="foodsources">
+				<label>MILK AND DAIRY PRODUCTS</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q3310_67" reflist="foodsources">
+				<label>OIL AND FATS</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q3311_68" reflist="foodsources">
+				<label>SWEETS (Sugar, honey, jam, cakes, candy, etc)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q3312_69" reflist="foodsources">
+				<label>SPICES AND CONDIMENTS</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0= Not consumed</label>
+					<value>0= Not consumed</value>
+				</item>
+				<item>
+					<label>1 = Own production</label>
+					<value>1 = Own production</value>
+				</item>
+				<item>
+					<label>2 = Bought with cash</label>
+					<value>2 = Bought with cash</value>
+				</item>
+				<item>
+					<label>3 = Bought on credit</label>
+					<value>3 = Bought on credit</value>
+				</item>
+				<item>
+					<label>4 = Exchanged/borrowed</label>
+					<value>4 = Exchanged/borrowed</value>
+				</item>
+				<item>
+					<label>5 = Received as gift</label>
+					<value>5 = Received as gift</value>
+				</item>
+				<item>
+					<label>6 =WFP food assistance</label>
+					<value>6 =WFP food assistance</value>
+				</item>
+				<item>
+					<label>7 = Non WFP official food assistance</label>
+					<value>7 = Non WFP official food assistance</value>
+				</item>
+				<item>
+					<label>8= Hunting/gathering/fishing</label>
+					<value>8= Hunting/gathering/fishing</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q4_71" type="label">
+				<label />
+			</input>
+			<input ref="q41_72" type="multi-label">
+				<label />
+			</input>
+			<input ref="q411_73">
+				<label>Rely on less preferred and less expensive food (ie cheaper
+					lower quality food)</label>
+			</input>
+			<input ref="q412_74">
+				<label>Borrow food or relied on help from relative(s) or friend(s)
+				</label>
+			</input>
+			<input ref="q413_75">
+				<label>Reduce number of meals eaten in a day</label>
+			</input>
+			<input ref="q414_76">
+				<label>Limit portion size at meals (different from above: ie less
+					food per meal)</label>
+			</input>
+			<input ref="q415_77">
+				<label>Restrict consumption by adults in order for small children to
+					eat</label>
+			</input>
+			<input ref="q416_78">
+				<label>Restrict consumption of female household members</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q42_80" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q421_81" reflist="N/Y/N">
+				<label>Spent savings</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0 = No</label>
+					<value>0 = No</value>
+				</item>
+				<item>
+					<label>1 = Yes</label>
+					<value>1 = Yes</value>
+				</item>
+				<item>
+					<label>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</label>
+					<value>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q422_82" reflist="N/Y/N">
+				<label>Bought food on credit or borrowed money to purchase food
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0 = No</label>
+					<value>0 = No</value>
+				</item>
+				<item>
+					<label>1 = Yes</label>
+					<value>1 = Yes</value>
+				</item>
+				<item>
+					<label>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</label>
+					<value>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q423_83" reflist="N/Y/N">
+				<label>Reduce essential non food expenditures such as education/
+					health</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0 = No</label>
+					<value>0 = No</value>
+				</item>
+				<item>
+					<label>1 = Yes</label>
+					<value>1 = Yes</value>
+				</item>
+				<item>
+					<label>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</label>
+					<value>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q424_84" reflist="N/Y/N">
+				<label>Sell household goods (jewelry, phone, furniture,
+					electrodomestics</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0 = No</label>
+					<value>0 = No</value>
+				</item>
+				<item>
+					<label>1 = Yes</label>
+					<value>1 = Yes</value>
+				</item>
+				<item>
+					<label>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</label>
+					<value>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q425_85" reflist="N/Y/N">
+				<label>Sell productive assets or means of transport (sewing machine
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0 = No</label>
+					<value>0 = No</value>
+				</item>
+				<item>
+					<label>1 = Yes</label>
+					<value>1 = Yes</value>
+				</item>
+				<item>
+					<label>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</label>
+					<value>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q426_86" reflist="N/Y/N">
+				<label>Sent household members to beg &amp; sent under-aged children
+					to work</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>0 = No</label>
+					<value>0 = No</value>
+				</item>
+				<item>
+					<label>1 = Yes</label>
+					<value>1 = Yes</value>
+				</item>
+				<item>
+					<label>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</label>
+					<value>2 = No; because I have exhausted this strategy already and
+						cannot do it anymore</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q5_88" type="label">
+				<label />
+			</input>
+			<input ref="q51_89" type="label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="q511_90" reflist="source of income">
+				<label>Main source</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No source of money</label>
+					<value>No source of money</value>
+				</item>
+				<item>
+					<label>Remittances</label>
+					<value>Remittances</value>
+				</item>
+				<item>
+					<label>Small commerce</label>
+					<value>Small commerce</value>
+				</item>
+				<item>
+					<label>Casual labour</label>
+					<value>Casual labour</value>
+				</item>
+				<item>
+					<label>Savings</label>
+					<value>Savings</value>
+				</item>
+				<item>
+					<label>Begging</label>
+					<value>Begging</value>
+				</item>
+				<item>
+					<label>Credits/debts</label>
+					<value>Credits/debts</value>
+				</item>
+				<item>
+					<label>Waged labour</label>
+					<value>Waged labour</value>
+				</item>
+				<item>
+					<label>Cash from humanitarian organizations</label>
+					<value>Cash from humanitarian organizations</value>
+				</item>
+				<item>
+					<label>Sale of assets/livestock/crops</label>
+					<value>Sale of assets/livestock/crops</value>
+				</item>
+				<item>
+					<label>Sale of food aid</label>
+					<value>Sale of food aid</value>
+				</item>
+				<item>
+					<label>Gifts from family and relatives</label>
+					<value>Gifts from family and relatives</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q511other_91">
+				<label>Other: please specify</label>
+			</input>
+			<select1 appearance="minimal" ref="q512_92" reflist="source of income">
+				<label>2nd source</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No source of money</label>
+					<value>No source of money</value>
+				</item>
+				<item>
+					<label>Remittances</label>
+					<value>Remittances</value>
+				</item>
+				<item>
+					<label>Small commerce</label>
+					<value>Small commerce</value>
+				</item>
+				<item>
+					<label>Casual labour</label>
+					<value>Casual labour</value>
+				</item>
+				<item>
+					<label>Savings</label>
+					<value>Savings</value>
+				</item>
+				<item>
+					<label>Begging</label>
+					<value>Begging</value>
+				</item>
+				<item>
+					<label>Credits/debts</label>
+					<value>Credits/debts</value>
+				</item>
+				<item>
+					<label>Waged labour</label>
+					<value>Waged labour</value>
+				</item>
+				<item>
+					<label>Cash from humanitarian organizations</label>
+					<value>Cash from humanitarian organizations</value>
+				</item>
+				<item>
+					<label>Sale of assets/livestock/crops</label>
+					<value>Sale of assets/livestock/crops</value>
+				</item>
+				<item>
+					<label>Sale of food aid</label>
+					<value>Sale of food aid</value>
+				</item>
+				<item>
+					<label>Gifts from family and relatives</label>
+					<value>Gifts from family and relatives</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q512other_93">
+				<label>Other: please specify</label>
+			</input>
+			<select1 appearance="minimal" ref="q513_94" reflist="source of income">
+				<label>3rd source</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No source of money</label>
+					<value>No source of money</value>
+				</item>
+				<item>
+					<label>Remittances</label>
+					<value>Remittances</value>
+				</item>
+				<item>
+					<label>Small commerce</label>
+					<value>Small commerce</value>
+				</item>
+				<item>
+					<label>Casual labour</label>
+					<value>Casual labour</value>
+				</item>
+				<item>
+					<label>Savings</label>
+					<value>Savings</value>
+				</item>
+				<item>
+					<label>Begging</label>
+					<value>Begging</value>
+				</item>
+				<item>
+					<label>Credits/debts</label>
+					<value>Credits/debts</value>
+				</item>
+				<item>
+					<label>Waged labour</label>
+					<value>Waged labour</value>
+				</item>
+				<item>
+					<label>Cash from humanitarian organizations</label>
+					<value>Cash from humanitarian organizations</value>
+				</item>
+				<item>
+					<label>Sale of assets/livestock/crops</label>
+					<value>Sale of assets/livestock/crops</value>
+				</item>
+				<item>
+					<label>Sale of food aid</label>
+					<value>Sale of food aid</value>
+				</item>
+				<item>
+					<label>Gifts from family and relatives</label>
+					<value>Gifts from family and relatives</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q513other_95">
+				<label>Other: please specify</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q52_97" type="label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="q521_98" reflist="HH needs">
+				<label>Most important</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>More Food/ Better Food</label>
+					<value>More Food/ Better Food</value>
+				</item>
+				<item>
+					<label>Support for rent</label>
+					<value>Support for rent</value>
+				</item>
+				<item>
+					<label>Support for improved shelter</label>
+					<value>Support for improved shelter</value>
+				</item>
+				<item>
+					<label>Cooking fuel/gas/electricity</label>
+					<value>Cooking fuel/gas/electricity</value>
+				</item>
+				<item>
+					<label>Medicines/health</label>
+					<value>Medicines/health</value>
+				</item>
+				<item>
+					<label>Education/books</label>
+					<value>Education/books</value>
+				</item>
+				<item>
+					<label>Psycho-social support</label>
+					<value>Psycho-social support</value>
+				</item>
+				<item>
+					<label>Clothes/shoes</label>
+					<value>Clothes/shoes</value>
+				</item>
+				<item>
+					<label>Kitchen assets for cooking</label>
+					<value>Kitchen assets for cooking</value>
+				</item>
+				<item>
+					<label>Other household assets</label>
+					<value>Other household assets</value>
+				</item>
+				<item>
+					<label>Agricultural inputs</label>
+					<value>Agricultural inputs</value>
+				</item>
+				<item>
+					<label>Transport</label>
+					<value>Transport</value>
+				</item>
+				<item>
+					<label>Cash</label>
+					<value>Cash</value>
+				</item>
+				<item>
+					<label>Credit</label>
+					<value>Credit</value>
+				</item>
+				<item>
+					<label>Job</label>
+					<value>Job</value>
+				</item>
+				<item>
+					<label>More security</label>
+					<value>More security</value>
+				</item>
+				<item>
+					<label>Sanitation/sewage</label>
+					<value>Sanitation/sewage</value>
+				</item>
+				<item>
+					<label>Drinking Water</label>
+					<value>Drinking Water</value>
+				</item>
+				<item>
+					<label>No unmet need</label>
+					<value>No unmet need</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q521other_99">
+				<label>Other: please specify</label>
+			</input>
+			<select1 appearance="minimal" ref="q522_100" reflist="HH needs">
+				<label>2nd in importance</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>More Food/ Better Food</label>
+					<value>More Food/ Better Food</value>
+				</item>
+				<item>
+					<label>Support for rent</label>
+					<value>Support for rent</value>
+				</item>
+				<item>
+					<label>Support for improved shelter</label>
+					<value>Support for improved shelter</value>
+				</item>
+				<item>
+					<label>Cooking fuel/gas/electricity</label>
+					<value>Cooking fuel/gas/electricity</value>
+				</item>
+				<item>
+					<label>Medicines/health</label>
+					<value>Medicines/health</value>
+				</item>
+				<item>
+					<label>Education/books</label>
+					<value>Education/books</value>
+				</item>
+				<item>
+					<label>Psycho-social support</label>
+					<value>Psycho-social support</value>
+				</item>
+				<item>
+					<label>Clothes/shoes</label>
+					<value>Clothes/shoes</value>
+				</item>
+				<item>
+					<label>Kitchen assets for cooking</label>
+					<value>Kitchen assets for cooking</value>
+				</item>
+				<item>
+					<label>Other household assets</label>
+					<value>Other household assets</value>
+				</item>
+				<item>
+					<label>Agricultural inputs</label>
+					<value>Agricultural inputs</value>
+				</item>
+				<item>
+					<label>Transport</label>
+					<value>Transport</value>
+				</item>
+				<item>
+					<label>Cash</label>
+					<value>Cash</value>
+				</item>
+				<item>
+					<label>Credit</label>
+					<value>Credit</value>
+				</item>
+				<item>
+					<label>Job</label>
+					<value>Job</value>
+				</item>
+				<item>
+					<label>More security</label>
+					<value>More security</value>
+				</item>
+				<item>
+					<label>Sanitation/sewage</label>
+					<value>Sanitation/sewage</value>
+				</item>
+				<item>
+					<label>Drinking Water</label>
+					<value>Drinking Water</value>
+				</item>
+				<item>
+					<label>No unmet need</label>
+					<value>No unmet need</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q522other_101">
+				<label>Other: please specify</label>
+			</input>
+			<select1 appearance="minimal" ref="q523_102" reflist="HH needs">
+				<label>3rd in importance</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>More Food/ Better Food</label>
+					<value>More Food/ Better Food</value>
+				</item>
+				<item>
+					<label>Support for rent</label>
+					<value>Support for rent</value>
+				</item>
+				<item>
+					<label>Support for improved shelter</label>
+					<value>Support for improved shelter</value>
+				</item>
+				<item>
+					<label>Cooking fuel/gas/electricity</label>
+					<value>Cooking fuel/gas/electricity</value>
+				</item>
+				<item>
+					<label>Medicines/health</label>
+					<value>Medicines/health</value>
+				</item>
+				<item>
+					<label>Education/books</label>
+					<value>Education/books</value>
+				</item>
+				<item>
+					<label>Psycho-social support</label>
+					<value>Psycho-social support</value>
+				</item>
+				<item>
+					<label>Clothes/shoes</label>
+					<value>Clothes/shoes</value>
+				</item>
+				<item>
+					<label>Kitchen assets for cooking</label>
+					<value>Kitchen assets for cooking</value>
+				</item>
+				<item>
+					<label>Other household assets</label>
+					<value>Other household assets</value>
+				</item>
+				<item>
+					<label>Agricultural inputs</label>
+					<value>Agricultural inputs</value>
+				</item>
+				<item>
+					<label>Transport</label>
+					<value>Transport</value>
+				</item>
+				<item>
+					<label>Cash</label>
+					<value>Cash</value>
+				</item>
+				<item>
+					<label>Credit</label>
+					<value>Credit</value>
+				</item>
+				<item>
+					<label>Job</label>
+					<value>Job</value>
+				</item>
+				<item>
+					<label>More security</label>
+					<value>More security</value>
+				</item>
+				<item>
+					<label>Sanitation/sewage</label>
+					<value>Sanitation/sewage</value>
+				</item>
+				<item>
+					<label>Drinking Water</label>
+					<value>Drinking Water</value>
+				</item>
+				<item>
+					<label>No unmet need</label>
+					<value>No unmet need</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q523other_103">
+				<label>Other: please specify</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q6_105" type="label">
+				<label />
+			</input>
+			<input ref="q61_106">
+				<label>For how long has your HH been receiving WFP assistance
+					(GFD/vouchers/e-cards)? (in number of months)</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q62_108" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q621_109" reflist="y/n/na">
+				<label>Voucher value/quantity HH should receive</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+				<item>
+					<label>N/A</label>
+					<value>N/A</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q622_110" reflist="y/n/na">
+				<label>Distribution and redeeming cycles</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+				<item>
+					<label>N/A</label>
+					<value>N/A</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q623_111" reflist="y/n/na">
+				<label>Type of products which can be redeemed</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+				<item>
+					<label>N/A</label>
+					<value>N/A</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q624_112" reflist="y/n/na">
+				<label>Location of shops where they can redeem voucher</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+				<item>
+					<label>N/A</label>
+					<value>N/A</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q625_113" reflist="y/n/na">
+				<label>Things HH should not do with voucher (sell, exchange)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+				<item>
+					<label>N/A</label>
+					<value>N/A</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q626_114" reflist="y/n/na">
+				<label>If aplicable; e-voucher magnetic bar/card use</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+				<item>
+					<label>N/A</label>
+					<value>N/A</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q63_116">
+				<label>How many UNHCR registration//WFP e-cards does your HH have?
+					(Check them if possible but include cards not available)</label>
+			</input>
+			<input ref="q64_117">
+				<label>How many people in this household are registered under all of
+					these cards in total? (including cards not available)</label>
+			</input>
+			<input ref="q65_118">
+				<label>What is the value of all the e-vouchers your HH has?</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q66_120" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q661_121" reflist="yes/no">
+				<label>Beneficiaries forced to give up part of their food/e-voucher
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q662_122" reflist="yes/no">
+				<label>Payments/in kind favours by beneficiaries to obtain
+					food/e-vouchers</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q663_123" reflist="yes/no">
+				<label>Exchangce of food/e-vouchers by beneficiaries for
+					NFIs/goods/services</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q664_124" reflist="yes/no">
+				<label>Sale of food/vouchers by beneficiairies</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q665_125" reflist="yes/no">
+				<label>Fake UNHRC IDs, e-voucher/and/or benefici</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q666_126" reflist="yes/no">
+				<label>Other problem: explain in comments section</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q666other_127" type="tarea">
+				<label>Other problems:please specify</label>
+			</input>
+			<input ref="q67_128">
+				<label>Did your Household face any of the above mentioned problems,
+					or any other of similar nature ? (options 1 to 6, if none 0)
+				</label>
+			</input>
+			<select1 appearance="full" ref="q67bis_129" reflist="yes/no">
+				<label>Did your household exchange or sell their e-card or any of
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q68_130" type="label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="q681_131" reflist="exchange needs">
+				<label>Most important</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>More Food</label>
+					<value>More Food</value>
+				</item>
+				<item>
+					<label>Better Food</label>
+					<value>Better Food</value>
+				</item>
+				<item>
+					<label>Support for rent/improved shelter</label>
+					<value>Support for rent/improved shelter</value>
+				</item>
+				<item>
+					<label>Cooking fuel/gas/electricity</label>
+					<value>Cooking fuel/gas/electricity</value>
+				</item>
+				<item>
+					<label>Medicines/health</label>
+					<value>Medicines/health</value>
+				</item>
+				<item>
+					<label>Education/books</label>
+					<value>Education/books</value>
+				</item>
+				<item>
+					<label>Psycho-social support</label>
+					<value>Psycho-social support</value>
+				</item>
+				<item>
+					<label>Clothes/shoes</label>
+					<value>Clothes/shoes</value>
+				</item>
+				<item>
+					<label>Kitchen assets for cooking</label>
+					<value>Kitchen assets for cooking</value>
+				</item>
+				<item>
+					<label>Other household assets</label>
+					<value>Other household assets</value>
+				</item>
+				<item>
+					<label>Agricultural inputs</label>
+					<value>Agricultural inputs</value>
+				</item>
+				<item>
+					<label>Transport</label>
+					<value>Transport</value>
+				</item>
+				<item>
+					<label>Entretainment</label>
+					<value>Entretainment</value>
+				</item>
+				<item>
+					<label>Higene/cleaning materials</label>
+					<value>Higene/cleaning materials</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q682_132" reflist="exchange needs">
+				<label>2nd in importance</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>More Food</label>
+					<value>More Food</value>
+				</item>
+				<item>
+					<label>Better Food</label>
+					<value>Better Food</value>
+				</item>
+				<item>
+					<label>Support for rent/improved shelter</label>
+					<value>Support for rent/improved shelter</value>
+				</item>
+				<item>
+					<label>Cooking fuel/gas/electricity</label>
+					<value>Cooking fuel/gas/electricity</value>
+				</item>
+				<item>
+					<label>Medicines/health</label>
+					<value>Medicines/health</value>
+				</item>
+				<item>
+					<label>Education/books</label>
+					<value>Education/books</value>
+				</item>
+				<item>
+					<label>Psycho-social support</label>
+					<value>Psycho-social support</value>
+				</item>
+				<item>
+					<label>Clothes/shoes</label>
+					<value>Clothes/shoes</value>
+				</item>
+				<item>
+					<label>Kitchen assets for cooking</label>
+					<value>Kitchen assets for cooking</value>
+				</item>
+				<item>
+					<label>Other household assets</label>
+					<value>Other household assets</value>
+				</item>
+				<item>
+					<label>Agricultural inputs</label>
+					<value>Agricultural inputs</value>
+				</item>
+				<item>
+					<label>Transport</label>
+					<value>Transport</value>
+				</item>
+				<item>
+					<label>Entretainment</label>
+					<value>Entretainment</value>
+				</item>
+				<item>
+					<label>Higene/cleaning materials</label>
+					<value>Higene/cleaning materials</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q683_133" reflist="exchange needs">
+				<label>3rd in importance</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>More Food</label>
+					<value>More Food</value>
+				</item>
+				<item>
+					<label>Better Food</label>
+					<value>Better Food</value>
+				</item>
+				<item>
+					<label>Support for rent/improved shelter</label>
+					<value>Support for rent/improved shelter</value>
+				</item>
+				<item>
+					<label>Cooking fuel/gas/electricity</label>
+					<value>Cooking fuel/gas/electricity</value>
+				</item>
+				<item>
+					<label>Medicines/health</label>
+					<value>Medicines/health</value>
+				</item>
+				<item>
+					<label>Education/books</label>
+					<value>Education/books</value>
+				</item>
+				<item>
+					<label>Psycho-social support</label>
+					<value>Psycho-social support</value>
+				</item>
+				<item>
+					<label>Clothes/shoes</label>
+					<value>Clothes/shoes</value>
+				</item>
+				<item>
+					<label>Kitchen assets for cooking</label>
+					<value>Kitchen assets for cooking</value>
+				</item>
+				<item>
+					<label>Other household assets</label>
+					<value>Other household assets</value>
+				</item>
+				<item>
+					<label>Agricultural inputs</label>
+					<value>Agricultural inputs</value>
+				</item>
+				<item>
+					<label>Transport</label>
+					<value>Transport</value>
+				</item>
+				<item>
+					<label>Entretainment</label>
+					<value>Entretainment</value>
+				</item>
+				<item>
+					<label>Higene/cleaning materials</label>
+					<value>Higene/cleaning materials</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>Other</value>
+				</item>
+			</select1>
+			<input ref="q69_134">
+				<label>If you exchanged/sold your food/voucher, what percentage of
+					this food/e-voucher is exchanged/sold (if respondent is not
+					comfortable with % use proportionate piling)</label>
+			</input>
+			<input ref="q610_135">
+				<label>Do you know who to contact if you had a problem with your
+					vouchers/food assistance? (indicate first response) 1) WFP hotline,
+					2) Partner hotline, 3) UNHCR, 4) Local authorities, 5) Community
+					representative, 6) WFP staff, 7) Partner staff, 9) Other (explain
+					in comments), 10) Don't know</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q7_137" type="label">
+				<label />
+			</input>
+			<input ref="q71_138">
+				<label>How far is the distribution point (where they received
+					e-voucher) away from your current residence? (in km)</label>
+			</input>
+			<input ref="q72_139">
+				<label>How much, approximatelly, do you have to pay in transport
+					costs from the distribution point to your current residence?
+				</label>
+			</input>
+			<input ref="q73bis_140">
+				<label>In which shop did you redeem your e-voucher over the last
+					month? </label>
+			</input>
+			<input ref="q74_141">
+				<label>How far is this e-voucher exchange shop away from your
+					current residence? </label>
+			</input>
+			<input ref="q75_142">
+				<label>How much do you have to pay in transport costs from this shop
+					to your current residence?</label>
+			</input>
+			<input ref="q76_143" type="label">
+				<label />
+			</input>
+			<select ref="q761_144">
+				<item>
+					<label>Closest Shop</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select1 appearance="full" ref="q762_145" reflist="yes/no">
+				<label>Lower prices</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q763_146" reflist="yes/no">
+				<label>Higher quality</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q764_147" reflist="yes/no">
+				<label>Greater availability of commodities</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q765_148" reflist="yes/no">
+				<label>Better treatment</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q766_149" reflist="yes/no">
+				<label>Other reason explain in comments section</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q766other_150" type="tarea">
+				<label>Other, please specify</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q77_152" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q771_153" reflist="yes/no">
+				<label> Long waiting time and overcrowding at Shop</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q772_154" reflist="yes/no">
+				<label> Shop owner/cashier was rude, disrespectful, harrassing
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q773_155" reflist="yes/no">
+				<label>Shop owner overcharged me on the price of certain commodities
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q774_156" reflist="yes/no">
+				<label>Prices charged in the shop are higher than in other shops in
+					same area</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q775_157" reflist="yes/no">
+				<label>Served after other customers</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q776_158" reflist="yes/no">
+				<label>Shop keeper did not provide me with an itemised receipt of my
+					purchase</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q777_159" reflist="yes/no">
+				<label>Preferred food commodities were not available</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q778_160" reflist="yes/no">
+				<label>Quality of commodities was not good</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q779_161" reflist="yes/no">
+				<label>Security concerns going to or leaving Shop</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q7710_162" reflist="yes/no">
+				<label>Technical delays/problems associated to e-voucher</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q78_163">
+				<label>If they felt/feel insecure about going to or returning from
+					the Shop, tell us why; 1) Won't answer, 2) Voucher/food could be
+					stolen, 3) Might have to pay bribe, 4) Have received threats, 5)
+					Did not feel insecure, 6) Other (explain)</label>
+			</input>
+			<input ref="q78other_164" type="tarea">
+				<label>Other: please specify</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q8_166" type="label">
+				<label />
+			</input>
+			<input ref="q81_167">
+				<label>How long did it take you to totally redeem your previous
+					e-vouchers (in days), since the day of its latest reload?</label>
+			</input>
+			<input ref="q82_168" type="label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="q821_169" reflist="Types of food">
+				<label>Most important</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Cereals/Rice/Pasta</label>
+					<value>Cereals/Rice/Pasta</value>
+				</item>
+				<item>
+					<label>Bread</label>
+					<value>Bread</value>
+				</item>
+				<item>
+					<label>Pulses/Nuts/Seeds</label>
+					<value>Pulses/Nuts/Seeds</value>
+				</item>
+				<item>
+					<label>Vegetables &amp; Fruits</label>
+					<value>Vegetables &amp; Fruits</value>
+				</item>
+				<item>
+					<label>Potatoes and other tubers/roots</label>
+					<value>Potatoes and other tubers/roots</value>
+				</item>
+				<item>
+					<label>Meats/fish</label>
+					<value>Meats/fish</value>
+				</item>
+				<item>
+					<label>Eggs</label>
+					<value>Eggs</value>
+				</item>
+				<item>
+					<label>Milk and dairy products</label>
+					<value>Milk and dairy products</value>
+				</item>
+				<item>
+					<label>Oils &amp; fats</label>
+					<value>Oils &amp; fats</value>
+				</item>
+				<item>
+					<label>Sweets &amp; sugars</label>
+					<value>Sweets &amp; sugars</value>
+				</item>
+				<item>
+					<label>Child complementary foods/Baby milk</label>
+					<value>Child complementary foods/Baby milk</value>
+				</item>
+				<item>
+					<label>Other non nutritionally recommended foods/drinks such as
+						tea/coffee</label>
+					<value>Other non nutritionally recommended foods/drinks such as
+						tea/coffee</value>
+				</item>
+				<item>
+					<label>NFIs</label>
+					<value>NFIs</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q822_170" reflist="Types of food">
+				<label>2nd in importance</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Cereals/Rice/Pasta</label>
+					<value>Cereals/Rice/Pasta</value>
+				</item>
+				<item>
+					<label>Bread</label>
+					<value>Bread</value>
+				</item>
+				<item>
+					<label>Pulses/Nuts/Seeds</label>
+					<value>Pulses/Nuts/Seeds</value>
+				</item>
+				<item>
+					<label>Vegetables &amp; Fruits</label>
+					<value>Vegetables &amp; Fruits</value>
+				</item>
+				<item>
+					<label>Potatoes and other tubers/roots</label>
+					<value>Potatoes and other tubers/roots</value>
+				</item>
+				<item>
+					<label>Meats/fish</label>
+					<value>Meats/fish</value>
+				</item>
+				<item>
+					<label>Eggs</label>
+					<value>Eggs</value>
+				</item>
+				<item>
+					<label>Milk and dairy products</label>
+					<value>Milk and dairy products</value>
+				</item>
+				<item>
+					<label>Oils &amp; fats</label>
+					<value>Oils &amp; fats</value>
+				</item>
+				<item>
+					<label>Sweets &amp; sugars</label>
+					<value>Sweets &amp; sugars</value>
+				</item>
+				<item>
+					<label>Child complementary foods/Baby milk</label>
+					<value>Child complementary foods/Baby milk</value>
+				</item>
+				<item>
+					<label>Other non nutritionally recommended foods/drinks such as
+						tea/coffee</label>
+					<value>Other non nutritionally recommended foods/drinks such as
+						tea/coffee</value>
+				</item>
+				<item>
+					<label>NFIs</label>
+					<value>NFIs</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="q823_171" reflist="Types of food">
+				<label>3rd in importance</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Cereals/Rice/Pasta</label>
+					<value>Cereals/Rice/Pasta</value>
+				</item>
+				<item>
+					<label>Bread</label>
+					<value>Bread</value>
+				</item>
+				<item>
+					<label>Pulses/Nuts/Seeds</label>
+					<value>Pulses/Nuts/Seeds</value>
+				</item>
+				<item>
+					<label>Vegetables &amp; Fruits</label>
+					<value>Vegetables &amp; Fruits</value>
+				</item>
+				<item>
+					<label>Potatoes and other tubers/roots</label>
+					<value>Potatoes and other tubers/roots</value>
+				</item>
+				<item>
+					<label>Meats/fish</label>
+					<value>Meats/fish</value>
+				</item>
+				<item>
+					<label>Eggs</label>
+					<value>Eggs</value>
+				</item>
+				<item>
+					<label>Milk and dairy products</label>
+					<value>Milk and dairy products</value>
+				</item>
+				<item>
+					<label>Oils &amp; fats</label>
+					<value>Oils &amp; fats</value>
+				</item>
+				<item>
+					<label>Sweets &amp; sugars</label>
+					<value>Sweets &amp; sugars</value>
+				</item>
+				<item>
+					<label>Child complementary foods/Baby milk</label>
+					<value>Child complementary foods/Baby milk</value>
+				</item>
+				<item>
+					<label>Other non nutritionally recommended foods/drinks such as
+						tea/coffee</label>
+					<value>Other non nutritionally recommended foods/drinks such as
+						tea/coffee</value>
+				</item>
+				<item>
+					<label>NFIs</label>
+					<value>NFIs</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q83_173">
+				<label>For how long did the food you purchased with your previous
+					e-voucher cover your HH's food needs? (n° of weeks 1 to 4) </label>
+			</input>
+			<select1 appearance="full" ref="q84_174" reflist="yes/no">
+				<label>Did the Household share the food obtained through this
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q85_175">
+				<label>If they shared the food, with whom?; 1) Hosts, 2) Neighbours,
+					3) Visitors, 4) Non-registered family members 5) Others, explain in
+					comments section</label>
+			</input>
+			<input ref="q85other_176">
+				<label>Other:please specify</label>
+			</input>
+			<input ref="q86_177">
+				<label>If your HH shared the food, what approximate percentage of
+					this food is shared? (if less than 10% write 0)</label>
+			</input>
+			<input ref="q87_178">
+				<label>Is your household able to cook its food at least once a day,
+					on average. (Yes = 1, No = 0)</label>
+			</input>
+			<select1 appearance="full" ref="q871_179" reflist="yes/no">
+				<label>Is Your household able to cook its food at least once a day,
+					o n avera</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q88_180">
+				<label>If not, what is the main reason? 1) Lack of stove or access
+					to kitchen, 2) Lack of cooking fuel (gas, elect.), 3) Lack of
+					cooking utensils, 4) Other explain</label>
+			</input>
+			<input ref="q89_181">
+				<label>Overall, what would the household prefer to receive from
+					WFP?; 1) Food vouchers, 2) Food in kind, 3) Cash only, 4) Cash and
+					food voucher mix</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q9_183" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q91_184" reflist="yes/no">
+				<label>Are there in your household any children 6-23 months?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q921_185" type="label">
+				<label />
+			</input>
+			<input ref="q9211_186">
+				<label> Age of child in months</label>
+			</input>
+			<select1 appearance="full" ref="q9212_187" reflist="boy/girl">
+				<label>Sex</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Boy</label>
+					<value>Boy</value>
+				</item>
+				<item>
+					<label>Girl</label>
+					<value>Girl</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9213_188" reflist="yes/no">
+				<label> Did the child receive breast-milk yesterday durin</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q9214_189">
+				<label>How many times did the child eat solid food, semi-solid food
+					or soft foods yesterday during the day or at night? (exclude breast
+					milk)</label>
+			</input>
+			<input ref="q9215_190">
+				<label>How many times did the child drink millk yesterday (exclude
+					breast milk)?</label>
+			</input>
+			<select1 appearance="full" ref="q9216_191" reflist="yes/no">
+				<label>Did the child consume any fortified</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q922_193" type="label">
+				<label />
+			</input>
+			<input ref="q9221_194">
+				<label> Age of child in months</label>
+			</input>
+			<input ref="q9222_195">
+				<label>Sex</label>
+			</input>
+			<input ref="q9223_196">
+				<label> Did the child receive breast-milk yesterday during the day
+					or at night? (0=no, 1=yes)</label>
+			</input>
+			<input ref="q9224_197">
+				<label>How many times did the child eat solid food, semi-solid food
+					or soft foods yesterday during the day or at night? (exclude breast
+					milk)</label>
+			</input>
+			<input ref="q9225_198">
+				<label>How many times did the child drink millk yesterday (exclude
+					breast milk)?</label>
+			</input>
+			<input ref="q9226_199">
+				<label>Did the child consume any fortified foods designed for
+					infants and young children that contain iron (or foods fortified in
+					the home with a micro-nutrient powder (0=no, 1=yes) only if
+					relevant)?</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q923_201" type="label">
+				<label />
+			</input>
+			<input ref="q9231_202">
+				<label> Age of child in months</label>
+			</input>
+			<input ref="q9232_203">
+				<label>Sex</label>
+			</input>
+			<input ref="q9233_204">
+				<label> Did the child receive breast-milk yesterday during the day
+					or at night? (0=no, 1=yes)</label>
+			</input>
+			<input ref="q9234_205">
+				<label>How many times did the child eat solid food, semi-solid food
+					or soft foods yesterday during the day or at night? (exclude breast
+					milk)</label>
+			</input>
+			<input ref="q9235_206">
+				<label>How many times did the child drink millk yesterday (exclude
+					breast milk)?</label>
+			</input>
+			<input ref="q9236_207">
+				<label>Did the child consume any fortified foods designed for
+					infants and young children that contain iron (or foods fortified in
+					the home with a micro-nutrient powder (0=no, 1=yes) only if
+					relevant)?</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q924_209" type="label">
+				<label />
+			</input>
+			<input ref="q9241_210">
+				<label> Age of child in months</label>
+			</input>
+			<input ref="q9242_211">
+				<label>Sex</label>
+			</input>
+			<input ref="q9243_212">
+				<label> Did the child receive breast-milk yesterday during the day
+					or at night? (0=no, 1=yes)</label>
+			</input>
+			<input ref="q9244_213">
+				<label>How many times did the child eat solid food, semi-solid food
+					or soft foods yesterday during the day or at night? (exclude breast
+					milk)</label>
+			</input>
+			<input ref="q9245_214">
+				<label>How many times did the child drink millk yesterday (exclude
+					breast milk)?</label>
+			</input>
+			<input ref="q9246_215">
+				<label>Did the child consume any fortified foods designed for
+					infants and young children that contain iron (or foods fortified in
+					the home with a micro-nutrient powder (0=no, 1=yes) only if
+					relevant)?</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q925_217" type="label">
+				<label />
+			</input>
+			<input ref="q9251_218">
+				<label> Age of child in months</label>
+			</input>
+			<input ref="q9252_219">
+				<label>Sex</label>
+			</input>
+			<input ref="q9253_220">
+				<label> Did the child receive breast-milk yesterday during the day
+					or at night? (0=no, 1=yes)</label>
+			</input>
+			<input ref="q9254_221">
+				<label>How many times did the child eat solid food, semi-solid food
+					or soft foods yesterday during the day or at night? (exclude breast
+					milk)</label>
+			</input>
+			<input ref="q9255_222">
+				<label>How many times did the child drink millk yesterday (exclude
+					breast milk)?</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="q9256_224">
+				<label>Did the child consume any fortified foods designed for
+					infants and young children that contain iron (or foods fortified in
+					the home with a micro-nutrient powder (0=no, 1=yes) only if
+					relevant)?</label>
+			</input>
+			<input ref="q93_225" type="label">
+				<label />
+			</input>
+			<input ref="q931_226" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q9311_227" reflist="yes/no">
+				<label>grains, roots and tubers</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9312_228" reflist="yes/no">
+				<label>Pulses and nuts</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9313_229" reflist="yes/no">
+				<label>dairy products (milk, yogurt, cheese)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9314_230" reflist="yes/no">
+				<label>flesh foods (meat, fish, poultry and liver/organ meats)
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9315_231" reflist="yes/no">
+				<label>eggs</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9316_232" reflist="yes/no">
+				<label>vitamin-A rich fruits and vegetables (inluding yellow roots
+					and tubers)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9317_233" reflist="yes/no">
+				<label>other fruits and vegetables</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q932_235" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q9321_236" reflist="yes/no">
+				<label>grains, roots and tubers</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9322_237" reflist="yes/no">
+				<label>Pulses and nuts</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9323_238" reflist="yes/no">
+				<label>dairy products (milk, yogurt, cheese)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9324_239" reflist="yes/no">
+				<label>flesh foods (meat, fish, poultry and liver/organ meats)
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9325_240" reflist="yes/no">
+				<label>eggs</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9326_241" reflist="yes/no">
+				<label>vitamin-A rich fruits and vegetables (inluding yellow roots
+					and tubers)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9327_242" reflist="yes/no">
+				<label>other fruits and vegetables</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="full" ref="children3_244" reflist="yes/no">
+				<label>Is there another child?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q933_245" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q9331_246" reflist="yes/no">
+				<label>grains, roots and tubers</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9332_247" reflist="yes/no">
+				<label>Pulses and nuts</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9333_248" reflist="yes/no">
+				<label>dairy products (milk, yogurt, cheese)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9334_249" reflist="yes/no">
+				<label>flesh foods (meat, fish, poultry and liver/organ meats)
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9335_250" reflist="yes/no">
+				<label>eggs</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9336_251" reflist="yes/no">
+				<label>vitamin-A rich fruits and vegetables (inluding yellow roots
+					and tubers)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9337_252" reflist="yes/no">
+				<label>other fruits and vegetables</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="full" ref="child4_254" reflist="yes/no">
+				<label>Is there another child?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q934_255" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q9341_256" reflist="yes/no">
+				<label>grains, roots and tubers</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9342_257" reflist="yes/no">
+				<label>Pulses and nuts</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9343_258" reflist="yes/no">
+				<label>dairy products (milk, yogurt, cheese)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9344_259" reflist="yes/no">
+				<label>flesh foods (meat, fish, poultry and liver/organ meats)
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9345_260" reflist="yes/no">
+				<label>eggs</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9346_261" reflist="yes/no">
+				<label>vitamin-A rich fruits and vegetables (inluding yellow roots
+					and tubers)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9347_262" reflist="yes/no">
+				<label>other fruits and vegetables</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="full" ref="child5_264" reflist="yes/no">
+				<label>is there another child?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q935_265" type="label">
+				<label />
+			</input>
+			<select1 appearance="full" ref="q9351_266" reflist="yes/no">
+				<label>grains, roots and tubers</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9352_267" reflist="yes/no">
+				<label>Pulses and nuts</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9353_268" reflist="yes/no">
+				<label>dairy products (milk, yogurt, cheese)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9354_269" reflist="yes/no">
+				<label>flesh foods (meat, fish, poultry and liver/organ meats)
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9355_270" reflist="yes/no">
+				<label>eggs</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9356_271" reflist="yes/no">
+				<label>vitamin-A rich fruits and vegetables (inluding yellow roots
+					and tubers)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<select1 appearance="full" ref="q9357_272" reflist="yes/no">
+				<label>other fruits and vegetables</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="q10_274" type="label">
+				<label />
+			</input>
+			<input ref="q101_275" type="tarea">
+				<label>If the family has reported irregularities or
+					safety/protection issues, please provide further details. Otherwise
+					provide any other contextual information that relates to some of
+					the less tipical or incoherent answers provided by the respondent
+					PROVIDE INFORMANT WITH OPPORTUNITY TO ASK QUESTIONS AND/OR MAKE
+					SUGGESTIONS</label>
+			</input>
+			<select1 appearance="full" ref="q1021_276" reflist="yes/no">
+				<label>If we had any further questions could we contact you? (Yes =
+					1, No = 2)</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Yes</label>
+					<value>Yes</value>
+				</item>
+			</select1>
+			<input ref="q1022_277">
+				<label>If yes provide telephone number</label>
+			</input>
+		</group>
+	</h:body>
+</h:html>

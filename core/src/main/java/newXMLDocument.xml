@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <h:head>
+        <h:title>PartialDmgGaza</h:title>
+        <model>
+            <instance>
+                <data apos="'">
+                    <id>8_AAABQ5uil5U</id>
+                    <date_0/>
+                    <enumerator_1/>
+                    <des_version_2/>
+                    <client_version_3/>
+                    <SingleLine647161810_5>Partially Damaged Housing Assessment Report</SingleLine647161810_5>
+                    <GPS_6/>
+                    <SingleLine158858305_7>Manual GPS:</SingleLine158858305_7>
+                    <Latitude_8/>
+                    <Longitude_9/>
+                    <SingleLine_2038224218_10>Attachments</SingleLine_2038224218_10>
+                    <picture1_11/>
+                    <Picture2_12/>
+                    <Q001SurvCode_13/>
+                    <Q002SrvName_14/>
+                    <Q002AreaCode_15/>
+                    <Q004SecSit_16/>
+                    <Q005TypInf_17/>
+                    <Q006Comm_18/>
+                    <SingleLine_1609416362_20>Section 1: Social Information</SingleLine_1609416362_20>
+                    <Q101_21/>
+                    <SingleLine_1871435675_22>1.2 Head of Family:</SingleLine_1871435675_22>
+                    <Q102a_23/>
+                    <Q102b_24/>
+                    <Q102c_25/>
+                    <Q102d_26/>
+                    <Q103ID_27/>
+                    <Q104Tel_28/>
+                    <Q104Mob_29/>
+                    <Q1005_30/>
+                    <Q105a_31/>
+                    <Q105bSps1ID_32/>
+                    <Q106_33/>
+                    <Q106a_34/>
+                    <Q106Sps2ID_35/>
+                    <Q107_36/>
+                    <Q107aSps3Nm_37/>
+                    <Q107bSps3ID_38/>
+                    <Q108_39/>
+                    <Q108asps4nm_40/>
+                    <Q108bSps4ID_41/>
+                    <Q109_43/>
+                    <SingleLine_1103355466_44>Based on this report and the inspection visit; the shelter of the mentioned refugee was found: 						 </SingleLine_1103355466_44>
+                    <Q1010FamilyID_45/>
+                    <Q1010bAlt_46/>
+                    <Q1011_47/>
+                    <Q1012_48/>
+                    <Q1013_49/>
+                    <Q1014_50>
+                        <Q1014a/>
+                        <Q1014bRCN/>
+                        <Q104cFamilyID/>
+                        <Q104dIDN/>
+                        <Q1014e/>
+                    </Q1014_50>
+                    <SingleLine_1244940971_51>SECTION 2: Area Details</SingleLine_1244940971_51>
+                    <Q204Gov_52/>
+                    <Q204aNG_53/>
+                    <Q204bG_54/>
+                    <Q204c_55/>
+                    <q2014d_56/>
+                    <Q204E_57/>
+                    <Q202Address_58/>
+                    <Q203_59/>
+                    <Q205DamDate_60/>
+                    <SingleLine_1476264157_62>Section 3: Technical Information</SingleLine_1476264157_62>
+                    <Q301TypeBldg_63/>
+                    <q301typothers_64/>
+                    <SingleLine_500343707_65>Describe the Damaged Shelter :</SingleLine_500343707_65>
+                    <Q302NoFloors_66/>
+                    <Q303DEMFloors_67/>
+                    <Q304UnitArea_68/>
+                    <Q305BoundWall_69/>
+                    <Q306a_70/>
+                    <Q306b_71/>
+                    <Q306c_72/>
+                    <Q307STRUCTsAFE_73/>
+                    <Q308_74/>
+                    <Q309typedamage_75/>
+                    <SingleLine_1216974979_76>Additional needs and information</SingleLine_1216974979_76>
+                    <q3011a_77/>
+                    <Q3011SheltiHab_78/>
+                    <Q3012_79/>
+                    <Q3013Occupied_80/>
+                    <SingleLine1057767717_82>Repairing works</SingleLine1057767717_82>
+                    <Q3130Dem_83/>
+                    <SingleLine1522905722_84>3.13 DemolitionWorks (DI)</SingleLine1522905722_84>
+                    <Q3013a_85/>
+                    <Q3013b_86/>
+                    <Q3013c_87/>
+                    <Q3013d_88/>
+                    <Q3013e_89/>
+                    <Q3013f_90/>
+                    <Q3013g_91/>
+                    <Q3013h_92/>
+                    <Q3013i_93/>
+                    <Q3013j_94/>
+                    <Q3013k_95/>
+                    <Q3013l_96/>
+                    <Q3140_98/>
+                    <SingleLine_19165973_99>3.14 Block Works (BW)</SingleLine_19165973_99>
+                    <Q3014a_100/>
+                    <Q3014b_101/>
+                    <Q3014c_102/>
+                    <Q3014d_103/>
+                    <Q3014e_104/>
+                    <Q3014f_105/>
+                    <Q30150_107/>
+                    <SingleLine128075482_108>3.15 Concrete Works:</SingleLine128075482_108>
+                    <Q3015a_109/>
+                    <Q3015b_110/>
+                    <Q3015c_111/>
+                    <Q3015d_112/>
+                    <Q3015e_113/>
+                    <Q3015f_114/>
+                    <Q3015g_115/>
+                    <Q3015h_116/>
+                    <Q3015i_117/>
+                    <Q3015j_118/>
+                    <Q3160_120/>
+                    <MultiLine_396469556_121>3.16 FinishingWorks (FW):</MultiLine_396469556_121>
+                    <Q3016a_122/>
+                    <Q3016b_123/>
+                    <Q3016c_124/>
+                    <Q3016d_125/>
+                    <Q3016e_126/>
+                    <Q3016f_127/>
+                    <Q3016g_128/>
+                    <Q3016h_129/>
+                    <Q3016i_130/>
+                    <Q3016j_131/>
+                    <SingleLine411265399_133>3.16 FinishingWorks (FW):</SingleLine411265399_133>
+                    <Q3016k_134/>
+                    <Q3016l_135/>
+                    <Q3016m_136/>
+                    <Q3016n_137/>
+                    <Q3016o_138/>
+                    <Q3016p_139/>
+                    <Q3016q_140/>
+                    <Q3016r_141/>
+                    <Q3016s_142/>
+                    <Q3016t_143/>
+                    <Q3016u_144/>
+                    <Q3016v_145/>
+                    <Q3016w_146/>
+                    <Q3170_148/>
+                    <SingleLine1958955194_149>3.17 Alumninum Works (GW)</SingleLine1958955194_149>
+                    <Q3017a_150/>
+                    <Q3017b_151/>
+                    <Q3017c_152/>
+                    <Q3017d_153/>
+                    <Q3017e_154/>
+                    <Q3017f_155/>
+                    <Q3017g_156/>
+                    <Q3017h_157/>
+                    <Q3017i_158/>
+                    <Q3017j_159/>
+                    <Q3017k_160/>
+                    <Q3017l_161/>
+                    <Q3180_163/>
+                    <SingleLine_444716286_164>3.18 Wooden Works (WW)</SingleLine_444716286_164>
+                    <Q3018a_165/>
+                    <Q3018b_166/>
+                    <Q3018c_167/>
+                    <Q3018d_168/>
+                    <Q3018e_169/>
+                    <Q3018f_170/>
+                    <Q3190_172/>
+                    <SingleLine1573844446_173>3.19 Metal Works:</SingleLine1573844446_173>
+                    <Q3019a_174/>
+                    <Q3019b_175/>
+                    <Q3019c_176/>
+                    <Q3019d_177/>
+                    <Q3019e_178/>
+                    <Q3019f_179/>
+                    <Q3019g_180/>
+                    <Q3019h_181/>
+                    <Q3019i_182/>
+                    <Q3019j_183/>
+                    <Q3019K_184/>
+                    <Q3019l_185/>
+                    <Q3019m_186/>
+                    <Q3019n_187/>
+                    <Q3019o_188/>
+                    <Q3019p_189/>
+                    <Q3019q_190/>
+                    <Q3019r_191/>
+                    <Q320Combreq_193/>
+                    <SingleLine1580672949_194>3.20 Combined Works (CM)</SingleLine1580672949_194>
+                    <Q3020a_195/>
+                    <Q3020b_196/>
+                    <Q3020c_197/>
+                    <Q3020d_198/>
+                    <Q3020e_199/>
+                    <Q3020f_200/>
+                    <Q3020g_201/>
+                    <Q3020h_202/>
+                    <Q3020i_203/>
+                    <Q3020j_204/>
+                    <Q320PluWorks_206/>
+                    <SingleLine_632179992_207>3.21 Plumbing  (PL):</SingleLine_632179992_207>
+                    <Q3021a_208/>
+                    <Q3021b_209/>
+                    <Q3021c_210/>
+                    <Q3021d_211/>
+                    <Q3021e_212/>
+                    <Q3021f_213/>
+                    <Q3021g_214/>
+                    <Q3021h_215/>
+                    <Q3021i_216/>
+                    <Q3021j_217/>
+                    <MultiLine_1038630227_219>3.21 Plumbing  (PL):</MultiLine_1038630227_219>
+                    <Q3021k_220/>
+                    <Q3021l_221/>
+                    <Q3021m_222/>
+                    <Q3021n_223/>
+                    <Q3021o_224/>
+                    <Q3021p_225/>
+                    <Q3021q_226/>
+                    <Q3021r_227/>
+                    <Q3021s_228/>
+                    <Q3021t_229/>
+                    <Q3021u_230/>
+                    <MultiLine_1030327280_232>3.21 Plumbing  (PL):</MultiLine_1030327280_232>
+                    <Q3021v_233/>
+                    <Q3021w_234/>
+                    <Q3021x_235/>
+                    <Q3021y_236/>
+                    <Q3021z_237/>
+                    <Q3021aa_238/>
+                    <Q3021ab_239/>
+                    <Q3021ac_240/>
+                    <Q3021ad_241/>
+                    <Q3021ae_242/>
+                    <Q320ELE_244/>
+                    <SingleLine_937977918_245>3.22 Electrical Works (EW):</SingleLine_937977918_245>
+                    <Q3022a_246/>
+                    <Q3022b_247/>
+                    <Q3022c_248/>
+                    <Q3022d_249/>
+                    <Q3022e_250/>
+                    <Q3022f_251/>
+                    <Q3022g_252/>
+                    <Q3022h_253/>
+                    <Q3022i_254/>
+                    <Q3022j_255/>
+                    <Q3022k_256/>
+                    <Q3022l_257/>
+                    <Q3022m_258/>
+                    <Q3022n_259/>
+                    <MultiLine595202615_261>3.22 Electrical Works:</MultiLine595202615_261>
+                    <Q3022o_262/>
+                    <Q3022p_263/>
+                    <Q3022q_264/>
+                    <Q3022r_265/>
+                    <Q3022s_266/>
+                    <Q3022t_267/>
+                    <Q3022u_268/>
+                    <Q3022v_269/>
+                    <Q3022w_270/>
+                    <Q3022x_271/>
+                    <Q3022y_272/>
+                    <Q30230_274/>
+                    <Q3023mISC_275>
+                        <Q3023a/>
+                        <Q3023b/>
+                        <Q3023C/>
+                    </Q3023mISC_275>
+                    <SingleLine_538756769_276>SECTION 4: Recommendation of Site Engineer</SingleLine_538756769_276>
+                    <repairof_277/>
+                    <Recof_278/>
+                    <Remarks_279/>
+                </data>
+            </instance>
+            <bind nodeset="/data/date_0" required="false()" type="date"/>
+            <bind nodeset="/data/enumerator_1" required="true()" type="string"/>
+            <bind nodeset="/data/des_version_2" readonly="true()" required="true()" type="string"/>
+            <bind nodeset="/data/client_version_3" readonly="true()" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine647161810_5" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/GPS_6" type="geopoint"/>
+            <bind nodeset="/data/SingleLine158858305_7" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Latitude_8" type="string"/>
+            <bind nodeset="/data/Longitude_9" type="string"/>
+            <bind nodeset="/data/SingleLine_2038224218_10" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/picture1_11" type="binary"/>
+            <bind nodeset="/data/Picture2_12" type="binary"/>
+            <bind nodeset="/data/Q001SurvCode_13" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q002SrvName_14" required="true()" type="string"/>
+            <bind nodeset="/data/Q002AreaCode_15" required="true()" type="string"/>
+            <bind nodeset="/data/Q004SecSit_16" required="true()" type="select1"/>
+            <bind nodeset="/data/Q005TypInf_17" required="true()" type="select1"/>
+            <bind nodeset="/data/Q006Comm_18" readonly="false()" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine_1609416362_20" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q101_21" type="string"/>
+            <bind nodeset="/data/SingleLine_1871435675_22" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q102a_23" required="true()" type="string"/>
+            <bind nodeset="/data/Q102b_24" required="true()" type="string"/>
+            <bind nodeset="/data/Q102c_25" required="true()" type="string"/>
+            <bind nodeset="/data/Q102d_26" required="true()" type="string"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q103ID_27" required="true()" type="decimal"/>
+            <bind constraint=". &gt; 999999" nodeset="/data/Q104Tel_28" type="decimal"/>
+            <bind constraint=". &gt; 9999999" nodeset="/data/Q104Mob_29" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q1005_30" required="true()" type="select1"/>
+            <bind nodeset="/data/Q105a_31" relevant="  /data/Q1005_30 = 'Yes'" required="true()" type="string"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q105bSps1ID_32" relevant="  /data/Q1005_30 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q106_33" relevant="  /data/Q1005_30 = 'Yes'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q106a_34" relevant="  /data/Q106_33 = 'Yes'" required="true()" type="string"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q106Sps2ID_35" relevant="  /data/Q106_33 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q107_36" relevant="  /data/Q106_33 = 'Yes'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q107aSps3Nm_37" relevant="  /data/Q107_36 = 'Yes'" required="true()" type="string"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q107bSps3ID_38" relevant="  /data/Q107_36 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q108_39" relevant="  /data/Q107_36 = 'Yes'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q108asps4nm_40" relevant="  /data/Q108_39 = 'Yes'" required="true()" type="string"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q108bSps4ID_41" relevant="  /data/Q108_39 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q109_43" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine_1103355466_44" readonly="true()" relevant="  /data/Q109_43 = 'Yes'" required="false()" type="string"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q1010FamilyID_45" relevant="  /data/Q109_43 = 'Yes'" required="true()" type="decimal"/>
+            <bind constraint=". &lt; 20" nodeset="/data/Q1010bAlt_46" relevant="  /data/Q109_43 = 'Yes'" type="decimal"/>
+            <bind constraint=". &lt;= 99999999 and . &gt; 9999999" nodeset="/data/Q1011_47" relevant="  /data/Q109_43 = 'Yes'" required="true()" type="decimal"/>
+            <bind constraint=". &gt;= 0 and . &lt;= 99" nodeset="/data/Q1012_48" relevant="  /data/Q109_43 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q1013_49" required="true()" type="select1"/>
+            <bind nodeset="/data/Q1014_50" relevant="  /data/Q1013_49 = 'Yes'"/>
+            <bind nodeset="/data/Q1014_50/Q1014a" required="true()" type="string"/>
+            <bind constraint=". &lt;= 99999999 and . &gt; 9999999" nodeset="/data/Q1014_50/Q1014bRCN" required="true()" type="decimal"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q1014_50/Q104cFamilyID" required="true()" type="decimal"/>
+            <bind constraint=". &gt; 99999999" nodeset="/data/Q1014_50/Q104dIDN" required="true()" type="decimal"/>
+            <bind constraint=". &lt;= 99 and . &gt;= 0" nodeset="/data/Q1014_50/Q1014e" required="true()" type="decimal"/>
+            <bind nodeset="/data/SingleLine_1244940971_51" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q204Gov_52" required="true()" type="select1"/>
+            <bind nodeset="/data/Q204aNG_53" relevant="  /data/Q204Gov_52 = 'North شمال'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q204bG_54" relevant="  /data/Q204Gov_52 = 'Gaza غزة'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q204c_55" relevant="  /data/Q204Gov_52 = 'Middle الوسطى'" required="true()" type="select1"/>
+            <bind nodeset="/data/q2014d_56" relevant="  /data/Q204Gov_52 = 'Khan Younis خان يونس'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q204E_57" relevant="  /data/Q204Gov_52 = 'Rafah رفح'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q202Address_58" readonly="false()" required="true()" type="string"/>
+            <bind nodeset="/data/Q203_59" type="string"/>
+            <bind nodeset="/data/Q205DamDate_60" required="true()" type="date"/>
+            <bind nodeset="/data/SingleLine_1476264157_62" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q301TypeBldg_63" required="true()" type="select1"/>
+            <bind nodeset="/data/q301typothers_64" readonly="false()" relevant="  /data/Q301TypeBldg_63 = 'Others (Describe) general services…etc'" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine_500343707_65" readonly="true()" required="false()" type="string"/>
+            <bind constraint=". &lt;= 30" nodeset="/data/Q302NoFloors_66" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q303DEMFloors_67" required="true()" type="string"/>
+            <bind nodeset="/data/Q304UnitArea_68" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q305BoundWall_69" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q306a_70" type="string"/>
+            <bind nodeset="/data/Q306b_71" type="string"/>
+            <bind nodeset="/data/Q306c_72" type="string"/>
+            <bind nodeset="/data/Q307STRUCTsAFE_73" required="true()" type="select1"/>
+            <bind nodeset="/data/Q308_74" required="true()" type="select1"/>
+            <bind nodeset="/data/Q309typedamage_75" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine_1216974979_76" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/q3011a_77" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3011SheltiHab_78" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3012_79" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3013Occupied_80" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine1057767717_82" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q3130Dem_83" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine1522905722_84" readonly="true()" relevant="  /data/Q3130Dem_83 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3013a_85" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013b_86" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013c_87" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013d_88" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013e_89" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013f_90" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013g_91" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013h_92" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013i_93" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013j_94" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013k_95" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3013l_96" relevant="  /data/Q3130Dem_83 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3140_98" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine_19165973_99" readonly="true()" relevant="  /data/Q3140_98 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3014a_100" relevant="  /data/Q3140_98 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3014b_101" relevant="  /data/Q3140_98 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3014c_102" relevant="  /data/Q3140_98 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3014d_103" relevant="  /data/Q3140_98 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3014e_104" relevant="  /data/Q3140_98 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3014f_105" relevant="  /data/Q3140_98 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q30150_107" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine128075482_108" readonly="true()" relevant="  /data/Q30150_107 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3015a_109" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015b_110" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015c_111" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015d_112" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015e_113" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015f_114" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015g_115" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015h_116" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015i_117" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3015j_118" relevant="  /data/Q30150_107 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3160_120" required="true()" type="select1"/>
+            <bind nodeset="/data/MultiLine_396469556_121" readonly="true()" relevant="  /data/Q3160_120 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3016a_122" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016b_123" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016c_124" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016d_125" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016e_126" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016f_127" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016g_128" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016h_129" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016i_130" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016j_131" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/SingleLine411265399_133" readonly="true()" relevant="  /data/Q3160_120 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3016k_134" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016l_135" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016m_136" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016n_137" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016o_138" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016p_139" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016q_140" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016r_141" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016s_142" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016t_143" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016u_144" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016v_145" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3016w_146" relevant="  /data/Q3160_120 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3170_148" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine1958955194_149" readonly="true()" relevant="  /data/Q3170_148 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3017a_150" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017b_151" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017c_152" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017d_153" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017e_154" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017f_155" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017g_156" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017h_157" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017i_158" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017j_159" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017k_160" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3017l_161" relevant="  /data/Q3170_148 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3180_163" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine_444716286_164" readonly="true()" relevant="  /data/Q3180_163 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3018a_165" relevant="  /data/Q3180_163 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3018b_166" relevant="  /data/Q3180_163 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3018c_167" relevant="  /data/Q3180_163 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3018d_168" relevant="  /data/Q3180_163 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3018e_169" relevant="  /data/Q3180_163 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3018f_170" relevant="  /data/Q3180_163 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3190_172" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine1573844446_173" readonly="true()" relevant="  /data/Q3190_172 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3019a_174" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019b_175" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019c_176" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019d_177" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019e_178" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019f_179" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019g_180" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019h_181" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019i_182" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019j_183" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019K_184" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019l_185" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019m_186" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019n_187" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019o_188" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019p_189" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019q_190" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3019r_191" relevant="  /data/Q3190_172 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q320Combreq_193" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine1580672949_194" readonly="true()" relevant="  /data/Q320Combreq_193 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3020a_195" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020b_196" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020c_197" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020d_198" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020e_199" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020f_200" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020g_201" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020h_202" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020i_203" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3020j_204" relevant="  /data/Q320Combreq_193 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q320PluWorks_206" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine_632179992_207" readonly="true()" relevant="  /data/Q320PluWorks_206 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3021a_208" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021b_209" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021c_210" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021d_211" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021e_212" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021f_213" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021g_214" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021h_215" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021i_216" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021j_217" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/MultiLine_1038630227_219" readonly="true()" relevant="  /data/Q320PluWorks_206 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3021k_220" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021l_221" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021m_222" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021n_223" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021o_224" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021p_225" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021q_226" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021r_227" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021s_228" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021t_229" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021u_230" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/MultiLine_1030327280_232" readonly="true()" relevant="  /data/Q320PluWorks_206 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3021v_233" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021w_234" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021x_235" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021y_236" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021z_237" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021aa_238" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021ab_239" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021ac_240" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021ad_241" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3021ae_242" relevant="  /data/Q320PluWorks_206 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q320ELE_244" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine_937977918_245" readonly="true()" relevant="  /data/Q320ELE_244 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3022a_246" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022b_247" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022c_248" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022d_249" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022e_250" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022f_251" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022g_252" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022h_253" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022i_254" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022j_255" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022k_256" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022l_257" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022m_258" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022n_259" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/MultiLine595202615_261" readonly="true()" relevant="  /data/Q320ELE_244 = 'Yes'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3022o_262" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022p_263" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022q_264" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022r_265" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022s_266" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022t_267" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022u_268" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022v_269" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022w_270" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022x_271" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q3022y_272" relevant="  /data/Q320ELE_244 = 'Yes'" type="decimal"/>
+            <bind nodeset="/data/Q30230_274" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3023mISC_275" relevant="  /data/Q30230_274 = 'Yes'"/>
+            <bind nodeset="/data/Q3023mISC_275/Q3023a" required="false()" type="string"/>
+            <bind nodeset="/data/Q3023mISC_275/Q3023b" required="false()" type="decimal"/>
+            <bind nodeset="/data/Q3023mISC_275/Q3023C" required="false()" type="decimal"/>
+            <bind nodeset="/data/SingleLine_538756769_276" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/repairof_277" readonly="false()" type="string"/>
+            <bind nodeset="/data/Recof_278" readonly="false()" type="string"/>
+            <bind nodeset="/data/Remarks_279" readonly="false()" type="string"/>
+        </model>
+    </h:head>
+    <h:body>
+        <group appearance="field-list">
+            <input ref="date_0">
+                <label>Date</label>
+            </input> 
+            <input ref="enumerator_1">
+                <label>Enumerator ID</label>
+            </input>
+            <input ref="des_version_2">
+                <label>Designer version</label>
+            </input>
+            <input ref="client_version_3">
+                <label>Client version</label>
+            </input>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine647161810_5" type="label">
+                <label/>
+            </input> 
+            <input ref="GPS_6">
+                <label>Device GPS</label>
+            </input> 
+            <input ref="SingleLine158858305_7" type="label">
+                <label/>
+            </input> 
+            <input ref="Latitude_8">
+                <label>Latitude</label>
+            </input>
+            <input ref="Longitude_9">
+                <label>Longitude</label>
+            </input>
+            <input ref="SingleLine_2038224218_10" type="label">
+                <label/>
+            </input> 
+            <input ref="picture1_11">
+                <label>Picture 1</label>
+            </input> 
+            <input ref="Picture2_12">
+                <label>Picture 2</label>
+            </input> 
+            <input ref="Q001SurvCode_13">
+                <label>0.1.a Surveyor Coding</label>
+            </input> 
+            <input ref="Q002SrvName_14">
+                <label>0.1.b Surveyor Name:</label>
+            </input>
+            <input ref="Q002AreaCode_15">
+                <label>0.2 Area Coding:</label>
+            </input>
+            <select1 appearance="minimal" ref="Q004SecSit_16" reflist="Q004">
+                <label>0.4 Security Situation:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Safe</label>
+                    <value>Safe</value>
+                </item>
+                <item>
+                    <label>Unsafe</label>
+                    <value>Unsafe</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q005TypInf_17" reflist="Q006">
+                <label>0.5 Typology of Infrastructure:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Housing</label>
+                    <value>Housing</value>
+                </item>
+                <item>
+                    <label>Social Infrastructure</label>
+                    <value>Social Infrastructure</value>
+                </item>
+                <item>
+                    <label>Economic Infrastructure</label>
+                    <value>Economic Infrastructure</value>
+                </item>
+            </select1>
+            <input ref="Q006Comm_18" type="tarea">
+                <label>0.6 Comments and Recommendations:</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_1609416362_20" type="label">
+                <label/>
+            </input> 
+            <input ref="Q101_21">
+                <label>1.1 Unit Code:</label>
+            </input>
+            <input ref="SingleLine_1871435675_22" type="label">
+                <label/>
+            </input> 
+            <input ref="Q102a_23">
+                <label>1.2.a First:</label>
+            </input>
+            <input ref="Q102b_24">
+                <label>1.2.b Father:</label>
+            </input>
+            <input ref="Q102c_25">
+                <label>1.2.c G/Father:</label>
+            </input>
+            <input ref="Q102d_26">
+                <label>1.2.d Family:</label>
+            </input>
+            <input ref="Q103ID_27">
+                <label>1.3 ID number</label>
+            </input> 
+            <input ref="Q104Tel_28">
+                <label>1.4.a Telefone Number</label>
+            </input> 
+            <input ref="Q104Mob_29">
+                <label>1.4.b Mobile Number</label>
+            </input> 
+            <select1 appearance="full" ref="Q1005_30" reflist="YesNo">
+                <label>1.5 Are you Married?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="Q105a_31">
+                <label>1.5.a Spouse Name 1:</label>
+            </input>
+            <input ref="Q105bSps1ID_32">
+                <label>1.5.a Spouse ID</label>
+            </input> 
+            <select1 appearance="full" ref="Q106_33" reflist="YesNo">
+                <label>1.6 Do you have more than 1 wife?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="Q106a_34">
+                <label>1.6.a Spouse 2  Name:</label>
+            </input>
+            <input ref="Q106Sps2ID_35">
+                <label>1.6.b Spouse 2 ID</label>
+            </input> 
+            <select1 appearance="full" ref="Q107_36" reflist="YesNo">
+                <label>1.7 Do you have another Wife?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="Q107aSps3Nm_37">
+                <label>1.7.a Spouse Name 3:</label>
+            </input>
+            <input ref="Q107bSps3ID_38">
+                <label>1.7.b Souse 3 ID</label>
+            </input> 
+            <select1 appearance="full" ref="Q108_39" reflist="YesNo">
+                <label>1.8 Do you have another Wife?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="Q108asps4nm_40">
+                <label>1.8.a Spouse Name 4:</label>
+            </input>
+            <input ref="Q108bSps4ID_41">
+                <label>1.8.b Spouse ID 4:</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q109_43" reflist="YesNo">
+                <label>1.9 Are you a refugee?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine_1103355466_44" type="label">
+                <label/>
+            </input> 
+            <input ref="Q1010FamilyID_45">
+                <label>1.10 Family ID</label>
+            </input> 
+            <input ref="Q1010bAlt_46">
+                <label>Alternate Number</label>
+            </input> 
+            <input ref="Q1011_47">
+                <label>1.11 Old R/C No.:</label>
+            </input> 
+            <input ref="Q1012_48">
+                <label>1.12 FS:</label>
+            </input> 
+            <select1 appearance="full" ref="Q1013_49" reflist="YesNo">
+                <label>1.13 Extended family?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+        </group>
+        <group ref="Q1014_50">
+            <label>1.14 If yes please fill the follow information for each family member</label>
+            <repeat nodeset="/data/Q1014_50">
+                <group appearance="field-list">
+                    <input ref="Q1014a">
+                        <label>1.14.a Name:</label>
+                    </input> 
+                    <input ref="Q1014bRCN">
+                        <label>1.14.b RCN:</label>
+                    </input> 
+                    <input ref="Q104cFamilyID">
+                        <label>1.14 Family Number</label>
+                    </input> 
+                    <input ref="Q104dIDN">
+                        <label>1.4.d ID No.</label>
+                    </input> 
+                    <input ref="Q1014e">
+                        <label>1.14.e FS:</label>
+                    </input> 
+                </group>
+            </repeat>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_1244940971_51" type="label">
+                <label/>
+            </input> 
+            <select1 appearance="minimal" ref="Q204Gov_52" reflist="Q204Governorate">
+                <label>2.4 Governorate</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>North شمال</label>
+                    <value>North شمال</value>
+                </item>
+                <item>
+                    <label>Gaza غزة</label>
+                    <value>Gaza غزة</value>
+                </item>
+                <item>
+                    <label>Khan Younis خان يونس</label>
+                    <value>Khan Younis خان يونس</value>
+                </item>
+                <item>
+                    <label>Rafah رفح</label>
+                    <value>Rafah رفح</value>
+                </item>
+                <item>
+                    <label>Middle الوسطى</label>
+                    <value>Middle الوسطى</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q204aNG_53" reflist="q204ngaza">
+                <label>2.4.a North:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>أم النصر (القرية البدوية) N10</label>
+                    <value>أم النصر (القرية البدوية) N10</value>
+                </item>
+                <item>
+                    <label>بيت حانون N20</label>
+                    <value>بيت حانون N20</value>
+                </item>
+                <item>
+                    <label>بيت لاهيا N30</label>
+                    <value>بيت لاهيا N30</value>
+                </item>
+                <item>
+                    <label>جباليا N40</label>
+                    <value>جباليا N40</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q204bG_54" reflist="q204Gaza">
+                <label>2.4.b Gaza:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>غزة G10</label>
+                    <value>غزة G10</value>
+                </item>
+                <item>
+                    <label>جحر الديك G20</label>
+                    <value>جحر الديك G20</value>
+                </item>
+                <item>
+                    <label>المغراقة G30</label>
+                    <value>المغراقة G30</value>
+                </item>
+                <item>
+                    <label>مدينة الزهراء G40</label>
+                    <value>مدينة الزهراء G40</value>
+                </item>
+                <item>
+                    <label>الشجاعية G50</label>
+                    <value>الشجاعية G50</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q204c_55" reflist="Q204MunDBalah">
+                <label>2.4.c Middle:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>النصيرات M10</label>
+                    <value>النصيرات M10</value>
+                </item>
+                <item>
+                    <label>البريج M20</label>
+                    <value>البريج M20</value>
+                </item>
+                <item>
+                    <label>المغازي M30</label>
+                    <value>المغازي M30</value>
+                </item>
+                <item>
+                    <label>المصدر M40</label>
+                    <value>المصدر M40</value>
+                </item>
+                <item>
+                    <label>وادي السلقا M50</label>
+                    <value>وادي السلقا M50</value>
+                </item>
+                <item>
+                    <label>دير البلح M60</label>
+                    <value>دير البلح M60</value>
+                </item>
+                <item>
+                    <label>الزوايدة M70</label>
+                    <value>الزوايدة M70</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="q2014d_56" reflist="Q204MunKYounes">
+                <label>2.4.d Khan Younis </label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>خانيونس K10</label>
+                    <value>خانيونس K10</value>
+                </item>
+                <item>
+                    <label>القرارة K20</label>
+                    <value>القرارة K20</value>
+                </item>
+                <item>
+                    <label>بني سهيلا K30</label>
+                    <value>بني سهيلا K30</value>
+                </item>
+                <item>
+                    <label>عبسان الجديدة (الصغيرة) K40</label>
+                    <value>عبسان الجديدة (الصغيرة) K40</value>
+                </item>
+                <item>
+                    <label>عبسان الكبيرة K50</label>
+                    <value>عبسان الكبيرة K50</value>
+                </item>
+                <item>
+                    <label>خزاعة K60</label>
+                    <value>خزاعة K60</value>
+                </item>
+                <item>
+                    <label>الفخاري K70</label>
+                    <value>الفخاري K70</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q204E_57" reflist="Q204MunRafah">
+                <label>2.4.e Rafah</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>رفح R10</label>
+                    <value>رفح R10</value>
+                </item>
+                <item>
+                    <label>النصر R20</label>
+                    <value>النصر R20</value>
+                </item>
+                <item>
+                    <label>الشوكة R30</label>
+                    <value>الشوكة R30</value>
+                </item>
+            </select1>
+            <input ref="Q202Address_58" type="tarea">
+                <label>2.2 Detailed Address:</label>
+            </input> 
+            <input ref="Q203_59">
+                <label>2.3 Building No:</label>
+            </input>
+            <input ref="Q205DamDate_60">
+                <label>2.5 Damage Date</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_1476264157_62" type="label">
+                <label/>
+            </input> 
+            <select1 appearance="minimal" ref="Q301TypeBldg_63" reflist="Q301TypeOfBuilding">
+                <label>3.1 Type of Building</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Finished Concrete Building</label>
+                    <value>Finished Concrete Building</value>
+                </item>
+                <item>
+                    <label>Concrete Skeleton</label>
+                    <value>Concrete Skeleton</value>
+                </item>
+                <item>
+                    <label>Eternite Sheets</label>
+                    <value>Eternite Sheets</value>
+                </item>
+                <item>
+                    <label>Iron Sheets</label>
+                    <value>Iron Sheets</value>
+                </item>
+                <item>
+                    <label>Combined</label>
+                    <value>Combined</value>
+                </item>
+                <item>
+                    <label>Others (Describe) general services…etc</label>
+                    <value>Others (Describe) general services…etc</value>
+                </item>
+            </select1>
+            <input ref="q301typothers_64" type="tarea">
+                <label>3.1.1 Other (Please Specify):</label>
+            </input> 
+            <input ref="SingleLine_500343707_65" type="label">
+                <label/>
+            </input> 
+            <input ref="Q302NoFloors_66">
+                <label>3.2 No of Floors:</label>
+            </input> 
+            <input ref="Q303DEMFloors_67">
+                <label>3.3 Damaged Floor/s:</label>
+            </input>
+            <input ref="Q304UnitArea_68">
+                <label>3.4 Unit Area [M2]:</label>
+            </input> 
+            <input ref="Q305BoundWall_69">
+                <label>3.5 Boundary Wall, if any(L.M.)</label>
+            </input> 
+            <input ref="Q306a_70">
+                <label>3.6.a Block No:</label>
+            </input>
+            <input ref="Q306b_71">
+                <label>3.6.b Parcel No:</label>
+            </input>
+            <input ref="Q306c_72">
+                <label>3.6.c Plot No:</label>
+            </input>
+            <select1 appearance="full" ref="Q307STRUCTsAFE_73" reflist="YesNo">
+                <label>3.7 Structurely Safe?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <select1 appearance="full" ref="Q308_74" reflist="YesNo">
+                <label>3.8  Needs Structure Support?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q309typedamage_75" reflist="q309TypeDemage">
+                <label>3.9 Type of Damage:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>No Damage</label>
+                    <value>No Damage</value>
+                </item>
+                <item>
+                    <label>Repairable</label>
+                    <value>Repairable</value>
+                </item>
+                <item>
+                    <label>Not Repairable</label>
+                    <value>Not Repairable</value>
+                </item>
+            </select1>
+            <input ref="SingleLine_1216974979_76" type="label">
+                <label/>
+            </input> 
+            <select1 appearance="full" ref="q3011a_77" reflist="YesNo">
+                <label>3.11.a Is the house in the Refugee Camp?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <select1 appearance="full" ref="Q3011SheltiHab_78" reflist="YesNo">
+                <label>3.11.b Is the Shelter Suitable for Living?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q3012_79" reflist="Q3012Status">
+                <label>3.12 Status:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Owned</label>
+                    <value>Owned</value>
+                </item>
+                <item>
+                    <label>Rented</label>
+                    <value>Rented</value>
+                </item>
+            </select1>
+            <select1 appearance="full" ref="Q3013Occupied_80" reflist="YesNo">
+                <label>Is it occupied?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine1057767717_82" type="label">
+                <label/>
+            </input> 
+            <select1 appearance="full" ref="Q3130Dem_83" reflist="YesNo">
+                <label>3.13 Demolishing Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine1522905722_84" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3013a_85">
+                <label>3.13.a Demolish walls (M2):</label>
+            </input> 
+            <input ref="Q3013b_86">
+                <label>3.13.b Remove concrete from slabs(M2):</label>
+            </input> 
+            <input ref="Q3013c_87">
+                <label>3.13.c Remove concrete from existing damaged columns(No.):</label>
+            </input> 
+            <input ref="Q3013d_88">
+                <label>3.13.d Carefully remove concrete from stair cases (Item):</label>
+            </input> 
+            <input ref="Q3013e_89">
+                <label>3.13.e Clean the site including removing debris out of site to approved damping areas.(Item):</label>
+            </input> 
+            <input ref="Q3013f_90">
+                <label>3.13.f Demolish concrete ground slabs(M2):</label>
+            </input> 
+            <input ref="Q3013g_91">
+                <label>3.13.g Demolish concrete beams or foundation including removing debris out of site to approved damping areas.(M3):</label>
+            </input> 
+            <input ref="Q3013h_92">
+                <label>3.13.h Carfully remove the terazzo floor tiles(M2):</label>
+            </input> 
+            <input ref="Q3013i_93">
+                <label>3.13.i Carefully dismantle &amp; refix existing Aluminum or wooden window/door, repair, fix new fittings in place of missing parts where needed &amp; any other needed.(No.):</label>
+            </input> 
+            <input ref="Q3013j_94">
+                <label>3.13.j Remove marble worktop(RM): </label>
+            </input> 
+            <input ref="Q3013k_95">
+                <label>3.13.k Hacking and remove old plaster including removing debris out of site to approved damping areas.(M2):</label>
+            </input> 
+            <input ref="Q3013l_96">
+                <label>3.13.l Backfilling with clean sand(M3):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q3140_98" reflist="YesNo">
+                <label>Block Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine_19165973_99" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3014a_100">
+                <label>3.14.a Hollow block walling 10cm thick (M2):</label>
+            </input> 
+            <input ref="Q3014b_101">
+                <label>3.14.b Hollow block walling 12cm thick (M2):</label>
+            </input> 
+            <input ref="Q3014c_102">
+                <label>3.14.c Hollow block walling 15cm thick(M2):</label>
+            </input> 
+            <input ref="Q3014d_103">
+                <label>3.14.d Hollow block walling 20cm thick(M2):</label>
+            </input> 
+            <input ref="Q3014e_104">
+                <label>3.14.e Solid block walling 20cm thick (M2):</label>
+            </input> 
+            <input ref="Q3014f_105">
+                <label>3.14.f Solid block walling 40cm thick(M2):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q30150_107" reflist="YesNo">
+                <label>3.15 Concrete Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine128075482_108" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3015a_109">
+                <label>3.15.a Supply and cast plain concrete (B200/20) for ground slab with [6cm] thick.(M2):</label>
+            </input> 
+            <input ref="Q3015b_110">
+                <label>3.15.b Supply and cast reinforced concrete (B250/20) for ground slab with [10cm] thick, (M2):</label>
+            </input> 
+            <input ref="Q3015c_111">
+                <label>3.15.c Supply and cast reinforced concrete (B250/20) in door jambs, canopies, secondary tie columns,secondary beams, lintel, sills, infil and topping to walls (M3):</label>
+            </input> 
+            <input ref="Q3015d_112">
+                <label>3.15.d Supply and cast reinforced concrete (B250/20) for ground beams or foundation(M3):</label>
+            </input> 
+            <input ref="Q3015e_113">
+                <label>3.15.e Supply and cast reinforced concrete (B300/20) for new columns (M3):</label>
+            </input> 
+            <input ref="Q3015f_114">
+                <label>3.15.f Supply and cast reinforced concrete (B300/20) as protective sleeve cover around existing damaged columns. (M3):</label>
+            </input> 
+            <input ref="Q3015g_115">
+                <label>3.15.g Supply and cast reinforced concrete (B250/20) for solid slab [12cm] average thick(M2):</label>
+            </input> 
+            <input ref="Q3015h_116">
+                <label>3.15.h Supply and cast reinforced concrete (B250/20) for suspended hollow block slab [25cm average thick](M2):</label>
+            </input> 
+            <input ref="Q3015i_117">
+                <label>3.15.i Supply &amp; cast reinforced concrete (B250/20) for stair case (landing, flights, steps &amp; beams)(M3):</label>
+            </input> 
+            <input ref="Q3015j_118">
+                <label>3.15.j Provide wooden shuttering and steel support for existing roof slab or any structural element as directed by supervising engineer.(M2):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q3160_120" reflist="YesNo">
+                <label>3.16 Finishing Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="MultiLine_396469556_121" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q3016a_122">
+                <label>3.16.a Internal plastering,13mm thick to walls and ceilings (M2):</label>
+            </input> 
+            <input ref="Q3016b_123">
+                <label>3.16.b External rendering, 15mm thick with approved dampproof admixture to walls (M2):</label>
+            </input> 
+            <input ref="Q3016c_124">
+                <label>3.16.c Ditto but lime free external rendering (M2):</label>
+            </input> 
+            <input ref="Q3016d_125">
+                <label>3.16.d External tyrolean finish with white cement ad fine sand (kfars) mix (1:3) to walls(M2):</label>
+            </input> 
+            <input ref="Q3016e_126">
+                <label>3.16.e Priming and painting with at least two coats of high quality acrylic emulsion paint (Supercryle) for walls and ceiling surfaces (M2):</label>
+            </input> 
+            <input ref="Q3016f_127">
+                <label>3.16.f Priming and painting with at least two coats of high quality oil paint for walls. (M2):</label>
+            </input> 
+            <input ref="Q3016g_128">
+                <label>3.16.g Plastering, rendering and repairing cracks(RM):</label>
+            </input> 
+            <input ref="Q3016h_129">
+                <label>3.16.h Supply and install marble sills (local khalily type) 250mm wide(RM):</label>
+            </input> 
+            <input ref="Q3016i_130">
+                <label>3.16.i Supply and install precast terrazzo sills(RM):</label>
+            </input> 
+            <input ref="Q3016j_131">
+                <label>3.16.j Supply and install terrazzo with marble chips floor tiles and skirting (7cm high) (M2):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine411265399_133" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3016k_134">
+                <label>3.16.k Supply and install terrazzo skirtings, 70mm high x 10mm thick (RM): </label>
+            </input> 
+            <input ref="Q3016l_135">
+                <label>3.16.l Supply and install white glazed ceramic wall tiles (M2):</label>
+            </input> 
+            <input ref="Q3016m_136">
+                <label>3.16.m Supply and install unglazed ceramic floor tiles (M2):</label>
+            </input> 
+            <input ref="Q3016n_137">
+                <label>3.16.n Supply and install porcelain tiles (M2):</label>
+            </input> 
+            <input ref="Q3016o_138">
+                <label>3.16.o Supply and install precast terrazzo for stair case (RM):</label>
+            </input> 
+            <input ref="Q3016p_139">
+                <label>3.16.p Marble worktop ( Complete including top, shelves, walls, … etc)(RM):</label>
+            </input> 
+            <input ref="Q3016q_140">
+                <label>3.16.q Supply and fix surface marble only(M2):</label>
+            </input> 
+            <input ref="Q3016r_141">
+                <label>3.16.r Supply and fix Granite marble only(M2):</label>
+            </input> 
+            <input ref="Q3016s_142">
+                <label>3.16.s Supply and install exterior natural stone. (M2):</label>
+            </input> 
+            <input ref="Q3016t_143">
+                <label>3.16.t Supply, install and fix clay roof tiles (Karmeed) complete with all needed items, materials and works(M2):</label>
+            </input> 
+            <input ref="Q3016u_144">
+                <label>Supply and fix gypsum decorated panel (wide) (incl materials and workmanship)</label>
+            </input> 
+            <input ref="Q3016v_145">
+                <label>Supply and fix gypsum decorated panel (thin) (incl materials and workmanship)</label>
+            </input> 
+            <input ref="Q3016w_146">
+                <label>Supply and fix gypsum decorated panel (incl materials and workmanship)</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q3170_148" reflist="YesNo">
+                <label>3.17 Aluminum Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine1958955194_149" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3017a_150">
+                <label>3.17.a Supply and fix aluminum window of 4mm thick waved glazed sliding leaves (M2):</label>
+            </input> 
+            <input ref="Q3017b_151">
+                <label>3.17.b Supply and fix aluminum window of 4mm thick waved glazed moving leaves (M2):</label>
+            </input> 
+            <input ref="Q3017c_152">
+                <label>3.17.c Supply and fix aluminum window of 4mm thick waved glazed fixed leaves (M2):</label>
+            </input> 
+            <input ref="Q3017d_153">
+                <label>3.17.d Supply and fix aluminum window of 6mm thick waved glazed sliding leaves (M2):</label>
+            </input> 
+            <input ref="Q3017e_154">
+                <label>3.17.e Supply and fix aluminum window of 6mm thick waved glazed moving leaves (M2):</label>
+            </input> 
+            <input ref="Q3017f_155">
+                <label>3.17.f Supply and fix aluminum window of 6mm thick waved glazed fixed leaves (M2):</label>
+            </input> 
+            <input ref="Q3017g_156">
+                <label>3.17.g Supply and fix aluminum window of plastic panel louvered sliding leaves.(M2):</label>
+            </input> 
+            <input ref="Q3017h_157">
+                <label>3.17.h Supply and fix aluminum window of plastic panel louvered moving leaves. (M2):</label>
+            </input> 
+            <input ref="Q3017i_158">
+                <label>3.17.i Supply and fix aluminum window of plastic panel louvered fixed leaves. (M2):</label>
+            </input> 
+            <input ref="Q3017j_159">
+                <label>3.17.j Supply and install leaves for aluminum window or door to match the existing (M2): </label>
+            </input> 
+            <input ref="Q3017k_160">
+                <label>3.17.k Supply and install aluminum frame (RM):</label>
+            </input> 
+            <input ref="Q3017l_161">
+                <label>3.17.l Maintenance of aluminum window or door ( Excluding glass).(M2):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q3180_163" reflist="YesNo">
+                <label>Wooden Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine_444716286_164" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3018a_165">
+                <label>3.18.a Type D1, V-jointed, size (90-80x220x4.5)cm (No.): </label>
+            </input> 
+            <input ref="Q3018b_166">
+                <label>3.18.b Type D2 flushed wooden door, overall size (70-65x220x4.5)cm (No.): </label>
+            </input> 
+            <input ref="Q3018c_167">
+                <label>3.18.c Maintenance of wooden window or door(No.):</label>
+            </input> 
+            <input ref="Q3018d_168">
+                <label>3.18.d Supply and fix wooden window.(No.):</label>
+            </input> 
+            <input ref="Q3018e_169">
+                <label>3.18.e Supply and install timber leaves for wooden window or door.(No.):</label>
+            </input> 
+            <input ref="Q3018f_170">
+                <label>3.18.f Supply and install timber frame for wooden window or door to match the existing. (No.):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q3190_172" reflist="YesNo">
+                <label>Metal Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine1573844446_173" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3019a_174">
+                <label>3.19.a Supply and install galvanized steel sheets (type skourit) 0.5mm thick .(M2):</label>
+            </input> 
+            <input ref="Q3019b_175">
+                <label>3.19.b Supply and install eternite sheets fixed to steel pipes or purlings.(M2):</label>
+            </input> 
+            <input ref="Q3019c_176">
+                <label>3.19.c Dismantle and refix steel pipes and eternite sheets or skourit .(M2):</label>
+            </input> 
+            <input ref="Q3019d_177">
+                <label>3.19.d Supply and install 4'' mild steel pipes 2.25mm thick.(RM):</label>
+            </input> 
+            <input ref="Q3019e_178">
+                <label>3.19.e Supply and install open steel profile 80x40 mm.(RM): </label>
+            </input> 
+            <input ref="Q3019f_179">
+                <label>3.19.f Supply and install steel door size [120x220]cm.(No.):</label>
+            </input> 
+            <input ref="Q3019g_180">
+                <label>3.19.g Maintenance of steel door size [120x220]cm.(No.):</label>
+            </input> 
+            <input ref="Q3019h_181">
+                <label>3.19.h Supply and install steel door size [220x400]cm.(No.):</label>
+            </input> 
+            <input ref="Q3019i_182">
+                <label>3.19.i Maintenance of steel door size [220x400]cm.(No.):</label>
+            </input> 
+            <input ref="Q3019j_183">
+                <label>3.19.j Supply and fix steel balustrade for stair case.(RM): </label>
+            </input> 
+            <input ref="Q3019K_184">
+                <label>3.19.k Supply and fix security protective screen. (M2):</label>
+            </input> 
+            <input ref="Q3019l_185">
+                <label>3.19.l Supply and install steel stand, average size of 100x100x200cm mild steel (No.):</label>
+            </input> 
+            <input ref="Q3019m_186">
+                <label>3.19.m New Mul-T-lock Door with frame(No.):</label>
+            </input> 
+            <input ref="Q3019n_187">
+                <label>3.19.n New Mul-T-lock Door without frame(No.): </label>
+            </input> 
+            <input ref="Q3019o_188">
+                <label>3.19.o PVC coating(No.):</label>
+            </input> 
+            <input ref="Q3019p_189">
+                <label>3.19.p New door lock(No.):</label>
+            </input> 
+            <input ref="Q3019q_190">
+                <label>3.19.q Complete maintenace(No.):</label>
+            </input> 
+            <input ref="Q3019r_191">
+                <label>3.19.r PVC coating (both sides)(No.): </label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q320Combreq_193" reflist="YesNo">
+                <label>Combined Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine1580672949_194" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3020a_195">
+                <label>3.20.a Replacement of broken glass 4mm thick for any defected parts.(M2):</label>
+            </input> 
+            <input ref="Q3020b_196">
+                <label>3.20.b Replacement of broken glass 6mm thick for any defected parts.(M2): </label>
+            </input> 
+            <input ref="Q3020c_197">
+                <label>3.20.c Replacement of broken glass colored 4mm thick (Reflector) for any defected parts.(M2):</label>
+            </input> 
+            <input ref="Q3020d_198">
+                <label>3.20.d Replacement of broken glass colored 6mm thick (Reflector) for any defected parts.(M2):</label>
+            </input> 
+            <input ref="Q3020e_199">
+                <label>3.20.e Replacement of broken reinforced glass 6mm thick for any defected parts.(M2):</label>
+            </input> 
+            <input ref="Q3020f_200">
+                <label>3.20.f Replacement of broken panels for louver leaves with all needed accessories(M2):</label>
+            </input> 
+            <input ref="Q3020g_201">
+                <label>3.20.g Supply and install fly screen for leaves with all needed acessories.(M2):</label>
+            </input> 
+            <input ref="Q3020h_202">
+                <label>3.20.h Supply and install hardware with switch (wally type).(No.):</label>
+            </input> 
+            <input ref="Q3020i_203">
+                <label>3.20.i Replacement of Gypsum docaration(LM):</label>
+            </input> 
+            <input ref="Q3020j_204">
+                <label>3.20.j Replacement of Gypsum Board(M2):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q320PluWorks_206" reflist="YesNo">
+                <label>Plumbing Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine_632179992_207" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3021a_208">
+                <label>3.21.a Complete solar heating system(Item):</label>
+            </input> 
+            <input ref="Q3021b_209">
+                <label>3.21.b Solar heater cylinder 150 liter.(Item): </label>
+            </input> 
+            <input ref="Q3021c_210">
+                <label>3.21.c 1.0M3 capacity plastic water tank(Item): </label>
+            </input> 
+            <input ref="Q3021d_211">
+                <label>3.21.d Ditto but 1.5M3 capacity.(Item):</label>
+            </input> 
+            <input ref="Q3021e_212">
+                <label>3.21.e Ditto but 0.5M3 capacity.(Item):</label>
+            </input> 
+            <input ref="Q3021f_213">
+                <label>3.21.f Dismantle and refix solar heating system.(Item): </label>
+            </input> 
+            <input ref="Q3021g_214">
+                <label>3.21.g UPVC drainage pipes 4" internal diameter(MR):</label>
+            </input> 
+            <input ref="Q3021h_215">
+                <label>3.21.h UPVC drainage pipes 6" internal diameter.(MR):</label>
+            </input> 
+            <input ref="Q3021i_216">
+                <label>3.21.i UPVC drainage pipes 2" or 3" .(MR):</label>
+            </input> 
+            <input ref="Q3021j_217">
+                <label>3.21.j Galavanized steel pipes [3/4"](MR):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="MultiLine_1038630227_219" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q3021k_220">
+                <label>3.21.k 20 mm pressure PVC water pipes [Gulanee] with sleeves 25 mm(MR):</label>
+            </input> 
+            <input ref="Q3021l_221">
+                <label>3.21.l 1/2" Galavanized steel pipes with all fittings including priming &amp; painting.(MR):</label>
+            </input> 
+            <input ref="Q3021m_222">
+                <label>3.21.m Trapped floor gully 4" diameter (No.):</label>
+            </input> 
+            <input ref="Q3021n_223">
+                <label>3.21.n UPVC rainwater pipes 3" internal diameter including jointing, fixing with brackets.(MR):</label>
+            </input> 
+            <input ref="Q3021o_224">
+                <label>3.21.o Complete single mirror size 190x90cm for solar system best quality.(No.):</label>
+            </input> 
+            <input ref="Q3021p_225">
+                <label>3.21.p 2mm clear glass sheet for solar system mirrors best quality, (M2):</label>
+            </input> 
+            <input ref="Q3021q_226">
+                <label>3.21.q Flushing cistern box (No.):</label>
+            </input> 
+            <input ref="Q3021r_227">
+                <label>3.21.r 0.5" Tibisa type chromium water mixer (No.):</label>
+            </input> 
+            <input ref="Q3021s_228">
+                <label>3.21.s 0.5" Tibisa type chromium water tap (No.):</label>
+            </input> 
+            <input ref="Q3021t_229">
+                <label>3.21.t White glazed hand wash basin size 52x40cm(No.):</label>
+            </input> 
+            <input ref="Q3021u_230">
+                <label>3.21.u Shower Tray 700 X700mm (Ariston type or equivelent).(No.):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="MultiLine_1030327280_232" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q3021v_233">
+                <label>3.21.v White glazed fireclay sink size 610x405mm(No.): </label>
+            </input> 
+            <input ref="Q3021w_234">
+                <label>3.21.w White glazed fireclay squatting W.C [European/Arabic] (No.): </label>
+            </input> 
+            <input ref="Q3021x_235">
+                <label>3.21.x One layer bituminous membrane with chippings 4mm thick of high ductility (polybeed)(M2):</label>
+            </input> 
+            <input ref="Q3021y_236">
+                <label>3.21.y Manhole 40cm internal diameter (No.):</label>
+            </input> 
+            <input ref="Q3021z_237">
+                <label>3.21.z Manhole 50cm internal diameter (No.):</label>
+            </input> 
+            <input ref="Q3021aa_238">
+                <label>3.21.a.a Water pump 0.5 HP including all acessories(Item):</label>
+            </input> 
+            <input ref="Q3021ab_239">
+                <label>3.21.a.b Ditto but 0.75 HP(Item):</label>
+            </input> 
+            <input ref="Q3021ac_240">
+                <label>3.21.a.c Ditto but 1.0 HP(Item):</label>
+            </input> 
+            <input ref="Q3021ad_241">
+                <label>3.21.a.d Septic tank size 165X90X140cm (Item):</label>
+            </input> 
+            <input ref="Q3021ae_242">
+                <label>3.21.a.e Percolation Pit size 240cm internal dimeter and 400cm high(Item):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q320ELE_244" reflist="YesNo">
+                <label>Electrical Works Required</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="SingleLine_937977918_245" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3022a_246">
+                <label>3.22.a Three pins 16A socket outlet:</label>
+            </input> 
+            <input ref="Q3022b_247">
+                <label>3.22.b Three pins 16A socket outlet (water proof): </label>
+            </input> 
+            <input ref="Q3022c_248">
+                <label>3.22.c Three pins 16A socket outlet with 3X2.5mm2 wire and conduits from SBD to the points(No.):</label>
+            </input> 
+            <input ref="Q3022d_249">
+                <label>3.22.d One gang one way switch (water proof):</label>
+            </input> 
+            <input ref="Q3022e_250">
+                <label>3.22.e One gang one way switch(No.):</label>
+            </input> 
+            <input ref="Q3022f_251">
+                <label>3.22.f One gang one way switch with 1.5mm2 wire and conduits from SDB to the point.(No.):</label>
+            </input> 
+            <input ref="Q3022g_252">
+                <label>3.22.g Two gang one way switch , inculding all connections (No.):</label>
+            </input> 
+            <input ref="Q3022h_253">
+                <label>3.22.h Two gang one way switch with 1.5mm2 wire and conduits from SDB to the point (No.):</label>
+            </input> 
+            <input ref="Q3022i_254">
+                <label>3.22.i Flourescent lighting fixture 1x40w with lamp and 3X1.5mm2 wire and conduit (No.):</label>
+            </input> 
+            <input ref="Q3022j_255">
+                <label>3.22.j Circular glob 60w with 3X1.5mm2 wire and conduits(No.):</label>
+            </input> 
+            <input ref="Q3022k_256">
+                <label>3.22.k Ceiling lighting point with 60watt tungesten lamp and wires, conduits(No.):</label>
+            </input> 
+            <input ref="Q3022l_257">
+                <label>3.22.l Supply and install 2X10 mm2XLPE cable with stay wire from MDB toi the main electrical network including isolator porcelain cup(RM):</label>
+            </input> 
+            <input ref="Q3022m_258">
+                <label>3.22.m Supply and install 2" Galvanized steel console 3 meter long(Item):</label>
+            </input> 
+            <input ref="Q3022n_259">
+                <label>3.22.n Supply and install 1-phase KWHM , ABB type with 1X40 A circuit breaker inside 30X40cm CI box.(No.):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="MultiLine595202615_261" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q3022o_262">
+                <label>3.22.o PVC SDB, 24 way type is Siemens or equal approved comprising: - One 1x40A C.B - One 2x40A/0.03 ELCB - Four 1x10A C.B - Six 1x16 A C.B  - Earth &amp; nutral bus bars.(Item):" </label>
+            </input> 
+            <input ref="Q3022p_263">
+                <label>3.22.p Rearrange the existing wires using PVC pipe and repair all defects or fault in the internal network(Item):</label>
+            </input> 
+            <input ref="Q3022q_264">
+                <label>3.22.q Supply and install PVC cover for electrical point (circular or rectangular junction boxes)(No.):</label>
+            </input> 
+            <input ref="Q3022r_265">
+                <label>3.22.r Relocate KWHM to the new location with all necessary needed, cable, conduit and connection.(Item):</label>
+            </input> 
+            <input ref="Q3022s_266">
+                <label>3.22.r Earthing system consists of 150cm CU electrode with 6mm2 stranded wire from SDB to the electrode with concrete manhole 40cm internal diameter and cover R≤5 ohms(Item):</label>
+            </input> 
+            <input ref="Q3022t_267">
+                <label>3.22.t Circuit breaker 1x10A(No):</label>
+            </input> 
+            <input ref="Q3022u_268">
+                <label>3.22.u Circuit breaker 1x16A(No):</label>
+            </input> 
+            <input ref="Q3022v_269">
+                <label>3.22.v Circuit breaker 1x20A(No):</label>
+            </input> 
+            <input ref="Q3022w_270">
+                <label>3.22.w 2x40A/0.03 ELCB(No):</label>
+            </input> 
+            <input ref="Q3022x_271">
+                <label>3.22.x Flourescent lighting fixture 2x40W with lamp and 3X1.5mm2 wire and conduit</label>
+            </input> 
+            <input ref="Q3022y_272">
+                <label>3.22.y Circular water proof glob 60W with 3x1.5mm2 wire and conduits</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="full" ref="Q30230_274" reflist="YesNo">
+                <label>Q3.23.0 Miscellanous Works Required?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+        </group>
+        <group ref="Q3023mISC_275">
+            <label>Miscellanous Works (MW):</label>
+            <repeat nodeset="/data/Q3023mISC_275">
+                <group appearance="field-list">
+                    <input ref="Q3023a">
+                        <label>3.23.a Description:</label>
+                    </input> 
+                    <input ref="Q3023b">
+                        <label>3.23.b  Quantity:</label>
+                    </input> 
+                    <input ref="Q3023C">
+                        <label>3.23.c U.R $:</label>
+                    </input> 
+                </group>
+            </repeat>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_538756769_276" type="label">
+                <label/>
+            </input> 
+            <input ref="repairof_277" type="tarea">
+                <label>4.1 Repair of</label>
+            </input> 
+            <input ref="Recof_278" type="tarea">
+                <label>4.2 Reconstruction of:</label>
+            </input> 
+            <input ref="Remarks_279" type="tarea">
+                <label>4.3 Remarks:</label>
+            </input> 
+        </group>
+    </h:body>
+</h:html>

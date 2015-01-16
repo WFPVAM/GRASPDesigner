@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog closable="true" close="removeDialog" bottom="4" gap="8" icon="/icons/about.png" left="4" modal="true" name="aboutDialog" right="4" text="i18n.menuitem.help.about" top="4" columns="1">
+	<!-- <panel weightx="1">
+		<label name="version" font="13 bold" weightx="1" halign="left"/>
+		<button weightx="1" halign="right" icon="/icons/kiwanja.png" type="link" tooltip="http://www.kiwanja.net" action="openBrowser(this.tooltip)"/>
+	</panel> -->
+	<panel gap="10" columns="2">
+	    <label icon="/icons/logo_wfp.png" halign="left"/>
+	    <panel columns="1" valign="center">
+	    	 <label text="i18n.message.about.line1" font="15 bold"/>
+	  		 <label text="i18n.message.about.line2" font="13 italic"/>
+		</panel>
+	</panel>
+	<panel columns="2" gap="30" top="20">
+	    <panel columns="1">
+	    	<label text="i18n.message.about.license1" valign="bottom" />
+	    	<label text="i18n.message.about.license2" valign="bottom" />
+	    	<label text="i18n.message.about.license3" valign="bottom" />
+	    	<label text="i18n.message.about.license4" valign="bottom" />
+	    </panel>
+	    <panel columns="1" halign="right" left="150">
+	        <label halign="right" font="11" text="i18n.message.about.developedby"/>
+	    	<label halign="center" icon="/icons/fabaris.png" />
+	    	<button halign="center" type="link" font="11" text="www.fabaris.it" tooltip="http://www.fabaris.it" action="openBrowser(this.tooltip)" />
+	    </panel> 	
+	    
+	</panel>
+<!-- 	<panel columns="2" valign="top">
+		<panel columns="1" weightx="1" gap="8">
+			<label font="13" text="i18n.common.thanks.to"/>
+			<button halign="left" type="link" text="- Thinlet" tooltip="http://thinlet.sourceforge.net/home.html" action="openBrowser(this.tooltip)"/>
+			<button halign="left" type="link" text="- SMSLib" tooltip="http://smslib.org" action="openBrowser(this.tooltip)"/>
+			<button halign="left" type="link" text="- RXTX" tooltip="http://rxtx.org/" action="openBrowser(this.tooltip)"/>
+		</panel>
+		<button icon="/icons/masabi.png" halign="right" valign="top" type="link" tooltip="http://www.masabi.com" action="openBrowser(this.tooltip)"/>
+	</panel> -->
+	<separator/>
+    <!-- <label font="13" text="i18n.message.about"/>
+	<button halign="left" type="link" text="- Silk, Mini and Flags sets by Mark James" tooltip="http://famfamfam.com" action="openBrowser(this.tooltip)"/>
+	<button halign="left" type="link" text="- Diagona set" tooltip="http://pinvoke.com" action="openBrowser(this.tooltip)"/>
+	<button halign="left" type="link" text="- Jonas Rask" tooltip="http://jonasraskdesign.com" action="openBrowser(this.tooltip)"/>
+	<button halign="left" type="link" text="- Crystal XP" tooltip="http://www.crystalxp.net" action="openBrowser(this.tooltip)"/> -->
+	<panel weightx="1" right="20">
+		<label name="version" font="11" weightx="1" halign="right"/>
+	</panel>
+	<button text="i18n.action.ok" halign="center" icon="/icons/tick.png" action="removeDialog"/>
+</dialog>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel name="pnDevices" gap="7" weightx="2" columns="1">
+	<panel icon="/icons/cog.png" text="i18n.settings.menu.general" border="true" weightx="1" columns="1" gap="7" top="5" left="5" bottom="5" right="5">
+        <checkbox name="cbPromptConnectionProblemDialog" action="promptConnectionProblemDialogChanged(this.selected)" text="i18n.settings.devices.prompt.dialog"/>
+        <checkbox enabled="false" name="cbDetectAtStartup" action="startDetectingDevicesAtStartup(this.selected)" text="i18n.settings.devices.detect.at.startup"/>
+    </panel>
+</panel>

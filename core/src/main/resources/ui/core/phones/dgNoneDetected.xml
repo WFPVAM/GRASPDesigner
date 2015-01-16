@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog closable="true" close="removeDialog(this)" bottom="4" gap="8" icon="/icons/phone_disconnect.png" left="4" modal="true" name="deviceConnectionDialog" right="4" text="i18n.device.connection.titlebar" top="4" columns="1">
+	<panel columns="1" bottom="4" gap="15" left="4" right="4" top="4">
+        <label icon="/icons/help.png" font="12 bold" text="i18n.device.connection.title"/>
+    </panel>
+    
+    <panel name="pnNoDevices" columns="1" bottom="4" gap="4" left="4" right="4" top="4">
+    	<panel name="pnNoDevices_cause" columns="1" gap="4" left="4" right="4" top="4"/>
+    	<panel name="pnNoDevices_try" columns="1" bottom="4" gap="4" left="4" right="4">
+    		<label text="i18n.device.connection.try.this"/>
+    	</panel>
+    </panel>
+    <panel name="pnFailed" columns="1" bottom="4" gap="4" left="4" right="4" top="4">
+    	<panel name="pnFailed_cause" columns="1" gap="4" left="4" right="4" top="4" />
+    	<panel name="pnFailed_try" columns="1" bottom="4" gap="4" left="4" right="4">
+    		<label text="i18n.device.connection.try.this"/>
+    	</panel>
+    </panel>
+    <panel name="pnOwned" columns="1" bottom="4" gap="4" left="4" right="4" top="4">
+    	<panel name="pnOwned_cause" columns="1" gap="4" left="4" right="4" top="4"/>
+    	<panel name="pnOwned_try" columns="1" bottom="4" gap="4" left="4" right="4">
+    		<label text="i18n.device.connection.try.this"/>
+    	</panel>
+    </panel>
+    
+    <panel halign="left" bottom="4" columns="1" gap="15" left="4" right="4" top="4">
+    	<button type="link" text="i18n.phones.help.moreinfo" action="showHelpPage('phones.htm')" halign="left"/>
+		<button type="link" text="i18n.phones.help.trouble" action="showHelpPage('troubleshooting.htm')" halign="left"/>
+    	<checkbox colspan="2" name="cbAlwaysShow" action="manageAlwaysShow(cbAlwaysShow.selected)" selected="true" text="i18n.device.connection.always.show" halign="left"/>
+    </panel>
+    <panel columns="2" gap="7" halign="center">
+	    <button type="default" action="retryDeviceConnection" text="i18n.common.db.retry" icon="/icons/refresh.png"/>
+	    <button type="cancel" action="removeDialog(deviceConnectionDialog)" icon="/icons/cross.png" name="btCancel" text="i18n.action.close"/>
+	</panel>
+</dialog>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel columns="1" gap="3" left="3" bottom="3" right="3" weightx="1" weighty="1">
+	<menubar weightx="1" name="menubar">
+		<menu text="i18n.menubar.file">
+			<menu icon="/icons/export.png" text="i18n.menuitem.export" name="menu_export">
+				<menuitem icon="/icons/users.png" text="i18n.common.contacts" action="showExportWizard('contacts')"/>
+				<menuitem icon="/icons/sms.png" text="i18n.common.messages" action="showExportWizard('messages')"/>
+				<menuitem icon="/icons/keyword.png" text="i18n.common.keywords" action="showExportWizard('keywords')"/>				
+				<!-- Fabaris_a.zanchi: Add something to make Forms Export -->
+				<!--  <menuitem icon="/icons/forms.png" text="i18n.common.forms" action="showExportWizard('forms')"/> -->
+				<!-- Fabaris_raji: Added to include export of data -->			
+				<menuitem icon="/icons/export.png" text="i18n.action.dataexport" action="exportSql"/>	
+			</menu>
+			
+			<menu icon="/icons/import.png" text="i18n.menuitem.import" name="menu_import">
+				<menuitem icon="/icons/users.png" text="i18n.common.contacts" action="showImportWizard('contacts')"/>
+				<menuitem icon="/icons/sms.png" text="i18n.common.messages" action="showImportWizard('messages')"/>
+				<!-- Fabaris_a.zanchi: Add something to make Forms Import -->
+				<!--  <menuitem icon="/icons/forms.png" text="i18n.common.forms" action="showImportWizard('forms')"/> -->
+				<menuitem icon="/icons/form.png" text="i18n.common.forms.prototype" action="showImportWizard('forms-prototype')"/>				
+				<!-- Fabaris_raji: Added to include export of data -->			
+				<menuitem icon="/icons/export.png" text="i18n.action.dataimport" action="importSql"/>
+			</menu>	        
+	       <separator />
+			<menuitem icon="/icons/exit.png" text="i18n.menuitem.exit" name="menu_exit" action="close"/>
+		</menu>
+		<menu text="i18n.menubar.settings">
+			<menu icon="/icons/language.png" text="i18n.menu.language" name="menu_language">
+				<!-- This should be populated at runtime with different language options -->
+			</menu>
+			<separator />
+			<menuitem icon="/icons/keyword.png" text="i18n.settings.menu" name="menu_Settings" action="showFrontlineSettings"/>
+		</menu>
+		<menu text="i18n.menubar.view" name="menu_tabs">
+				<!--checkboxmenuitem action="tabsChanged(this)" name="miHome" icon="/icons/frontline_icon.png" text="i18n.tab.home"/-->				
+				<!--checkboxmenuitem action="tabsChanged(this)" name="miKeyword" icon="/icons/keyword.png" text="i18n.tab.keyword.manager"/>
+				<checkboxmenuitem action="tabsChanged(this)" name="miEmail" icon="/icons/email.png" text="i18n.tab.email"/-->
+				<checkboxmenuitem action="tabsChanged(this)" name="miHome" icon="/icons/home.png" text="i18n.tab.home"/>
+				<checkboxmenuitem action="tabsChanged(this)" name="miKeyword" icon="/icons/keyword.png" text="i18n.tab.keyword.manager"/>
+				<checkboxmenuitem action="tabsChanged(this)" name="miEmail" icon="/icons/email.png" text="i18n.tab.email"/>
+				<separator />
+		</menu>
+		<!-- Menu below is for dev and will only appear in SNAPSHOT versions -->
+		<menu text="i18n.menubar.debug" name="mnDebug">
+			<!-- Item labels in this menu should be hardcoded as English - this menu does not appear 
+				in production builds of FrontlineSMS, so translations are unnecessary -->
+			<menuitem icon="/icons/database_execute.png" text="Generate debug data" action="generateTestData"/>
+			<menuitem icon="/icons/user_delete.png" text="Delete all groups/contacts" action="showConfirmationDialog('deleteAllGroupsAndContacts')"/>
+		<separator />
+			<menuitem icon="/icons/group.png" text="Show group selecter" action="showGroupSelecter"/>
+			
+			<separator />
+			<menuitem icon="/icons/sms_receive.png" text="Generate incoming SMS" action="dbgGenerateIncomingSms"/>
+			<menuitem icon="/icons/sms_send.png" text="Generate outgoing SMS" action="dbgGenerateOutgoingSms"/>
+			
+			<menuitem icon="/icons/report_error.png" text="Generate Error" action="dbgGenerateError"/>
+		</menu>
+		
+		<menu text="i18n.menubar.help">
+			<!-- commented by Fabaris_raji-->
+			<!-- menuitem icon="/icons/help.png" text="i18n.menuitem.help.manual" action="showHelpPage('help-menu.htm')"/-->
+			<!--menuitem icon="/icons/frontline_icon.png" text="i18n.menuitem.website" action="openBrowser('http://www.frontlinesms.com')"/-->			
+			<!-- menuitem icon="/icons/facebook.png" text="i18n.menuitem.facebook" action="openBrowser('http://www.frontlinesms.com/facebook')"/-->
+			<separator />
+			<menuitem icon="/icons/report_error.png" text="i18n.menuitem.error.report" action="showUserDetailsDialog"/>
+			<menuitem icon="/icons/survey.png" text="i18n.menuitem.config.path" action="showConfigurationLocationDialog"/>
+			<!-- menuitem icon="/icons/hits.png" text="i18n.stats.send" name="menu_statsDialog" action="showStatsDialog"/-->
+			<separator />
+			 <menuitem icon="/icons/about.png" text="i18n.menuitem.help.about" action="showAboutScreen"/>
+			<!-- menuitem icon="/icons/help.png" text="i18n.contribute.menu" action="showContributeScreen"/-->
+		</menu>
+	</menubar>
+	
+	<tabbedpane weightx="1" weighty="1" name="tabbedPane" action="tabSelectionChanged(this)"/>
+	<panel weightx="1" right="10">
+		<panel top="2" weightx="1" gap="10" halign="left">
+			<label name="statusBar"/>
+		</panel>
+		<label name="lbActiveConnections" icon="/icons/connection.png" font="bold" text="0" halign="right"/>
+	</panel>
+	
+</panel>

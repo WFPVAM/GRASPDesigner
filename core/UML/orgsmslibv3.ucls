@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.smslib.v3.Library" project="core" 
+    file="/core/src/main/java/org/smslib/v3/Library.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="168" x="103" y="-408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.smslib.v3.SMSLibException" project="core" 
+    file="/core/src/main/java/org/smslib/v3/SMSLibException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="145" x="311" y="-408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.smslib.v3.LoadBalancer" project="core" 
+    file="/core/src/main/java/org/smslib/v3/LoadBalancer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="239" x="2084" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.smslib.v3.MessageClasses" project="core" 
+    file="/core/src/main/java/org/smslib/v3/MessageClasses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="145" x="575" y="-408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.smslib.v3.AGateway.GatewayAttributes" project="core" 
+    file="/core/src/main/java/org/smslib/v3/AGateway.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="140" x="1525" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.smslib.v3.Settings" project="core" 
+    file="/core/src/main/java/org/smslib/v3/Settings.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="194" x="2363" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.smslib.v3.Router" project="core" 
+    file="/core/src/main/java/org/smslib/v3/Router.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="219" x="2597" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="org.smslib.v3.ICallNotification" project="core" 
+    file="/core/src/main/java/org/smslib/v3/ICallNotification.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="156" x="1705" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="org.smslib.v3.Message" project="core" 
+    file="/core/src/main/java/org/smslib/v3/Message.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="210" x="869" y="-408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.smslib.v3.Service.WatchDog" project="core" 
+    file="/core/src/main/java/org/smslib/v3/Service.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="87" x="2856" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.smslib.v3.MessageTypes" project="core" 
+    file="/core/src/main/java/org/smslib/v3/MessageTypes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="135" x="505" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.smslib.v3.StatusReportMessage" project="core" 
+    file="/core/src/main/java/org/smslib/v3/StatusReportMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="264" x="1240" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.smslib.v3.AGateway" project="core" 
+    file="/core/src/main/java/org/smslib/v3/AGateway.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1215" width="318" x="2426" y="-408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="org.smslib.v3.AGateway.QueueManager" project="core" 
+    file="/core/src/main/java/org/smslib/v3/AGateway.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="111" x="1901" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="org.smslib.v3.IInboundMessageNotification" project="core" 
+    file="/core/src/main/java/org/smslib/v3/IInboundMessageNotification.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="246" x="2052" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="16" language="java" name="org.smslib.v3.TimeoutException" project="core" 
+    file="/core/src/main/java/org/smslib/v3/TimeoutException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="146" x="125" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="org.smslib.v3.OutboundMessage" project="core" 
+    file="/core/src/main/java/org/smslib/v3/OutboundMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1107" width="234" x="730" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="org.smslib.v3.Service" project="core" 
+    file="/core/src/main/java/org/smslib/v3/Service.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="909" width="280" x="2597" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="org.smslib.v3.IOutboundMessageNotification" project="core" 
+    file="/core/src/main/java/org/smslib/v3/IOutboundMessageNotification.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="219" x="2338" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="org.smslib.v3.MessageEncodings" project="core" 
+    file="/core/src/main/java/org/smslib/v3/MessageEncodings.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="156" x="1004" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="org.smslib.v3.MessagePriorities" project="core" 
+    file="/core/src/main/java/org/smslib/v3/MessagePriorities.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="147" x="156" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="org.smslib.v3.FailureCauses" project="core" 
+    file="/core/src/main/java/org/smslib/v3/FailureCauses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="131" x="770" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="org.smslib.v3.OutboundWapSIMessage" project="core" 
+    file="/core/src/main/java/org/smslib/v3/OutboundWapSIMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="357" x="373" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="org.smslib.v3.DeliveryStatuses" project="core" 
+    file="/core/src/main/java/org/smslib/v3/DeliveryStatuses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="144" x="1240" y="2547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="org.smslib.v3.GatewayException" project="core" 
+    file="/core/src/main/java/org/smslib/v3/GatewayException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="154" x="311" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="org.smslib.v3.AGateway.Statistics" project="core" 
+    file="/core/src/main/java/org/smslib/v3/AGateway.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="88" x="2917" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="org.smslib.v3.MessageStatuses" project="core" 
+    file="/core/src/main/java/org/smslib/v3/MessageStatuses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="149" x="1021" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="org.smslib.v3.GatewayStatuses" project="core" 
+    file="/core/src/main/java/org/smslib/v3/GatewayStatuses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="150" x="3045" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="org.smslib.v3.InboundMessage" project="core" 
+    file="/core/src/main/java/org/smslib/v3/InboundMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="245" x="1240" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="org.smslib.v3.WapSISignals" project="core" 
+    file="/core/src/main/java/org/smslib/v3/WapSISignals.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="128" x="373" y="2547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="org.smslib.v3.MessageProtocols" project="core" 
+    file="/core/src/main/java/org/smslib/v3/MessageProtocols.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="151" x="3265" y="847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="org.smslib.v3.RoundRobinLoadBalancer" project="core" 
+    file="/core/src/main/java/org/smslib/v3/RoundRobinLoadBalancer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="239" x="2084" y="2547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="org.smslib.v3.UnknownMessage" project="core" 
+    file="/core/src/main/java/org/smslib/v3/UnknownMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="197" x="1544" y="1994"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="34">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="35" name="TEXT"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="38">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="39" name="UNKNOWN"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="42" name="router"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="45" name="type"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="48" name="LOW"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="51" name="DELIVERED"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="54" name="status"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="56">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <association id="57">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="58" name="PDU"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="61">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="62" name="ALL"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="64">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="66">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="67" name="srv"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="70" name="callNotification"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="73" name="NONE"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="76" name="HIGH"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="79" name="UNREAD"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="82" name="failureCause"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="85" name="HIGH"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="88" name="S"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="91" name="OK"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="94" name="GATEWAY_AUTH"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="97">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="98" name="statistics"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="101" name="inboundNotification"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="103">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="104" name="signal"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="106">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <association id="107">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="108" name="INBOUND"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="111" name="protocol"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="114" name="outboundNotification"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="117" name="UNKNOWN"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="120" name="messageStatus"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="122">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <nesting id="123">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="26"/>  
+  </nesting>  
+  <generalization id="124">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="125">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="126" name="UNKNOWN"/>      
+      <multiplicity id="127" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="128">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="129" name="UNSENT"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="131">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="132" name="watchDog"/>      
+      <multiplicity id="133" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="135" name="gatewayStatus"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="137">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <association id="138">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="139" name="FAILED"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="141">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="142" name="ABORTED"/>      
+      <multiplicity id="143" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="144">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="145" name="BAD_FORMAT"/>      
+      <multiplicity id="146" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="147">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="148" name="OUTBOUND"/>      
+      <multiplicity id="149" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="150">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="151" name="MEDIUM"/>      
+      <multiplicity id="152" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="153">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="154" name="ENC8BIT"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="156">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="157">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="158" name="NO_CREDIT"/>      
+      <multiplicity id="159" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="161" name="RESTART"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="163">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="164" name="service"/>      
+      <multiplicity id="165" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="166">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="167" name="ENC7BIT"/>      
+      <multiplicity id="168" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="169">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="170" name="STATUSREPORT"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="172">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="173" name="loadBalancer"/>      
+      <multiplicity id="174" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="175">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="176" name="NO_ERROR"/>      
+      <multiplicity id="177" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="178">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="179" name="NORMAL"/>      
+      <multiplicity id="180" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="181">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="182" name="srv"/>      
+      <multiplicity id="183" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="184">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="185" name="DELETE"/>      
+      <multiplicity id="186" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="187">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="188" name="priority"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="190">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="191" name="FAILURE"/>      
+      <multiplicity id="192" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="193">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="194" name="BAD_NUMBER"/>      
+      <multiplicity id="195" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="196">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="197" name="ENCUCS2"/>      
+      <multiplicity id="198" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="199">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="200" name="ENCCUSTOM"/>      
+      <multiplicity id="201" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="202">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="203" name="KEEPTRYING"/>      
+      <multiplicity id="204" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="205">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="206" name="WAPSI"/>      
+      <multiplicity id="207" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="208">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="209" name="GATEWAY_FAILURE"/>      
+      <multiplicity id="210" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="211">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="212" name="LOW"/>      
+      <multiplicity id="213" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="214">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="215" name="SENT"/>      
+      <multiplicity id="216" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="217">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="218" name="READ"/>      
+      <multiplicity id="219" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="220">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="221" name="encoding"/>      
+      <multiplicity id="222" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="223">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="224" name="NO_ROUTE"/>      
+      <multiplicity id="225" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

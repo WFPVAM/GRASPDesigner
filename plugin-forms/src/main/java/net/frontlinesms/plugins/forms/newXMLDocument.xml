@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <h:head>
+        <h:title>testpics</h:title>
+        <model>
+            <instance>
+                <data apos="'">
+                    <id>11_AAABQ5uil5U</id>
+                    <date_0/>
+                    <enumerator_1/>
+                    <des_version_2/>
+                    <client_version_3/>
+                    <SingleLine_309171933_5>Infrastructure/ Utilities Damage Assessment Report, Totally Damaged Housing, Gaza Strip - 2014</SingleLine_309171933_5>
+                    <GPS_6/>
+                    <Q001SurvCod_7/>
+                    <Q002AreaCod_8/>
+                    <Q003Date_9/>
+                    <Q004Time_10/>
+                    <Q005Weather_11/>
+                    <Q006Security_12/>
+                    <Q007TypeInfra_13/>
+                    <Q008Comments_14/>
+                    <SingleLine_287926019_16>SECTION 1: BUILDING </SingleLine_287926019_16>
+                    <Q101Area_17/>
+                    <Q102BuildingNo_18/>
+                    <Q103dateDamage_19/>
+                    <Q104DateVisit_20/>
+                    <Q105BuildCode_21/>
+                    <SingleLine2074547077_22>Details of Address:</SingleLine2074547077_22>
+                    <Q106Governorate_23/>
+                    <Q107aNorthGaza_24/>
+                    <Q107bGaza_25/>
+                    <Q107cDeirBalah_26/>
+                    <Q107dKhanYounis_27/>
+                    <Q107eRafah_28/>
+                    <Q108Neighbour_29/>
+                    <q109Street_30/>
+                    <q1010RegNo_31/>
+                    <Q1011Closeto_32/>
+                    <SingleLine1322823843_34>Land Information:</SingleLine1322823843_34>
+                    <Q1012aBlockN_35/>
+                    <Q1012bParNo_36/>
+                    <Q1012cPlotNo_37/>
+                    <Q1013LandArea_38/>
+                    <Q1014LandOwner_39/>
+                    <SingleLine_1977761373_40>1.15 Bounderies</SingleLine_1977761373_40>
+                    <q1015aNorth_41/>
+                    <Q1015bSouth_42/>
+                    <Q1015cEast_43/>
+                    <Q1015dWest_44/>
+                    <SingleLine640331811_46>SECTION 2: Information on the building </SingleLine640331811_46>
+                    <q201NameOwner_47/>
+                    <Q202IDOwner_48/>
+                    <Q203Passport_49/>
+                    <Q204MobileNo_50/>
+                    <Q205TelephoneNo_51/>
+                    <Q206refugeeyn_52/>
+                    <q207FamilyNo_53/>
+                    <q208OldRCNo_54/>
+                    <Q209FS_55/>
+                    <Q2010BuildType_56/>
+                    <q2010other_57/>
+                    <Q2011BuildArea_58/>
+                    <SingleLine_1198821717_59>2.12 Roof Type: </SingleLine_1198821717_59>
+                    <Q2012aFireClay_60/>
+                    <Q2012bConcrete_61/>
+                    <Q2012cAsbestos_62/>
+                    <Q2012dOth_63/>
+                    <Q2012dOthm_64/>
+                    <Q2013_65/>
+                    <SingleLine1458922920_66>2.13 If  Other, please specify</SingleLine1458922920_66>
+                    <SingleLine_1527956102_67>2.14 Number of Housing Units:</SingleLine_1527956102_67>
+                    <Q2014aNoOccUnit_68/>
+                    <Q2014bNoUNOccUn_69/>
+                    <SingleLine858084467_71>Related Facilities of Building:</SingleLine858084467_71>
+                    <Q2015_72/>
+                    <Q2016_73/>
+                    <Q2017_74/>
+                    <Q2018_75/>
+                    <Q2019_76/>
+                    <Q2020a_77/>
+                    <Q2020b_78/>
+                    <SingleLine_2056214794_80>Basement Area Info:</SingleLine_2056214794_80>
+                    <Q2021_81/>
+                    <Q2022baseUse_82/>
+                    <q2022Other_83/>
+                    <Q2023BaseFinish_84/>
+                    <Q2023Other_85/>
+                    <Q2024GRoundUse_86/>
+                    <Q2024Other_87/>
+                    <Q2025BuissUse_88/>
+                    <Q2026OPENSpaceF_89/>
+                    <Q2026Other_90/>
+                    <Q2027Commen_91/>
+                    <MultiLine716647737_93>Attachments:</MultiLine716647737_93>
+                    <pic1_94/>
+                    <pic2_95/>
+                    <MultiLine857026682_96>Information of Individual Totally Damaged Unit</MultiLine857026682_96>
+                    <Q301_97/>
+                    <q302_98/>
+                    <Q303_99/>
+                    <Q304_100/>
+                    <Q305_101/>
+                    <Q306_102/>
+                    <MultiLine1732307790_103>3.7 Number of core Family members:</MultiLine1732307790_103>
+                    <Q307a_104/>
+                    <q307b_105/>
+                    <MultiLine_902969129_106>3.8 Number of Family members:</MultiLine_902969129_106>
+                    <Q308a_107/>
+                    <Q308b_108/>
+                    <MultiLine_1626425391_109>3.9 Number of Children:</MultiLine_1626425391_109>
+                    <Q309a_110/>
+                    <Q309b_111/>
+                    <SingleLine_699420494_113>Name of Owner of Housing Unit:</SingleLine_699420494_113>
+                    <Q3010_114/>
+                    <Q3011_115/>
+                    <Q3012_116/>
+                    <Q3013_117/>
+                    <Q3014_118/>
+                    <q3015_119/>
+                    <Q3016_120/>
+                    <Q3017a_121/>
+                    <Q3017b_122/>
+                    <q3017c_123/>
+                    <Q3018_125/>
+                    <Q3019_126/>
+                    <Q3020_127/>
+                    <Q3021_128/>
+                    <Q3021Other_129/>
+                    <SingleLine1185948911_131>(if applicable) Name of Tenant:</SingleLine1185948911_131>
+                    <Q3022_132/>
+                    <Q3023_133/>
+                    <Q3024_134/>
+                    <Q3025_135/>
+                    <Q3026_137/>
+                    <Q3027_138/>
+                    <Q3027oTHER_139/>
+                    <Q3028_140/>
+                    <Q3029_141/>
+                    <Q3030_142>
+                        <Q3030a/>
+                        <Q3030B/>
+                        <Q3030c/>
+                    </Q3030_142>
+                    <Q3031_143/>
+                    <SingleLine_118203100_145>Attachments:</SingleLine_118203100_145>
+                    <pic3_146/>
+                    <pic4_147/>
+                </data>
+            </instance>
+            <bind nodeset="/data/date_0" required="true()" type="date"/>
+            <bind nodeset="/data/enumerator_1" required="true()" type="string"/>
+            <bind nodeset="/data/des_version_2" readonly="true()" required="true()" type="string"/>
+            <bind nodeset="/data/client_version_3" readonly="true()" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine_309171933_5" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/GPS_6" type="geopoint"/>
+            <bind nodeset="/data/Q001SurvCod_7" required="true()" type="string"/>
+            <bind nodeset="/data/Q002AreaCod_8" required="true()" type="string"/>
+            <bind nodeset="/data/Q003Date_9" required="true()" type="date"/>
+            <bind nodeset="/data/Q004Time_10" required="true()" type="string"/>
+            <bind nodeset="/data/Q005Weather_11" required="true()" type="select1"/>
+            <bind nodeset="/data/Q006Security_12" required="true()" type="select1"/>
+            <bind nodeset="/data/Q007TypeInfra_13" required="true()" type="select1"/>
+            <bind nodeset="/data/Q008Comments_14" readonly="false()" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine_287926019_16" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q101Area_17" required="true()" type="string"/>
+            <bind nodeset="/data/Q102BuildingNo_18" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q103dateDamage_19" required="true()" type="date"/>
+            <bind nodeset="/data/Q104DateVisit_20" required="true()" type="date"/>
+            <bind nodeset="/data/Q105BuildCode_21" required="true()" type="decimal"/>
+            <bind nodeset="/data/SingleLine2074547077_22" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q106Governorate_23" required="true()" type="select1"/>
+            <bind nodeset="/data/Q107aNorthGaza_24" relevant="  /data/Q106Governorate_23 = 'North Gaza شمال غزة'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q107bGaza_25" relevant="  /data/Q106Governorate_23 = 'Gaza غزة'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q107cDeirBalah_26" relevant="  /data/Q106Governorate_23 = 'Deir el Balah ديرالبلح'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q107dKhanYounis_27" relevant="  /data/Q106Governorate_23 = 'Khan Younis خان يونس'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q107eRafah_28" relevant="  /data/Q106Governorate_23 = 'Rafah رفح'" required="true()" type="select1"/>
+            <bind nodeset="/data/Q108Neighbour_29" required="true()" type="string"/>
+            <bind nodeset="/data/q109Street_30" required="true()" type="string"/>
+            <bind nodeset="/data/q1010RegNo_31" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q1011Closeto_32" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine1322823843_34" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q1012aBlockN_35" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q1012bParNo_36" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q1012cPlotNo_37" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q1013LandArea_38" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q1014LandOwner_39" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine_1977761373_40" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/q1015aNorth_41" required="true()" type="string"/>
+            <bind nodeset="/data/Q1015bSouth_42" required="true()" type="string"/>
+            <bind nodeset="/data/Q1015cEast_43" required="true()" type="string"/>
+            <bind nodeset="/data/Q1015dWest_44" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine640331811_46" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/q201NameOwner_47" readonly="false()" required="true()" type="string"/>
+            <bind nodeset="/data/Q202IDOwner_48" required="true()" type="string"/>
+            <bind nodeset="/data/Q203Passport_49" required="true()" type="string"/>
+            <bind constraint="regex(.,'^(\+?[0-9]+)$')" jr:constraintMsg="this isn't a valid phonenumber " jr:preload="property" jr:preloadParams="phonenumber" nodeset="/data/Q204MobileNo_50" required="true()" type="string"/>
+            <bind constraint="regex(.,'^(\+?[0-9]+)$')" jr:constraintMsg="this isn't a valid phonenumber " jr:preload="property" jr:preloadParams="phonenumber" nodeset="/data/Q205TelephoneNo_51" required="true()" type="string"/>
+            <bind nodeset="/data/Q206refugeeyn_52" required="true()" type="select1"/>
+            <bind nodeset="/data/q207FamilyNo_53" relevant="  /data/Q206refugeeyn_52 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/q208OldRCNo_54" relevant="  /data/Q206refugeeyn_52 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q209FS_55" relevant="  /data/Q206refugeeyn_52 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2010BuildType_56" required="true()" type="select1"/>
+            <bind nodeset="/data/q2010other_57" relevant="  /data/Q2010BuildType_56 = 'Other(Specify)'" required="true()" type="string"/>
+            <bind nodeset="/data/Q2011BuildArea_58" required="true()" type="decimal"/>
+            <bind nodeset="/data/SingleLine_1198821717_59" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q2012aFireClay_60" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2012bConcrete_61" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2012cAsbestos_62" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2012dOth_63" required="true()" type="string"/>
+            <bind nodeset="/data/Q2012dOthm_64" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2013_65" required="true()" type="select1"/>
+            <bind nodeset="/data/SingleLine1458922920_66" readonly="true()" relevant="  /data/Q2013_65 = 'Others'" required="false()" type="string"/>
+            <bind nodeset="/data/SingleLine_1527956102_67" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q2014aNoOccUnit_68" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2014bNoUNOccUn_69" required="true()" type="decimal"/>
+            <bind nodeset="/data/SingleLine858084467_71" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q2015_72" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2016_73" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2017_74" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2018_75" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2019_76" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2020a_77" required="true()" type="string"/>
+            <bind nodeset="/data/Q2020b_78" required="true()" type="decimal"/>
+            <bind nodeset="/data/SingleLine_2056214794_80" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q2021_81" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q2022baseUse_82" required="true()" type="select1"/>
+            <bind nodeset="/data/q2022Other_83" relevant="  /data/Q2022baseUse_82 = 'Others'" required="true()" type="string"/>
+            <bind nodeset="/data/Q2023BaseFinish_84" required="true()" type="select1"/>
+            <bind nodeset="/data/Q2023Other_85" relevant="  /data/Q2023BaseFinish_84 = 'Others:( specify)'" required="true()" type="string"/>
+            <bind nodeset="/data/Q2024GRoundUse_86" required="true()" type="select1"/>
+            <bind nodeset="/data/Q2024Other_87" relevant="  /data/Q2024GRoundUse_86 = 'Others:( specify)'" required="true()" type="string"/>
+            <bind nodeset="/data/Q2025BuissUse_88" required="true()" type="select1"/>
+            <bind nodeset="/data/Q2026OPENSpaceF_89" required="true()" type="select1"/>
+            <bind nodeset="/data/Q2026Other_90" relevant="  /data/Q2026OPENSpaceF_89 = 'Others:( specify)'" required="true()" type="string"/>
+            <bind nodeset="/data/Q2027Commen_91" readonly="false()" required="true()" type="string"/>
+            <bind nodeset="/data/MultiLine716647737_93" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/pic1_94" type="binary"/>
+            <bind nodeset="/data/pic2_95" type="binary"/>
+            <bind nodeset="/data/MultiLine857026682_96" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q301_97" required="true()" type="decimal"/>
+            <bind nodeset="/data/q302_98" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q303_99" required="true()" type="date"/>
+            <bind nodeset="/data/Q304_100" required="true()" type="date"/>
+            <bind nodeset="/data/Q305_101" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q306_102" required="true()" type="decimal"/>
+            <bind nodeset="/data/MultiLine1732307790_103" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q307a_104" required="true()" type="decimal"/>
+            <bind nodeset="/data/q307b_105" required="true()" type="decimal"/>
+            <bind nodeset="/data/MultiLine_902969129_106" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q308a_107" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q308b_108" required="true()" type="decimal"/>
+            <bind nodeset="/data/MultiLine_1626425391_109" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q309a_110" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q309b_111" required="true()" type="decimal"/>
+            <bind nodeset="/data/SingleLine_699420494_113" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/Q3010_114" required="true()" type="string"/>
+            <bind nodeset="/data/Q3011_115" required="true()" type="string"/>
+            <bind nodeset="/data/Q3012_116" required="true()" type="string"/>
+            <bind nodeset="/data/Q3013_117" required="true()" type="string"/>
+            <bind nodeset="/data/Q3014_118" required="true()" type="string"/>
+            <bind constraint="regex(.,'^(\+?[0-9]+)$')" jr:constraintMsg="this isn't a valid phonenumber " jr:preload="property" jr:preloadParams="phonenumber" nodeset="/data/q3015_119" required="true()" type="string"/>
+            <bind nodeset="/data/Q3016_120" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3017a_121" relevant="  /data/Q3016_120 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q3017b_122" relevant="  /data/Q3016_120 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/q3017c_123" relevant="  /data/Q3016_120 = 'Yes'" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q3018_125" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3019_126" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q3020_127" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q3021_128" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3021Other_129" relevant="  /data/Q3021_128 = 'Others'" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine1185948911_131" readonly="true()" relevant="  /data/Q3018_125 = 'Tenant'" required="false()" type="string"/>
+            <bind nodeset="/data/Q3022_132" relevant="  /data/Q3018_125 = 'Tenant'" required="true()" type="string"/>
+            <bind nodeset="/data/Q3023_133" relevant="  /data/Q3018_125 = 'Tenant'" required="true()" type="string"/>
+            <bind nodeset="/data/Q3024_134" relevant="  /data/Q3018_125 = 'Tenant'" required="true()" type="string"/>
+            <bind nodeset="/data/Q3025_135" required="true()" type="string"/>
+            <bind nodeset="/data/Q3026_137" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q3027_138" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3027oTHER_139" relevant="  /data/Q3027_138 = 'Others:( specify)'" required="true()" type="string"/>
+            <bind nodeset="/data/Q3028_140" required="true()" type="select1"/>
+            <bind constraint=". &lt;= 100 and . &gt;= 0" nodeset="/data/Q3029_141" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q3030_142"/>
+            <bind nodeset="/data/Q3030_142/Q3030a" required="true()" type="string"/>
+            <bind nodeset="/data/Q3030_142/Q3030B" required="true()" type="decimal"/>
+            <bind nodeset="/data/Q3030_142/Q3030c" required="true()" type="select1"/>
+            <bind nodeset="/data/Q3031_143" readonly="false()" required="true()" type="string"/>
+            <bind nodeset="/data/SingleLine_118203100_145" readonly="true()" required="false()" type="string"/>
+            <bind nodeset="/data/pic3_146" type="binary"/>
+            <bind nodeset="/data/pic4_147" type="binary"/>
+        </model>
+    </h:head>
+    <h:body>
+        <group appearance="field-list">
+            <input ref="date_0">
+                <label>Date</label>
+            </input> 
+            <input ref="enumerator_1">
+                <label>Enumerator ID</label>
+            </input>
+            <input ref="des_version_2">
+                <label>Designer version</label>
+            </input>
+            <input ref="client_version_3">
+                <label>Client version</label>
+            </input>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_309171933_5" type="label">
+                <label/>
+            </input> 
+            <input ref="GPS_6">
+                <label> GPS coordinates: </label>
+            </input> 
+            <input ref="Q001SurvCod_7">
+                <label> 0.1 Surveyor Coding:</label>
+            </input>
+            <input ref="Q002AreaCod_8">
+                <label>0.2 Area Coding:</label>
+            </input>
+            <input ref="Q003Date_9">
+                <label>0.3 Date</label>
+            </input> 
+            <input ref="Q004Time_10">
+                <label>0.4 Time </label>
+            </input>
+            <select1 appearance="minimal" ref="Q005Weather_11" reflist="q005Weather">
+                <label> 0.5 Weather:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Sunny</label>
+                    <value>Sunny</value>
+                </item>
+                <item>
+                    <label>Cloudy</label>
+                    <value>Cloudy</value>
+                </item>
+                <item>
+                    <label>Rainy</label>
+                    <value>Rainy</value>
+                </item>
+                <item>
+                    <label>Windy</label>
+                    <value>Windy</value>
+                </item>
+            </select1>
+            <select1 appearance="full" ref="Q006Security_12" reflist="Q006Security">
+                <label>0.6 Security Situation:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Safe</label>
+                    <value>Safe</value>
+                </item>
+                <item>
+                    <label>Unsafe</label>
+                    <value>Unsafe</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q007TypeInfra_13" reflist="Q007TypeInfra">
+                <label>0.7 Typology of Infrastructure:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Housing</label>
+                    <value>Housing</value>
+                </item>
+                <item>
+                    <label>Social Infrastructure</label>
+                    <value>Social Infrastructure</value>
+                </item>
+                <item>
+                    <label>Economic Infrastructure</label>
+                    <value>Economic Infrastructure</value>
+                </item>
+            </select1>
+            <input ref="Q008Comments_14" type="tarea">
+                <label> 0.8 Comments and  Recommendations:</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_287926019_16" type="label">
+                <label/>
+            </input> 
+            <input ref="Q101Area_17">
+                <label>1.1 Area no:</label>
+            </input>
+            <input ref="Q102BuildingNo_18">
+                <label> 1.2 Building No:</label>
+            </input> 
+            <input ref="Q103dateDamage_19">
+                <label> 1.3 Date of damage:</label>
+            </input> 
+            <input ref="Q104DateVisit_20">
+                <label>1.4 Visit Date:</label>
+            </input> 
+            <input ref="Q105BuildCode_21">
+                <label>1.5 Building Code:</label>
+            </input> 
+            <input ref="SingleLine2074547077_22" type="label">
+                <label/>
+            </input> 
+            <select1 appearance="minimal" ref="Q106Governorate_23" reflist="Q107Governorate">
+                <label>1.6 Governorate:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>North Gaza شمال غزة</label>
+                    <value>North Gaza شمال غزة</value>
+                </item>
+                <item>
+                    <label>Gaza غزة</label>
+                    <value>Gaza غزة</value>
+                </item>
+                <item>
+                    <label>Deir el Balah ديرالبلح</label>
+                    <value>Deir el Balah ديرالبلح</value>
+                </item>
+                <item>
+                    <label>Khan Younis خان يونس</label>
+                    <value>Khan Younis خان يونس</value>
+                </item>
+                <item>
+                    <label>Rafah رفح</label>
+                    <value>Rafah رفح</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q107aNorthGaza_24" reflist="Q107aNorthGaza">
+                <label>1.7.a Municipality North Gaza</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Al Qaraya al Badawiya (al Maslakh) القَريَة البَدَوِيَّة المَسْلخ</label>
+                    <value>Al Qaraya al Badawiya (al Maslakh) القَريَة البَدَوِيَّة المَسْلخ</value>
+                </item>
+                <item>
+                    <label>Beit Lahiya بِيت لاهْيا</label>
+                    <value>Beit Lahiya بِيت لاهْيا</value>
+                </item>
+                <item>
+                    <label>Beit Hanun بِيت حَانُون</label>
+                    <value>Beit Hanun بِيت حَانُون</value>
+                </item>
+                <item>
+                    <label>Izbat Beit Hanun عِزْبَة بِيت حَانُون</label>
+                    <value>Izbat Beit Hanun عِزْبَة بِيت حَانُون</value>
+                </item>
+                <item>
+                    <label>Jabalya Camp مُخَيَّم جَبَالْيا</label>
+                    <value>Jabalya Camp مُخَيَّم جَبَالْيا</value>
+                </item>
+                <item>
+                    <label>Arab Maslakh Beit Lahya عَرَبْ مَسْلَخ بِيت لاهيا</label>
+                    <value>Arab Maslakh Beit Lahya عَرَبْ مَسْلَخ بِيت لاهيا</value>
+                </item>
+                <item>
+                    <label>Jabalya جَبَاليا</label>
+                    <value>Jabalya جَبَاليا</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q107bGaza_25" reflist="Q107bGaza">
+                <label>1.7.b Municipality Gaza</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Madinat al Awda مدينة العودة</label>
+                    <value>Madinat al Awda مدينة العودة</value>
+                </item>
+                <item>
+                    <label>Ash Shati Camp مُخَيَّم الشَاطِىء</label>
+                    <value>Ash Shati Camp مُخَيَّم الشَاطِىء</value>
+                </item>
+                <item>
+                    <label>Gaza غزّة</label>
+                    <value>Gaza غزّة</value>
+                </item>
+                <item>
+                    <label>Al Mughraqa (Abu Middein) المُغْراقَه (ابو مِدِّين)</label>
+                    <value>Al Mughraqa (Abu Middein) المُغْراقَه (ابو مِدِّين)</value>
+                </item>
+                <item>
+                    <label>Juhor ad Dik جُحْر الدِيك</label>
+                    <value>Juhor ad Dik جُحْر الدِيك</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q107cDeirBalah_26" reflist="q107Deir el Balah">
+                <label>1.7.c Municipality Deir el Balah:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>An Nuseirat Camp مُخَيَّم النُصَيْرَات</label>
+                    <value>An Nuseirat Camp مُخَيَّم النُصَيْرَات</value>
+                </item>
+                <item>
+                    <label>Al Bureij Camp مُخَيَّم البُرَيْج</label>
+                    <value>Al Bureij Camp مُخَيَّم البُرَيْج</value>
+                </item>
+                <item>
+                    <label>Az Zawayda الزَوايْدَة</label>
+                    <value>Az Zawayda الزَوايْدَة</value>
+                </item>
+                <item>
+                    <label>Deir al Balah Camp مُخَيَّم دِير البَلح</label>
+                    <value>Deir al Balah Camp مُخَيَّم دِير البَلح</value>
+                </item>
+                <item>
+                    <label>Al Maghazi Camp مُخَيَّم المَغَازِي</label>
+                    <value>Al Maghazi Camp مُخَيَّم المَغَازِي</value>
+                </item>
+                <item>
+                    <label>Deir al Balah دِير البَلح</label>
+                    <value>Deir al Balah دِير البَلح</value>
+                </item>
+                <item>
+                    <label>Al Musaddar المُصَدَّر</label>
+                    <value>Al Musaddar المُصَدَّر</value>
+                </item>
+                <item>
+                    <label>Wadi as Salqa وادِي السَلْقَا</label>
+                    <value>Wadi as Salqa وادِي السَلْقَا</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q107dKhanYounis_27" reflist="Q107dKhanYounis">
+                <label>1.7.d Municipality Khan Younis:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Al Qarara القَرَارَة</label>
+                    <value>Al Qarara القَرَارَة</value>
+                </item>
+                <item>
+                    <label>As Sureij السُرِيج</label>
+                    <value>As Sureij السُرِيج</value>
+                </item>
+                <item>
+                    <label>Khan Yunis Camp مخيم خانيونس</label>
+                    <value>Khan Yunis Camp مخيم خانيونس</value>
+                </item>
+                <item>
+                    <label>Al Mawasi (Khan Yunis) المَواصِي (خانيونس)</label>
+                    <value>Al Mawasi (Khan Yunis) المَواصِي (خانيونس)</value>
+                </item>
+                <item>
+                    <label>Khan Yunis خَانيُونس</label>
+                    <value>Khan Yunis خَانيُونس</value>
+                </item>
+                <item>
+                    <label>Bani Suheila بَنِي سُهِيلا</label>
+                    <value>Bani Suheila بَنِي سُهِيلا</value>
+                </item>
+                <item>
+                    <label>Abasan al Jadida(as Saghira) عَبَسَان الجَديدَة (الصَغِيرَة )</label>
+                    <value>Abasan al Jadida(as Saghira) عَبَسَان الجَديدَة (الصَغِيرَة )</value>
+                </item>
+                <item>
+                    <label>Abasan al Kabira عَبَسَان الكَبِيرَة</label>
+                    <value>Abasan al Kabira عَبَسَان الكَبِيرَة</value>
+                </item>
+                <item>
+                    <label>Qizan an Najjar قِيزَان النَجَّار</label>
+                    <value>Qizan an Najjar قِيزَان النَجَّار</value>
+                </item>
+                <item>
+                    <label>Qa al Kharaba قَاعْ الخَرَابَة</label>
+                    <value>Qa al Kharaba قَاعْ الخَرَابَة</value>
+                </item>
+                <item>
+                    <label>Qa al Qurein قَاعْ القُرِين</label>
+                    <value>Qa al Qurein قَاعْ القُرِين</value>
+                </item>
+                <item>
+                    <label>Khuza'a خُزَاعَة</label>
+                    <value>Khuza'a خُزَاعَة</value>
+                </item>
+                <item>
+                    <label>Umm Kameil أُمُّ كَمِيل</label>
+                    <value>Umm Kameil أُمُّ كَمِيل</value>
+                </item>
+                <item>
+                    <label>Umm al Kilab أُّمُّ الكِلاب</label>
+                    <value>Umm al Kilab أُّمُّ الكِلاب</value>
+                </item>
+                <item>
+                    <label>Al Fukhkhari الفُخَّارِي</label>
+                    <value>Al Fukhkhari الفُخَّارِي</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q107eRafah_28" reflist="Q107eRafah">
+                <label>1.7.e Municipality Rafah:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Al Mawasi (Rafah) المَواصِي (رفح)</label>
+                    <value>Al Mawasi (Rafah) المَواصِي (رفح)</value>
+                </item>
+                <item>
+                    <label>Al Qarya as Suwaydiya القَرْيَة السُوَيْدِيَّة</label>
+                    <value>Al Qarya as Suwaydiya القَرْيَة السُوَيْدِيَّة</value>
+                </item>
+                <item>
+                    <label>Tall as Sultan Camp مُخَيَّم تَل السُلطَان</label>
+                    <value>Tall as Sultan Camp مُخَيَّم تَل السُلطَان</value>
+                </item>
+                <item>
+                    <label>Rafah رَفَح</label>
+                    <value>Rafah رَفَح</value>
+                </item>
+                <item>
+                    <label>Rafah Camp مُخَيَّم رَفَح</label>
+                    <value>Rafah Camp مُخَيَّم رَفَح</value>
+                </item>
+                <item>
+                    <label>Al Bayuk البَيُّوك</label>
+                    <value>Al Bayuk البَيُّوك</value>
+                </item>
+                <item>
+                    <label>Shokat as Sufi شُوكَة الصُوفِي</label>
+                    <value>Shokat as Sufi شُوكَة الصُوفِي</value>
+                </item>
+            </select1>
+            <input ref="Q108Neighbour_29">
+                <label>1.8 Neighborhood:</label>
+            </input>
+            <input ref="q109Street_30">
+                <label>1.9 Street</label>
+            </input>
+            <input ref="q1010RegNo_31">
+                <label>1.10 Regularity No.:</label>
+            </input> 
+            <input ref="Q1011Closeto_32">
+                <label>1.11 Close to :</label>
+            </input>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine1322823843_34" type="label">
+                <label/>
+            </input> 
+            <input ref="Q1012aBlockN_35">
+                <label>1.12.a Block No</label>
+            </input> 
+            <input ref="Q1012bParNo_36">
+                <label>1.12.b Parcel No</label>
+            </input> 
+            <input ref="Q1012cPlotNo_37">
+                <label>1.12.c Plot No.:</label>
+            </input> 
+            <input ref="Q1013LandArea_38">
+                <label>1.13 Land Area (m2):</label>
+            </input> 
+            <select1 appearance="minimal" ref="Q1014LandOwner_39" reflist="Q1014LandOwnership">
+                <label>1.14 Land Ownership:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Owned</label>
+                    <value>Owned</value>
+                </item>
+                <item>
+                    <label>Governmental</label>
+                    <value>Governmental</value>
+                </item>
+                <item>
+                    <label>Waqf</label>
+                    <value>Waqf</value>
+                </item>
+                <item>
+                    <label>Shared</label>
+                    <value>Shared</value>
+                </item>
+                <item>
+                    <label>Other</label>
+                    <value>Other</value>
+                </item>
+            </select1>
+            <input ref="SingleLine_1977761373_40" type="label">
+                <label/>
+            </input> 
+            <input ref="q1015aNorth_41">
+                <label>1.15.a North:</label>
+            </input>
+            <input ref="Q1015bSouth_42">
+                <label>1.15.bSouth</label>
+            </input>
+            <input ref="Q1015cEast_43">
+                <label>1.15.c East:</label>
+            </input>
+            <input ref="Q1015dWest_44">
+                <label>1.15.d West:</label>
+            </input>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine640331811_46" type="label">
+                <label/>
+            </input> 
+            <input ref="q201NameOwner_47" type="tarea">
+                <label>2.1 Name of Building Owner (Four Names):</label>
+            </input> 
+            <input ref="Q202IDOwner_48">
+                <label>2.2 ID No.:</label>
+            </input>
+            <input ref="Q203Passport_49">
+                <label>2.3 Passport No:</label>
+            </input>
+            <input ref="Q204MobileNo_50">
+                <label>2.4 Mobile No:</label>
+            </input> 
+            <input ref="Q205TelephoneNo_51">
+                <label>2.5 Telephone No:</label>
+            </input> 
+            <select1 appearance="full" ref="Q206refugeeyn_52" reflist="yes/no">
+                <label>2.6 Are you a Refugee?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="q207FamilyNo_53">
+                <label>2.7 Family No.:</label>
+            </input> 
+            <input ref="q208OldRCNo_54">
+                <label>2.8 Old R/C No.:</label>
+            </input> 
+            <input ref="Q209FS_55">
+                <label>2.9 FS:</label>
+            </input> 
+            <select1 appearance="minimal" ref="Q2010BuildType_56" reflist="Q2010TypeOfBuilding">
+                <label>2.10 Building Type:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Villa</label>
+                    <value>Villa</value>
+                </item>
+                <item>
+                    <label>House</label>
+                    <value>House</value>
+                </item>
+                <item>
+                    <label>Building</label>
+                    <value>Building</value>
+                </item>
+                <item>
+                    <label>Iron sheets</label>
+                    <value>Iron sheets</value>
+                </item>
+                <item>
+                    <label>Tent</label>
+                    <value>Tent</value>
+                </item>
+                <item>
+                    <label>Other(Specify)</label>
+                    <value>Other(Specify)</value>
+                </item>
+            </select1>
+            <input ref="q2010other_57">
+                <label>2.10 If  Other, please specify</label>
+            </input>
+            <input ref="Q2011BuildArea_58">
+                <label>2.11 Building Area (m2):</label>
+            </input> 
+            <input ref="SingleLine_1198821717_59" type="label">
+                <label/>
+            </input> 
+            <input ref="Q2012aFireClay_60">
+                <label>2.12.a Fire Clay  Tiles(m2):</label>
+            </input> 
+            <input ref="Q2012bConcrete_61">
+                <label>2.12.b Concrete (m2):</label>
+            </input> 
+            <input ref="Q2012cAsbestos_62">
+                <label>2.12.c Asbestos (m2):</label>
+            </input> 
+            <input ref="Q2012dOth_63">
+                <label>2.12.d Others (Specify):</label>
+            </input>
+            <input ref="Q2012dOthm_64">
+                <label>2.12.d Others, Specify (m2):</label>
+            </input> 
+            <select1 appearance="minimal" ref="Q2013_65" reflist="Q2013">
+                <label>2.13 Building Function:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Housing</label>
+                    <value>Housing</value>
+                </item>
+                <item>
+                    <label>Bussiness</label>
+                    <value>Bussiness</value>
+                </item>
+                <item>
+                    <label>Combined</label>
+                    <value>Combined</value>
+                </item>
+                <item>
+                    <label>Others</label>
+                    <value>Others</value>
+                </item>
+            </select1>
+            <input ref="SingleLine1458922920_66" type="label">
+                <label/>
+            </input> 
+            <input ref="SingleLine_1527956102_67" type="label">
+                <label/>
+            </input> 
+            <input ref="Q2014aNoOccUnit_68">
+                <label>2.14.a Occupied units:</label>
+            </input> 
+            <input ref="Q2014bNoUNOccUn_69">
+                <label>2.14.b Unoccupied units:</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine858084467_71" type="label">
+                <label/>
+            </input> 
+            <input ref="Q2015_72">
+                <label>2.15 Boundary Length:</label>
+            </input> 
+            <input ref="Q2016_73">
+                <label>2.16 Boundary Height:</label>
+            </input> 
+            <input ref="Q2017_74">
+                <label>Store (m2):</label>
+            </input> 
+            <input ref="Q2018_75">
+                <label>2.18 Garage (m2):</label>
+            </input> 
+            <input ref="Q2019_76">
+                <label>2.19 Garden (m2):</label>
+            </input> 
+            <input ref="Q2020a_77">
+                <label>2.20 Others (Specify):</label>
+            </input>
+            <input ref="Q2020b_78">
+                <label>2.20 Others (m2):</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_2056214794_80" type="label">
+                <label/>
+            </input> 
+            <input ref="Q2021_81">
+                <label>2.21 Basement Area (m2):</label>
+            </input> 
+            <select1 appearance="minimal" ref="Q2022baseUse_82" reflist="Q2022">
+                <label>2.22 Basement use:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Housing</label>
+                    <value>Housing</value>
+                </item>
+                <item>
+                    <label>Work</label>
+                    <value>Work</value>
+                </item>
+                <item>
+                    <label>Combined</label>
+                    <value>Combined</value>
+                </item>
+                <item>
+                    <label>Others</label>
+                    <value>Others</value>
+                </item>
+            </select1>
+            <input ref="q2022Other_83">
+                <label>2.22 If  Other, please specify:</label>
+            </input>
+            <select1 appearance="minimal" ref="Q2023BaseFinish_84" reflist="Q2023">
+                <label>2.23 Basement Finishing:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Un-finished</label>
+                    <value>Un-finished</value>
+                </item>
+                <item>
+                    <label>Deluxe Finishing</label>
+                    <value>Deluxe Finishing</value>
+                </item>
+                <item>
+                    <label>Medium Finishing</label>
+                    <value>Medium Finishing</value>
+                </item>
+                <item>
+                    <label>Rough Finishing</label>
+                    <value>Rough Finishing</value>
+                </item>
+                <item>
+                    <label>Others:( specify)</label>
+                    <value>Others:( specify)</value>
+                </item>
+            </select1>
+            <input ref="Q2023Other_85">
+                <label>2.23 If  Other, please specify:</label>
+            </input>
+            <select1 appearance="minimal" ref="Q2024GRoundUse_86" reflist="Q2024">
+                <label>2.24 Ground Floor use:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Housing</label>
+                    <value>Housing</value>
+                </item>
+                <item>
+                    <label>Business</label>
+                    <value>Business</value>
+                </item>
+                <item>
+                    <label>Combined</label>
+                    <value>Combined</value>
+                </item>
+                <item>
+                    <label>Open Space</label>
+                    <value>Open Space</value>
+                </item>
+                <item>
+                    <label>Others:( specify)</label>
+                    <value>Others:( specify)</value>
+                </item>
+            </select1>
+            <input ref="Q2024Other_87">
+                <label>2.24 If Other, please specify:</label>
+            </input>
+            <select1 appearance="minimal" ref="Q2025BuissUse_88" reflist="Q2025">
+                <label>2.25 Business area use:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Used by owner</label>
+                    <value>Used by owner</value>
+                </item>
+                <item>
+                    <label>Unoccupied</label>
+                    <value>Unoccupied</value>
+                </item>
+                <item>
+                    <label>Rented</label>
+                    <value>Rented</value>
+                </item>
+            </select1>
+            <select1 appearance="minimal" ref="Q2026OPENSpaceF_89" reflist="Q2026">
+                <label>2.26 Open Space Finishing:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Un-finished</label>
+                    <value>Un-finished</value>
+                </item>
+                <item>
+                    <label>Deluxe Finishing</label>
+                    <value>Deluxe Finishing</value>
+                </item>
+                <item>
+                    <label>Medium Finishing</label>
+                    <value>Medium Finishing</value>
+                </item>
+                <item>
+                    <label>Rough Finishing</label>
+                    <value>Rough Finishing</value>
+                </item>
+                <item>
+                    <label>Others:( specify)</label>
+                    <value>Others:( specify)</value>
+                </item>
+            </select1>
+            <input ref="Q2026Other_90">
+                <label>2.26 If Other, please specify:</label>
+            </input>
+            <input ref="Q2027Commen_91" type="tarea">
+                <label>2.27 General Comments:</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="MultiLine716647737_93" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="pic1_94">
+                <label>attachement 1</label>
+            </input> 
+            <input ref="pic2_95">
+                <label>picture</label>
+            </input> 
+            <input ref="MultiLine857026682_96" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q301_97">
+                <label>3.1 Area No:</label>
+            </input> 
+            <input ref="q302_98">
+                <label>3.2 Building No.:</label>
+            </input> 
+            <input ref="Q303_99">
+                <label>3.3 Date of damage:</label>
+            </input> 
+            <input ref="Q304_100">
+                <label>3.4 Visit Date:</label>
+            </input> 
+            <input ref="Q305_101">
+                <label>3.5 Floor No:</label>
+            </input> 
+            <input ref="Q306_102">
+                <label>3.6 Flat No:</label>
+            </input> 
+            <input ref="MultiLine1732307790_103" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q307a_104">
+                <label>3.7.a Males</label>
+            </input> 
+            <input ref="q307b_105">
+                <label>3.7.b Females</label>
+            </input> 
+            <input ref="MultiLine_902969129_106" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q308a_107">
+                <label>3.8.a Males:</label>
+            </input> 
+            <input ref="Q308b_108">
+                <label>3.8.b Females:</label>
+            </input> 
+            <input ref="MultiLine_1626425391_109" type="multi-label">
+                <label/>
+            </input> 
+            <input ref="Q309a_110">
+                <label>3.9.a Males</label>
+            </input> 
+            <input ref="Q309b_111">
+                <label>3.9.b Females</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_699420494_113" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3010_114">
+                <label>3.10 First:</label>
+            </input>
+            <input ref="Q3011_115">
+                <label>3.11 Father:</label>
+            </input>
+            <input ref="Q3012_116">
+                <label>3.12 G/Father:</label>
+            </input>
+            <input ref="Q3013_117">
+                <label>3.13 Family:</label>
+            </input>
+            <input ref="Q3014_118">
+                <label>3.14 ID No  / Passport No:</label>
+            </input>
+            <input ref="q3015_119">
+                <label>Mobile No:</label>
+            </input> 
+            <select1 appearance="full" ref="Q3016_120" reflist="yes/no">
+                <label>3.16 Are You a refugee?</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Yes</label>
+                    <value>Yes</value>
+                </item>
+                <item>
+                    <label>No</label>
+                    <value>No</value>
+                </item>
+            </select1>
+            <input ref="Q3017a_121">
+                <label>3.17.a Family No.:</label>
+            </input> 
+            <input ref="Q3017b_122">
+                <label>3.17.b</label>
+            </input> 
+            <input ref="q3017c_123">
+                <label>3.17.c</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <select1 appearance="minimal" ref="Q3018_125" reflist="Q3018">
+                <label>3.18 Description of Occupier of the unit</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Owner</label>
+                    <value>Owner</value>
+                </item>
+                <item>
+                    <label>Tenant</label>
+                    <value>Tenant</value>
+                </item>
+                <item>
+                    <label>Unoccupied</label>
+                    <value>Unoccupied</value>
+                </item>
+            </select1>
+            <input ref="Q3019_126">
+                <label>3.19 Area of unit m2: </label>
+            </input> 
+            <input ref="Q3020_127">
+                <label>3.20 Number of of rooms:</label>
+            </input> 
+            <select1 appearance="minimal" ref="Q3021_128" reflist="q3021">
+                <label>3.21 Current Address:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Having another owned unit</label>
+                    <value>Having another owned unit</value>
+                </item>
+                <item>
+                    <label>Rented unit</label>
+                    <value>Rented unit</value>
+                </item>
+                <item>
+                    <label>Tent</label>
+                    <value>Tent</value>
+                </item>
+                <item>
+                    <label>Relatives</label>
+                    <value>Relatives</value>
+                </item>
+                <item>
+                    <label>Others</label>
+                    <value>Others</value>
+                </item>
+            </select1>
+            <input ref="Q3021Other_129">
+                <label>3.21 If  Other, please specify:</label>
+            </input>
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine1185948911_131" type="label">
+                <label/>
+            </input> 
+            <input ref="Q3022_132">
+                <label>3.22 First Name:</label>
+            </input>
+            <input ref="Q3023_133">
+                <label>3.23 Father Name:</label>
+            </input>
+            <input ref="Q3024_134">
+                <label>3.24 G/Father Name:</label>
+            </input>
+            <input ref="Q3025_135">
+                <label>3.25 Family Name:</label>
+            </input>
+        </group>
+        <group appearance="field-list">
+            <input ref="Q3026_137">
+                <label>3.26 ID No  / Passport No:</label>
+            </input> 
+            <select1 appearance="minimal" ref="Q3027_138" reflist="Q3027">
+                <label>3.27 External Finishing:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Stone cladding</label>
+                    <value>Stone cladding</value>
+                </item>
+                <item>
+                    <label>Render plastering</label>
+                    <value>Render plastering</value>
+                </item>
+                <item>
+                    <label>Smooth plastering</label>
+                    <value>Smooth plastering</value>
+                </item>
+                <item>
+                    <label>Tyrolene</label>
+                    <value>Tyrolene</value>
+                </item>
+                <item>
+                    <label>Painted Tyrolene</label>
+                    <value>Painted Tyrolene</value>
+                </item>
+                <item>
+                    <label>Un-finished</label>
+                    <value>Un-finished</value>
+                </item>
+                <item>
+                    <label>Others:( specify)</label>
+                    <value>Others:( specify)</value>
+                </item>
+            </select1>
+            <input ref="Q3027oTHER_139">
+                <label>3.27 If  Other, please specify:</label>
+            </input>
+            <select1 appearance="minimal" ref="Q3028_140" reflist="Q3028">
+                <label>3.28 Internal Finishing:</label>
+                <item>
+                    <label>Select</label>
+                    <value>0</value>
+                </item>
+                <item>
+                    <label>Un-finished</label>
+                    <value>Un-finished</value>
+                </item>
+                <item>
+                    <label>Deluxe</label>
+                    <value>Deluxe</value>
+                </item>
+                <item>
+                    <label>Medium</label>
+                    <value>Medium</value>
+                </item>
+                <item>
+                    <label>Below Medium</label>
+                    <value>Below Medium</value>
+                </item>
+            </select1>
+            <input ref="Q3029_141">
+                <label>3.29 % of damage to furniture:</label>
+            </input> 
+        </group>
+        <group ref="Q3030_142">
+            <label>3.30 Persons residing the house at the time of Damage</label>
+            <repeat nodeset="/data/Q3030_142">
+                <group appearance="field-list">
+                    <input ref="Q3030a">
+                        <label>3.30a Name:</label>
+                    </input> 
+                    <input ref="Q3030B">
+                        <label>3.30.b ID No:</label>
+                    </input> 
+                    <select1 appearance="minimal" ref="Q3030c" reflist="Q3030c">
+                        <label>3.30.c Relation:</label>
+                        <item>
+                            <label>Select</label>
+                            <value>0</value>
+                        </item>
+                        <item>
+                            <label>Wife</label>
+                            <value>Wife</value>
+                        </item>
+                        <item>
+                            <label>Son</label>
+                            <value>Son</value>
+                        </item>
+                        <item>
+                            <label>Daughter</label>
+                            <value>Daughter</value>
+                        </item>
+                        <item>
+                            <label>Husband</label>
+                            <value>Husband</value>
+                        </item>
+                        <item>
+                            <label>Cousin</label>
+                            <value>Cousin</value>
+                        </item>
+                        <item>
+                            <label>Nice</label>
+                            <value>Nice</value>
+                        </item>
+                        <item>
+                            <label>Nephew</label>
+                            <value>Nephew</value>
+                        </item>
+                        <item>
+                            <label>Uncle</label>
+                            <value>Uncle</value>
+                        </item>
+                        <item>
+                            <label>Aunte</label>
+                            <value>Aunte</value>
+                        </item>
+                    </select1>
+                </group>
+            </repeat>
+        </group>
+        <group appearance="field-list">
+            <input ref="Q3031_143" type="tarea">
+                <label>3.31 General Comments:</label>
+            </input> 
+        </group>
+        <group appearance="field-list">
+            <input ref="SingleLine_118203100_145" type="label">
+                <label/>
+            </input> 
+            <input ref="pic3_146">
+                <label>documents</label>
+            </input> 
+            <input ref="pic4_147">
+                <label>Licenses</label>
+            </input> 
+        </group>
+    </h:body>
+</h:html>

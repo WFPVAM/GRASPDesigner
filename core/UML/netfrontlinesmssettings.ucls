@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="net.frontlinesms.settings.DatabaseSettingsPropertySet" project="core" 
+    file="/core/src/main/java/net/frontlinesms/settings/DatabaseSettings.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="301" x="780" y="327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="net.frontlinesms.settings.CoreSettingsSections" project="core" 
+    file="/core/src/main/java/net/frontlinesms/settings/CoreSettingsSections.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="295" x="63" y="-20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" name="net.frontlinesms.settings.DatabaseTransferSettingsPropertySet" project="core" 
+    file="/core/src/main/java/net/frontlinesms/settings/DatabaseTransferSettings.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="309" x="1309" y="327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.frontlinesms.settings.BaseSectionHandler" project="core" 
+    file="/core/src/main/java/net/frontlinesms/settings/BaseSectionHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="342" x="398" y="-20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.frontlinesms.settings.FrontlineValidationMessage" project="core" 
+    file="/core/src/main/java/net/frontlinesms/settings/FrontlineValidationMessage.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="261" x="1065" y="-20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.frontlinesms.settings.DatabaseSettings" project="core" 
+    file="/core/src/main/java/net/frontlinesms/settings/DatabaseSettings.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="245" x="780" y="-20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="net.frontlinesms.settings.DatabaseTransferSettings" project="core" 
+    file="/core/src/main/java/net/frontlinesms/settings/DatabaseTransferSettings.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="242" x="1366" y="-20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="9" name="properties"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="12" name="selectedSettings"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="15" name="properties"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

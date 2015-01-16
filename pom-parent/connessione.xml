@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms"
+	xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>prova29.10</h:title>
+		<model>
+			<instance>
+				<data apos="'">
+					<id>28_AAABQUZOVSw</id>
+					<date_0 />
+					<enumerator_1 />
+					<des_version_2>0.0.25</des_version_2>
+					<client_version_3 />
+					<prova01_5 />
+					<prova02_6 />
+				</data>
+			</instance>
+			<bind nodeset="/data/date_0" required="true()" type="date" />
+			<bind nodeset="/data/enumerator_1" required="true()" type="string" />
+			<bind nodeset="/data/des_version_2" readonly="true()" required="true()"
+				type="string" />
+			<bind nodeset="/data/client_version_3" readonly="true()"
+				required="true()" type="string" />
+			<bind nodeset="/data/prova01_5" required="true()" type="string" />
+			<bind nodeset="/data/prova02_6" readonly="false()" required="true()"
+				type="string" />
+		</model>
+	</h:head>
+	<h:body>
+		<group appearance="field-list">
+			<input ref="date_0">
+				<label>Date</label>
+			</input>
+			<input ref="enumerator_1">
+				<label>Enumerator ID</label>
+			</input>
+			<input ref="des_version_2">
+				<label>Designer version</label>
+			</input>
+			<input ref="client_version_3">
+				<label>Client version</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="prova01_5">
+				<label>01</label>
+			</input>
+			<input ref="prova02_6" type="tarea">
+				<label>02</label>
+			</input>
+		</group>
+	</h:body>
+</h:html>

@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.frontlinesms.plugins</groupId>
+    <artifactId>frontlinesms-plugin-httptrigger</artifactId>
+    <name>FrontlineSMS HTTP Trigger Plugin</name>
+    <version>0.01.25</version>
+    <description>HTTP Trigger plugin for FrontlineSMS</description>
+    <parent>
+        <groupId>net.frontlinesms.core</groupId>
+        <artifactId>frontlinesms-pom-parent</artifactId>
+        <version>1.7.00-beta-5</version>
+        <relativePath>../pom-parent</relativePath>
+    </parent>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:${github.projectOwner}/${github.projectName}.git</developerConnection>
+    </scm>
+	
+    <repositories>
+        <repository>
+            <!-- Repository from the makers of Jetty -->
+            <id>codehaus-release-repo</id>
+            <name>Codehaus Release Repo</name>
+            <url>http://repository.codehaus.org</url>
+        </repository>
+    </repositories>
+  
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty-util</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+        <!-- Added by Fabaris_a.aknai to connect to form to register responses -->
+        <dependency>
+            <groupId>net.frontlinesms.plugins</groupId>
+            <artifactId>frontlinesms-plugin-forms</artifactId>
+        </dependency>
+                
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.5</version>
+        </dependency>
+    </dependencies>
+</project>

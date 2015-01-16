@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="net.frontlinesms.plugins.httptrigger.ui.HttpTriggerSettingsRootSectionHandler" 
+    project="plugin-httptrigger" 
+    file="/plugin-httptrigger/src/main/java/net/frontlinesms/plugins/httptrigger/ui/HttpTriggerSettingsRootSectionHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="386" x="56" y="23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

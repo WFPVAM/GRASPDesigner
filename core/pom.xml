@@ -1,0 +1,199 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>frontlinesms-dist</artifactId>
+    <name>frontlinesms</name>
+    <description>FrontlineSMS core application</description>
+    <parent>
+        <groupId>net.frontlinesms.core</groupId>
+        <artifactId>frontlinesms-pom-parent</artifactId>
+        <version>1.7.00-beta-5</version>
+        <relativePath>../pom-parent</relativePath>
+    </parent>
+    <scm>
+        <connection>scm:git://github.com/frontlinesms/frontlinesms-core.git</connection>
+        <developerConnection>scm:git:git@github.com:frontlinesms/frontlinesms-core.git</developerConnection>
+    </scm>
+
+    <properties>
+        <github.projectName>frontlinesms-core</github.projectName>
+    </properties>
+
+    <build>
+        <filters>
+            <filter>src/main/filters/filter.properties</filter>
+        </filters>
+
+        <resources>
+            <resource>
+                <directory>src/filtered/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <mainClass>net.frontlinesms.DesktopLauncher</mainClass>
+                                <packageName>net.frontlinesms</packageName>
+                            </manifest>
+                            <manifestEntries>
+                                <version>${project.version}</version>
+                            </manifestEntries>
+                        </archive>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <artifactId>maven-antrun-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <id>zipResources</id>
+                            <!-- Make sure that the latest version of resources.zip is bundled 
+                            inside the JAR -->
+                            <phase>generate-resources</phase>
+                            <goals>
+                                <goal>run</goal>
+                            </goals>
+                            <configuration>
+                                <tasks>
+                                    <property name="runtime-classpath" refid="maven.runtime.classpath" />
+                                    <ant target="zipResources" inheritRefs="true" />
+                                </tasks>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.frontlinesms.core</groupId>
+            <artifactId>thinlet</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.frontlinesms.core</groupId>
+            <artifactId>smslib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.frontlinesms.core</groupId>
+            <artifactId>frontlinesms-email</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.frontlinesms.core.mms</groupId>
+            <artifactId>mmsgateway</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+        </dependency>
+        <!-- 		<dependency> -->
+        <!--  			<groupId>net.frontlinesms.plugins</groupId>  -->
+        <!-- 		<artifactId>frontlinesms-plugin-forms</artifactId>  -->
+        <!--  			<version>0.02.32</version>  -->
+        <!-- 		</dependency> -->
+        <dependency>
+            <groupId>org.rxtx</groupId>
+            <artifactId>rxtx</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.comm</groupId>
+            <artifactId>comm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jdom</groupId>
+            <artifactId>jdom</artifactId>
+        </dependency>
+        <dependency>
+            <!-- Requires fix found at http://www.slingingsemicolons.com/blogs/dave/maven-and-log4j -->
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-annotations</artifactId>
+            <version>3.4.0.GA</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>3.3.1.GA</version>
+        </dependency>
+        <!-- this is required by hibernate for reflection. cglib can be used as 
+        an alternative by setting hibernate.bytecode.provider=cglib in hibernate.properties 
+        on the classpath -->
+        <dependency>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.8.0.GA</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.2.127</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver.jdbc</groupId>
+            <artifactId>sqljdbc</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.frontlinesms.plugins</groupId>
+            <artifactId>frontlinesms-plugin-forms</artifactId>
+            <version>0.02.32</version>
+        </dependency>
+        <dependency>
+            <groupId>net.frontlinesms.plugins</groupId>
+            <artifactId>frontlinesms-plugin-httptrigger</artifactId>
+            <version>0.01.25</version>
+        </dependency>
+         <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.5</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>my-internal-site</id>
+            <!--url>file://C:/Users/r.joseph/.m2</url-->
+            <url>file://C:/.m2</url>
+        </repository>
+    </repositories>
+</project>

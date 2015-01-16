@@ -1,0 +1,45 @@
+<tab icon="/icons/big_form.png" text="i18n.plugins.forms.forms" name=":forms">
+    <panel bottom="9" columns="2" gap="9" left="9" right="9" top="9" weightx="1" weighty="1">
+    	<label icon="/icons/header/formManager.png" valign="top" />
+		 <splitpane divider="450" weightx="1" weighty="1" rowspan="2">
+        	<panel columns="1" weighty="1" weightx="1" gap="8">
+		        <panel rowspan="2" border="true" bottom="4" columns="1" gap="8" icon="/icons/form.png" left="4" right="4" text="i18n.plugins.forms.forms" top="4" weightx="1" weighty="1">
+		        	<tree delete="showConfirmationDialog('formsList_deleteSelected')" action="formsList_selectionChanged" perform="formsList_editSelected" name="formsList" weightx="1" weighty="1">
+		        		<popupmenu name="formsList_popupMenu" menushown="formsTab_enabledFields(formsList_toolbar, this)">
+		        			<menuitem action="showFormsEditor" icon="/icons/form_add.png" name="miNew" text="i18n.action.new" />
+		        			<menuitem action="formsList_editSelected" icon="/icons/form_edit.png" name="miEdit" text="i18n.action.edit" />
+		        			<menuitem action="showConfirmationDialog('formsList_deleteSelected')" icon="/icons/form_delete.png" name="miDelete" text="i18n.action.delete" />
+		        			<menuitem action="showConfirmationDialog('formsList_hideSelected')" icon="/icons/form_delete.png" name="miHide" text="Hide" />
+		        			<menuitem action="formsList_duplicateSelected" icon="/icons/form_copy.png" name="miCopy" text="i18n.action.copy" />
+		        			<separator name="sp1"/>
+		        			<menuitem action="formsList_showGroupSelecter" icon="/icons/group.png" name="miSetGroup" text="i18n.common.group" />
+		        			<separator name="sp2"/>
+		        			<menuitem action="formsList_sendSelected" icon="/icons/form_send.png" name="miSend" text="i18n.common.send.and" />
+		        			<menuitem action="formsList_finalizeSelected" icon="/icons/form.png" name="miFinalize" text="i18n.common.finalize" />
+		        			<!--   <menuitem action="showXFormExportDialog" icon="/icons/form_send.png" name="miExport" text="i18n.common.export" /> -->
+		        			<menuitem action="showXFormExportDialog" icon="/icons/export.png" name="miExport" text="i18n.message.export.formprototype" /> 
+		        			<menuitem name="miLaunch" text="i18n.message.Launch.formtest" icon="/icons/big_translate.png" action="showLaunchformTestmenu"/>
+		        		</popupmenu>
+		        	</tree>
+		        	<panel name="formsList_toolbar" gap="9" weightx="1" columns="3">
+		        		<button name="btNew" action="showFormsEditor" icon="/icons/big_form_add.png" text="i18n.action.new" weightx="1"/>
+		        		<button name="btCopy" action="formsList_duplicateSelected" icon="/icons/big_form_copy.png" text="i18n.action.copy" weightx="1" enabled="false"/>
+		        		<button name="btEdit" action="formsList_editSelected" icon="/icons/big_form_edit.png" text="i18n.action.edit" weightx="1" enabled="false"/>
+		        		<button name="btDelete" action="showConfirmationDialog('formsList_deleteSelected')" icon="/icons/big_form_delete.png" text="i18n.action.delete" weightx="1" enabled="false" mnemonic="0"/>
+		        		<button name="btSend" action="formsList_sendSelected" icon="/icons/big_form_send.png" text="i18n.common.send.and" weightx="1" enabled="false"/>
+		        		 <button name="btExport" action="showXFormExportDialog" icon="/icons/big_export.png" text="i18n.message.export.formprototype" weightx="1" enabled="false"/>
+		        		 <button name="btGroup" action="formsList_showGroupSelecter" icon="/icons/big_group_join.png" text="i18n.common.group" weightx="1" enabled="false"/>
+		        		 <button name="btFinalize" action="formsList_finalizeSelected" icon="/icons/big_form.png" text="i18n.common.finalize" weightx="1" enabled="false"/>
+		        		<!-- Fabaris_raji -->
+ 						<button name="btLaunch" text="i18n.message.Launch.formtest" icon="/icons/big_translation.png" weightx="1" action="showLaunchformTest" enabled="false"/> 
+						<!-- Fabaris_raji -->
+		        	</panel>
+		        </panel>
+		       <!--   <button action="showFormsPluginInfo" icon="/icons/about.png" text="i18n.plugins.forms.about" halign="right"/> -->
+		    </panel>
+	        <panel name="pnRight" columns="1">
+		    </panel>
+    	</splitpane>
+   		<button tooltip="i18n.tooltip.click.for.help" valign="bottom" action="showHelpPage('forms.htm')" icon="/icons/big_help.png" type="link"/>
+	</panel>
+</tab>

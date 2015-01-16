@@ -1,0 +1,3745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms"
+	xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>MODULO-SAN-R1</h:title>
+		<model>
+			<instance>
+				<data apos="'">
+					<id>75_AAABP3vVxtY</id>
+					<date_0 />
+					<enumerator_1 />
+					<des_version_2>0.0.25</des_version_2>
+					<client_version_3>0.1.21</client_version_3>
+					<P01_5 />
+					<P02_6 />
+					<GPS0_7 />
+					<P03_9 />
+					<P0301_10 />
+					<P04_11 />
+					<SingleLine1_12>Asuma que el hogar ha cambiado.</SingleLine1_12>
+					<P05_13 />
+					<P0501_14 />
+					<P0502_15 />
+					<P06_17 />
+					<DEMO0_19>
+						<R0101 />
+						<R0102 />
+						<R0103 />
+						<R0104 />
+						<R0105 />
+						<R0106 />
+						<R0107 />
+						<R0108 />
+						<P0109 />
+						<R0110 />
+						<R0111 />
+						<R0112 />
+						<R0113 />
+					</DEMO0_19>
+					<P07_21 />
+					<P08_22 />
+					<P09_23 />
+					<P10_25 />
+					<P11_26 />
+					<P12_27 />
+					<P13_28 />
+					<P14_29 />
+					<P15_30 />
+					<P16_31 />
+					<P18A_33 />
+					<P18B_34 />
+					<P18C_35 />
+					<SingleLine2_36>¿Qué proporción del ingreso proviene de cada
+						fuente?</SingleLine2_36>
+					<P19A_37 />
+					<P19B_38 />
+					<P19C_39 />
+					<SingleLine3_40>¿Cómo considera la situacion de cada fuente de
+						ingreso comparado con el año anterior?</SingleLine3_40>
+					<P20A_41 />
+					<P20A1_42 />
+					<P20B_43 />
+					<P10B1_44 />
+					<P20C_45 />
+					<P20C1_46 />
+					<P21_48 />
+					<P22_49 />
+					<P23_50 />
+					<P24_52 />
+					<TBL01CROPS_54>
+						<PT01 />
+						<PT02 />
+						<PT0201 />
+						<PT020101 />
+						<PT03 />
+						<PT04 />
+						<PT05 />
+						<PT06 />
+						<PT07 />
+						<PT08 />
+						<PT09 />
+					</TBL01CROPS_54>
+					<P25_56 />
+					<P26_57 />
+					<P27_58 />
+					<P28_60 />
+					<TBL02ANIMALS_62>
+						<PT0301 />
+						<PT0302 />
+						<PT0304 />
+						<PT0305 />
+					</TBL02ANIMALS_62>
+					<P29_64 />
+					<TBL04ITEMS_66>
+						<PT0401 />
+						<P040101 />
+						<P0402 />
+						<P0403 />
+						<P0405 />
+					</TBL04ITEMS_66>
+					<P30_68 />
+					<P31_69 />
+					<P32_70 />
+					<P33_71 />
+					<P34_72 />
+					<P35_73 />
+					<P36_74 />
+					<P37_75 />
+					<MultiLine2_77>¿Como obtiene principalmente los alimentos que
+						regularmente se consumen en el hogar? (No lea las opciones)
+					</MultiLine2_77>
+					<P38_78 />
+					<P39_79 />
+					<MultiLine3_80>El año pasado ¿Cuáles eran sus principales fuentes
+						de alimentos?</MultiLine3_80>
+					<P40_81 />
+					<P41_82 />
+					<P42_83 />
+					<P43_84 />
+					<P44_85 />
+					<P45_86 />
+					<TBL05_88>
+						<PT0506 />
+						<PT0502 />
+						<PT0503 />
+						<PT0504 />
+						<PT0505 />
+						<PT0507 />
+					</TBL05_88>
+					<P46_90 />
+					<P47_91 />
+					<P48_92 />
+					<P49_93 />
+					<P50_94 />
+					<P51_95 />
+					<P52_97 />
+					<MultiLine4_98>¿En qué realizo este gasto?</MultiLine4_98>
+					<P52A_99 />
+					<P52B_100 />
+					<MultiLine5_101>¿Compró usted alguno de los siguientes productos
+						para uso en su hogar en el mes pasado? (en caso de no haberlo
+						hecho marque cero y vaya al siguiente)</MultiLine5_101>
+					<P53A_102 />
+					<P53B_103 />
+					<P53C_104 />
+					<P53D_105 />
+					<P53E_106 />
+					<P53F_107 />
+					<P53G_108 />
+					<P53H_109 />
+					<P53I_110 />
+					<P53J_111 />
+					<P53K_112 />
+					<P53L_113 />
+					<P53M_114 />
+					<P53N_115 />
+					<P53O_116 />
+					<P54_118 />
+					<P55_119 />
+					<P56_120 />
+					<P57_121 />
+					<P58_123 />
+					<MultiLine6_124>Durante los ultimos 7 dias. ¿Cuantos dias el hogar
+						ha tenido que realizar algunas de estas acciones para
+						contrarrestar la falta de alimentos o dinero para comprarlos?
+					</MultiLine6_124>
+					<P59A_125 />
+					<P59B_126 />
+					<P59C_127 />
+					<P59D_128 />
+					<P59E_129 />
+					<P59F_130 />
+					<P59G_131 />
+					<P59H_132 />
+					<P60_133 />
+					<MultiLine7_134>Marque todas las opciones pertinentes
+					</MultiLine7_134>
+					<P61A_135 />
+					<P61B_136 />
+					<P61C_137 />
+					<P61D_138 />
+					<P61E_139 />
+					<P61F_140 />
+					<P61G_141 />
+					<P61H_142 />
+					<P61I_143 />
+					<P61J_144 />
+					<P61K_145 />
+					<P61L_146 />
+					<P61M_147 />
+					<P61N_148 />
+					<P62_150 />
+					<MultiLine8_151>¿De cuales enfermedades?</MultiLine8_151>
+					<P63A_152 />
+					<P63B_153 />
+					<P64_155 />
+					<MultiLine9_156>Marque todos los tipos de asistencia que haya
+						recibido.</MultiLine9_156>
+					<P65A_157 />
+					<P65B_158 />
+					<P65C_159 />
+					<P65D_160 />
+					<P65E_161 />
+					<P65F_162 />
+					<P65G_163 />
+					<P65H_164 />
+					<P65I_165 />
+					<P65J_166 />
+					<P65K_167 />
+					<P65L_168 />
+					<P65M_169 />
+					<P65N_170 />
+					<MultiLine10_172>¿Cuales fueron los principales problemas para su
+						hogar en los ultimos 3 meses? (no mencionar las respuestas)
+					</MultiLine10_172>
+					<P66A_173 />
+					<P66B_174 />
+					<MultiLine11_176>¿Cuales son las necesidades mas prioritarias de su
+						familia?</MultiLine11_176>
+					<P67A_177 />
+					<P67B_178 />
+					<P67C_179 />
+				</data>
+			</instance>
+			<bind nodeset="/data/date_0" type="date" />
+			<bind nodeset="/data/enumerator_1" required="true()" type="string" />
+			<bind nodeset="/data/des_version_2" readonly="true()" required="false()"
+				type="string" />
+			<bind nodeset="/data/client_version_3" readonly="true()"
+				required="false()" type="string" />
+			<bind nodeset="/data/P01_5" required="true()" type="decimal" />
+			<bind nodeset="/data/P02_6" required="true()" type="string" />
+			<bind nodeset="/data/GPS0_7" type="geopoint" />
+			<bind nodeset="/data/P03_9" type="select1" />
+			<bind nodeset="/data/P0301_10"
+				relevant="  /data/P03_9 = 'No' or /data/P03_9 = 'Rechazo' or /data/P03_9 = 'Vivienda no encontrada'"
+				type="string" />
+			<bind nodeset="/data/P04_11" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/SingleLine1_12" readonly="true()"
+				relevant="  /data/P04_11 = 'No'" required="true()" type="string" />
+			<bind nodeset="/data/P05_13" relevant="  /data/P04_11 = 'No'"
+				type="select1" />
+			<bind nodeset="/data/P0501_14" relevant="  /data/P05_13 = 'Otro'"
+				type="string" />
+			<bind nodeset="/data/P0502_15"
+				relevant="  /data/P05_13 = 'Abandonaron la vivienda por falta de trabajo.'"
+				type="select1" />
+			<bind nodeset="/data/P06_17" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/DEMO0_19" relevant="  /data/P03_9 = 'Si'" />
+			<bind nodeset="/data/DEMO0_19/R0101" required="false()" type="select1" />
+			<bind nodeset="/data/DEMO0_19/R0102" required="false()" type="decimal" />
+			<bind nodeset="/data/DEMO0_19/R0103" relevant="  ./../R0102 &lt; 5"
+				required="false()" type="decimal" />
+			<bind nodeset="/data/DEMO0_19/R0104" relevant="  ./../R0102 &lt; 5"
+				required="false()" type="date" />
+			<bind nodeset="/data/DEMO0_19/R0105" required="false()" type="select1" />
+			<bind nodeset="/data/DEMO0_19/R0106" required="false()" type="select1" />
+			<bind nodeset="/data/DEMO0_19/R0107" relevant="  ./../R0105 = 'Mujer' and ./../R0102 &gt;= 5"
+				required="false()" type="select1" />
+			<bind nodeset="/data/DEMO0_19/R0108" relevant="  ./../R0107 = 'Si'"
+				required="false()" type="decimal" />
+			<bind nodeset="/data/DEMO0_19/P0109" relevant="  ./../R0107 = 'Si'"
+				required="false()" type="decimal" />
+			<bind nodeset="/data/DEMO0_19/R0110" relevant="  ./../R0102 &lt; 5"
+				required="false()" type="decimal" />
+			<bind nodeset="/data/DEMO0_19/R0111" relevant="  ./../R0102 &lt; 5"
+				required="false()" type="decimal" />
+			<bind nodeset="/data/DEMO0_19/R0112" required="false()" type="select1" />
+			<bind nodeset="/data/DEMO0_19/R0113" required="false()" type="select1" />
+			<bind nodeset="/data/P07_21" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P08_22" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P09_23" relevant="  /data/P03_9 = 'Si' and /data/P07_21 = 'No'"
+				type="select1" />
+			<bind nodeset="/data/P10_25" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P11_26" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P12_27" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P13_28" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P14_29" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P15_30" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P16_31" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P18A_33" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P18B_34" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P18C_35" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/SingleLine2_36" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind constraint=". &gt; 0 and . &lt;= 100" nodeset="/data/P19A_37"
+				relevant="  /data/P03_9 = 'Si'" type="decimal" />
+			<bind constraint=". &gt; 0 and . &lt;= 100" nodeset="/data/P19B_38"
+				relevant="  /data/P03_9 = 'Si' and /data/P18B_34 != 'No Aplica'"
+				type="decimal" />
+			<bind constraint=". &gt; 0 and . &lt;= 100" nodeset="/data/P19C_39"
+				relevant="  /data/P18C_35 != 'No Aplica' and /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/SingleLine3_40" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P20A_41" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P20A1_42"
+				relevant="  /data/P20A_41 = 'Ha empeorado mucho' or /data/P20A_41 = 'Ha empeorado'"
+				type="select1" />
+			<bind nodeset="/data/P20B_43" relevant="  /data/P19B_38 &gt; 0"
+				type="select1" />
+			<bind nodeset="/data/P10B1_44"
+				relevant="  /data/P20B_43 = 'Ha empeorado' or /data/P20B_43 = 'Ha empeorado mucho'"
+				type="select1" />
+			<bind nodeset="/data/P20C_45" relevant="  /data/P19C_39 &gt; 0"
+				type="select1" />
+			<bind nodeset="/data/P20C1_46"
+				relevant="  /data/P20C_45 = 'Ha empeorado' or /data/P20C_45 = 'Ha empeorado mucho'"
+				type="select1" />
+			<bind nodeset="/data/P21_48" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P22_49" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P23_50"
+				relevant="  /data/P21_48 = 'Ha empeorado mucho' or /data/P21_48 = 'Ha empeorado' or /data/P22_49 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P24_52" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54" relevant="  /data/P24_52 = 'Si'" />
+			<bind nodeset="/data/TBL01CROPS_54/PT01" required="true()" type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54/PT02" required="true()" type="decimal" />
+			<bind nodeset="/data/TBL01CROPS_54/PT0201" relevant="  ./../PT02 &gt; 0"
+				required="true()" type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54/PT020101" relevant="  ./../PT0201 = 'Otro'"
+				required="false()" type="decimal" />
+			<bind nodeset="/data/TBL01CROPS_54/PT03" relevant="  ./../PT02 &gt; 0"
+				required="true()" type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54/PT04" relevant="  ./../PT02 &gt; 0"
+				required="false()" type="decimal" />
+			<bind nodeset="/data/TBL01CROPS_54/PT05" relevant="  ./../PT02 &gt; 0"
+				required="true()" type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54/PT06" relevant="  ./../PT05 = 'Si'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54/PT07" relevant="  ./../PT05 = 'Si'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54/PT08" relevant="  ./../PT05 = 'Si'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/TBL01CROPS_54/PT09" relevant="  ./../PT05 = 'Si'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/P25_56" relevant="  /data/P24_52 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P26_57" relevant="  /data/P24_52 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P27_58" readonly="false()" relevant="  /data/P24_52 = 'Si'"
+				type="string" />
+			<bind nodeset="/data/P28_60" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/TBL02ANIMALS_62" relevant="  /data/P28_60 = 'Si'" />
+			<bind nodeset="/data/TBL02ANIMALS_62/PT0301" required="true()"
+				type="select1" />
+			<bind nodeset="/data/TBL02ANIMALS_62/PT0302" required="true()"
+				type="decimal" />
+			<bind nodeset="/data/TBL02ANIMALS_62/PT0304" required="true()"
+				type="select1" />
+			<bind nodeset="/data/TBL02ANIMALS_62/PT0305" relevant="  ./../PT0304 = 'Menos'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/P29_64" relevant="  /data/P28_60 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/TBL04ITEMS_66" relevant="  /data/P03_9 = 'Si'" />
+			<bind nodeset="/data/TBL04ITEMS_66/PT0401" required="true()"
+				type="select1" />
+			<bind nodeset="/data/TBL04ITEMS_66/P040101" relevant="  ./../PT0401 = 'Teléfono celular/Fijo'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/TBL04ITEMS_66/P0402" required="true()"
+				type="select1" />
+			<bind nodeset="/data/TBL04ITEMS_66/P0403" required="true()"
+				type="select1" />
+			<bind nodeset="/data/TBL04ITEMS_66/P0405" relevant="  ./../P0403 = 'Si' and ./../P0402 = 'No'"
+				required="true()" type="select1" />
+			<bind nodeset="/data/P30_68" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P31_69" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P32_70" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P33_71" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P34_72" relevant="  /data/P33_71 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P35_73" relevant="  /data/P33_71 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P36_74" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P37_75" relevant="  /data/P36_74 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine2_77" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P38_78" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P39_79" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine3_80" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P40_81" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P41_82" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P42_83" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P43_84" relevant="  /data/P42_83 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P44_85" relevant="  /data/P42_83 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P45_86" relevant="  /data/P42_83 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/TBL05_88" relevant="  /data/P03_9 = 'Si'" />
+			<bind nodeset="/data/TBL05_88/PT0506" required="true()" type="select1" />
+			<bind constraint=". &gt;= 0 and . &lt;= 7" nodeset="/data/TBL05_88/PT0502"
+				required="true()" type="decimal" />
+			<bind nodeset="/data/TBL05_88/PT0503" required="true()" type="select1" />
+			<bind nodeset="/data/TBL05_88/PT0504" required="true()" type="decimal" />
+			<bind nodeset="/data/TBL05_88/PT0505" required="false()" type="decimal" />
+			<bind nodeset="/data/TBL05_88/PT0507" required="false()" type="decimal" />
+			<bind nodeset="/data/P46_90" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P47_91" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P48_92" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P49_93" relevant="  /data/P48_92 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P50_94" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P51_95" relevant="  /data/P50_94 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P52_97" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine4_98" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P52A_99" relevant="  /data/P52_97 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P52B_100" relevant="  /data/P52_97 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine5_101" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P53A_102" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53B_103" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53C_104" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53D_105" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53E_106" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53F_107" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53G_108" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53H_109" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53I_110" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53J_111" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53K_112" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53L_113" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53M_114" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53N_115" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P53O_116" relevant="  /data/P03_9 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P54_118" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P55_119" relevant="  /data/P54_118 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P56_120" relevant="  /data/P54_118 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P57_121" relevant="  /data/P54_118 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P58_123" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine6_124" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P59A_125" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P59B_126" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P59C_127" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P59D_128" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P59E_129" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P59F_130" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P59G_131" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P59H_132" relevant="  /data/P58_123 = 'Si'"
+				type="decimal" />
+			<bind nodeset="/data/P60_133" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine7_134" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P61A_135" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61B_136" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61C_137" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61D_138" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61E_139" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61F_140" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61G_141" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61H_142" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61I_143" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61J_144" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61K_145" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61L_146" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61M_147" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P61N_148" relevant="  /data/P60_133 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P62_150" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine8_151" readonly="true()"
+				relevant="  /data/P62_150 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P63A_152" relevant="  /data/P62_150 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P63B_153" relevant="  /data/P62_150 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P64_155" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine9_156" readonly="true()"
+				relevant="  /data/P64_155 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P65A_157" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65B_158" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65C_159" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65D_160" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65E_161" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65F_162" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65G_163" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65H_164" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65I_165" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65J_166" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65K_167" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65L_168" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65M_169" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/P65N_170" relevant="  /data/P64_155 = 'Si'"
+				type="select" />
+			<bind nodeset="/data/MultiLine10_172" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P66A_173" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P66B_174" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/MultiLine11_176" readonly="true()"
+				relevant="  /data/P03_9 = 'Si'" required="true()" type="string" />
+			<bind nodeset="/data/P67A_177" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P67B_178" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+			<bind nodeset="/data/P67C_179" relevant="  /data/P03_9 = 'Si'"
+				type="select1" />
+		</model>
+	</h:head>
+	<h:body>
+		<group appearance="field-list">
+			<input ref="date_0">
+				<label>Date</label>
+			</input>
+			<input ref="enumerator_1">
+				<label>Enumerator ID</label>
+			</input>
+			<input ref="des_version_2">
+				<label>Designer version</label>
+			</input>
+			<input ref="client_version_3">
+				<label>Client version</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<input ref="P01_5">
+				<label>Número en lista</label>
+			</input>
+			<input ref="P02_6">
+				<label>Nombre en lista</label>
+			</input>
+			<input ref="GPS0_7">
+				<label>Punto de GPS</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P03_9" reflist="VivHabit">
+				<label>¿La vivienda está habitada?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>Rechazo</label>
+					<value>Rechazo</value>
+				</item>
+				<item>
+					<label>Vivienda no encontrada</label>
+					<value>Vivienda no encontrada</value>
+				</item>
+			</select1>
+			<input ref="P0301_10">
+				<label>Detalle motivo de abandono</label>
+			</input>
+			<select1 appearance="minimal" ref="P04_11" reflist="Si-No">
+				<label>¿Coincide el nombre en lista con alguna de las personas que
+					habita la vivienda?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="SingleLine1_12" type="label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P05_13" reflist="HabitanteAnterior">
+				<label>¿Que sucedio con el habitante anterior? (intente indagar)
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Abandonaron la vivienda por falta de trabajo.</label>
+					<value>Abandonaron la vivienda por falta de trabajo.</value>
+				</item>
+				<item>
+					<label>Abandonaron por muerte o enfermedad de un familiar.</label>
+					<value>Abandonaron por muerte o enfermedad de un familiar.</value>
+				</item>
+				<item>
+					<label>Abandonaron por conflictos sociales y la delincuencia
+					</label>
+					<value>Abandonaron por conflictos sociales y la delincuencia
+					</value>
+				</item>
+				<item>
+					<label>No sabe</label>
+					<value>No sabe</value>
+				</item>
+				<item>
+					<label>No Responde</label>
+					<value>No Responde</value>
+				</item>
+				<item>
+					<label>Otro</label>
+					<value>Otro</value>
+				</item>
+			</select1>
+			<input ref="P0501_14">
+				<label>Detalle (otros):</label>
+			</input>
+			<select1 appearance="minimal" ref="P0502_15" reflist="Si-No">
+				<label>La falta de trabajo.. ¿Está relacionada a los problemas de
+					café?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="P06_17">
+				<label>¿Cuantas personas habitan en total este hogar?</label>
+			</input>
+		</group>
+		<group ref="DEMO0_19">
+			<label>Registro de los miembros del hogar.</label>
+			<repeat nodeset="/data/DEMO0_19">
+				<group appearance="field-list">
+					<select1 appearance="minimal" ref="R0101" reflist="Parentesco">
+						<label>Parentesco (respecto al jefe del hogar)</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Jefe/a del hogar</label>
+							<value>Jefe/a del hogar</value>
+						</item>
+						<item>
+							<label>Esposo/a</label>
+							<value>Esposo/a</value>
+						</item>
+						<item>
+							<label>Hijos</label>
+							<value>Hijos</value>
+						</item>
+						<item>
+							<label>Hermanos</label>
+							<value>Hermanos</value>
+						</item>
+						<item>
+							<label>Padres/Madres (del jefe del hogar)</label>
+							<value>Padres/Madres (del jefe del hogar)</value>
+						</item>
+						<item>
+							<label>Otros familiares</label>
+							<value>Otros familiares</value>
+						</item>
+						<item>
+							<label>Otros no familiares</label>
+							<value>Otros no familiares</value>
+						</item>
+					</select1>
+					<input ref="R0102">
+						<label>Edad (años cumplidos)</label>
+					</input>
+					<input ref="R0103">
+						<label>Edad (meses)</label>
+					</input>
+					<input ref="R0104">
+						<label>Fecha de Nacimiento</label>
+					</input>
+					<select1 appearance="minimal" ref="R0105" reflist="Sexo">
+						<label>Sexo</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Hombre</label>
+							<value>Hombre</value>
+						</item>
+						<item>
+							<label>Mujer</label>
+							<value>Mujer</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="R0106" reflist="NivelEscolaridad">
+						<label>¿Cuál es su nivel de escolaridad? (último grado cursado)
+						</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Solo sabe leer y escribir</label>
+							<value>Solo sabe leer y escribir</value>
+						</item>
+						<item>
+							<label>Parvularia</label>
+							<value>Parvularia</value>
+						</item>
+						<item>
+							<label>Básica (1 a 6)</label>
+							<value>Básica (1 a 6)</value>
+						</item>
+						<item>
+							<label>Media(hasta 9)</label>
+							<value>Media(hasta 9)</value>
+						</item>
+						<item>
+							<label>Bachillerato</label>
+							<value>Bachillerato</value>
+						</item>
+						<item>
+							<label>Bachillerato Vocacional/Técnico</label>
+							<value>Bachillerato Vocacional/Técnico</value>
+						</item>
+						<item>
+							<label>Superior Técnico o universitario</label>
+							<value>Superior Técnico o universitario</value>
+						</item>
+						<item>
+							<label>No contesta/No sabe</label>
+							<value>No contesta/No sabe</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="R0107" reflist="Si-No-NA">
+						<label>¿Está embarazada?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+						<item>
+							<label>NA</label>
+							<value>NA</value>
+						</item>
+					</select1>
+					<input ref="R0108">
+						<label>Peso(Kg)</label>
+					</input>
+					<input ref="P0109">
+						<label>Talla(cms)</label>
+					</input>
+					<input ref="R0110">
+						<label>Peso(Kg)</label>
+					</input>
+					<input ref="R0111">
+						<label>Talla(cms)</label>
+					</input>
+					<select1 appearance="minimal" ref="R0112" reflist="Si-No">
+						<label>¿Padece de algún tipo de enfermedad crónica?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="R0113" reflist="Si-No">
+						<label>¿Padece de algún tipo de discapacidad?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+					</select1>
+				</group>
+			</repeat>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P07_21" reflist="Si-No">
+				<label>¿El jefe/a del hogar es padre o madre soltero?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P08_22" reflist="Si-No">
+				<label>¿El jefe/a del hogar tiene documentos de identificación?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P09_23" reflist="Si-No">
+				<label>El esposo/a tiene documento de identificación?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P10_25" reflist="PropiedadVivienda">
+				<label>La vivienda en que actualmente vive es:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Propia</label>
+					<value>Propia</value>
+				</item>
+				<item>
+					<label>Alquilada</label>
+					<value>Alquilada</value>
+				</item>
+				<item>
+					<label>Prestada</label>
+					<value>Prestada</value>
+				</item>
+				<item>
+					<label>Cedida temporalmente</label>
+					<value>Cedida temporalmente</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P11_26" reflist="FuentesAgua">
+				<label>¿Cual es la principal fuente de agua para beber, cocinar,
+					lavarse en su hogar?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Agua potable - red pública dentro de ala vivienda</label>
+					<value>Agua potable - red pública dentro de ala vivienda</value>
+				</item>
+				<item>
+					<label>Agua entubada con pileta en la casa o comunitaria</label>
+					<value>Agua entubada con pileta en la casa o comunitaria</value>
+				</item>
+				<item>
+					<label>POzo protegido con o sin bomba</label>
+					<value>POzo protegido con o sin bomba</value>
+				</item>
+				<item>
+					<label>Pozo no protegido</label>
+					<value>Pozo no protegido</value>
+				</item>
+				<item>
+					<label>Carro repartidor - compra de agua</label>
+					<value>Carro repartidor - compra de agua</value>
+				</item>
+				<item>
+					<label>Río - Manantial - lago</label>
+					<value>Río - Manantial - lago</value>
+				</item>
+				<item>
+					<label>Agua de lluvia</label>
+					<value>Agua de lluvia</value>
+				</item>
+				<item>
+					<label>Otro</label>
+					<value>Otro</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P12_27" reflist="Si-No">
+				<label>Hay suficiente disponibiildad de agua para su consumo?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P13_28" reflist="TratamientoAgua">
+				<label>¿Hace usted algún tratamiento al agua que consume?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Cloro</label>
+					<value>Cloro</value>
+				</item>
+				<item>
+					<label>Hervir</label>
+					<value>Hervir</value>
+				</item>
+				<item>
+					<label>Ninguno</label>
+					<value>Ninguno</value>
+				</item>
+				<item>
+					<label>Si - Filtan con tela</label>
+					<value>Si - Filtan con tela</value>
+				</item>
+				<item>
+					<label>Dejan asentar</label>
+					<value>Dejan asentar</value>
+				</item>
+				<item>
+					<label>Desinfeccion solar</label>
+					<value>Desinfeccion solar</value>
+				</item>
+				<item>
+					<label>Otro</label>
+					<value>Otro</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P14_29" reflist="TipoSanitario">
+				<label>¿Qué tipo de servicio sanitario tiene su hogar?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Baño con taza</label>
+					<value>Baño con taza</value>
+				</item>
+				<item>
+					<label>Letrina tradicional - pozo ciego</label>
+					<value>Letrina tradicional - pozo ciego</value>
+				</item>
+				<item>
+					<label>Letrina lavable</label>
+					<value>Letrina lavable</value>
+				</item>
+				<item>
+					<label>No tiene - campo -rio</label>
+					<value>No tiene - campo -rio</value>
+				</item>
+				<item>
+					<label>Otro</label>
+					<value>Otro</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P15_30" reflist="CombustibleCocina">
+				<label>¿Qué combustible utiliza para cocinar?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Gas (propano)</label>
+					<value>Gas (propano)</value>
+				</item>
+				<item>
+					<label>Electricidad</label>
+					<value>Electricidad</value>
+				</item>
+				<item>
+					<label>Carbón</label>
+					<value>Carbón</value>
+				</item>
+				<item>
+					<label>Leña</label>
+					<value>Leña</value>
+				</item>
+				<item>
+					<label>Kerosene (gas)</label>
+					<value>Kerosene (gas)</value>
+				</item>
+				<item>
+					<label>Otro</label>
+					<value>Otro</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P16_31" reflist="Si-No">
+				<label>¿Tiene suficiente gas o leña para cocinar?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P18A_33" reflist="FuentesIngreso">
+				<label>Primera fuente:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Agricultura; café</label>
+					<value>Agricultura; café</value>
+				</item>
+				<item>
+					<label>Agricultura; granos básicos</label>
+					<value>Agricultura; granos básicos</value>
+				</item>
+				<item>
+					<label>Agricultura; otros cultivos</label>
+					<value>Agricultura; otros cultivos</value>
+				</item>
+				<item>
+					<label>Ganadería; animales mayores</label>
+					<value>Ganadería; animales mayores</value>
+				</item>
+				<item>
+					<label>Ganadería; animales menores</label>
+					<value>Ganadería; animales menores</value>
+				</item>
+				<item>
+					<label>Pesca</label>
+					<value>Pesca</value>
+				</item>
+				<item>
+					<label>Viveros</label>
+					<value>Viveros</value>
+				</item>
+				<item>
+					<label>Jornalero en actividades del café</label>
+					<value>Jornalero en actividades del café</value>
+				</item>
+				<item>
+					<label>Jornalero en actividades agropecuarias (excepto café)
+					</label>
+					<value>Jornalero en actividades agropecuarias (excepto café)
+					</value>
+				</item>
+				<item>
+					<label>Trabajo eventual (jornalero) en otras actividades no
+						agrícolas</label>
+					<value>Trabajo eventual (jornalero) en otras actividades no
+						agrícolas</value>
+				</item>
+				<item>
+					<label>Trabajo asalariado/Permanente (con sueldo regular)</label>
+					<value>Trabajo asalariado/Permanente (con sueldo regular)</value>
+				</item>
+				<item>
+					<label>Elaboración-Venta de artesanías</label>
+					<value>Elaboración-Venta de artesanías</value>
+				</item>
+				<item>
+					<label>Venta de alimentos preparados</label>
+					<value>Venta de alimentos preparados</value>
+				</item>
+				<item>
+					<label>Comercio y servicios inc transporte</label>
+					<value>Comercio y servicios inc transporte</value>
+				</item>
+				<item>
+					<label>Turismo/hoteles</label>
+					<value>Turismo/hoteles</value>
+				</item>
+				<item>
+					<label>Remesas familiares</label>
+					<value>Remesas familiares</value>
+				</item>
+				<item>
+					<label>Construcción (Albañil - carpintero)</label>
+					<value>Construcción (Albañil - carpintero)</value>
+				</item>
+				<item>
+					<label>Bonos\Donaciones</label>
+					<value>Bonos\Donaciones</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P18B_34" reflist="FuentesIngresoNA">
+				<label>Segunda fuente:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Agricultura; café</label>
+					<value>Agricultura; café</value>
+				</item>
+				<item>
+					<label>Agricultura; granos básicos</label>
+					<value>Agricultura; granos básicos</value>
+				</item>
+				<item>
+					<label>Agricultura; otros cultivos</label>
+					<value>Agricultura; otros cultivos</value>
+				</item>
+				<item>
+					<label>Ganadería; animales mayores</label>
+					<value>Ganadería; animales mayores</value>
+				</item>
+				<item>
+					<label>Ganadería; animales menores</label>
+					<value>Ganadería; animales menores</value>
+				</item>
+				<item>
+					<label>Pesca</label>
+					<value>Pesca</value>
+				</item>
+				<item>
+					<label>Viveros</label>
+					<value>Viveros</value>
+				</item>
+				<item>
+					<label>Jornalero en actividades del café</label>
+					<value>Jornalero en actividades del café</value>
+				</item>
+				<item>
+					<label>Jornalero en actividades agropecuarias (excepto café)
+					</label>
+					<value>Jornalero en actividades agropecuarias (excepto café)
+					</value>
+				</item>
+				<item>
+					<label>Trabajo eventual (jornalero) en otras actividades no
+						agrícolas</label>
+					<value>Trabajo eventual (jornalero) en otras actividades no
+						agrícolas</value>
+				</item>
+				<item>
+					<label>Trabajo asalariado/Permanente (con sueldo regular)</label>
+					<value>Trabajo asalariado/Permanente (con sueldo regular)</value>
+				</item>
+				<item>
+					<label>Elaboración-Venta de artesanías</label>
+					<value>Elaboración-Venta de artesanías</value>
+				</item>
+				<item>
+					<label>Venta de alimentos preparados</label>
+					<value>Venta de alimentos preparados</value>
+				</item>
+				<item>
+					<label>Comercio y servicios inc transporte</label>
+					<value>Comercio y servicios inc transporte</value>
+				</item>
+				<item>
+					<label>Turismo/hoteles</label>
+					<value>Turismo/hoteles</value>
+				</item>
+				<item>
+					<label>Remesas familiares</label>
+					<value>Remesas familiares</value>
+				</item>
+				<item>
+					<label>Construcción (Albañil - carpintero)</label>
+					<value>Construcción (Albañil - carpintero)</value>
+				</item>
+				<item>
+					<label>Bonos\Donaciones</label>
+					<value>Bonos\Donaciones</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+				<item>
+					<label>No Aplica</label>
+					<value>No Aplica</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P18C_35" reflist="FuentesIngresoNA">
+				<label>Tercera fuente:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Agricultura; café</label>
+					<value>Agricultura; café</value>
+				</item>
+				<item>
+					<label>Agricultura; granos básicos</label>
+					<value>Agricultura; granos básicos</value>
+				</item>
+				<item>
+					<label>Agricultura; otros cultivos</label>
+					<value>Agricultura; otros cultivos</value>
+				</item>
+				<item>
+					<label>Ganadería; animales mayores</label>
+					<value>Ganadería; animales mayores</value>
+				</item>
+				<item>
+					<label>Ganadería; animales menores</label>
+					<value>Ganadería; animales menores</value>
+				</item>
+				<item>
+					<label>Pesca</label>
+					<value>Pesca</value>
+				</item>
+				<item>
+					<label>Viveros</label>
+					<value>Viveros</value>
+				</item>
+				<item>
+					<label>Jornalero en actividades del café</label>
+					<value>Jornalero en actividades del café</value>
+				</item>
+				<item>
+					<label>Jornalero en actividades agropecuarias (excepto café)
+					</label>
+					<value>Jornalero en actividades agropecuarias (excepto café)
+					</value>
+				</item>
+				<item>
+					<label>Trabajo eventual (jornalero) en otras actividades no
+						agrícolas</label>
+					<value>Trabajo eventual (jornalero) en otras actividades no
+						agrícolas</value>
+				</item>
+				<item>
+					<label>Trabajo asalariado/Permanente (con sueldo regular)</label>
+					<value>Trabajo asalariado/Permanente (con sueldo regular)</value>
+				</item>
+				<item>
+					<label>Elaboración-Venta de artesanías</label>
+					<value>Elaboración-Venta de artesanías</value>
+				</item>
+				<item>
+					<label>Venta de alimentos preparados</label>
+					<value>Venta de alimentos preparados</value>
+				</item>
+				<item>
+					<label>Comercio y servicios inc transporte</label>
+					<value>Comercio y servicios inc transporte</value>
+				</item>
+				<item>
+					<label>Turismo/hoteles</label>
+					<value>Turismo/hoteles</value>
+				</item>
+				<item>
+					<label>Remesas familiares</label>
+					<value>Remesas familiares</value>
+				</item>
+				<item>
+					<label>Construcción (Albañil - carpintero)</label>
+					<value>Construcción (Albañil - carpintero)</value>
+				</item>
+				<item>
+					<label>Bonos\Donaciones</label>
+					<value>Bonos\Donaciones</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+				<item>
+					<label>No Aplica</label>
+					<value>No Aplica</value>
+				</item>
+			</select1>
+			<input ref="SingleLine2_36" type="label">
+				<label />
+			</input>
+			<input ref="P19A_37">
+				<label>Primera fuente:</label>
+			</input>
+			<input ref="P19B_38">
+				<label>Segunda fuente:</label>
+			</input>
+			<input ref="P19C_39">
+				<label>Tercera fuente:</label>
+			</input>
+			<input ref="SingleLine3_40" type="label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P20A_41" reflist="SituacionIngresos">
+				<label>Primera fuente:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Ha empeorado mucho</label>
+					<value>Ha empeorado mucho</value>
+				</item>
+				<item>
+					<label>Ha empeorado</label>
+					<value>Ha empeorado</value>
+				</item>
+				<item>
+					<label>Igual</label>
+					<value>Igual</value>
+				</item>
+				<item>
+					<label>Ha mejorado</label>
+					<value>Ha mejorado</value>
+				</item>
+				<item>
+					<label>Ha mejorado mucho</label>
+					<value>Ha mejorado mucho</value>
+				</item>
+				<item>
+					<label>No sabe</label>
+					<value>No sabe</value>
+				</item>
+				<item>
+					<label>No responde</label>
+					<value>No responde</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P20A1_42" reflist="Si-No">
+				<label>¿Considera que se podra recuperar en los próximos 3 meses?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P20B_43" reflist="SituacionIngresos">
+				<label>Segunda fuente:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Ha empeorado mucho</label>
+					<value>Ha empeorado mucho</value>
+				</item>
+				<item>
+					<label>Ha empeorado</label>
+					<value>Ha empeorado</value>
+				</item>
+				<item>
+					<label>Igual</label>
+					<value>Igual</value>
+				</item>
+				<item>
+					<label>Ha mejorado</label>
+					<value>Ha mejorado</value>
+				</item>
+				<item>
+					<label>Ha mejorado mucho</label>
+					<value>Ha mejorado mucho</value>
+				</item>
+				<item>
+					<label>No sabe</label>
+					<value>No sabe</value>
+				</item>
+				<item>
+					<label>No responde</label>
+					<value>No responde</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P10B1_44" reflist="Si-No">
+				<label>¿Considera que se podra recuperar en los próximos 3 meses?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P20C_45" reflist="SituacionIngresos">
+				<label>Tercera fuente:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Ha empeorado mucho</label>
+					<value>Ha empeorado mucho</value>
+				</item>
+				<item>
+					<label>Ha empeorado</label>
+					<value>Ha empeorado</value>
+				</item>
+				<item>
+					<label>Igual</label>
+					<value>Igual</value>
+				</item>
+				<item>
+					<label>Ha mejorado</label>
+					<value>Ha mejorado</value>
+				</item>
+				<item>
+					<label>Ha mejorado mucho</label>
+					<value>Ha mejorado mucho</value>
+				</item>
+				<item>
+					<label>No sabe</label>
+					<value>No sabe</value>
+				</item>
+				<item>
+					<label>No responde</label>
+					<value>No responde</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P20C1_46" reflist="Si-No">
+				<label>¿Considera que se podra recuperar en los próximos 3 meses?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P21_48" reflist="SituacionIngresos">
+				<label>¿Cómo considera que han cambiado sus ingresos en general,
+					respecto al año pasado?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Ha empeorado mucho</label>
+					<value>Ha empeorado mucho</value>
+				</item>
+				<item>
+					<label>Ha empeorado</label>
+					<value>Ha empeorado</value>
+				</item>
+				<item>
+					<label>Igual</label>
+					<value>Igual</value>
+				</item>
+				<item>
+					<label>Ha mejorado</label>
+					<value>Ha mejorado</value>
+				</item>
+				<item>
+					<label>Ha mejorado mucho</label>
+					<value>Ha mejorado mucho</value>
+				</item>
+				<item>
+					<label>No sabe</label>
+					<value>No sabe</value>
+				</item>
+				<item>
+					<label>No responde</label>
+					<value>No responde</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P22_49" reflist="Si-No">
+				<label>¿Ha tenido que endeudarse?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P23_50" reflist="CausasEmpeoramiento">
+				<label>¿A que se ha debido que la situacion ha empeorado o ha tenido
+					que endeudarse?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Ha perdido empleo</label>
+					<value>Ha perdido empleo</value>
+				</item>
+				<item>
+					<label>No hay trabajo</label>
+					<value>No hay trabajo</value>
+				</item>
+				<item>
+					<label>Disminuyó las remsesas que recibía</label>
+					<value>Disminuyó las remsesas que recibía</value>
+				</item>
+				<item>
+					<label>Disminuyó la producción de su cosecha (exceptuando café)
+					</label>
+					<value>Disminuyó la producción de su cosecha (exceptuando café)
+					</value>
+				</item>
+				<item>
+					<label>Lo afectó la roya</label>
+					<value>Lo afectó la roya</value>
+				</item>
+				<item>
+					<label>Bajos precios del café</label>
+					<value>Bajos precios del café</value>
+				</item>
+				<item>
+					<label>Afectaron las lluvias</label>
+					<value>Afectaron las lluvias</value>
+				</item>
+				<item>
+					<label>Afectó la sequía</label>
+					<value>Afectó la sequía</value>
+				</item>
+				<item>
+					<label>Problema/Accidente/Calamidad</label>
+					<value>Problema/Accidente/Calamidad</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P24_52" reflist="Si-No">
+				<label>¿Posee tierras de cultivo?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+		</group>
+		<group ref="TBL01CROPS_54">
+			<label>Cultivos</label>
+			<repeat nodeset="/data/TBL01CROPS_54">
+				<group appearance="field-list">
+					<select1 appearance="minimal" ref="PT01" reflist="CultivosNA">
+						<label>Cultivo</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Maíz</label>
+							<value>Maíz</value>
+						</item>
+						<item>
+							<label>Frijol</label>
+							<value>Frijol</value>
+						</item>
+						<item>
+							<label>Café</label>
+							<value>Café</value>
+						</item>
+						<item>
+							<label>Otros</label>
+							<value>Otros</value>
+						</item>
+					</select1>
+					<input ref="PT02">
+						<label>Área destinada al cultivo:</label>
+					</input>
+					<select1 appearance="minimal" ref="PT0201" reflist="UnidadesArea">
+						<label>Unidades:</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Manzanas</label>
+							<value>Manzanas</value>
+						</item>
+						<item>
+							<label>Tareas</label>
+							<value>Tareas</value>
+						</item>
+						<item>
+							<label>Hectáreas</label>
+							<value>Hectáreas</value>
+						</item>
+						<item>
+							<label>Varas cuadradas</label>
+							<value>Varas cuadradas</value>
+						</item>
+						<item>
+							<label>Metros cuadrados</label>
+							<value>Metros cuadrados</value>
+						</item>
+						<item>
+							<label>Kilometros cuadrados</label>
+							<value>Kilometros cuadrados</value>
+						</item>
+						<item>
+							<label>Otro</label>
+							<value>Otro</value>
+						</item>
+					</select1>
+					<input ref="PT020101">
+						<label>Si especificó otra unidad, ingrese el factor de conversión
+							a manzanas.</label>
+					</input>
+					<select1 appearance="minimal" ref="PT03" reflist="Si-No">
+						<label>¿Ya recolectó su cosecha?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+					</select1>
+					<input ref="PT04">
+						<label>¿Cuántos quintales obtuvo de producción? (Ingrese un
+							estimado en caso de no haber recolectado)</label>
+					</input>
+					<select1 appearance="minimal" ref="PT05" reflist="Si-No">
+						<label>¿Sus cultivos fueron afectados/dañados por enfermedades o
+							plagas?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="PT06" reflist="PlagasEnfermedades">
+						<label>¿Que tipo de Enfermedad/Plaga/evento?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Plagas</label>
+							<value>Plagas</value>
+						</item>
+						<item>
+							<label>Enfermedades</label>
+							<value>Enfermedades</value>
+						</item>
+						<item>
+							<label>Sequía</label>
+							<value>Sequía</value>
+						</item>
+						<item>
+							<label>Lluvias excesivas</label>
+							<value>Lluvias excesivas</value>
+						</item>
+						<item>
+							<label>No ha sido afectado</label>
+							<value>No ha sido afectado</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="PT07" reflist="PlagasEnfermedadesNA">
+						<label>Otra enfermedad/Plaga:</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Plagas</label>
+							<value>Plagas</value>
+						</item>
+						<item>
+							<label>Enfermedades</label>
+							<value>Enfermedades</value>
+						</item>
+						<item>
+							<label>Sequía</label>
+							<value>Sequía</value>
+						</item>
+						<item>
+							<label>Lluvias excesivas</label>
+							<value>Lluvias excesivas</value>
+						</item>
+						<item>
+							<label>No ha sido afectado</label>
+							<value>No ha sido afectado</value>
+						</item>
+						<item>
+							<label>No aplica</label>
+							<value>No aplica</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="PT08" reflist="NivelAfectacion">
+						<label>¿Qué tanto fueron afectados sus cultivos?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Bajo (menos de la mitad del cultivo)</label>
+							<value>Bajo (menos de la mitad del cultivo)</value>
+						</item>
+						<item>
+							<label>Moderado (La mitad o más)</label>
+							<value>Moderado (La mitad o más)</value>
+						</item>
+						<item>
+							<label>Alto (Pérdida casi total o total)</label>
+							<value>Alto (Pérdida casi total o total)</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="PT09" reflist="Si-No">
+						<label>¿Podrá recuperarse en los próximos 3 meses?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+					</select1>
+				</group>
+			</repeat>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P25_56" reflist="Si-No">
+				<label>¿Posee reservas de semilla de frijol para su propia siembra?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P26_57" reflist="Si-No">
+				<label>¿Tiene reserva de semillas de maiz par su propia siembra?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="P27_58" type="tarea">
+				<label>¿Que otros cultivos posee?</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P28_60" reflist="Si-No">
+				<label>¿Tiene algún tipo de produccion pecuaria o aves?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+		</group>
+		<group ref="TBL02ANIMALS_62">
+			<label>Detalle de animales</label>
+			<repeat nodeset="/data/TBL02ANIMALS_62">
+				<group appearance="field-list">
+					<select1 appearance="minimal" ref="PT0301" reflist="Animales">
+						<label>¿Posee alguno de estos animales?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Aves</label>
+							<value>Aves</value>
+						</item>
+						<item>
+							<label>Cerdos</label>
+							<value>Cerdos</value>
+						</item>
+						<item>
+							<label>Ovejas</label>
+							<value>Ovejas</value>
+						</item>
+						<item>
+							<label>Cabras</label>
+							<value>Cabras</value>
+						</item>
+						<item>
+							<label>Otros</label>
+							<value>Otros</value>
+						</item>
+					</select1>
+					<input ref="PT0302">
+						<label>¿Cuántos posee?</label>
+					</input>
+					<select1 appearance="minimal" ref="PT0304" reflist="ComparaAnimales">
+						<label>¿Cómo se compara la cantidad de animales en comparación a
+							los últimos 6 meses?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Menos</label>
+							<value>Menos</value>
+						</item>
+						<item>
+							<label>Igual</label>
+							<value>Igual</value>
+						</item>
+						<item>
+							<label>Mas</label>
+							<value>Mas</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="PT0305" reflist="RedAnimales">
+						<label>¿Por qué se ha reducido?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Venta</label>
+							<value>Venta</value>
+						</item>
+						<item>
+							<label>Consumo</label>
+							<value>Consumo</value>
+						</item>
+						<item>
+							<label>Pérdida por muerte</label>
+							<value>Pérdida por muerte</value>
+						</item>
+						<item>
+							<label>Pérdida por robo</label>
+							<value>Pérdida por robo</value>
+						</item>
+					</select1>
+				</group>
+			</repeat>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P29_64" reflist="Si-No">
+				<label>¿posee reserva de alimentos para los animales?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+		</group>
+		<group ref="TBL04ITEMS_66">
+			<label>Bienes del hogar</label>
+			<repeat nodeset="/data/TBL04ITEMS_66">
+				<group appearance="field-list">
+					<select1 appearance="minimal" ref="PT0401" reflist="ItemsHogar">
+						<label>¿Posee alguno de estos bienes?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Herraminetas pequeñas agrícolas/No agrícolas</label>
+							<value>Herraminetas pequeñas agrícolas/No agrícolas</value>
+						</item>
+						<item>
+							<label>Telar</label>
+							<value>Telar</value>
+						</item>
+						<item>
+							<label>máquina de coser</label>
+							<value>máquina de coser</value>
+						</item>
+						<item>
+							<label>Maquinaria: Sembradora-Cosechadora</label>
+							<value>Maquinaria: Sembradora-Cosechadora</value>
+						</item>
+						<item>
+							<label>Radio-TV-Equipo de sonido</label>
+							<value>Radio-TV-Equipo de sonido</value>
+						</item>
+						<item>
+							<label>Refrigerador-Congelador-Cocina</label>
+							<value>Refrigerador-Congelador-Cocina</value>
+						</item>
+						<item>
+							<label>Teléfono celular/Fijo</label>
+							<value>Teléfono celular/Fijo</value>
+						</item>
+						<item>
+							<label>Lancha-Carro-Moto</label>
+							<value>Lancha-Carro-Moto</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="P040101" reflist="CompaniaTelefono">
+						<label>Si tiene teléfono celular especifique la compañia:</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Claro</label>
+							<value>Claro</value>
+						</item>
+						<item>
+							<label>Tigo</label>
+							<value>Tigo</value>
+						</item>
+						<item>
+							<label>Digicel</label>
+							<value>Digicel</value>
+						</item>
+						<item>
+							<label>Red</label>
+							<value>Red</value>
+						</item>
+						<item>
+							<label>No poseo celular</label>
+							<value>No poseo celular</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="P0402" reflist="Si-No">
+						<label>¿Lo Posee actualmente?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="P0403" reflist="Si-No">
+						<label>¿Lo poseia hace 6 meses?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Si</label>
+							<value>Si</value>
+						</item>
+						<item>
+							<label>No</label>
+							<value>No</value>
+						</item>
+					</select1>
+					<select1 appearance="minimal" ref="P0405" reflist="YaNoPosee">
+						<label>¿Por que ya no lo posee?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Los vendió</label>
+							<value>Los vendió</value>
+						</item>
+						<item>
+							<label>Los regaló</label>
+							<value>Los regaló</value>
+						</item>
+						<item>
+							<label>Los empeño</label>
+							<value>Los empeño</value>
+						</item>
+						<item>
+							<label>Se dañaron por uso</label>
+							<value>Se dañaron por uso</value>
+						</item>
+						<item>
+							<label>Se dañaron por un evento climático</label>
+							<value>Se dañaron por un evento climático</value>
+						</item>
+						<item>
+							<label>Fueron Robados/Hurtados</label>
+							<value>Fueron Robados/Hurtados</value>
+						</item>
+						<item>
+							<label>Otra causa</label>
+							<value>Otra causa</value>
+						</item>
+					</select1>
+				</group>
+			</repeat>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P30_68" reflist="EnvioRemesas">
+				<label>¿Qué tan seguido le envian remesas?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Semanalmente</label>
+					<value>Semanalmente</value>
+				</item>
+				<item>
+					<label>Quincenalmente</label>
+					<value>Quincenalmente</value>
+				</item>
+				<item>
+					<label>Mensualmente</label>
+					<value>Mensualmente</value>
+				</item>
+				<item>
+					<label>Cada seis meses</label>
+					<value>Cada seis meses</value>
+				</item>
+				<item>
+					<label>Al año</label>
+					<value>Al año</value>
+				</item>
+				<item>
+					<label>No sabe con que frecuencia</label>
+					<value>No sabe con que frecuencia</value>
+				</item>
+				<item>
+					<label>No le envían</label>
+					<value>No le envían</value>
+				</item>
+				<item>
+					<label>No sabe/No contesta</label>
+					<value>No sabe/No contesta</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P31_69" reflist="MetodoEnvio">
+				<label>¿Cuál es la principal forma de recibir el dinero?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Giro bancario</label>
+					<value>Giro bancario</value>
+				</item>
+				<item>
+					<label>Compañia de celulares</label>
+					<value>Compañia de celulares</value>
+				</item>
+				<item>
+					<label>Correo postal</label>
+					<value>Correo postal</value>
+				</item>
+				<item>
+					<label>Viajeros</label>
+					<value>Viajeros</value>
+				</item>
+				<item>
+					<label>Courier</label>
+					<value>Courier</value>
+				</item>
+				<item>
+					<label>Otro</label>
+					<value>Otro</value>
+				</item>
+				<item>
+					<label>No sabe/No contesta</label>
+					<value>No sabe/No contesta</value>
+				</item>
+				<item>
+					<label>Depósito en cuenta bancaria</label>
+					<value>Depósito en cuenta bancaria</value>
+				</item>
+				<item>
+					<label>No le envían</label>
+					<value>No le envían</value>
+				</item>
+			</select1>
+			<input ref="P32_70">
+				<label>¿Cuánto le cuesta a su familiar enviar la remesa? (Dólares)
+				</label>
+			</input>
+			<select1 appearance="minimal" ref="P33_71" reflist="Si-No">
+				<label>¿Hay miembros del hogar viviendo en otro lugar?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P34_72" reflist="MigracionHacia">
+				<label>¿A donde?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Comunidades vecinas</label>
+					<value>Comunidades vecinas</value>
+				</item>
+				<item>
+					<label>Otros municipios en el departamento</label>
+					<value>Otros municipios en el departamento</value>
+				</item>
+				<item>
+					<label>Otros departamento</label>
+					<value>Otros departamento</value>
+				</item>
+				<item>
+					<label>Al extranjero</label>
+					<value>Al extranjero</value>
+				</item>
+				<item>
+					<label>No sabe/No contesta</label>
+					<value>No sabe/No contesta</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P35_73" reflist="RazonMigracion">
+				<label>¿Por que se ha ido?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Perdieron (parte de ) sus cultivos (otros/no incluye cafe)
+					</label>
+					<value>Perdieron (parte de ) sus cultivos (otros/no incluye cafe)
+					</value>
+				</item>
+				<item>
+					<label>Por la afectacion de la roya en el cultivo de cafe</label>
+					<value>Por la afectacion de la roya en el cultivo de cafe</value>
+				</item>
+				<item>
+					<label>En busca de trabajo por falta de trabajo</label>
+					<value>En busca de trabajo por falta de trabajo</value>
+				</item>
+				<item>
+					<label>En busca de ayuda</label>
+					<value>En busca de ayuda</value>
+				</item>
+				<item>
+					<label>Para reunirse con familiares</label>
+					<value>Para reunirse con familiares</value>
+				</item>
+				<item>
+					<label>Problemas sociales</label>
+					<value>Problemas sociales</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P36_74" reflist="Si-No">
+				<label>En los ultimos tres meses: ¿Ha venido alguien a vivir a su
+					hogar?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P37_75" reflist="RazonMigracion">
+				<label>¿Por que vinieron?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Perdieron (parte de ) sus cultivos (otros/no incluye cafe)
+					</label>
+					<value>Perdieron (parte de ) sus cultivos (otros/no incluye cafe)
+					</value>
+				</item>
+				<item>
+					<label>Por la afectacion de la roya en el cultivo de cafe</label>
+					<value>Por la afectacion de la roya en el cultivo de cafe</value>
+				</item>
+				<item>
+					<label>En busca de trabajo por falta de trabajo</label>
+					<value>En busca de trabajo por falta de trabajo</value>
+				</item>
+				<item>
+					<label>En busca de ayuda</label>
+					<value>En busca de ayuda</value>
+				</item>
+				<item>
+					<label>Para reunirse con familiares</label>
+					<value>Para reunirse con familiares</value>
+				</item>
+				<item>
+					<label>Problemas sociales</label>
+					<value>Problemas sociales</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="MultiLine2_77" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P38_78" reflist="FuenteAlimentos">
+				<label>Fuente 1 (principal):</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Compra en el mercado-tienda-abarroteria</label>
+					<value>Compra en el mercado-tienda-abarroteria</value>
+				</item>
+				<item>
+					<label>Su producción agrícola/pecuaria</label>
+					<value>Su producción agrícola/pecuaria</value>
+				</item>
+				<item>
+					<label>Pesca</label>
+					<value>Pesca</value>
+				</item>
+				<item>
+					<label>Caza/Recolección</label>
+					<value>Caza/Recolección</value>
+				</item>
+				<item>
+					<label>Asistencia alimentaria de instituciones</label>
+					<value>Asistencia alimentaria de instituciones</value>
+				</item>
+				<item>
+					<label>Ayuda de familiares</label>
+					<value>Ayuda de familiares</value>
+				</item>
+				<item>
+					<label>Otras fuentes.</label>
+					<value>Otras fuentes.</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P39_79" reflist="FuenteAlimentos">
+				<label>Fuente 2 (secundaria):</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Compra en el mercado-tienda-abarroteria</label>
+					<value>Compra en el mercado-tienda-abarroteria</value>
+				</item>
+				<item>
+					<label>Su producción agrícola/pecuaria</label>
+					<value>Su producción agrícola/pecuaria</value>
+				</item>
+				<item>
+					<label>Pesca</label>
+					<value>Pesca</value>
+				</item>
+				<item>
+					<label>Caza/Recolección</label>
+					<value>Caza/Recolección</value>
+				</item>
+				<item>
+					<label>Asistencia alimentaria de instituciones</label>
+					<value>Asistencia alimentaria de instituciones</value>
+				</item>
+				<item>
+					<label>Ayuda de familiares</label>
+					<value>Ayuda de familiares</value>
+				</item>
+				<item>
+					<label>Otras fuentes.</label>
+					<value>Otras fuentes.</value>
+				</item>
+			</select1>
+			<input ref="MultiLine3_80" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P40_81" reflist="FuenteAlimentos">
+				<label>Fuente principal:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Compra en el mercado-tienda-abarroteria</label>
+					<value>Compra en el mercado-tienda-abarroteria</value>
+				</item>
+				<item>
+					<label>Su producción agrícola/pecuaria</label>
+					<value>Su producción agrícola/pecuaria</value>
+				</item>
+				<item>
+					<label>Pesca</label>
+					<value>Pesca</value>
+				</item>
+				<item>
+					<label>Caza/Recolección</label>
+					<value>Caza/Recolección</value>
+				</item>
+				<item>
+					<label>Asistencia alimentaria de instituciones</label>
+					<value>Asistencia alimentaria de instituciones</value>
+				</item>
+				<item>
+					<label>Ayuda de familiares</label>
+					<value>Ayuda de familiares</value>
+				</item>
+				<item>
+					<label>Otras fuentes.</label>
+					<value>Otras fuentes.</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P41_82" reflist="FuenteAlimentos">
+				<label>Fuente secundaria:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Compra en el mercado-tienda-abarroteria</label>
+					<value>Compra en el mercado-tienda-abarroteria</value>
+				</item>
+				<item>
+					<label>Su producción agrícola/pecuaria</label>
+					<value>Su producción agrícola/pecuaria</value>
+				</item>
+				<item>
+					<label>Pesca</label>
+					<value>Pesca</value>
+				</item>
+				<item>
+					<label>Caza/Recolección</label>
+					<value>Caza/Recolección</value>
+				</item>
+				<item>
+					<label>Asistencia alimentaria de instituciones</label>
+					<value>Asistencia alimentaria de instituciones</value>
+				</item>
+				<item>
+					<label>Ayuda de familiares</label>
+					<value>Ayuda de familiares</value>
+				</item>
+				<item>
+					<label>Otras fuentes.</label>
+					<value>Otras fuentes.</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P42_83" reflist="Si-No">
+				<label>¿Posee actualmente reservas de granos basicos (almacenados)?
+				</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="P43_84">
+				<label>qq Maiz</label>
+			</input>
+			<input ref="P44_85">
+				<label>qq Frijol</label>
+			</input>
+			<input ref="P45_86">
+				<label>¿Cuántas semanas estima que duraran estas reservas?</label>
+			</input>
+		</group>
+		<group ref="TBL05_88">
+			<label>FCS</label>
+			<repeat nodeset="/data/TBL05_88">
+				<group appearance="field-list">
+					<select1 appearance="minimal" ref="PT0506" reflist="GruposAlimentos">
+						<label>Grupo de alimentos:</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Cereales y granos: arroz pasta pan sorgo maicillo maiz
+							</label>
+							<value>Cereales y granos: arroz pasta pan sorgo maicillo maiz
+							</value>
+						</item>
+						<item>
+							<label>Raíces y tubérculos: papa yuca rabano camote cebolla
+								zanahoria remolacha</label>
+							<value>Raíces y tubérculos: papa yuca rabano camote cebolla
+								zanahoria remolacha</value>
+						</item>
+						<item>
+							<label>LEgumbres: Frijoles lentajas soya garbanzos</label>
+							<value>LEgumbres: Frijoles lentajas soya garbanzos</value>
+						</item>
+						<item>
+							<label>Vegetales de hojas verdes: espinaca repollo brocoli
+								lechuga chipilin berro</label>
+							<value>Vegetales de hojas verdes: espinaca repollo brocoli
+								lechuga chipilin berro</value>
+						</item>
+						<item>
+							<label>Frutos mango papaya durazno limon mandarina naranja
+								guayaba</label>
+							<value>Frutos mango papaya durazno limon mandarina naranja
+								guayaba</value>
+						</item>
+						<item>
+							<label>Otras frutas:Banana manzana sandia pera</label>
+							<value>Otras frutas:Banana manzana sandia pera</value>
+						</item>
+						<item>
+							<label>Carnes: REs pollo puerco</label>
+							<value>Carnes: REs pollo puerco</value>
+						</item>
+						<item>
+							<label>Higado rinon corazon y carne de otros organos.</label>
+							<value>Higado rinon corazon y carne de otros organos.</value>
+						</item>
+						<item>
+							<label>Pescado/Mariscos: Pescado incluyendo atun en lata -
+								caracol - camaron y otros mariscos</label>
+							<value>Pescado/Mariscos: Pescado incluyendo atun en lata -
+								caracol - camaron y otros mariscos</value>
+						</item>
+						<item>
+							<label>Huevos</label>
+							<value>Huevos</value>
+						</item>
+						<item>
+							<label>Leche y otros productos lacteos</label>
+							<value>Leche y otros productos lacteos</value>
+						</item>
+						<item>
+							<label>Aceite/Grasas/mantequilla</label>
+							<value>Aceite/Grasas/mantequilla</value>
+						</item>
+						<item>
+							<label>Azuicar o dulce</label>
+							<value>Azuicar o dulce</value>
+						</item>
+						<item>
+							<label>Condimentos/especias</label>
+							<value>Condimentos/especias</value>
+						</item>
+					</select1>
+					<input ref="PT0502">
+						<label>Número de días que lo han consumido en los últimos 7 días.
+						</label>
+					</input>
+					<select1 appearance="minimal" ref="PT0503" reflist="FuenteFCS">
+						<label>¿De donde obtiene este alimento?</label>
+						<item>
+							<label>Select</label>
+							<value>0</value>
+						</item>
+						<item>
+							<label>Su propia produccion</label>
+							<value>Su propia produccion</value>
+						</item>
+						<item>
+							<label>Pescando/Cazando</label>
+							<value>Pescando/Cazando</value>
+						</item>
+						<item>
+							<label>Recolectando en el campo</label>
+							<value>Recolectando en el campo</value>
+						</item>
+						<item>
+							<label>Prestamo</label>
+							<value>Prestamo</value>
+						</item>
+						<item>
+							<label>Mercado</label>
+							<value>Mercado</value>
+						</item>
+						<item>
+							<label>Mercado (al credito)</label>
+							<value>Mercado (al credito)</value>
+						</item>
+						<item>
+							<label>Caridad</label>
+							<value>Caridad</value>
+						</item>
+						<item>
+							<label>Intercambio de trabajo por alimentos</label>
+							<value>Intercambio de trabajo por alimentos</value>
+						</item>
+						<item>
+							<label>Trueque de alimentos</label>
+							<value>Trueque de alimentos</value>
+						</item>
+						<item>
+							<label>REgalo (alimentos) de la familia</label>
+							<value>REgalo (alimentos) de la familia</value>
+						</item>
+						<item>
+							<label>seres queridos o amistades</label>
+							<value>seres queridos o amistades</value>
+						</item>
+						<item>
+							<label>Asistencia alimentaria de sociedades civiles</label>
+							<value>Asistencia alimentaria de sociedades civiles</value>
+						</item>
+					</select1>
+					<input ref="PT0504">
+						<label>¿Cuanto gasta en efectivo por este grupo de alimentos?
+						</label>
+					</input>
+					<input ref="PT0505">
+						<label>Si usted produce este alimento para auto-consumo ¿Cuanto
+							estima que le costaría adquirirlo?</label>
+					</input>
+					<input ref="PT0507">
+						<label>¿Cuánto gasta en crédito o fiado por este grupo de
+							alimentos?</label>
+					</input>
+				</group>
+			</repeat>
+		</group>
+		<group appearance="field-list">
+			<input ref="P46_90">
+				<label>El dia de ayer: ¿Cuantas veces comieron los adultos?</label>
+			</input>
+			<input ref="P47_91">
+				<label>¿El dia de ayer: ¿Cuántas veces comieron los niños?</label>
+			</input>
+			<select1 appearance="minimal" ref="P48_92" reflist="Si-No-NA">
+				<label>Actualmente: ¿Su familia tiene problemas para alimentar a los
+					niños menores de 2 años?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>NA</label>
+					<value>NA</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P49_93" reflist="ProblemasAlimentos">
+				<label>¿Que problemas tiene?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>NO hay alimentos adecuados</label>
+					<value>NO hay alimentos adecuados</value>
+				</item>
+				<item>
+					<label>No hay dinero para comprar</label>
+					<value>No hay dinero para comprar</value>
+				</item>
+				<item>
+					<label>No aplica</label>
+					<value>No aplica</value>
+				</item>
+				<item>
+					<label>No sabe / No contesta</label>
+					<value>No sabe / No contesta</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P50_94" reflist="Si-No-NA">
+				<label>Actualmente: ¿Su familia tiene problemas para alimentar a los
+					ancianos o personas con discapacidad?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+				<item>
+					<label>NA</label>
+					<value>NA</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P51_95" reflist="ProblemasAlimentos">
+				<label>¿Qué problemas tiene?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>NO hay alimentos adecuados</label>
+					<value>NO hay alimentos adecuados</value>
+				</item>
+				<item>
+					<label>No hay dinero para comprar</label>
+					<value>No hay dinero para comprar</value>
+				</item>
+				<item>
+					<label>No aplica</label>
+					<value>No aplica</value>
+				</item>
+				<item>
+					<label>No sabe / No contesta</label>
+					<value>No sabe / No contesta</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P52_97" reflist="Si-No">
+				<label>Durante los ultimos 6 meses: ¿Tuvo que realizar algun gasto
+					extra que normalmente no realiza?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="MultiLine4_98" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P52A_99" reflist="GastosExtra">
+				<label>A</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Alimentación</label>
+					<value>Alimentación</value>
+				</item>
+				<item>
+					<label>Salud</label>
+					<value>Salud</value>
+				</item>
+				<item>
+					<label>Hacer frente a la roya del café</label>
+					<value>Hacer frente a la roya del café</value>
+				</item>
+				<item>
+					<label>Educacion - utiles escolares</label>
+					<value>Educacion - utiles escolares</value>
+				</item>
+				<item>
+					<label>Alquiler de vivienda / Finca para trabajar</label>
+					<value>Alquiler de vivienda / Finca para trabajar</value>
+				</item>
+				<item>
+					<label>Compra de artefactos o muebles del hogar</label>
+					<value>Compra de artefactos o muebles del hogar</value>
+				</item>
+				<item>
+					<label>Compra de herramientas de trabajo</label>
+					<value>Compra de herramientas de trabajo</value>
+				</item>
+				<item>
+					<label>Compra de insumos agrícolas</label>
+					<value>Compra de insumos agrícolas</value>
+				</item>
+				<item>
+					<label>Compra de animales</label>
+					<value>Compra de animales</value>
+				</item>
+				<item>
+					<label>Pago de transporte</label>
+					<value>Pago de transporte</value>
+				</item>
+				<item>
+					<label>Viaje</label>
+					<value>Viaje</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P52B_100" reflist="GastosExtra">
+				<label>B</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Alimentación</label>
+					<value>Alimentación</value>
+				</item>
+				<item>
+					<label>Salud</label>
+					<value>Salud</value>
+				</item>
+				<item>
+					<label>Hacer frente a la roya del café</label>
+					<value>Hacer frente a la roya del café</value>
+				</item>
+				<item>
+					<label>Educacion - utiles escolares</label>
+					<value>Educacion - utiles escolares</value>
+				</item>
+				<item>
+					<label>Alquiler de vivienda / Finca para trabajar</label>
+					<value>Alquiler de vivienda / Finca para trabajar</value>
+				</item>
+				<item>
+					<label>Compra de artefactos o muebles del hogar</label>
+					<value>Compra de artefactos o muebles del hogar</value>
+				</item>
+				<item>
+					<label>Compra de herramientas de trabajo</label>
+					<value>Compra de herramientas de trabajo</value>
+				</item>
+				<item>
+					<label>Compra de insumos agrícolas</label>
+					<value>Compra de insumos agrícolas</value>
+				</item>
+				<item>
+					<label>Compra de animales</label>
+					<value>Compra de animales</value>
+				</item>
+				<item>
+					<label>Pago de transporte</label>
+					<value>Pago de transporte</value>
+				</item>
+				<item>
+					<label>Viaje</label>
+					<value>Viaje</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<input ref="MultiLine5_101" type="multi-label">
+				<label />
+			</input>
+			<input ref="P53A_102">
+				<label>Jabon y productos de higiene personal</label>
+			</input>
+			<input ref="P53B_103">
+				<label>Transporte</label>
+			</input>
+			<input ref="P53C_104">
+				<label>Combustibles (gas, leña, carbon, gasolina o diesel)</label>
+			</input>
+			<input ref="P53D_105">
+				<label>Agua</label>
+			</input>
+			<input ref="P53E_106">
+				<label>Electricidad/Luz</label>
+			</input>
+			<input ref="P53F_107">
+				<label>Comunicacion (tarjetas de teléfono)</label>
+			</input>
+			<input ref="P53G_108">
+				<label>Vivienda (cuota o alquiler)</label>
+			</input>
+			<input ref="P53H_109">
+				<label>Alcohol y Tabaco</label>
+			</input>
+			<input ref="P53I_110">
+				<label>Gastos medicos, cuidado de la salud</label>
+			</input>
+			<input ref="P53J_111">
+				<label>Ropa</label>
+			</input>
+			<input ref="P53K_112">
+				<label>Educacion, costos de matricula, uniformes, etc.</label>
+			</input>
+			<input ref="P53L_113">
+				<label>Pago de deudas</label>
+			</input>
+			<input ref="P53M_114">
+				<label>Zapatos</label>
+			</input>
+			<input ref="P53N_115">
+				<label>Insumos agricolas</label>
+			</input>
+			<input ref="P53O_116">
+				<label>Construccion o reparacion de la vivienda.</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P54_118" reflist="Si-No">
+				<label>¿Contrajo algun tipo de deuda en los ultimos 6 meses?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P55_119" reflist="GastosExtra">
+				<label>¿En que utilizo la deuda?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Alimentación</label>
+					<value>Alimentación</value>
+				</item>
+				<item>
+					<label>Salud</label>
+					<value>Salud</value>
+				</item>
+				<item>
+					<label>Hacer frente a la roya del café</label>
+					<value>Hacer frente a la roya del café</value>
+				</item>
+				<item>
+					<label>Educacion - utiles escolares</label>
+					<value>Educacion - utiles escolares</value>
+				</item>
+				<item>
+					<label>Alquiler de vivienda / Finca para trabajar</label>
+					<value>Alquiler de vivienda / Finca para trabajar</value>
+				</item>
+				<item>
+					<label>Compra de artefactos o muebles del hogar</label>
+					<value>Compra de artefactos o muebles del hogar</value>
+				</item>
+				<item>
+					<label>Compra de herramientas de trabajo</label>
+					<value>Compra de herramientas de trabajo</value>
+				</item>
+				<item>
+					<label>Compra de insumos agrícolas</label>
+					<value>Compra de insumos agrícolas</value>
+				</item>
+				<item>
+					<label>Compra de animales</label>
+					<value>Compra de animales</value>
+				</item>
+				<item>
+					<label>Pago de transporte</label>
+					<value>Pago de transporte</value>
+				</item>
+				<item>
+					<label>Viaje</label>
+					<value>Viaje</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P56_120" reflist="FuenteFinanciamiento">
+				<label>¿De donde obtuvo el prestamo?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>FAmiliares/amigos</label>
+					<value>FAmiliares/amigos</value>
+				</item>
+				<item>
+					<label>Comerciante/Tienda</label>
+					<value>Comerciante/Tienda</value>
+				</item>
+				<item>
+					<label>BAnco/Institución/Proyecto Micro-credito</label>
+					<value>BAnco/Institución/Proyecto Micro-credito</value>
+				</item>
+				<item>
+					<label>Prestamista</label>
+					<value>Prestamista</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<input ref="P57_121">
+				<label>¿En que número de meses piensa que podra reembolsar la deuda?
+				</label>
+			</input>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P58_123" reflist="Si-No">
+				<label>En sus ultimos siete dias ¿Ha sufrido su familia escasez de
+					alimentos o falta de dinero para comprarlos?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="MultiLine6_124" type="multi-label">
+				<label />
+			</input>
+			<input ref="P59A_125">
+				<label>Comer alimentos menos preferidos, menos costosos</label>
+			</input>
+			<input ref="P59B_126">
+				<label>Prestarse alimentos, o contar con la ayuda de amigos y
+					familiares</label>
+			</input>
+			<input ref="P59C_127">
+				<label>Disminuir el numero de comidas consumidas por dia.</label>
+			</input>
+			<input ref="P59D_128">
+				<label>Disminuir la cantidad de porciones de comida</label>
+			</input>
+			<input ref="P59E_129">
+				<label>Disminuir la cantidad de comida consumida por los
+					adultos/madres, para los niños pequeños</label>
+			</input>
+			<input ref="P59F_130">
+				<label>Enviar a los miembros del hogar a comer a otros lugares
+				</label>
+			</input>
+			<input ref="P59G_131">
+				<label>Pasar dias enteros sin comer</label>
+			</input>
+			<input ref="P59H_132">
+				<label>Recurrir a programas sociales alimentarios</label>
+			</input>
+			<select1 appearance="minimal" ref="P60_133" reflist="Si-No">
+				<label>En el ultimo mes mes. ¿Ha sufrido su familia escaces de
+					alimentos o falta de dinero para comprarlos? </label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="MultiLine7_134" type="multi-label">
+				<label />
+			</input>
+			<select ref="P61A_135">
+				<item>
+					<label>Vender activos domesticos (radio, muebles, T, refrigerador,
+						joyería, etc)</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61B_136">
+				<item>
+					<label>Vender activos productivos o medios de transporte</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61C_137">
+				<item>
+					<label>Disminuir los gastos para fertilizantes, insumos agricolas,
+						productos para animales</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61D_138">
+				<item>
+					<label>Reducir gastos no alimentarios escenciales como educacion,
+						salud, etc.</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61E_139">
+				<item>
+					<label>Gastar los ahorros</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61F_140">
+				<item>
+					<label>Venta de casa o tierra</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61G_141">
+				<item>
+					<label>Sacar a los niños de la escuela</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61H_142">
+				<item>
+					<label>Vender animales menores mas de lo usual</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61I_143">
+				<item>
+					<label>Buscar otros empleos</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61J_144">
+				<item>
+					<label>Emprender pequeños negocios</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61K_145">
+				<item>
+					<label>Migrar a otros lugares (algun miembro de la familia) en
+						busca de trabajo mas de lo usual</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61L_146">
+				<item>
+					<label>Consumir la semillas</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61M_147">
+				<item>
+					<label>Pedir Ayuda</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P61N_148">
+				<item>
+					<label>Buscar otras actividades/cultivos</label>
+					<value>true</value>
+				</item>
+			</select>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P62_150" reflist="Si-No">
+				<label>En las dos ultimas semanas ¿Algun miembro de su familia se ha
+					enfermado?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="MultiLine8_151" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P63A_152" reflist="Enfermedades">
+				<label>A:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Diarreas</label>
+					<value>Diarreas</value>
+				</item>
+				<item>
+					<label>Infecciones Respitatorias Agudas</label>
+					<value>Infecciones Respitatorias Agudas</value>
+				</item>
+				<item>
+					<label>Dengue</label>
+					<value>Dengue</value>
+				</item>
+				<item>
+					<label>Afecciones de la piel</label>
+					<value>Afecciones de la piel</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P63B_153" reflist="Enfermedades">
+				<label>B:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Diarreas</label>
+					<value>Diarreas</value>
+				</item>
+				<item>
+					<label>Infecciones Respitatorias Agudas</label>
+					<value>Infecciones Respitatorias Agudas</value>
+				</item>
+				<item>
+					<label>Dengue</label>
+					<value>Dengue</value>
+				</item>
+				<item>
+					<label>Afecciones de la piel</label>
+					<value>Afecciones de la piel</value>
+				</item>
+				<item>
+					<label>Otros</label>
+					<value>Otros</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<select1 appearance="minimal" ref="P64_155" reflist="Si-No">
+				<label>En los ultimos 3 meses ¿Su familia ha recibido algun tipo de
+					asistencia?</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Si</label>
+					<value>Si</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>No</value>
+				</item>
+			</select1>
+			<input ref="MultiLine9_156" type="multi-label">
+				<label />
+			</input>
+			<select ref="P65A_157">
+				<item>
+					<label>Ayuda alimentaria en general</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65B_158">
+				<item>
+					<label>Alimentos para niños y mujeres</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65C_159">
+				<item>
+					<label>Ropa, Calzado</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65D_160">
+				<item>
+					<label>Carpas, Frazadas</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65E_161">
+				<item>
+					<label>Artículos de higiene</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65F_162">
+				<item>
+					<label>Dinero en efectivo</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65G_163">
+				<item>
+					<label>Cupones de alimentos</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65H_164">
+				<item>
+					<label>Utensilios de cocina</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65I_165">
+				<item>
+					<label>Asitencia para la educacion, utiles escolares</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65J_166">
+				<item>
+					<label>Atencion en salud</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65K_167">
+				<item>
+					<label>Insumos agropecuarios, semillas</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65L_168">
+				<item>
+					<label>Insumos para el ganado</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65M_169">
+				<item>
+					<label>Materiales de construccion, apoyo para la vivienda</label>
+					<value>true</value>
+				</item>
+			</select>
+			<select ref="P65N_170">
+				<item>
+					<label>Otros</label>
+					<value>true</value>
+				</item>
+			</select>
+		</group>
+		<group appearance="field-list">
+			<input ref="MultiLine10_172" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P66A_173" reflist="ProblemasHogar">
+				<label>Problema 1:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Pérdida del empleo/Reducción del salario/Falta de empleo
+					</label>
+					<value>Pérdida del empleo/Reducción del salario/Falta de empleo
+					</value>
+				</item>
+				<item>
+					<label>Pérdida en las cosechas de otros cultivos (excepto el café)
+					</label>
+					<value>Pérdida en las cosechas de otros cultivos (excepto el café)
+					</value>
+				</item>
+				<item>
+					<label>Pérdida de producción de café</label>
+					<value>Pérdida de producción de café</value>
+				</item>
+				<item>
+					<label>Reducción en los ingresos generados por la producción del
+						café</label>
+					<value>Reducción en los ingresos generados por la producción del
+						café</value>
+				</item>
+				<item>
+					<label>Incremento en los precios de los alimentos</label>
+					<value>Incremento en los precios de los alimentos</value>
+				</item>
+				<item>
+					<label>Incremento en los precios del transporte</label>
+					<value>Incremento en los precios del transporte</value>
+				</item>
+				<item>
+					<label>Pago de deudas</label>
+					<value>Pago de deudas</value>
+				</item>
+				<item>
+					<label>Inseguridad Violencia Robos</label>
+					<value>Inseguridad Violencia Robos</value>
+				</item>
+				<item>
+					<label>Enfermedad/Muerte de miembros de la familia</label>
+					<value>Enfermedad/Muerte de miembros de la familia</value>
+				</item>
+				<item>
+					<label>Falta de lluvias</label>
+					<value>Falta de lluvias</value>
+				</item>
+				<item>
+					<label>Sequía</label>
+					<value>Sequía</value>
+				</item>
+				<item>
+					<label>Inundaciones</label>
+					<value>Inundaciones</value>
+				</item>
+				<item>
+					<label>Enfermedades y muerte de animales</label>
+					<value>Enfermedades y muerte de animales</value>
+				</item>
+				<item>
+					<label>Disminución de las remesas de familiares</label>
+					<value>Disminución de las remesas de familiares</value>
+				</item>
+				<item>
+					<label>Otros problemas</label>
+					<value>Otros problemas</value>
+				</item>
+				<item>
+					<label>Ninguno</label>
+					<value>Ninguno</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P66B_174" reflist="ProblemasHogar">
+				<label>Problema 2:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Pérdida del empleo/Reducción del salario/Falta de empleo
+					</label>
+					<value>Pérdida del empleo/Reducción del salario/Falta de empleo
+					</value>
+				</item>
+				<item>
+					<label>Pérdida en las cosechas de otros cultivos (excepto el café)
+					</label>
+					<value>Pérdida en las cosechas de otros cultivos (excepto el café)
+					</value>
+				</item>
+				<item>
+					<label>Pérdida de producción de café</label>
+					<value>Pérdida de producción de café</value>
+				</item>
+				<item>
+					<label>Reducción en los ingresos generados por la producción del
+						café</label>
+					<value>Reducción en los ingresos generados por la producción del
+						café</value>
+				</item>
+				<item>
+					<label>Incremento en los precios de los alimentos</label>
+					<value>Incremento en los precios de los alimentos</value>
+				</item>
+				<item>
+					<label>Incremento en los precios del transporte</label>
+					<value>Incremento en los precios del transporte</value>
+				</item>
+				<item>
+					<label>Pago de deudas</label>
+					<value>Pago de deudas</value>
+				</item>
+				<item>
+					<label>Inseguridad Violencia Robos</label>
+					<value>Inseguridad Violencia Robos</value>
+				</item>
+				<item>
+					<label>Enfermedad/Muerte de miembros de la familia</label>
+					<value>Enfermedad/Muerte de miembros de la familia</value>
+				</item>
+				<item>
+					<label>Falta de lluvias</label>
+					<value>Falta de lluvias</value>
+				</item>
+				<item>
+					<label>Sequía</label>
+					<value>Sequía</value>
+				</item>
+				<item>
+					<label>Inundaciones</label>
+					<value>Inundaciones</value>
+				</item>
+				<item>
+					<label>Enfermedades y muerte de animales</label>
+					<value>Enfermedades y muerte de animales</value>
+				</item>
+				<item>
+					<label>Disminución de las remesas de familiares</label>
+					<value>Disminución de las remesas de familiares</value>
+				</item>
+				<item>
+					<label>Otros problemas</label>
+					<value>Otros problemas</value>
+				</item>
+				<item>
+					<label>Ninguno</label>
+					<value>Ninguno</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list">
+			<input ref="MultiLine11_176" type="multi-label">
+				<label />
+			</input>
+			<select1 appearance="minimal" ref="P67A_177" reflist="NecesidadesFamilia">
+				<label>Primera necesidad</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Agua</label>
+					<value>Agua</value>
+				</item>
+				<item>
+					<label>Saneamiento</label>
+					<value>Saneamiento</value>
+				</item>
+				<item>
+					<label>Alimentos</label>
+					<value>Alimentos</value>
+				</item>
+				<item>
+					<label>Atención de salud</label>
+					<value>Atención de salud</value>
+				</item>
+				<item>
+					<label>Insumos Agrícolas - Semillas</label>
+					<value>Insumos Agrícolas - Semillas</value>
+				</item>
+				<item>
+					<label>Alimentos - medicinas para el ganado</label>
+					<value>Alimentos - medicinas para el ganado</value>
+				</item>
+				<item>
+					<label>Ayuda para la educación.</label>
+					<value>Ayuda para la educación.</value>
+				</item>
+				<item>
+					<label>Dinero en efectivo</label>
+					<value>Dinero en efectivo</value>
+				</item>
+				<item>
+					<label>Otros.</label>
+					<value>Otros.</value>
+				</item>
+				<item>
+					<label>Ninguna</label>
+					<value>Ninguna</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P67B_178" reflist="NecesidadesFamilia">
+				<label>Segunda necesidad:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Agua</label>
+					<value>Agua</value>
+				</item>
+				<item>
+					<label>Saneamiento</label>
+					<value>Saneamiento</value>
+				</item>
+				<item>
+					<label>Alimentos</label>
+					<value>Alimentos</value>
+				</item>
+				<item>
+					<label>Atención de salud</label>
+					<value>Atención de salud</value>
+				</item>
+				<item>
+					<label>Insumos Agrícolas - Semillas</label>
+					<value>Insumos Agrícolas - Semillas</value>
+				</item>
+				<item>
+					<label>Alimentos - medicinas para el ganado</label>
+					<value>Alimentos - medicinas para el ganado</value>
+				</item>
+				<item>
+					<label>Ayuda para la educación.</label>
+					<value>Ayuda para la educación.</value>
+				</item>
+				<item>
+					<label>Dinero en efectivo</label>
+					<value>Dinero en efectivo</value>
+				</item>
+				<item>
+					<label>Otros.</label>
+					<value>Otros.</value>
+				</item>
+				<item>
+					<label>Ninguna</label>
+					<value>Ninguna</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal" ref="P67C_179" reflist="NecesidadesFamilia">
+				<label>Tercera necesidad:</label>
+				<item>
+					<label>Select</label>
+					<value>0</value>
+				</item>
+				<item>
+					<label>Agua</label>
+					<value>Agua</value>
+				</item>
+				<item>
+					<label>Saneamiento</label>
+					<value>Saneamiento</value>
+				</item>
+				<item>
+					<label>Alimentos</label>
+					<value>Alimentos</value>
+				</item>
+				<item>
+					<label>Atención de salud</label>
+					<value>Atención de salud</value>
+				</item>
+				<item>
+					<label>Insumos Agrícolas - Semillas</label>
+					<value>Insumos Agrícolas - Semillas</value>
+				</item>
+				<item>
+					<label>Alimentos - medicinas para el ganado</label>
+					<value>Alimentos - medicinas para el ganado</value>
+				</item>
+				<item>
+					<label>Ayuda para la educación.</label>
+					<value>Ayuda para la educación.</value>
+				</item>
+				<item>
+					<label>Dinero en efectivo</label>
+					<value>Dinero en efectivo</value>
+				</item>
+				<item>
+					<label>Otros.</label>
+					<value>Otros.</value>
+				</item>
+				<item>
+					<label>Ninguna</label>
+					<value>Ninguna</value>
+				</item>
+			</select1>
+		</group>
+	</h:body>
+</h:html>

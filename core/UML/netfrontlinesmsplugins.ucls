@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="net.frontlinesms.plugins.PluginSettingsController" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/PluginSettingsController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="290" x="163" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="net.frontlinesms.plugins.PluginInitialisationException" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/PluginInitialisationException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="215" x="493" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <annotation id="3" language="java" name="net.frontlinesms.plugins.PluginControllerProperties" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/PluginControllerProperties.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="175" x="748" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </annotation>  
+  <class id="4" language="java" name="net.frontlinesms.plugins.PluginProperties" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/PluginProperties.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="312" x="963" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.frontlinesms.plugins.PluginImplementationLoader" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/PluginProperties.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="314" x="1951" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.frontlinesms.plugins.BasePluginController" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/BasePluginController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="354" x="1325" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="net.frontlinesms.plugins.PluginController" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/PluginController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="354" x="1522" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="net.frontlinesms.plugins.BasePluginThinletTabController" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/BasePluginThinletTabController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="315" width="361" x="2305" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="net.frontlinesms.plugins.BasePluginSettingsController" project="core" 
+    file="/core/src/main/java/net/frontlinesms/plugins/BasePluginSettingsController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="192" x="1719" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="10">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="12">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="13" name="instance"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

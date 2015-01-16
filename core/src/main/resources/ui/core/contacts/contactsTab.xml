@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tab icon="/icons/big_users.png" name=":contactManager" text="i18n.tab.contact.manager">
+	<splitpane divider="380" weightx="1" weighty="1">
+	    <panel bottom="9" columns="2" gap="9" left="9" right="9" top="9">
+	        <label icon="/icons/header/contactManager.png" valign="top"/>
+	        <panel name="pnGroupsContainer"
+	        		rowspan="2" border="true" bottom="4" columns="1" gap="8" icon="/icons/group.png" left="4" right="4" text="i18n.common.groups" top="4" weightx="1" weighty="1">
+	            <panel gap="5">
+	                <button action="showNewGroupDialog" icon="/icons/big_group_add.png" text="i18n.action.new.group" weightx="1" weighty="1"/>
+	                <button action="showDeleteOptionDialog" icon="/icons/big_group_delete.png" name="deleteButton" text="i18n.action.delete" weightx="1" weighty="1" enabled="false"/>
+	                <button action="sendSmsToGroup" icon="/icons/big_group_send.png" name="sendSMSButtonGroupSide" text="i18n.action.send.to.group" weightx="1" weighty="1" enabled="false"/>
+	            </panel>
+	        </panel>
+	        <button tooltip="i18n.tooltip.click.for.help" valign="bottom" action="showHelpPage('contacts.htm')" icon="/icons/big_help.png" type="link"/>
+	    </panel>
+	    <panel bottom="9" columns="1" gap="9" left="9" right="9" top="9">
+	        <panel border="true" bottom="4" columns="3" gap="8" icon="/icons/user.png" left="4" name="pnContacts" right="4" text="i18n.common.contacts" top="4" weightx="1" weighty="1">
+	            <textfield action="setContactFilter(contactManager_contactFilter.text)" name="contactManager_contactFilter" tooltip="i18n.tooltip.search.here" weightx="1" perform="filterContacts"/>
+	            <button icon="/icons/search.png" text="i18n.common.search" action="filterContacts"/>
+	            <table action="enabledButtonsAfterSelection(this)" delete="showConfirmationDialog('deleteSelectedContacts')" colspan="3" name="contactManager_contactList" perform="showContactDetails(this)" selection="multiple" weightx="1" weighty="1">
+	                <header>
+	                	<column icon="/icons/status.png" text="i18n.common.active" width="52"/>
+	                    <column icon="/icons/user.png" text="i18n.common.name" width="150"/>
+	                    <column icon="/icons/phone.png" text="i18n.common.phone.number" width="120"/>
+	                    <column icon="/icons/email.png" text="i18n.common.email.address" width="120"/>
+	                </header>
+	                <popupmenu menushown="populateGroups(this, contactManager_contactList)" name="menu">
+	                    <menu icon="/icons/group_join.png" name="groupsMenu" text="i18n.action.add.to.group"/>
+	                    <menu icon="/icons/group_leave.png" name="groupsMenuRemove" text="i18n.action.delete.from.group"/>
+	                    <separator name="sp1"/>
+	                    <menuitem action="sendSmsToContacts" icon="/icons/sms_send.png" name="miSendSMS" text="i18n.action.send.sms"/>
+	                    <menuitem action="showMessageHistory(contactManager_contactList)" icon="/icons/history.png" name="msg_history" text="i18n.action.message.history"/>
+	                    <menuitem action="showExportWizard(contactManager_contactList)" icon="/icons/export.png" name="miExportSelected" text="i18n.action.export.selected"/>
+	                    <separator name="sp2"/>
+	                    <menuitem action="showContactDetails(contactManager_contactList)" icon="/icons/user_edit.png" name="viewContact" text="i18n.action.view.edit.contact" tooltip="i18n.tooltip.view.contact.details"/>
+	                    <menuitem action="showConfirmationDialog('deleteSelectedContacts')" icon="/icons/user_delete.png" name="miDelete" text="i18n.action.delete.selected.contacts"/>
+	                </popupmenu>
+	            </table>
+	            <panel colspan="3" gap="5">
+	                <button action="showNewContactDialog()" icon="/icons/big_user_add.png" text="i18n.action.new.contact" weightx="1" weighty="1"/>
+	                <button action="showConfirmationDialog('deleteSelectedContacts')" enabled="false" icon="/icons/big_user_delete.png" name="deleteNewContact" text="i18n.action.delete.selected.contacts" weightx="1" weighty="1"/>
+	                <button action="showContactDetails(contactManager_contactList)" enabled="false" icon="/icons/big_user_edit.png" name="viewContactButton" text="i18n.action.edit" weightx="1" weighty="1"/>
+	                <button action="sendSmsToContacts" enabled="false" icon="/icons/big_sms_send.png" name="sendSMSButton" text="i18n.action.send.sms" weightx="1" weighty="1"/>
+	            </panel>
+	        </panel>
+	    </panel>
+	</splitpane>
+</tab>

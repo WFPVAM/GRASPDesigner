@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <enumeration id="1" language="java" name="net.frontlinesms.data.domain.KeywordAction.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/KeywordAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="132" x="653" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="2" language="java" name="net.frontlinesms.data.domain.Group" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Group.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="160" x="453" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="net.frontlinesms.data.domain.GroupMembership" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/GroupMembership.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="192" x="310" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.frontlinesms.data.domain.EmailAccount" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/EmailAccount.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="729" width="316" x="2753" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.frontlinesms.data.domain.KeywordAction" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/KeywordAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1017" width="912" x="1403" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.frontlinesms.data.domain.Contact" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Contact.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="693" width="264" x="149" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="7" language="java" name="net.frontlinesms.data.domain.KeywordAction.ExternalCommandType" 
+    project="core" file="/core/src/main/java/net/frontlinesms/data/domain/KeywordAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="221" x="1027" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="8" language="java" name="net.frontlinesms.data.domain.Keyword.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Keyword.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="132" x="825" y="2712"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="9" language="java" name="net.frontlinesms.data.domain.User_Credential.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/User_Credential.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="146" x="3089" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="10" language="java" name="net.frontlinesms.data.domain.SmsInternetServiceSettingValue" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/SmsInternetServiceSettingValue.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="216" x="2833" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="net.frontlinesms.data.domain.FrontlineMessage.Type" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/FrontlineMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="150" x="845" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="net.frontlinesms.data.domain.KeywordAction.KeywordUtils" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/KeywordAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="357" x="1288" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="net.frontlinesms.data.domain.FrontlineMultimediaMessagePart" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/FrontlineMultimediaMessagePart.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="299" x="3109" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="14" language="java" name="net.frontlinesms.data.domain.Group.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Group.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="132" x="453" y="2712"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="15" language="java" name="net.frontlinesms.data.domain.DataTransfer" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/DataTransfer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="927" width="398" x="134" y="-225"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="16" language="java" name="net.frontlinesms.data.domain.FrontlineMessage.Status" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/FrontlineMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="132" x="1035" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="17" language="java" name="net.frontlinesms.data.domain.Roles.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Roles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="132" x="2581" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="18" language="java" name="net.frontlinesms.data.domain.KeywordAction.Type" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/KeywordAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="136" x="1685" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="19" language="java" name="net.frontlinesms.data.domain.FrontlineMessage" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/FrontlineMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1071" width="397" x="1035" y="-225"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="net.frontlinesms.data.domain.Email" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Email.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="216" x="3469" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="21" language="java" name="net.frontlinesms.data.domain.DataTransfer.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/DataTransfer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="136" x="134" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="22" language="java" 
+    name="net.frontlinesms.data.domain.KeywordAction.ExternalCommandResponseActionType" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/KeywordAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="340" x="1861" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="23" language="java" name="net.frontlinesms.data.domain.Email.Status" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Email.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="132" x="3469" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="24" language="java" name="net.frontlinesms.data.domain.Roles" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Roles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="154" x="3275" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="25" language="java" name="net.frontlinesms.data.domain.Contact.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Contact.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="139" x="149" y="2712"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="26" language="java" name="net.frontlinesms.data.domain.KeywordAction.ExternalCommandResponseType" 
+    project="core" file="/core/src/main/java/net/frontlinesms/data/domain/KeywordAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="277" x="2241" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="27" language="java" name="net.frontlinesms.data.domain.SmsModemSettings" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/SmsModemSettings.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="711" width="423" x="572" y="-225"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="28" language="java" name="net.frontlinesms.data.domain.Email.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Email.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="136" x="3429" y="2712"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="29" language="java" name="net.frontlinesms.data.domain.FrontlineMultimediaMessage" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/FrontlineMultimediaMessage.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="438" x="2355" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="net.frontlinesms.data.domain.User_Credential" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/User_Credential.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="909" width="427" x="3191" y="-225"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="net.frontlinesms.data.domain.SmsInternetServiceSettings" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/SmsInternetServiceSettings.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="318" x="2833" y="-225"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="net.frontlinesms.data.domain.Keyword" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/Keyword.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="162" x="825" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="33" language="java" name="net.frontlinesms.data.domain.FrontlineMessage.Field" project="core" 
+    file="/core/src/main/java/net/frontlinesms/data/domain/FrontlineMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="156" x="1207" y="886"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <association id="34">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="35" name="externalCommandResponseType"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="37">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="26"/>  
+  </nesting>  
+  <association id="38">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="39" name="keyword"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="41">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <nesting id="42">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="43">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="23"/>  
+  </nesting>  
+  <association id="44">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="45" name="externalCommandType"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="47">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="49">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="50" name="status"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="52">    
+    <bendpoint x="3438" y="1943"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="28"/>  
+  </nesting>  
+  <association id="53">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="54" name="emailAccount"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="56">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <nesting id="57">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <nesting id="58">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <nesting id="59">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <nesting id="60">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="33"/>  
+  </nesting>  
+  <association id="61">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="62" name="sender"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="65" name="externalCommandResponseActionType"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="68" name="properties"/>      
+      <multiplicity id="69" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="70">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <association id="71">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="72" name="type"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="75" name="group"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="78" name="multimediaParts"/>      
+      <multiplicity id="79" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="81" name="FDESCRIPTION"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="83">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="84">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="85" name="contact"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="88" name="roles"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="90">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <nesting id="91">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="22"/>  
+  </nesting>  
+  <nesting id="92">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <association id="93">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="94" name="status"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="97" name="type"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="99">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <association id="100">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="101" name="group"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

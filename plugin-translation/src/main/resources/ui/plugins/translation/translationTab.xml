@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tab icon="/icons/big_translate.png" text="i18n.plugins.translation.tab.name" name=":translation">
+    <panel bottom="9" columns="2" gap="9" left="9" right="9" top="9" weightx="1" weighty="1">
+    	<label icon="/icons/header/translationManager.png" valign="top"/>
+       	<splitpane weighty="1" weightx="1" rowspan="2" orientation="horizontal">
+			<panel gap="8" weightx="2" weighty="2" columns="1">
+	    		<label text="i18n.common.select.language"/>
+	    		<list name="lsLanguages" perform="editProperties" action="languageSelectionChanged" selection="single" weighty="1" weightx="1" width="200" height="1">
+	    			<popupmenu name="menu">
+	                    <menuitem font="bold" icon="/icons/translate_edit.png" action="editProperties" text="i18n.plugins.translation.properties"/>
+	                    <menuitem icon="/icons/email_send.png" action="submitTranslation" text="i18n.plugins.translation.submit.translation"/>
+	                    <separator/>
+	                    <menuitem icon="/icons/translate_delete.png" action="showConfirmationDialog('deleteTranslation')" text="i18n.action.delete"/>
+	                </popupmenu>
+                </list>
+	    		<panel name="pnBigButtons" gap="5" weightx="1">
+	                <button action="createTranslation" icon="/icons/big_translate_add.png" name="newTranslation" text="i18n.plugins.translation.new.translation" weightx="1" weighty="1"/>
+	            </panel>
+			</panel>
+			<panel gap="8" weightx="1" columns="2">
+				<textfield action="filterTranslations(this.text)" name="tfTranslationFilter" weightx="1" enabled="false"/>
+				<button type="link" icon="/icons/search.png"/>
+				<panel name="restartFrontline" gap="8" weightx="1" columns="2" visible="false">
+					<label foreground="#FF0000" font="bold" text="i18n.plugins.translation.must.restart.frontline"/>
+					<button action="restartFrontlineSMS" icon="/icons/refresh.png" text="i18n.plugins.translation.restart.frontline"/>	
+				</panel>
+				<tabbedpane action="tabChanged(this.selected)" name="tpTranslations" weightx="1" weighty="1" colspan="2">
+					<tab icon="/icons/translate.png" text="i18n.plugins.translation.translations.all" name="tbAll">
+						<panel gap="8" columns="1" weightx="1" weighty="1">
+							<table action="propertyItemChanged" selection="multiple" name="tbAllTranslations" weightx="1" weighty="1" perform="editText" delete="confirmDeleteText">
+								<header>
+									<column text="i18n.plugins.translation.key" width="230"/>
+									<column text="i18n.plugins.translation.default" width="320"/>
+									<column name="clCurrentLanguage"/>
+								</header>
+							</table>
+						</panel>
+					</tab>
+					<tab icon="/icons/translate_delete.png" text="i18n.plugins.translation.translations.missing" name="tbMissing">
+						<table action="propertyItemChanged" selection="multiple" name="tbMissingTranslations" perform="editText" delete="confirmDeleteText">
+							<header>
+								<column text="i18n.plugins.translation.key" width="230"/>
+									<column text="i18n.plugins.translation.default" width="320"/>
+									<column name="clCurrentLanguage"/>
+							</header>
+						</table>
+					</tab>
+				</tabbedpane>
+				<panel gap="8" colspan="2" halign="right">
+					<button text="i18n.action.save" icon="/icons/tick.png" action="saveTranslations" name="saveTranslations" enabled="false"/>
+					<button text="i18n.action.edit" icon="/icons/edit.png" action="editText" name="btEdit"/>
+					<button text="i18n.action.delete" icon="/icons/delete.png" action="confirmDeleteText" name="btDelete"/>
+				</panel>
+			</panel>
+		</splitpane>
+   		<button tooltip="i18n.tooltip.click.for.help" valign="bottom" action="showHelpPage('translation.htm')" icon="/icons/big_help.png" type="link"/>
+	</panel>
+</tab>

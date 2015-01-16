@@ -1,0 +1,187 @@
+<html>
+
+<head>
+		<meta http-equiv="Content-Language" content="en-gb">
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>FrontlineSMS Help :: Keywords</title>
+		<link href="frontlinehelp.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<div class="header">
+			<a href="help-menu.htm"><img alt="FrontlineSMS" src="img/flsmslogo.png"></a>
+		</div>
+		<div class="content">
+			<h1>Keywords</font></b><p>
+			
+			<h4>
+				Keywords is where you create Autoreplies, manage SMS-to-email settings 
+				and configure FrontlineSMS advanced features
+			</h4>
+			<div class="left_aligned_image"><img border="0" src="img/keywords.jpg" vspace="10" width="950" height="713"></div>
+			
+			<h2>What can I do in Keywords?</h2>
+			<h3>
+				<span class="highlight">Keywords</span> is an extremely powerful module which allows you to automatically trigger actions 
+				within FrontlineSMS. This section of FrontlineSMS Help will guide you through the features in the 
+				<span class="feature">Keywords</span> module. Please take your time - there's a lot here.
+			</h3>
+				
+			<h2>Keyword actions</h2>
+			<h3>
+				Keywords are simply predefined words which, when users or members of the public text them in, 
+				cause FrontlineSMS to carry out a specific action. This action can be one of several things 
+				<span class="highlight emphase">(click on a type for more info)</span>:
+				
+				<ul>
+					<li>
+						<a href="keywordActions/autoreply.htm"><span class="highlight keywordlink">Auto Reply</span></a>
+						<ul>
+							<li>FrontlineSMS will automatically send a pre-determined SMS back to the sender
+							of the keyword/message (maybe a "<span class="emphase">Thank you for your message</span>", for example)</li>
+						</ul>
+					</li>
+					<li>
+						<a href="keywordActions/autoforward.htm"><span class="highlight keywordlink">Auto Forward</span></a>
+						<ul>
+							<li>FrontlineSMS will automatically forward the incoming message to all members 
+							of a pre-determined Group. This can be useful when you want Group members to be
+							able to contact each other via SMS with latest news, or urgent announcements. 
+							(<span class="feature">Auto Forward</span> does a similar thing to <a href="http://www.twitter.com">Twitter</a>,
+							which you may have heard of).</li>
+						</ul>
+					</li>
+					<li>
+						<a href="keywordActions/join_leave.htm"><span class="highlight keywordlink">Join Group</span></a>
+						<ul>
+							<li>FrontlineSMS will automatically add the person who sent the SMS to a pre-determined Group.
+							Again, this is useful if you are running a series of user Groups or clubs, and want people to be
+							able to join automatically by publicising the keyword without them having to contact you directly.
+							A campaign, for example, could say "<span class="emphase">To join our Control Arms Campaign, 
+							text in the word JOIN to 650123456</span>". Here, <span class="highlight">JOIN</span> is the keyword.</li>
+						</ul>
+					</li>
+					<li>
+						<a href="keywordActions/join_leave.htm"><span class="highlight keywordlink">Leave Group</span></a>
+						<ul>
+							<li>Members of Groups can leave any time they like by sending an SMS with a pre-determined keyword or phrase 
+							(for example, <span class="highlight">LEAVE GROUP</span>)</li>
+						</ul>
+					</li>
+					<li>
+						<a href="keywordActions/emails.htm"><span class="highlight keywordlink">E-mail</span></a>
+						<ul>
+							<li>Keywords can be used to instruct FrontlineSMS to automatically forward an incoming text message
+							to a pre-determined recipient, by email. This might be useful if you want a Project Manager, or someone
+							in a different country or office, to receive (free) email notifications of incoming Survey or campaign
+							text messages, or if you'd like some of your text messages to be backed up in an email system such as
+							Google Mail or Hotmail.</li>
+						</ul>
+					</li>
+					<li>
+						<a href="keywordActions/externalcommand.htm"><span class="highlight keywordlink">External Command</span></a>
+						<ul>
+							<li>Although a particularly advanced feature, and one most likely to be used by more technical users,
+							keywords can be set up to trigger the running of external commands or programs (for example, a batch file or a script).
+							For example, a batch file could be written which finds out how much free disk space is left on the computer.
+							An incoming SMS with, say, the keywords <span class="highlight">FREE SPACE</span> could then be set to trigger the running of this batch file,
+							with FrontlineSMS texting the result (i.e. the amount of free disk space) back to the message sender.
+							The <span class="feature">External Command</span> function can also be used to instruct FrontlineSMS to send incoming messages to remote 
+							servers over the internet (using <span class="emphase">HTTP GET</span>), which may be useful as a method of backing up data, or for a website
+							with a news ticker which needs to display all incoming messages for a campaign or event</li>
+						</ul>
+					</li>
+				</ul>
+				
+				Keywords can also be set to have multiple actions. So, for example, the Keyword <span class="highlight">JOIN</span>
+				could be set to allow people to remotely <span class="highlight">Join Groups</span>, and to also do an 
+				<span class="feature">Auto Reply</span> to the message sender with a "<span class="emphase">Thank you for joining our Group.
+				We will be in touch</span>" message. If you really wanted to, you could also set the <span class="highlight">JOIN</span> Keyword 
+				to <span class="feature">Auto Forward</span> the joining message to all other members of the Group, in case you wanted them all 
+				to know that there was a new member. There is no limit to the number of actions that can be set for a Keyword.
+			</h3>
+			
+			<h2>Using the &lt;None&gt; and &lt;MMS&gt; keywords</h2>
+			<h3>
+				When you start FrontlineSMS for the first time, you will notice two entries - &lt;None&gt; and &lt;MMS&gt; - in the main
+				<span class="highlight">Keyword</span> window <span class="reference">1</span>. If you want <u>every incoming SMS which 
+				doesn't match any other keyword</u> to trigger an action - perhaps a thank you message - regardless of message content, 
+				then use the &lt;None&gt; keyword entry. You can use &lt;None&gt; to forward every incoming message to a website, 
+				or to services such as <a target="_blank" href="http://www.twitter.com">Twitter</a> or 
+				<a target="_blank" href="http://www.facebook.com">Facebook</a>, for example.
+				If you would like to trigger actions everytime a <span class="feature">Multimedia Message</span> is received,
+				use the &lt;MMS&gt; keyword.
+				<span class="note">
+					For <span class="feature">Multimedia messages</span>, the date taken into account for keyword actions is the actual date of reception,
+					and not the date FrontlineSMS picked the message.
+				</span>
+			</h3>
+				
+			<h2>Adding a new Keyword</h2>
+			<h3>
+				All current FrontlineSMS keywords appear in the main <span class="feature">Keyword</span> window <span class="reference">1</span>. 
+				To add a new Keyword, click on <span class="highlight">New</span><span class="reference">5</span> and enter a name 
+				(and a description, if you need one - this is not essential). Your keyword will then appear in the main window <span class="reference">1</span>.
+				After highlighting the new keyword you can edit any of the fields to the right <span class="reference">2</span>.
+				See below for the various options.
+			</h3>
+			
+			<h2>Adding actions in the &quot;Simple View&quot;</h2>
+			<span class="subtitle">Adding an &quot;Auto Reply&quot; action</span>
+			<h3>
+				If you want an automatic message to be sent back to the message sender (perhaps a 
+				"<span class="emphase">Thank you for contacting us</span>" message, or similar), tick the check box and type this message in
+				the "<span class="emphase">Send this message as an auto reply</span>" field <span class="reference">2</span>.
+			</h3>
+				
+			<span class="subtitle">Adding a &quot;Join Group&quot; action</span>
+			<h3>
+				If you want this keyword to automatically instruct FrontlineSMS to add the sender of the message to a specific Group,
+				select the Group name from the list under "<span class="emphase">Add message sender to group</span>"
+				<span class="reference">2</span>.
+			</h3>
+			
+			<span class="subtitle">Adding a &quot;Leave Group&quot; action</span>
+			<h3>
+				If you want this keyword to automatically instruct FrontlineSMS to remove the sender of the message from a specific Group,
+				select the Group name from the list under "<span class="emphase">Remove message sender from group</span>" 
+				<span class="reference">2</span>. When you are finished adding these initial actions, click the <span class="highlight">Save</span>
+				button <span class="reference">3</span>.
+
+				<span class="note">
+					When testing your keywords for the first time, bear in mind that it can take a couple of minutes for FrontlineSMS 
+					to pick up the incoming text message, and a minute or two for the event to be triggered.
+				</span>
+				<span class="note">
+					There are other Advanced keyword actions that can be set. See the section below for further details.
+				</span>
+			</h3>
+			
+			<h2>Adding further actions in the &quot;Advanced View&quot;</h2>
+			<h3>
+				If you'd like to add further actions to any of your Keywords, selecting the Keyword from the
+				<span class="highlight">Keyword</span> window <span class="reference">1</span> brings up an additional menu function.
+				<span class="reference">4</span>. Click on <font color="#00F">&quot;Click here to go to advanced view&quot;</font>
+				to open up a new screen (below).
+				
+				<div class="left_aligned_image"><img border="0" src="img/keywords-advanced.jpg"></div>
+				
+				This &quot;<span class="emphase">advanced view</span>&quot; allows you to add additional actions to your Keyword.
+				A list of available actions are listed in the pop-up menu <span class="reference">1</span>. 
+				Select the new action which you'd like to add, and then click on the settings button <span class="reference">2</span>
+				A different dialogue box will appear next, depending on which action you select.
+				
+				<ul>
+					<li><a href="keywordActions/autoreply.htm"><span class="highlight">Auto Reply</span></a></li>
+					<li><a href="keywordActions/autoforward.htm"><span class="highlight">Auto Forward</span></a></li>
+					<li><a href="keywordActions/join_leave.htm"><span class="highlight">Join Group</span></a></li>
+					<li><a href="keywordActions/join_leave.htm"><span class="highlight">Leave Group</span></a></li>
+					<li><a href="keywordActions/emails.htm"><span class="highlight">E-mail</span></a></li>
+					<li><a href="keywordActions/externalcommand.htm"><span class="highlight">External Command</span></a></li>
+				</ul>
+			</h3>
+				
+			<a href="help-menu.htm"><h6>Return to Help main menu</h6></a>
+		</div>
+	</body>
+</html>

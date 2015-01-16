@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog closable="true" close="removeDialog" bottom="4" columns="3" gap="8" icon="/icons/sms_autoForward.png" left="4" modal="true" name="forwardForm" resizable="true" right="4" text="i18n.common.auto.forward" top="4">
+    <label colspan="3" name="forwardForm_title"/>
+    <list colspan="3" name="forwardForm_groupList" rowspan="2" weightx="1" weighty="1"/>
+    <separator colspan="3"/>
+    <label colspan="3" text="i18n.common.forward.message"/>
+    <textarea colspan="3" name="forward" weighty="1" action="textChanged(this.text)"/>
+    <label halign="left" text="i18n.sentence.you.can.include"/>
+    <panel colspan="2" gap="8">
+	    <button action="addConstantToCommand(forward.text, forward, 'SENDER_NAME')" name="btSenderName" icon="/icons/sender.png" tooltip="i18n.common.sender.name" weightx="1"/>
+	    <button action="addConstantToCommand(forward.text, forward, 'SENDER_NUMBER')" name="btSenderNumber" icon="/icons/sender_number.png" tooltip="i18n.common.message.sender.number" weightx="1"/>
+        <button action="addConstantToCommand(forward.text, forward, 'RECIPIENT_NAME')" name="btRecipientName" icon="/icons/recipient.png" tooltip="i18n.common.recipient" weightx="1"/>
+	    <button action="addConstantToCommand(forward.text, forward, 'RECIPIENT_NUMBER')" name="btRecipientNumber" icon="/icons/recipient_number.png" tooltip="i18n.common.message.recipient.number" weightx="1"/>
+	    <button action="addConstantToCommand(forward.text, forward, 'KEYWORD_KEY')" name="btKeyword" icon="/icons/keyword.png" tooltip="i18n.common.keyword" weightx="1"/>
+	    <button action="addConstantToCommand(forward.text, forward, 'MESSAGE_CONTENT')" name="btMessageContent" icon="/icons/message.png" tooltip="i18n.common.message.content" weightx="1"/>
+    </panel>
+    <separator colspan="3"/>
+    <separator colspan="3"/>
+    <panel colspan="3" gap="5" halign="center" weightx="1">
+        <button type="default" action="do_newKActionForward(forwardForm_groupList, forward.text)" name="btSave" icon="/icons/tick.png" text="i18n.action.save"/>
+    	<button type="cancel" action="removeDialog" icon="/icons/cross.png" text="i18n.action.cancel"/>
+    </panel>
+</dialog>

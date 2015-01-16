@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel name="pnWebServer" gap="10" weightx="2" columns="1">
+    <panel icon="/icons/webServer16x16.png" gap="5" text="i18n.common.webServer.source" border="true" columns="1" weightx="1" top="5" left="5" bottom="5" right="5">
+	<panel name="pnCustomImage" gap="5" weightx="1" columns="3">
+	    <label icon="/icons/image.png" text="i18n.common.webServer.source"/>
+	    <textfield name="tfWebServerPath" weightx="1" editable="false"/>
+	    <button action="showDirectoryChooser(tfWebServerPath)" icon="/icons/browse.png" name="btBrowse" text="i18n.action.browse"/>
+	</panel>
+     </panel>
+</panel>

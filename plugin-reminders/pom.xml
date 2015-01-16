@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.frontlinesms.plugins</groupId>
+	<artifactId>frontlinesms-plugin-reminders</artifactId>
+	<name>FrontlineSMS Reminders plugin</name>
+	<version>0.01.13</version>
+	<description>Reminders plugin for FrontlineSMS</description>
+	<parent>
+		<groupId>net.frontlinesms.core</groupId>
+		<artifactId>frontlinesms-pom-parent</artifactId>
+		<version>1.7.00-beta-5</version>
+		<relativePath>../pom-parent</relativePath>
+	</parent>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:${github.projectOwner}/${github.projectName}.git</developerConnection>
+	</scm>
+	
+	<repositories>
+		<repository>
+			<id>frontlinesms.repo</id>
+			<name>FrontlineSMS Maven repository</name>
+			<url>http://dev.frontlinesms.com/m2repo</url>
+		</repository>
+	</repositories>
+
+	<properties>
+		<github.projectOwner>alxndrsn</github.projectOwner>
+	</properties>
+  
+	<dependencies>
+		<dependency>
+			<groupId>net.frontlinesms.core</groupId>
+			<artifactId>frontlinesms</artifactId>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,9 @@
+## Usage:
+## name=position,type,label
+date=1,DATE_FIELD,Date
+enumerator=2,TEXT_FIELD,Title
+##If you change the position of designer_version, any change MUST be reflected in class DefaultComponentDescriptor
+des_version=3,TEXT_FIELD,Designer version
+client_Version=4,TEXT_FIELD,Client version
+section0=5,SEPARATOR
+GPS=6,GEOLOCATION,Geographic Location (GPS)

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  GRASP(Geo-referential Real-time Acquisition Statistics Platform) Designer Tool <http://www.fabaris.it>
+   Copyright © 2012 ,Fabaris s.r.l
+   This file is part of GRASP Designer Tool.  
+    GRASP Designer Tool is free software: you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or (at
+    your option) any later version.  
+    GRASP Designer Tool is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser  General Public License for more details.  
+    You should have received a copy of the GNU Lesser General Public License
+    along with GRASP Designer Tool. 
+    If not, see <http://www.gnu.org/licenses/>
+-->
+<dialog modal="true" closable="true" close="removeDialog" bottom="5" columns="3" gap="5" icon="/icons/status_problem.png" left="5" name="choiceDialog" right="5" text="i18n.common.attention" top="5">
+    <panel name="pnLabels" colspan="3" columns="1" gap="5">
+    	<!--  This will be populated at runtime by custom labels -->
+    </panel>
+    <button weightx="1" icon="/icons/tick.png" name="btYes" text="i18n.action.yes"/>
+    <button weightx="1" icon="/icons/cross.png" name="btNo" text="i18n.action.no"/>
+	<button weightx="1" icon="/icons/left.png" action="removeDialog" name="btCancel" text="i18n.action.cancel"/>
+	<button weightx="1" icon="/icons/cross.png" action="removeDialog" name="btClose" text="i18n.action.close"/>
+    <label/>
+</dialog>

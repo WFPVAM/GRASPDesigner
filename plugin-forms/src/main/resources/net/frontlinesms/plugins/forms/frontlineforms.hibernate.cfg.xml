@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.Form"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.FormField"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.FormResponse"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.ResponseValue"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.BindingContainer"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.ConstraintContainer"/>
+  <mapping class="net.frontlinesms.plugins.forms.ui.components.PreviewComponent"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.FormFieldAndBinding"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.Survey"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.StatisticsTable"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.SurveyElement"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.V_FieldPositionIndex"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.FormResponseCoords"/>
+  <mapping class="net.frontlinesms.plugins.forms.data.domain.Configuration"/>
+  <!-- added by Fabaris_Raji -->
+ </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  GRASP(Geo-referential Real-time Acquisition Statistics Platform) Designer Tool <http://www.fabaris.it>
+   Copyright © 2012 ,Fabaris s.r.l
+   This file is part of GRASP Designer Tool.  
+    GRASP Designer Tool is free software: you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or (at
+    your option) any later version.  
+    GRASP Designer Tool is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser  General Public License for more details.  
+    You should have received a copy of the GNU Lesser General Public License
+    along with GRASP Designer Tool. 
+    If not, see <http://www.gnu.org/licenses/-->
+<!-- Fabaris_Raji -->
+<panel name="pnDatabaseTransfer" gap="5" weightx="2" columns="1">
+	<panel gap="5" border="true" text="i18n.common.remote.config" icon="/icons/database_edit.png" weightx="1" top="5" left="5" bottom="5" right="5">
+		<panel gap="5" halign="center" columns="1" weightx="1">		
+			
+			<panel columns="2" gap="6" name="pnSettings" weightx="1">
+				<!-- This panel will be populated with modifiable settings at runtime -->
+			</panel>	
+									
+		 </panel>		 
+	</panel>
+	<panel icon="/icons/datatransfer.png" gap="5" text="i18n.common.datatransfer.config" 
+	    border="true" columns="1" weightx="1" top="5" left="5" bottom="5" right="5">		 
+		<checkbox name="cbSharable"  text="i18n.datatransfer.settings.sharable"	action="setSharable(pnDataTransfer,this.selected)"/> 	    	    
+		    <panel name="pnDataTransfer" gap="5" weightx="1" columns="3" border="false">
+		    	<checkbox group="datatransfer_type" action="isManualChanged(this.selected)" name="cbManual" text="i18n.datatransfer.settings.manual"/>
+		    	<checkbox group="datatransfer_type" action="isScheduledChanged(this.selected)" name="cbScheduled" text="i18n.datatransfer.settings.schedule"/>		   	           
+		    </panel>
+		    <panel weightx="1" top="5" left="150" bottom="5" right="5">
+			    <button action="savedb" icon="/icons/tick.png" width="500" text="i18n.action.savetransfer" />	
+			 <!--button action="save" icon="/icons/tick.png" width="500" text="i18n.action.save" /-->		
+			</panel>	    
+	 </panel>
+	
+</panel>
+	
+
+
+	 
+	
