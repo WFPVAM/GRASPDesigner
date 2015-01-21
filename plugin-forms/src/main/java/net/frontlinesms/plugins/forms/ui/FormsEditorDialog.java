@@ -1868,22 +1868,22 @@ public class FormsEditorDialog extends JDialog {
 //                //Returns selection to the selected item.
 //                if(selectedItem != null)
 //			surveyComboBox.setSelectedItem(selectedItem);
-		//setSelectedSurveyItem(previousSelectedItem);
+		setSelectedSurveyItem();
 		//surveyComboBox.setSelectedItem(comboBoxModel.getElementAt(0).toString());	
-                surveyComboBox.setSelectedItem(previousSelectedItem);
+                //surveyComboBox.setSelectedItem(previousSelectedItem);
             }
             
             setIsSurveyListEditorOpened(false);
 	}
         
         
-        private void setSelectedSurveyItem(Survey previousSelectedItem)
+        private void setSelectedSurveyItem()
         {
-            if (isSurveyListEditorOpened == false) {
-                surveyComboBox.setSelectedItem(previousSelectedItem);
-            }
-            else //Select the last selected item from SurveyListEditor
-            {
+//            if (isSurveyListEditorOpened == false) {
+//                surveyComboBox.setSelectedItem(previousSelectedItem);
+//            }
+//            else //Select the last selected item from SurveyListEditor
+//            {
                 Survey selectedItemFromEditor = null;
 
                 if (surveyCtrl != null) {
@@ -1895,14 +1895,14 @@ public class FormsEditorDialog extends JDialog {
                     surveyComboBox.setEnabled(false);
                     //enablePropertyPanel(false);
                     surveyComboBox.setSelectedItem(selectedItemFromEditor);
-                    //enablePropertyPanel(ture);                    
+                    //enablePropertyPanel(true);                    
                     surveyComboBox.setEnabled(true);   
                     surveyComboBox.setForeground(Color.black);
                 }else
                     surveyComboBox.setSelectedItem(null);
 
-                setIsSurveyListEditorOpened(false);
-            }
+                //setIsSurveyListEditorOpened(false);
+            //}
         }
         
         private void setIsSurveyListEditorOpened(boolean isOpened)

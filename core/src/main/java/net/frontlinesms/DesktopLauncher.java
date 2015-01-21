@@ -87,6 +87,7 @@ public class DesktopLauncher {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+            //JOptionPane.showMessageDialog(null, "My Goodness, this is so concise");
 		FrontlineSMS frontline = null;
 		try {
 			try
@@ -94,7 +95,7 @@ public class DesktopLauncher {
                                 if(args !=null && args.length>0 && args[0]!=null)
 				  GraspContext.getInstance().setAttribute("user", args[0]);
                                 else
-                                   GraspContext.getInstance().setAttribute("user", "admin");  
+                                  GraspContext.getInstance().setAttribute("user", "admin");  
 			}
 			catch(Exception e)
 			{
@@ -103,8 +104,8 @@ public class DesktopLauncher {
 			
 			AppProperties appProperties = AppProperties.getInstance();
 			final String VERSION = BuildProperties.getInstance().getVersion();
-			LOG.info("FrontlineSMS version [" + VERSION + "] for test by UNOPS ");
-			LOG.info("UNOPS Development team version");
+			LOG.info("FrontlineSMS version [" + VERSION + "] for test by WFP Palestine Team");
+			LOG.info("WFP Palestine Development team version");
                         
                         
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());

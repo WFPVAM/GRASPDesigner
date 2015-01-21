@@ -26,10 +26,10 @@
                     <descriptors>
                         <descriptor>src/assemble/distribution.xml</descriptor>
 						
-                        <!-- Windows build for JET compilation -->
+                         Windows build for JET compilation 
                         <descriptor>src/assemble/windows-jet.xml</descriptor>
 						
-                        <!-- Linux builds -->
+                         Linux builds 
                         <descriptor>src/assemble/linux_i686-dist.xml</descriptor>
                         <descriptor>src/assemble/linux_ia64-dist.xml</descriptor>
                         <descriptor>src/assemble/linux_x86_64-dist.xml</descriptor>
@@ -44,6 +44,19 @@
                     </execution>
                 </executions>
             </plugin>
+<!--            <plugin>
+    <artifactId>maven-assembly-plugin</artifactId>
+      <configuration>
+        <archive>
+          <manifest>
+            <mainClass>net.frontlinesms.DesktopLauncher</mainClass>
+          </manifest>
+        </archive>
+        <descriptorRefs>
+          <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+      </configuration>
+    </plugin>-->
             <plugin>
                 <!-- THIS PLUGIN IS PLATFORM-DEPENDENT 
                 This will create the FrontlineSMS.app bundle regardless of the platform used.
@@ -123,10 +136,10 @@
                     <programFilesHome>kiwanja.net/FrontlineSMS_${version}</programFilesHome>
                     <startMenuProgramFolderRoot>FrontlineSMS</startMenuProgramFolderRoot>
                     <compressionLevel>2</compressionLevel>
-                    <!--<doCompile>false</doCompile>-->
-                    <!--<doPack>false</doPack>-->
+                    <doCompile>false</doCompile>
+                    <doPack>false</doPack>
                 </configuration>
-                <!--<executions>
+                <executions>
                                 <execution>
                                         <phase>package</phase>
                                         <goals>
@@ -134,7 +147,7 @@
                                         </goals>
                                 </execution>
                         </executions>
-                -->
+                
             </plugin>
         </plugins>
     </build>
@@ -218,7 +231,7 @@
         <repository>
             <id>my-internal-site</id>
             <!--url>file://C:/Users/r.joseph/.m2</url-->
-            <url>file://C:/.m2</url>
+            <url>file://C:/Users/Administrator/.m2</url>
         </repository>
     </repositories>
 </project>

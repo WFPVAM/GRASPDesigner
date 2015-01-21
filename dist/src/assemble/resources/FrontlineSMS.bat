@@ -2,4 +2,4 @@
 echo Launching FrontlineSMS for Windows...
 
 REM launch the application
-java -cp ${project.artifactId}-${project.version}.jar;lib/*;cp/* net.frontlinesms.DesktopLauncher
+java -cp frontlinesms-dist-0.0.25-jar-with-dependencies.jar;lib/*;cp/* net.frontlinesms.DesktopLauncher
