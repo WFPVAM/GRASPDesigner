@@ -841,11 +841,12 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 		Form selectedForm = getSelectedForm();
 
 		if (selectedForm != null) {
-			if (selectedForm.isFinalised()) {
-				ui.removeConfirmationDialog();
-				JOptionPane.showConfirmDialog(ui, "Can't delete finalized forms", "Error", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
-			}
-			else {
+                        //s3 delete finalized form
+			//if (selectedForm.isFinalised()) {
+			//	ui.removeConfirmationDialog();
+			//	JOptionPane.showConfirmDialog(ui, "Can't delete finalized forms", "Error", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
+			//}
+			//else {
 				// Fabaris_a.zanchi deletes every survey owned by this form
 				selectedForm.freeSurveyFromFormField();
 				getPluginController().getFormDao().updateForm(selectedForm);
@@ -855,7 +856,7 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 				}
 				// end of survey deletion
 				this.formsDao.deleteForm(selectedForm);
-			}
+			//}
 		}
 		this.refresh();
 		// Now remove the confirmation dialog.
@@ -1024,7 +1025,8 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 						// ui.setEnabled(o,
 						// ui.getAttachedObject(selectedComponent) instanceof
 						// Form);
-						ui.setEnabled(o, ui.getAttachedObject(selectedComponent) instanceof Form && selectedForm != null && !selectedForm.isFinalised());// Fabaris_raji
+                                                //By Saad
+						ui.setEnabled(o, ui.getAttachedObject(selectedComponent) instanceof Form && selectedForm != null);// delete finalized form && !selectedForm.isFinalised()
 					}
 					else if (name.contains("Edit")) {
 						ui.setEnabled(o, selectedForm != null && !selectedForm.isFinalised());

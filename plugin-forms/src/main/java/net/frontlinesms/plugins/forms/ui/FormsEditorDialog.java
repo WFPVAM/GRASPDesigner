@@ -1869,6 +1869,7 @@ public class FormsEditorDialog extends JDialog {
 //                if(selectedItem != null)
 //			surveyComboBox.setSelectedItem(selectedItem);
 		setSelectedSurveyItem();
+                refreshListsInForm();
 		//surveyComboBox.setSelectedItem(comboBoxModel.getElementAt(0).toString());	
                 //surveyComboBox.setSelectedItem(previousSelectedItem);
             }

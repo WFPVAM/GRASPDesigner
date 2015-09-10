@@ -87,15 +87,15 @@ public class DesktopLauncher {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-            //JOptionPane.showMessageDialog(null, "My Goodness, this is so concise");
+                //JOptionPane.showMessageDialog(null, "Test");
 		FrontlineSMS frontline = null;
 		try {
 			try
 			{
-                                if(args !=null && args.length>0 && args[0]!=null)
+                                //if(args !=null && args.length>0 && args[0]!=null)
 				  GraspContext.getInstance().setAttribute("user", args[0]);
-                                else
-                                  GraspContext.getInstance().setAttribute("user", "admin");  
+                                //else
+                                //  GraspContext.getInstance().setAttribute("user", "admin");  
 			}
 			catch(Exception e)
 			{
@@ -115,8 +115,10 @@ public class DesktopLauncher {
 				LOG.fatal("Default resources archive could not be found!");
 				throw new Exception("Default resources archive could not be found!");
 			}
-			ResourceUtils.unzip(defaultResourceArchive, new File(ResourceUtils.getConfigDirectoryPath()), !VERSION.equals(lastVersion));
-			// This should always get the English bundle, as other languages are only included in
+			//Commented by Saad 12/2/2015
+                        //ResourceUtils.unzip(defaultResourceArchive, new File(ResourceUtils.getConfigDirectoryPath()), !VERSION.equals(lastVersion));
+			
+                        // This should always get the English bundle, as other languages are only included in
 			// resources.zip rather than in the resources/languages directory
 			LanguageBundle englishBundle = InternationalisationUtils.getDefaultLanguageBundle();
 			Thinlet.DEFAULT_ENGLISH_BUNDLE = englishBundle.getProperties();

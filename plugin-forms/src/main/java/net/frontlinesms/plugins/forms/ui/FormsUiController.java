@@ -42,6 +42,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -64,6 +65,8 @@ import net.frontlinesms.plugins.forms.ui.components.TruncatedText;
 import net.frontlinesms.plugins.forms.ui.components.WrappedText;
 import net.frontlinesms.plugins.forms.ui.components.PreviewComponent.BindType;
 import net.frontlinesms.plugins.forms.ui.components.VisualForm;
+import net.frontlinesms.resources.ResourceUtils;
+import static net.frontlinesms.resources.UserHomeFilePropertySet.LOG;
 import net.frontlinesms.ui.i18n.InternationalisationUtils;
 
 /**
@@ -415,18 +418,25 @@ public class FormsUiController {
 
 		Properties prop = new Properties();
 		//String filePath = System.getProperty("user.home") + "/FrontlineSMS/properties/default_components";
-                String filePath = "./../core/src/main/resources/resources/properties/default_components";
-		FileInputStream fis = null;
-		try {
-			fis = new FileInputStream(new File(filePath));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+                //String filePath = getClass().getResource().; "./src/main/resources/resources/properties/default_components";
+//		FileInputStream fis = null;
+//		try {
+//			 fis = new FileInputStream(new File(filePath));
+//		} catch (FileNotFoundException e) {
+//			e.printStackTrace();
+//		}
+                String filePath = "/resources/properties/default_components";
+                InputStream fis = ResourceUtils.class.getResourceAsStream(filePath);
+                if(fis == null) {
+                    LOG.fatal("default_components file could not be found!");
+                }
+                
 		try {
 			prop.load(fis);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+                
 		Set<String> list = prop.stringPropertyNames();
 
 		//Set as umodifiable every component except the last component (a separator)
