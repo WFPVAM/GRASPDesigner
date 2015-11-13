@@ -625,7 +625,11 @@ public class DrawingPanel extends JPanel{
 			System.out.println(defCompsSize);
 			for (int i = 0; i < defCompsSize; i++) {
 				form.getComponents().get(i).setDefaultComponent(true);
-			}
+                               
+                                
+                                      
+                        }
+                        
 		}
 		pnPreview.showForm(form);
 	}

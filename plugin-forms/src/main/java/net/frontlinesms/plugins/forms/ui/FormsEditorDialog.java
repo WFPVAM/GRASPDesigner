@@ -75,6 +75,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
@@ -177,13 +178,13 @@ public class FormsEditorDialog extends JDialog {
 	private JComboBox reqComboBox;
 
 	// Fabaris_a.aknai
-	private JCheckBox calcolatedChk;
+	private JCheckBoxMenuItem calcolatedChk;
 	// Fabaris_a.aknai
 	private JLabel formulaLbl;
 	private JTextField formulaTf;
 	private JPanel formulaPanel;
 	// Fabaris_a.aknai
-	private JScrollPane propertiesTablePanel;
+	public JScrollPane propertiesTablePanel;
 	private FormulaEditorPanel formulaEditorPanel;
 	// Fabaris_raji
 	private JPanel newPanelVisibility;
@@ -316,7 +317,7 @@ public class FormsEditorDialog extends JDialog {
 			public void mouseClicked(MouseEvent e) {
 				if (e.getButton() == MouseEvent.BUTTON1
 						&& e.getClickCount() == 2) {
-					
+			
 				}
 				int checkA=1;
 				checkA=checkA;
@@ -443,6 +444,7 @@ public class FormsEditorDialog extends JDialog {
 				if (e.getButton() == MouseEvent.BUTTON1
 						&& e.getClickCount() == 2) {
 					PreviewComponent c = getSelectedComponent();
+                                       
 					if (c != null) {
 						formulaEditorPanel.forComponent = c;
 						if (c != null
@@ -462,7 +464,7 @@ public class FormsEditorDialog extends JDialog {
 				}
 			}
 		});
-		calcolatedChk = new JCheckBox();
+		calcolatedChk = new JCheckBoxMenuItem();
 		calcolatedChk.setSelected(false);
 		calcolatedChk.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
@@ -1579,11 +1581,19 @@ public class FormsEditorDialog extends JDialog {
 			}
 			if ((pc.getType().equals(FormFieldType.TEXT_FIELD) 
                                 || pc.getType().equals(FormFieldType.TEXT_AREA))) {
+                            if(pc.getComponent().getName().contains("enumerator")){
+                                requiredLabel.setEnabled(false);
+				reqComboBox.setEnabled(false);
+				isCalculated.setEnabled(false);
+				calcolatedChk.setEnabled(false);
+				formulaLbl.setEnabled(false);
+                            }else{
 				requiredLabel.setEnabled(true);
 				reqComboBox.setEnabled(true);
 				isCalculated.setEnabled(false);
 				calcolatedChk.setEnabled(false);
 				formulaLbl.setEnabled(false);
+                            }
 			} else if (pc.getType().equals(FormFieldType.CURRENCY_FIELD) 
                                 || pc.getType().equals(FormFieldType.NUMERIC_TEXT_FIELD) && !pc.isDefaultComponent()){
 				formulaPanel.setEnabled(true);
@@ -1654,7 +1664,7 @@ public class FormsEditorDialog extends JDialog {
 				this.enableVisibilityPanel(false);
 				requiredLabel.setEnabled(true);
 				reqComboBox.setEnabled(true);
-				reqComboBox.setSelectedItem(false);
+				//reqComboBox.setSelectedItem(false);
 			}
 			//****************************************************
 			if(getSelectedComponent().getType() == FormFieldType.BARCODE){
@@ -1662,7 +1672,7 @@ public class FormsEditorDialog extends JDialog {
 				this.enableVisibilityPanel(false);
 				requiredLabel.setEnabled(true);
 				reqComboBox.setEnabled(true);
-				reqComboBox.setSelectedItem(false);
+				//reqComboBox.setSelectedItem(false);
 			}
 			//****************************************************
 			if(getSelectedComponent().getType() == FormFieldType.IMAGE){
@@ -1670,7 +1680,7 @@ public class FormsEditorDialog extends JDialog {
 				this.enableVisibilityPanel(false);
 				requiredLabel.setEnabled(true);
 				reqComboBox.setEnabled(true);
-				reqComboBox.setSelectedItem(false);
+				//reqComboBox.setSelectedItem(false);
 			}
 			//****************************************************
                         //Added by Mureed
@@ -1679,7 +1689,7 @@ public class FormsEditorDialog extends JDialog {
 				this.enableVisibilityPanel(false);
 				requiredLabel.setEnabled(true);
 				reqComboBox.setEnabled(true);
-				reqComboBox.setSelectedItem(false);
+				//reqComboBox.setSelectedItem(false);
 			}
 			//****************************************************
                         
@@ -1704,7 +1714,10 @@ public class FormsEditorDialog extends JDialog {
 				constrainTable.setEnabled(false);
 				constrainScrollPane.setEnabled(false);
 				constraintsTitleBorder.setTitleColor(Color.gray);
-
+                                //added to make the fileds optioinally required 
+                                requiredLabel.setEnabled(true);
+                                reqComboBox.setEnabled(true);
+				//reqComboBox.setSelectedItem(false);
 			} else {
 				addConstraint.setEnabled(true);
 				removeConstraint.setEnabled(true);
@@ -2281,17 +2294,18 @@ public class FormsEditorDialog extends JDialog {
 		pnl.assignName(list, selected, ft);
 		pnl.pack();
 		pnl.setVisible(true);
+                
 
 	}
 
-	// private void addMouseClickedEvent(Container container){
-	// for (Component component : container.getComponents()) {
-	// component.addMouseListener(new MyMouseListener(this.constrainTable));
-	// if(component instanceof Container){
-	// addMouseClickedEvent((Container)component);
-	// }
-	// }
-	// }
+//	 private void addMouseClickedEvent(Container container){
+//	 for (Component component : container.getComponents()) {
+//	 component.addMouseListener(new MyMouseListener(this.constrainTable));
+//	 if(component instanceof Container){
+//	 addMouseClickedEvent((Container)component);
+//	 }
+//	 }
+//	 }
 
 	class ComboBoxRenderer extends BasicComboBoxRenderer {
 		/**

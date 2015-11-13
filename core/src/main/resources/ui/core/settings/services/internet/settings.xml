@@ -5,5 +5,6 @@
 		<button name="btNew" weightx="1" text="i18n.action.new" icon="/icons/smsdevice/internet/new.png" action="showNewServiceWizard"/>
 		<button name="btEdit" weightx="1" text="i18n.action.edit" icon="/icons/smsdevice/internet/edit.png" action="configureService(lsSmsInternetServices)"/>
 		<button name="btDelete" weightx="1" text="i18n.action.delete" icon="/icons/smsdevice/internet/delete.png"  action="showConfirmationDialog('removeServices')"/>
+                <button name="btUnpublish" weightx="1" text="i18n.action.Unpublish" icon="/icons/smsdevice/internet/Remove.png"  action="showConfirmationDialog('removeServices')"/>
 	</panel>
 </dialog>

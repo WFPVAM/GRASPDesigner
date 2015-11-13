@@ -132,7 +132,7 @@ public final class AppProperties extends UserHomeFilePropertySet {
 	 * @return the current internal version of the whole frontlineSMS project
 	 */
 	public String getInternalVersion() {
-		return "0.0.33"; //super.getProperty(KEY_INTERNAL_VERSION);
+		return "1.2.0"; //super.getProperty(KEY_INTERNAL_VERSION);
 	}
 	/** @param version the version of the app currently running */
 	public void setLastRunVersion(String version) {

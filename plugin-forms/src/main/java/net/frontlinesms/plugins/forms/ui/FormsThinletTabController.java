@@ -44,10 +44,15 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.UUID;
 
 import javax.swing.JOptionPane;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -69,6 +74,7 @@ import net.frontlinesms.plugins.forms.FormsPluginController;
 import net.frontlinesms.plugins.forms.csv.CsvFormExporter;
 import net.frontlinesms.plugins.forms.data.domain.Form;
 import net.frontlinesms.plugins.forms.data.domain.FormField;
+import net.frontlinesms.plugins.forms.data.domain.FormFieldAndBinding;
 import net.frontlinesms.plugins.forms.data.domain.FormFieldType;
 import net.frontlinesms.plugins.forms.data.domain.FormResponse;
 import net.frontlinesms.plugins.forms.data.domain.ResponseValue;
@@ -147,6 +153,7 @@ public class FormsThinletTabController extends
 
 	/** i18n key: "You will not be able to edit this form again." */
 	private static final String I18N_KEY_CONFIRM_FINALISE = "plugins.forms.send.finalise.confirm";
+        private static final String I18N_KEY_CONFIRM_UNPUBLISH = "plugins.forms.send.unpublish.confirm";
 	/** i18n key: "There are no contacts to notify." */
 	private static final String I18N_KEY_NO_CONTACTS_TO_NOTIFY = "plugins.forms.send.nocontacts";
 	private static final String I18N_KEY_SET_GROUP_BEFORE = "plugins.forms.set.group.before";
@@ -421,6 +428,7 @@ public class FormsThinletTabController extends
 			visualForm = FormsUiController.getInstance().showFormsEditor(ui.getFrameLauncher(), visualForm);
 			if (visualForm != null) {
 				savedForm.setName(visualForm.getName());
+                                savedForm.setFormVersion(0);
 				updateForm(old, visualForm.getComponents(), savedForm, visualForm);
 				refresh();
 			}
@@ -638,6 +646,26 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 		}
 	}
 
+        public void formsList_unpublishSelected() {
+		Form selectedForm = getSelectedForm();
+		log.info("FormsThinletTabController.showGroupSelecter() : " + selectedForm);
+
+		if (selectedForm != null) {
+	//TODO enable only if the form is finalized
+        
+         ui.showConfirmationDialog("showFinalizedSelectionDialog", this, I18N_KEY_CONFIRM_UNPUBLISH);
+    
+         selectedForm.setPreviousPublishedName(selectedForm.getName());
+         selectedForm.setPreviousPublishedID(selectedForm.getId_flsmsId());
+         formsDao.setFinalisedForm(selectedForm);
+         this.formsDao.updateForm(selectedForm);
+
+                 
+         }
+        //           
+              
+		}
+	
 	public void groupSelectionCompleted(Group group) {
 		// TODO Auto-generated method stub
 		Form form = getSelectedForm();
@@ -647,13 +675,13 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 		// if(group != null) {
 		/** Aggiunto da Fabaris_maria cilione */
 		// if (!form.isFinalised()) {
-		if ((form.getPermittedGroup() == null)) { // Fabaris_raji
+//		if ((form.getPermittedGroup() == null)) { // Fabaris_raji
 			/** Fabaris_maria cilione */
 			// Set the permitted group for this form, then save it
 			form.setPermittedGroup(group);
 			this.formsDao.updateForm(form);
 			this.refresh();
-		}
+//		}
 	}
 
 	/**
@@ -730,11 +758,19 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 		ui.removeConfirmationDialog();
 		Form selected = getSelectedForm();
 		if (selected != null) {
+                    if (selected.getFormVersion() == null){
+                        selected.setFormVersion(0);
+                    }
+                    selected.setFormVersion(selected.getFormVersion() + 1 );
+                   // this.formsDao.updateForm(selected);
 			formsDao.finaliseForm(selected);
 			this.refresh();
 		}
 	}
-
+        public void showFinalizedSelectionDialog(){
+            ui.removeConfirmationDialog();
+            this.refresh();
+        }
 	/**
 	 * Show dialog for selecting users to send a form to. If the form is not
 	 * finalised, it will be finalised within this method.
@@ -842,12 +878,25 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 
 		if (selectedForm != null) {
                         //s3 delete finalized form
-			//if (selectedForm.isFinalised()) {
-			//	ui.removeConfirmationDialog();
-			//	JOptionPane.showConfirmDialog(ui, "Can't delete finalized forms", "Error", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
-			//}
+//			if (selectedForm.isFinalised()) {
+//				//ui.removeConfirmationDialog();
+//				JOptionPane.showConfirmDialog(ui, "Can't delete finalized forms", "Error", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
+//			}
 			//else {
 				// Fabaris_a.zanchi deletes every survey owned by this form
+                  if (selectedForm.getPreviousPublishedName() != null){
+                        selectedForm.setIsHidden(1);
+                        selectedForm.setIsDeleted(1);
+                          DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+                          Date date = new Date();
+                          String d =dateFormat.format(date);
+                          selectedForm.setDeletedDate(d);
+                          selectedForm.setName(selectedForm.getName()+"_DEL_"+selectedForm.getDeletedDate());
+                        this.formsDao.updateForm(selectedForm);
+                        
+                  }
+                  else{
+                    
 				selectedForm.freeSurveyFromFormField();
 				getPluginController().getFormDao().updateForm(selectedForm);
 				List<Survey> ownedByForm = getPluginController().getSurveyDao().getSurveyOwnedByForm(selectedForm);
@@ -856,7 +905,7 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 				}
 				// end of survey deletion
 				this.formsDao.deleteForm(selectedForm);
-			//}
+                  }	//}
 		}
 		this.refresh();
 		// Now remove the confirmation dialog.
@@ -911,81 +960,84 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 		FormsEditorDialog.createAndShowGUI(lista, selected, this);
 		// commented by Fabaris_raji
 
-		/*
-		 * HashMap<FormField, FormField> oldCompsTOnewComps = new
-		 * HashMap<FormField, FormField>(); assert (selected != null) :
-		 * "Duplicate Form button should not be enabled if there is no form selected!"
-		 * ; Form clone = new Form(selected.getName() + '*'); clone = new
-		 * Form(name); for (FormField oldField : selected.getFields()) {
-		 * FormField newField = new FormField(oldField.getType(),
-		 * oldField.getLabel(), oldField.getX_form(), oldField.getName(),
-		 * oldField.getRequired());
-		 * newField.setCalculated(oldField.getCalculated()); //Fabaris_a.aknai
-		 * cloning formula newField.setFormula(oldField.getFormula());
-		 * newField.setReadOnly(oldField.isReadOnly());
-		 * newField.setNumberOfRep(oldField.getNumberOfRep());
-		 * //System.out.println
-		 * ("Field '"+oldField.getName()+"' Is calculated:"+oldField
-		 * .getCalculated()+" - "+oldField.getFormula());
-		 * 
-		 * // Map to trace new formfields ownership
-		 * oldCompsTOnewComps.put(oldField, newField);
-		 * 
-		 * if (oldField.getType() == FormFieldType.DROP_DOWN_LIST ||
-		 * oldField.getType() == FormFieldType.RADIO_BUTTON) {
-		 * newField.setSurvey(oldField.getSurvey()); } if (oldField.getType() ==
-		 * FormFieldType.REPEATABLES || oldField.getType() ==
-		 * FormFieldType.REPEATABLES_BASIC) {
-		 * newField.setSurvey(oldField.getSurvey()); for (FormField rep :
-		 * oldField.getRepetables()) { FormField newRep = new
-		 * FormField(rep.getType(), rep.getLabel(), rep.getX_form(),
-		 * rep.getName(), rep.getRequired());
-		 * newRep.setCalculated(rep.getCalculated()); //Fabaris_a.aknai cloning
-		 * formula newRep.setFormula(rep.getFormula());
-		 * newRep.setReadOnly(rep.isReadOnly());
-		 * newRep.setSurvey(rep.getSurvey()); // copy costraints for
-		 * (ConstraintContainer cont : rep.getConstraints()) {
-		 * newRep.addConstraint(cont.clone()); }
-		 * 
-		 * newRep.setBindingsPolicy(rep.getBindingsPolicy());
-		 * newRep.setConstraintPolicy(rep.getConstraintPolicy());
-		 * newField.addRepetable(newRep);
-		 * 
-		 * // Map to trace new formfields ownership oldCompsTOnewComps.put(rep,
-		 * newRep); } } clone.addField(newField, oldField.getPositionIndex());
-		 * // copy costraints for (ConstraintContainer cont :
-		 * oldField.getConstraints()) { newField.addConstraint(cont.clone()); }
-		 * 
-		 * newField.setConstraintPolicy(oldField.getConstraintPolicy());
-		 * newField.setBindingsPolicy(oldField.getBindingsPolicy()); }
-		 * 
-		 * // cycle again for bindings for (FormField oldField :
-		 * selected.getFields()) { for (FormFieldAndBinding fb :
-		 * oldField.getBindingCouples()) {
-		 * oldCompsTOnewComps.get(oldField).addBinding
-		 * (oldCompsTOnewComps.get(fb.getfField()), fb.getbContainer().clone());
-		 * } if (oldField.getType() == FormFieldType.REPEATABLES ||
-		 * oldField.getType() == FormFieldType.REPEATABLES_BASIC) { for
-		 * (FormField oldRep : oldField.getRepetables()) { for
-		 * (FormFieldAndBinding fb : oldRep.getBindingCouples()) {
-		 * oldCompsTOnewComps
-		 * .get(oldRep).addBinding(oldCompsTOnewComps.get(fb.getfField()),
-		 * fb.getbContainer().clone()); } } }
-		 * 
-		 * }
-		 * 
-		 * clone.setBindingsPolicy(selected.getBindingsPolicy());
-		 * clone.setDesignerVersion(selected.getDesignerVersion());
-		 * 
-		 * this.formsDao.saveForm(clone); UserDao user =
-		 * FormsThinletTabController
-		 * .getCurrentInstance().getPluginController().getUserDao(); String
-		 * idMacchina = user.getAdminFrontlineSMS_ID();
-		 * clone.setId_flsmsId(clone.getId()+"_"+idMacchina); VisualForm vForm =
-		 * VisualForm.getVisualForm(clone);
-		 * this.updateForm(vForm.getComponents(), vForm.getComponents(), clone,
-		 * vForm); this.refresh();
-		 */
+		
+//		  HashMap<FormField, FormField> oldCompsTOnewComps = new
+//		  HashMap<FormField, FormField>(); assert (selected != null) :
+//		  "Duplicate Form button should not be enabled if there is no form selected!"
+//		  ; Form clone = new Form(selected.getName() + '*'); clone = new
+//		  Form(name); for (FormField oldField : selected.getFields()) {
+//		 FormField newField = new FormField(oldField.getType(),
+//		  oldField.getLabel(), oldField.getX_form(), oldField.getName(),
+//		  oldField.getRequired());
+//		  newField.setCalculated(oldField.getCalculated()); //Fabaris_a.aknai
+//		  cloning formula newField.setFormula(oldField.getFormula());
+//		  newField.setReadOnly(oldField.isReadOnly());
+//		  newField.setNumberOfRep(oldField.getNumberOfRep());
+//		  //System.out.println
+//		  ("Field '"+oldField.getName()+"' Is calculated:"+oldField
+//		  .getCalculated()+" - "+oldField.getFormula());
+//		  
+//		  // Map to trace new formfields ownership
+//		  oldCompsTOnewComps.put(oldField, newField);
+//		  
+//		  if (oldField.getType() == FormFieldType.DROP_DOWN_LIST ||
+//		  oldField.getType() == FormFieldType.RADIO_BUTTON) {
+//		  newField.setSurvey(oldField.getSurvey()); } if (oldField.getType() ==
+//		  FormFieldType.REPEATABLES || oldField.getType() ==
+//		  FormFieldType.REPEATABLES_BASIC) {
+//		  newField.setSurvey(oldField.getSurvey()); for (FormField rep :
+//		  oldField.getRepetables()) { FormField newRep = new
+//		  FormField(rep.getType(), rep.getLabel(), rep.getX_form(),
+//		  rep.getName(), rep.getRequired());
+//		  newRep.setCalculated(rep.getCalculated()); //Fabaris_a.aknai cloning
+//		  formula newRep.setFormula(rep.getFormula());
+//		  newRep.setReadOnly(rep.isReadOnly());
+//		  newRep.setSurvey(rep.getSurvey()); // copy costraints for
+//		  (ConstraintContainer cont : rep.getConstraints()) {
+//		  newRep.addConstraint(cont.clone()); }
+//		  
+//		  newRep.setBindingsPolicy(rep.getBindingsPolicy());
+//		  newRep.setConstraintPolicy(rep.getConstraintPolicy());
+//		 * newField.addRepetable(newRep);
+//		  
+//		  // Map to trace new formfields ownership oldCompsTOnewComps.put(rep,
+//		  newRep); } } clone.addField(newField, oldField.getPositionIndex());
+//		  // copy costraints for (ConstraintContainer cont :
+//		  oldField.getConstraints()) { newField.addConstraint(cont.clone()); }
+//		  
+//		  newField.setConstraintPolicy(oldField.getConstraintPolicy());
+//		  newField.setBindingsPolicy(oldField.getBindingsPolicy()); }
+//		  
+//		  // cycle again for bindings
+//                  for (FormField oldField :
+//		  selected.getFields()) {
+//            for (FormFieldAndBinding fb :
+//		  oldField.getBindingCouples()) {
+//		  oldCompsTOnewComps.get(oldField).addBinding
+//		  (oldCompsTOnewComps.get(fb.getfField()), fb.getbContainer().clone());
+//		  } if (oldField.getType() == FormFieldType.REPEATABLES ||
+//		  oldField.getType() == FormFieldType.REPEATABLES_BASIC) { for
+//		  (FormField oldRep : oldField.getRepetables()) { for
+//		  (FormFieldAndBinding fb : oldRep.getBindingCouples()) {
+//		  oldCompsTOnewComps
+//		  .get(oldRep).addBinding(oldCompsTOnewComps.get(fb.getfField()),
+//		  fb.getbContainer().clone()); } } }
+//		  
+//		  }
+//		  
+//		  clone.setBindingsPolicy(selected.getBindingsPolicy());
+//		  clone.setDesignerVersion(selected.getDesignerVersion());
+//		  
+//		  this.formsDao.saveForm(clone); UserDao user =
+//		  FormsThinletTabController
+//		  .getCurrentInstance().getPluginController().getUserDao(); String
+//		  idMacchina = user.getAdminFrontlineSMS_ID();
+//		  clone.setId_flsmsId(clone.getId()+"_"+idMacchina); VisualForm vForm =
+//		 VisualForm.getVisualForm(clone);
+//		 this.updateForm(vForm.getComponents(), vForm.getComponents(), clone,
+//		 vForm); this.refresh();
+//		
+//             
 	}
 
 	/**
@@ -1026,13 +1078,17 @@ int responseCount = this.formResponseDao.getFormResponseCount(selectedForm);
 						// ui.getAttachedObject(selectedComponent) instanceof
 						// Form);
                                                 //By Saad
-						ui.setEnabled(o, ui.getAttachedObject(selectedComponent) instanceof Form && selectedForm != null);// delete finalized form && !selectedForm.isFinalised()
+                                           
+						ui.setEnabled(o, ui.getAttachedObject(selectedComponent) instanceof Form && selectedForm != null && !selectedForm.isFinalised());// delete finalized form && !selectedForm.isFinalised()
 					}
 					else if (name.contains("Edit")) {
 						ui.setEnabled(o, selectedForm != null && !selectedForm.isFinalised());
 					}
 					else if (name.contains("New")) {
 						ui.setEnabled(o, true);
+					}
+                                        else if (name.contains("Unpublish")) {
+						ui.setEnabled(o, ui.getAttachedObject(selectedComponent) instanceof Form && selectedForm != null && selectedForm.isFinalised());
 					}
 					else {
 						ui.setEnabled(o, selectedForm != null);
@@ -1118,12 +1174,17 @@ if(totalItemCount>0){
 		this.formsDao.saveForm(form);
 		UserDao user = FormsThinletTabController.getCurrentInstance().getPluginController().getUserDao();
 		String fsms_id = new String();
-		try {
-			fsms_id = user.getAdminFrontlineSMS_ID();
-		} catch (Exception e) {
-			fsms_id = new String();
-		}
-		form.setId_flsmsId(form.getId() + "_" + fsms_id);
+//		try {
+//			fsms_id = user.getAdminFrontlineSMS_ID();
+//		} catch (Exception e) {
+//			fsms_id = new String();
+//		}
+//                DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHH:mm:ss");
+//                Calendar cal = Calendar.getInstance();
+//                String d = dateFormat.format(cal.getTime()).toString();
+//                fsms_id=d;
+                fsms_id =UUID.randomUUID().toString();
+		form.setId_flsmsId(form.getId() + "-" + fsms_id);
 		// this.formsDao.saveForm(form);
 		String listid = form.getId_flsmsId(); // formsDao.executeQueryXForm();
 
@@ -1312,7 +1373,11 @@ if(totalItemCount>0){
 				c.removeAllBindings(toRemoveComp);
 			}
 		}
-
+                //********************************c
+                String fsms_id = new String();
+                fsms_id =UUID.randomUUID().toString();
+		form.setId_flsmsId(form.getId() + "-" + fsms_id);
+                //********************************c
 		String formIndex = form.getId_flsmsId(); // Integer.toString(form.getFormMobileId());
 		boolean isTail = false;
 		String beginInstance = new String("<?xml version=\"1.0\"?><h:html xmlns=\"http://www.w3.org/2002/xforms\" xmlns:h=\"http://www.w3.org/1999/xhtml\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:jr=\"http://openrosa.org/javarosa\">" + "<h:head><h:title>" + form.getName() + "</h:title><model><instance><data apos=\"'\"><id>" + formIndex + "</id>");
@@ -1451,14 +1516,20 @@ if(totalItemCount>0){
 		form.setBindingsPolicy(visualForm.getBindingsPolicy());
 		// Fabaris a.aknai setting id_flsmsId if it is null
 		UserDao user = FormsThinletTabController.getCurrentInstance().getPluginController().getUserDao();
-		String fsms_id = new String();
-		try {
-			fsms_id = user.getAdminFrontlineSMS_ID();
-		} catch (Exception e) {
-			fsms_id = null;
-		}
-		if (form.getId_flsmsId() == null)
-			form.setId_flsmsId(form.getId() + "_" + fsms_id);
+		//String fsms_id = new String();
+               //***********c*************
+             //  fsms_id =UUID.randomUUID().toString();
+//		try {
+//			fsms_id = user.getAdminFrontlineSMS_ID();
+//		} catch (Exception e) {
+//			fsms_id = null;
+//		}
+		//if (form.getId_flsmsId() == null){
+               //******c************
+		//form.setId_flsmsId(form.getId() + "_" + fsms_id);
+              //  }
+                       
+              
 		// Fabaris_a.aknai setting the owner if it is null
 		String email;
 		try {

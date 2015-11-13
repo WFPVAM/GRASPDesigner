@@ -52,6 +52,7 @@ import net.frontlinesms.plugins.forms.data.domain.FormField;
 import net.frontlinesms.plugins.forms.data.domain.FormFieldType;
 import net.frontlinesms.plugins.forms.data.domain.Survey;
 import net.frontlinesms.plugins.forms.data.domain.SurveyElement;
+import net.frontlinesms.plugins.forms.ui.PropertiesTable;
 import net.frontlinesms.ui.i18n.InternationalisationUtils;
 
 import org.jdom.output.XMLOutputter;
@@ -1559,6 +1560,8 @@ public class PreviewComponent {
 
 	public void setDefaultComponent(boolean isDefaultComponent) {
 		this.isDefaultComponent = isDefaultComponent;
+               
+                
 	}
 
 	public int getNumberOfReps() {

@@ -194,11 +194,6 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.microsoft.sqlserver.jdbc</groupId>
-            <artifactId>sqljdbc</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
             <groupId>net.frontlinesms.core</groupId>
             <artifactId>frontlinesms-dist</artifactId>
             <version>1.7.00-beta-5</version>
@@ -218,7 +213,7 @@
         <repository>
             <id>my-internal-site</id>
             <!--url>file://C:/Users/r.joseph/.m2</url-->
-            <url>file://C:/.m2</url>
+            <url>file://C:/Users/claudia.alawi/.m2</url>
         </repository>
     </repositories>
 </project>

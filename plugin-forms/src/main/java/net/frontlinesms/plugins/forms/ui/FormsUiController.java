@@ -93,7 +93,7 @@ public class FormsUiController {
 	private VisualForm current;
 	private DrawingPanel pnDrawing;
 	PreviewPanelRepeatables pnRepeatablePreview;
-
+       
 	//*added by Fabaris_raji
 	List<PreviewComponent> componentslst = new ArrayList<PreviewComponent>();
 	boolean check=false;				
@@ -143,6 +143,14 @@ public class FormsUiController {
 		//this.mainFrame.getConstraintTable().repaint();
 		if(mainFrame.getSelectedComponent() != null){
 			FComponent comp = mainFrame.getSelectedComponent().getComponent();
+//                        String s =comp.getName().toLowerCase();
+//                        if(s.contains("date") || 
+//                           s.contains("enumerator") ||
+//                           s.contains("GPS")){
+//                            PropertiesTable.defaultCopm= true;
+//                        }
+//                        else
+//                            PropertiesTable.defaultCopm= true;
 			if(comp != null && (comp instanceof TextArea || comp instanceof TextField)){
 				mainFrame.enableIsCalculatedControl(false);
 			}
@@ -158,6 +166,7 @@ public class FormsUiController {
 						mainFrame.getSelectedComponent().getFormField().setLabel(value);
 					}
 					mainFrame.refreshPreview();
+                                        
 				}
 			}
 			// Fabaris_raji Fabaris_m.cilione for name field control
@@ -443,7 +452,7 @@ public class FormsUiController {
 		DefaultComponentDescriptor.UNMODIFIABLE_COMPONENT_INDEX = list.size() - 1;
 
 		ret = new FComponent[list.size()];
-
+                 
 		int index = 0;
 		for (String s : list) {
 			String[] info = prop.getProperty(s).split(",");
@@ -464,9 +473,11 @@ public class FormsUiController {
                                                 s.contains("enumerator") ||
                                                 s.contains("GPS")) {
 						fComp.setReadOnly(false);
+                                               
 					}
 					else {
 						fComp.setReadOnly(true);
+                                              
 					}
 					if (info.length == 3)
 						fComp.setLabel(info[2].trim());
@@ -526,16 +537,19 @@ public class FormsUiController {
 	}
 	
 	public void clickOnHeaderFieldInPreviewPanel(){
+                 showProperties(); 
 		setRequiredValue(true);
-		enablePropertyPanel(false);
+		//enablePropertyPanel(false);// to enable editing the required fields in first section
 		enableValidityPanel(false);
 		enableVisibilityPanel(false);
-		resetPropertyTable();
+		//resetPropertyTable();
 		resetBindingTable();
 		resetConstraintTable();
 		enableBindingTable(false);
-		enablePropertiesTable(false);
+		//enablePropertiesTable(true);
 		enableConstraintTable(false);
+     
+                
 	}
 	
 	
@@ -543,4 +557,5 @@ public class FormsUiController {
 	public void setRequiredValue(boolean required){
 		mainFrame.setRequiredValue(required);
 	}
+        
 }
