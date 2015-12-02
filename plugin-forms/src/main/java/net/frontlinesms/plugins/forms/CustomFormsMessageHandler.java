@@ -16,6 +16,7 @@
 package net.frontlinesms.plugins.forms;
 
 import java.io.FileOutputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
@@ -279,7 +280,7 @@ public class CustomFormsMessageHandler implements FormsMessageHandler {
                         String imageName=ff.getName()+".jpg";
                         try {
                             tempValue=value;
-                            value=imageName;
+                            //value=imageName; Removed by Saad Mansour
                             System.out.println("tempValue "+tempValue);
                             System.out.println("value "+value);
                             
@@ -310,6 +311,7 @@ public class CustomFormsMessageHandler implements FormsMessageHandler {
                 if (ff.getType() == FormFieldType.CHECK_BOX && value.equals("")) {
                     value = "false";
                 }
+                
                 // added by a.aknai@fabaris
                 if (value != null && value.equals("")) {
                     value = null;
@@ -320,6 +322,24 @@ public class CustomFormsMessageHandler implements FormsMessageHandler {
                 responseValue.setFormFieldId((int) ff.getId());
                 responseValue.setTempValue(tempValue);
                 responseValue.setIsImage(isImage);
+                
+                if (ff.getType() == FormFieldType.NUMERIC_TEXT_FIELD) {
+                    try {
+                        float nvalue = Float.parseFloat(value);
+                        responseValue.setNvalue(nvalue);
+                    }catch(NumberFormatException e)
+                    {}
+                }
+                
+//                if (ff.getType() == FormFieldType.DATE_FIELD) {
+//                    try {
+//                        2015-11-06 21:55:27.810
+//                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-/yyyy HH:mm");
+//                        float dvalue = Date.(value);
+//                        responseValue.setDvalue(dvalue);
+//                    }catch(NumberFormatException e)
+//                    {}
+//                }
                 
                 /*if (formId != null) {
                  if (formId.contains("_")) {
