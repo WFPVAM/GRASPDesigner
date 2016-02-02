@@ -88,6 +88,7 @@ public class FormResponse implements Serializable {
 	/**aggiunto Fabaris_maria cilione.*/
 	private String Code_Form;
 	private boolean fromDataEntry = false;
+        private int ResponseStatusID = 1;
 
 //> CONSTRUCTORS
 	/** Empty constructor for hibernate */
@@ -103,11 +104,15 @@ public class FormResponse implements Serializable {
 		this.senderMsisdn = senderMsisdn;
 		this.setParentForm(parentForm);
 		this.results = results;
+                this.setResponseStatusID(1);
 	}
-		public FormResponse(String senderMsisdn, Form parentForm) {
+        
+        public FormResponse(String senderMsisdn, Form parentForm) {
 		this.senderMsisdn = senderMsisdn;
 		this.setParentForm(parentForm);
-		}
+                this.setResponseStatusID(1);
+	}
+        
 	/**Fabaris_a.zanchi
 	 * Creates a new form response with client version
 	 * @param senderMsisdn
@@ -191,5 +196,13 @@ public class FormResponse implements Serializable {
 	
 	public long getId(){
 		return this.id;
+	}
+        
+        public void setResponseStatusID(int responseStatusID) {
+		this.ResponseStatusID  = responseStatusID;
+	}
+	
+	public int getResponseStatusID() {
+		return ResponseStatusID;
 	}
 }

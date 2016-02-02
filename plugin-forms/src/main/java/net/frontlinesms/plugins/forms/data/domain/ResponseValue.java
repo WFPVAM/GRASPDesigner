@@ -37,6 +37,7 @@
 package net.frontlinesms.plugins.forms.data.domain;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 import java.util.HashSet;
 import java.util.List;
@@ -109,6 +110,8 @@ public class ResponseValue {
     private String tempValue;
     @Transient
     private boolean isImage;
+    private float nvalue;
+    private Date dvalue;
 
     public String getId() {
         return String.valueOf(id);
@@ -212,7 +215,7 @@ public class ResponseValue {
     public int getRVRepeatCount() {
         return RVRepeatCount;
     }
-
+    
     public void setRVRepeatCount(int rVRepeatCount) {
         this.RVRepeatCount = rVRepeatCount;
     }
@@ -233,6 +236,19 @@ public class ResponseValue {
         this.isImage = isImage;
     }
     
+    public float getNvalue() {
+        return nvalue;
+    }
     
-
+    public void setNvalue(float nvalue) {
+        this.nvalue = nvalue;
+    }
+    
+    public Date getDvalue() {
+        return dvalue;
+    }
+    
+    public void setDvalue(Date dvalue) {
+        this.dvalue = dvalue;
+    }
 }
