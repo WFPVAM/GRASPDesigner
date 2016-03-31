@@ -24,6 +24,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.UUID;
 
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -137,7 +138,7 @@ public class FNamePanel extends JDialog {
                 }
                 if (!check) {
 
-                    setName(text, selected, ft);
+                   setName(text, selected, ft);
                     dispose();
                 } else {
                     JOptionPane.showMessageDialog(owner, "Form name already exists", "Error", JOptionPane.WARNING_MESSAGE);
@@ -146,6 +147,7 @@ public class FNamePanel extends JDialog {
 
                 }
                 dispose();
+               
             }
 
         });
@@ -263,8 +265,9 @@ public class FNamePanel extends JDialog {
 
         ft.formsDao.saveForm(clone);
         UserDao user = FormsThinletTabController.getCurrentInstance().getPluginController().getUserDao();
-        String idMacchina = user.getAdminFrontlineSMS_ID();
-        clone.setId_flsmsId(clone.getId() + "_" + idMacchina);
+       // String idMacchina = user.getAdminFrontlineSMS_ID();
+        String fsms_id =UUID.randomUUID().toString();
+        clone.setId_flsmsId(clone.getId() + "_" + fsms_id);
         VisualForm vForm = VisualForm.getVisualForm(clone);
         ft.updateForm(vForm.getComponents(), vForm.getComponents(), clone, vForm);
 

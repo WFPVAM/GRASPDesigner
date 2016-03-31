@@ -566,8 +566,14 @@ public class PreviewPanel extends JPanel implements MouseListener, KeyListener {
 						pc.getComponent().getName().equals(PreviewPanel.date) || 
 						pc.getComponent().getName().equals(PreviewPanel.section0) ||
                                                 pc.getComponent().getName().equals(PreviewPanel.gps)){
-						formUiController.clickOnHeaderFieldInPreviewPanel();
+                                                PropertiesTable.section0= true;	
+                                                
+                                                formUiController.clickOnHeaderFieldInPreviewPanel();
+                                                
+                                                
+                                                
 				}else{
+                                        PropertiesTable.section0= false;	
                                         formUiController.enablePropertyPanel(true);	
                                         formUiController.enableBindingTable(true);
 					formUiController.enableConstraintTable(true);

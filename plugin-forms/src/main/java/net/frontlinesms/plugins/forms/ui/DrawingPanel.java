@@ -610,10 +610,26 @@ public class DrawingPanel extends JPanel{
 		//sets the existing components in the first section as default components
 		if (form.getComponents().size() != 0) {
 			int defComps = DefaultComponentDescriptor.UNMODIFIABLE_COMPONENT_INDEX + 1;
-			System.out.println(defComps);
-			for (int i = 0; i < defComps; i++) {
+                        int formComponentSize = form.getComponents().size();
+                        int defCompsSize;
+                        if ((defComps <=  formComponentSize)
+                                && (form.getComponents().get(4).getComponent().getName().equals("gps"))
+                                && (form.getComponents().get(4).getComponent().getLabel().equals("Geographic Location (GPS)"))) {
+                            defCompsSize = defComps;
+                        }else
+                        {
+                            DefaultComponentDescriptor.UNMODIFIABLE_COMPONENT_INDEX = 4;
+                            defCompsSize = 5;
+                        }
+
+			System.out.println(defCompsSize);
+			for (int i = 0; i < defCompsSize; i++) {
 				form.getComponents().get(i).setDefaultComponent(true);
-			}
+                               
+                                
+                                      
+                        }
+                        
 		}
 		pnPreview.showForm(form);
 	}

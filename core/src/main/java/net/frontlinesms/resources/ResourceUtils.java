@@ -93,12 +93,18 @@ public class ResourceUtils {
 	 * @throws IOException
 	 */
 	public static final void unzip(InputStream inputArchiveAsStream, File outputDirectory, boolean overwriteOverwriteables) throws IOException {
-		ZipInputStream in = new ZipInputStream(new BufferedInputStream(inputArchiveAsStream));
+	overwriteOverwriteables = true;	
+            ZipInputStream in = new ZipInputStream(new BufferedInputStream(inputArchiveAsStream));
 		byte[] buffer = new byte[BUFFER_SIZE];
 		ZipEntry entry;
 		String graveyardName = GRAVEYARD + "_" + generateGraveyardTimestamp() + File.separator;
 		while((entry=in.getNextEntry()) != null) {
 			if(!entry.isDirectory()) {
+                                //Added by Saad 12/2/2015
+                                //if (entry.getName().equals("properties/sqlserver.database.xml.properties")) {
+                                //    continue; 
+                                //}
+                                
 				boolean remove = false;
 				File outputFile = new File(outputDirectory, entry.getName());
 				outputFile.getParentFile().mkdirs();

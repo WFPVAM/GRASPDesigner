@@ -76,6 +76,16 @@ public class Form implements Serializable {
 	public static final String FIELD_PERMITTED = "permittedGroup";
 	/** Column name for {@link #isHidden} */
 	public static final String FIELD_ISHIDDEN = "isHidden";
+        /** Column name for {@link #FormVersion} */
+        public static final String FIELD_FORMVERSION = "FormVersion";
+          /** Column name for {@link #PreviousPublishedName} */
+        public static final String FIELD_PREVIOUSPUBLISHEDNAME = "PreviousPublishedName";
+           /** Column name for {@link #IsDeleted} */
+        public static final String FIELD_ISDELETED = "IsDeleted";
+           /** Column name for {@link #DeletedDate} */
+        public static final String FIELD_DELETEDDATE = "DeletedDate";
+               /** Column name for {@link #PreviousPublishedName} */
+        public static final String FIELD_PREVIOUSPUBLISHEDID = "PreviousPublishedID";
 	/**Aggiunto da maria c.*/
 //> INSTANCE PROPERTIES
 	/** Unique id for this entity.  This is for hibernate usage. */
@@ -94,10 +104,12 @@ public class Form implements Serializable {
 	@ManyToOne
 	private Group permittedGroup;
 	/** Fields attached to this form */
+
 	@OneToMany(fetch=FetchType.EAGER, targetEntity=FormField.class,cascade=CascadeType.ALL)
 	@Cascade(org.hibernate.annotations.CascadeType.DELETE_ORPHAN)
 	@OrderBy(value="positionIndex asc")
 	private List<FormField> fields = new ArrayList<FormField>();
+       
 	/**Fabaris_maria cilione.*/
 	//Fabaris_a.zanchi String to represent the AND-OR binding policy
 	private String bindingsPolicy;
@@ -107,6 +119,11 @@ public class Form implements Serializable {
 	private String owner;//Fabaris_raji	
 	private String id_flsmsId;//Fabaris_raji	
 	private Integer isHidden=0;
+        private Integer FormVersion= 0;
+        private String PreviousPublishedName;
+        private String DeletedDate;
+        private Integer IsDeleted=0;
+        private String PreviousPublishedID;
 
 	/**Fabaris_maria cilione.*/
 	//> CONSTRUCTORS
@@ -135,6 +152,24 @@ public class Form implements Serializable {
 	public void finalise() {
 		this.finalised = true;
 	}
+        public void unFinalise(){
+            this.finalised=false;
+           
+        }
+        
+        public void setPreviousPublishedName(String previousName){
+             this.PreviousPublishedName =previousName;
+        }
+        
+        public String getPreviousPublishedName(){
+            return this.PreviousPublishedName;
+        }
+        /*
+        change the form verion
+        */
+        public void setFormVersion( int versionNumber){
+           this.FormVersion = versionNumber; 
+        }
 	/** @return {@link #name} */
 	public String getName() {
 		return this.name;
@@ -148,11 +183,16 @@ public class Form implements Serializable {
 	public List<FormField> getFields() {
 		return Collections.unmodifiableList(this.fields);
 	}
+        
+      
 	
 	/** @return {@link #permittedGroup} */
 	public Group getPermittedGroup() {
 		return permittedGroup;
 	}
+        public Integer getFormVersion(){
+            return this.FormVersion;
+        }
 
 	/** @param group new value for {@link #permittedGroup} */
 	public void setPermittedGroup(Group group) {
@@ -337,4 +377,23 @@ public class Form implements Serializable {
 	public void setIsHidden(int isHidden) {
 		this.isHidden = isHidden;
 	}
+        
+        public void setIsDeleted(int deleted){
+            this.IsDeleted= deleted;
+        }
+        public int getIsDeleted(){
+            return this.IsDeleted;
+        }
+        public void setDeletedDate(String deletedDate){
+            this.DeletedDate =deletedDate;
+        }
+        public String getDeletedDate(){
+            return this.DeletedDate;
+        }
+        public void setPreviousPublishedID(String previousPublishedId ){
+            this.PreviousPublishedID= previousPublishedId;
+        }
+        public String getPreviousPublishedID(){
+            return this.PreviousPublishedID;
+        }
 }

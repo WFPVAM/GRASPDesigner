@@ -193,6 +193,19 @@ public class HibernateFormDao extends BaseHibernateDao<Form> implements FormDao,
 			throw new RuntimeException("This mobile ID has already been set.");
 		}
 	}
+        public void setFinalisedForm(Form form) throws IllegalStateException {
+		form.unFinalise();
+
+		try {
+			
+                        
+                        
+                        super.update(form);
+//                        super.save(form);
+		} catch (DuplicateKeyException e) {
+			throw new RuntimeException("This mobile ID has already been set.");
+		}
+	}
 
 	public void dereferenceGroup(Group group) {
 		DetachedCriteria criteria = super.getCriterion();

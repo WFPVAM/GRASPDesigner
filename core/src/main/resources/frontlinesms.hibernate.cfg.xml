@@ -16,10 +16,10 @@
   <mapping class="net.frontlinesms.data.domain.SmsInternetServiceSettings"/>
   <mapping class="net.frontlinesms.data.domain.SmsInternetServiceSettingValue"/>
   <mapping class="net.frontlinesms.data.domain.SmsModemSettings"/>
-  <!-- Added by Fabaris_Raji -->
-<!--  <mapping class="net.frontlinesms.data.domain.User_Credential"/>
+  <!-- Added by Fabaris_Raji //Uncommented by Saad -->
+  <mapping class="net.frontlinesms.data.domain.User_Credential"/>
   <mapping class="net.frontlinesms.data.domain.Roles"/>
-  <mapping class="net.frontlinesms.data.domain.DataTransfer"/>-->
+  <mapping class="net.frontlinesms.data.domain.DataTransfer"/>
   <!-- Added by Fabaris_a.zanchi 
   <mapping class="net.frontlinesms.plugins.forms.data.repository.hibernate.HibernateFormDao" />
 		<mapping class="net.frontlinesms.plugins.forms.data.repository.hibernate.HibernateFormResponseDao" /> -->

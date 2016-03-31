@@ -60,7 +60,7 @@ public class PropertiesTable extends JTable {
 	private MyTableModel model;
 	private Vector<Object> columns;
 	private Vector<String> data = null;
-
+        public static boolean section0= false;
 
 	public PropertiesTable() {
 		FrontlineFormsCellRenderer frontlineFormsCellRenderer = new FrontlineFormsCellRenderer();
@@ -88,7 +88,13 @@ public class PropertiesTable extends JTable {
 		  	model.addRow(new Object[] { property, value });
 			
 	}
+         public boolean isCellEditable(int row, int column) { 
+            if (section0)
+             return row==1 && column==1 ;
+            else
+            return (row==1&& column==1) || (row == 2&& column==1); 
 
+        };
 	// a.zanchi modifica per inserire checkbox
 	@SuppressWarnings("serial")
 	private class FrontlineFormsCellRenderer extends DefaultTableCellRenderer {

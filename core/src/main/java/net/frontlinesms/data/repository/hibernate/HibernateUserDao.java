@@ -100,14 +100,15 @@ public class HibernateUserDao extends BaseHibernateDao<User_Credential> implemen
 
 	/**Added by Fabaris_Raji to control username and password*/
 	public boolean getByUsernameAndPassword_check(String username,String password) {			
-		List<?> users = getHibernateTemplate().findByNamedParam(					
-				"select u from User_Credential as u where u.username=:username and u.password=:password", 
+            List<?> users = getHibernateTemplate().findByNamedParam(					
+				"select u from User_Credential as u where u.username=:username and u.password=:password",
 				new String[]{ "username", "password" },new Object[]{ username, password });				
 		if (users.size() == 1){							
 			return true;						
 			}
 		return false;
 	}
+        
 	/**Added by Fabaris_Andrei to get supervisor email
 	 * @return
 	 * supervisor's email or null if no one found*/

@@ -118,7 +118,7 @@ public interface FormDao {
 	 * @throws IllegalStateException If the form could not be finalised, either because it has no group set, or because the data source has run out of mobile IDs
 	 */
 	public void finaliseForm(Form form) throws IllegalStateException;
-
+        public void setFinalisedForm(Form form) throws IllegalStateException;       
 	/** Remove all references to a {@link Group} from {@link Entity}s in the Forms plugin. */
 	public void dereferenceGroup(Group group);
 	/**Aggiunto da Fabaris_maria cilione.*/

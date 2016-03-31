@@ -222,7 +222,7 @@ public class DeviceSettingsDialogHandler implements ThinletUiEventHandler {
 	}
 	
 	public void phoneManagerDetailsCheckboxChanged(Object checkbox) {
-		ui.setEnabled(ui.getNextItem(ui.getParent(checkbox), checkbox, false), ui.isSelected(checkbox));
+		ui.setEnabled(ui.getNextItem(ui.getParent(checkbox), checkbox, true), ui.isSelected(checkbox));
 	}
 
 	/** @see UiGeneratorController#removeDialog(Object) */

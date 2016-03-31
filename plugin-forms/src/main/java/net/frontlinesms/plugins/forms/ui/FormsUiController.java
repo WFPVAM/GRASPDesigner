@@ -42,6 +42,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -64,6 +65,8 @@ import net.frontlinesms.plugins.forms.ui.components.TruncatedText;
 import net.frontlinesms.plugins.forms.ui.components.WrappedText;
 import net.frontlinesms.plugins.forms.ui.components.PreviewComponent.BindType;
 import net.frontlinesms.plugins.forms.ui.components.VisualForm;
+import net.frontlinesms.resources.ResourceUtils;
+import static net.frontlinesms.resources.UserHomeFilePropertySet.LOG;
 import net.frontlinesms.ui.i18n.InternationalisationUtils;
 
 /**
@@ -90,7 +93,7 @@ public class FormsUiController {
 	private VisualForm current;
 	private DrawingPanel pnDrawing;
 	PreviewPanelRepeatables pnRepeatablePreview;
-
+       
 	//*added by Fabaris_raji
 	List<PreviewComponent> componentslst = new ArrayList<PreviewComponent>();
 	boolean check=false;				
@@ -140,6 +143,14 @@ public class FormsUiController {
 		//this.mainFrame.getConstraintTable().repaint();
 		if(mainFrame.getSelectedComponent() != null){
 			FComponent comp = mainFrame.getSelectedComponent().getComponent();
+//                        String s =comp.getName().toLowerCase();
+//                        if(s.contains("date") || 
+//                           s.contains("enumerator") ||
+//                           s.contains("GPS")){
+//                            PropertiesTable.defaultCopm= true;
+//                        }
+//                        else
+//                            PropertiesTable.defaultCopm= true;
 			if(comp != null && (comp instanceof TextArea || comp instanceof TextField)){
 				mainFrame.enableIsCalculatedControl(false);
 			}
@@ -155,6 +166,7 @@ public class FormsUiController {
 						mainFrame.getSelectedComponent().getFormField().setLabel(value);
 					}
 					mainFrame.refreshPreview();
+                                        
 				}
 			}
 			// Fabaris_raji Fabaris_m.cilione for name field control
@@ -415,25 +427,32 @@ public class FormsUiController {
 
 		Properties prop = new Properties();
 		//String filePath = System.getProperty("user.home") + "/FrontlineSMS/properties/default_components";
-                String filePath = "./../core/src/main/resources/resources/properties/default_components";
-		FileInputStream fis = null;
-		try {
-			fis = new FileInputStream(new File(filePath));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+                //String filePath = getClass().getResource().; "./src/main/resources/resources/properties/default_components";
+//		FileInputStream fis = null;
+//		try {
+//			 fis = new FileInputStream(new File(filePath));
+//		} catch (FileNotFoundException e) {
+//			e.printStackTrace();
+//		}
+                String filePath = "/resources/properties/default_components";
+                InputStream fis = ResourceUtils.class.getResourceAsStream(filePath);
+                if(fis == null) {
+                    LOG.fatal("default_components file could not be found!");
+                }
+                
 		try {
 			prop.load(fis);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+                
 		Set<String> list = prop.stringPropertyNames();
 
 		//Set as umodifiable every component except the last component (a separator)
 		DefaultComponentDescriptor.UNMODIFIABLE_COMPONENT_INDEX = list.size() - 1;
 
 		ret = new FComponent[list.size()];
-
+                 
 		int index = 0;
 		for (String s : list) {
 			String[] info = prop.getProperty(s).split(",");
@@ -454,9 +473,11 @@ public class FormsUiController {
                                                 s.contains("enumerator") ||
                                                 s.contains("GPS")) {
 						fComp.setReadOnly(false);
+                                               
 					}
 					else {
 						fComp.setReadOnly(true);
+                                              
 					}
 					if (info.length == 3)
 						fComp.setLabel(info[2].trim());
@@ -516,16 +537,19 @@ public class FormsUiController {
 	}
 	
 	public void clickOnHeaderFieldInPreviewPanel(){
+                 showProperties(); 
 		setRequiredValue(true);
-		enablePropertyPanel(false);
+		//enablePropertyPanel(false);// to enable editing the required fields in first section
 		enableValidityPanel(false);
 		enableVisibilityPanel(false);
-		resetPropertyTable();
+		//resetPropertyTable();
 		resetBindingTable();
 		resetConstraintTable();
 		enableBindingTable(false);
-		enablePropertiesTable(false);
+		//enablePropertiesTable(true);
 		enableConstraintTable(false);
+     
+                
 	}
 	
 	
@@ -533,4 +557,5 @@ public class FormsUiController {
 	public void setRequiredValue(boolean required){
 		mainFrame.setRequiredValue(required);
 	}
+        
 }
